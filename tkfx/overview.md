@@ -26,4 +26,4 @@ The app menu is available at any time, providing you access to profile, connecti
 
 ![TKFX Traktor Controller settings menu](https://www.imaginando.pt/images/products/tkfx/help/tkfx_traktor_controller_menu.png)
 
-[Learn how to configure the TKFX to use with Traktor.](https://www.imaginando.pt/products/tkfx/help/setup)
+[Learn how to configure the TKFX to use with Traktor.](setup)

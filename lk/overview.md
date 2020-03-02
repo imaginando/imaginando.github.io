@@ -42,4 +42,4 @@ The following global settings are available:
 
 ![LK Settings submenu of main menu](https://www.imaginando.pt/images/products/lk/help/overview/settings.png)
 
-[See next how to configure **LK** for use with Ableton Live](https://www.imaginando.pt/products/lk/help/setup)
+[See next how to configure **LK** for use with Ableton Live](setup)

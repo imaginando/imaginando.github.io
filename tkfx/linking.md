@@ -38,6 +38,6 @@ Starting on Android 6, creating a MIDI connection over USB is also possible. To 
 
 If you decide to use a MIDI connection instead of a Network connection, you need to ensure that Traktor's controller page is sending/receiving midi messages on the midi ports you are using instead of UBRIDGE Virtual.
 
-If you are being faced with linking problems first [checkout our troubleshooting page](https://www.imaginando.pt/products/tkfx/help/troubleshooting) and if that doesn't solve it, contact us right away. We will be glad to help.
+If you are being faced with linking problems first [checkout our troubleshooting page](troubleshooting) and if that doesn't solve it, contact us right away. We will be glad to help.
 
-Now that we're done with the linking, [see next how to use Decks Module](https://www.imaginando.pt/products/tkfx/help/decks).
+Now that we're done with the linking, [see next how to use Decks Module](decks).

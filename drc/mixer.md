@@ -84,4 +84,4 @@ Chorus in the analog synth context is an effect which thickens the sound and als
 
 - **ENABLED** - This toggle switch ON or OFF the effect.
 
-[Next we explain the Modifiers section.](https://www.imaginando.pt/products/drc/help/modifiers)
+[Next we explain the Modifiers section.](modifiers)

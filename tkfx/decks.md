@@ -88,4 +88,4 @@ When shift is pressed, they become a "Cut & Paste" function which means that whe
 
 ![TKFX Traktor Controller Crossfader Section](https://www.imaginando.pt/images/products/tkfx/help/tkfx_deck_crossfader_detail.png)
 
-[Next learn how to use the Effects Module.](https://www.imaginando.pt/products/tkfx/help/effects)
+[Next learn how to use the Effects Module.](effects)

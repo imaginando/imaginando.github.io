@@ -30,4 +30,4 @@
 
 - **DRY/WET** - the mix of unprocessed \(dry\) and processed \(wet\) audio output
 
-[Next: Patches](https://www.imaginando.pt/products/dlym/help/patches)
+[Next: Patches](patches)

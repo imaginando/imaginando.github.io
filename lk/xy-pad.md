@@ -38,6 +38,7 @@ As in other LK modules, on the bottom of the screen there is a split view that c
 - RELEASE MODE.
 
 Over the right side of the screen there is also a control section for the ASR envelope generator described below.
+
 ### Bank
 
 There are 4 selectable and configurable banks for the X/Y PAD. Just choose the one you want to work on, edit what you want and it is already saved on that bank.
@@ -52,7 +53,7 @@ The integrated LFO unit provides you with additional modulation control on the X
 - **Amount** - defines the amount of modulation applied to the axis
 - **Rate** - defines the frequency of the oscillator
 - **Delay** - defines the time LFO will take to start
-**Note**: the Z axis is not affected by the LFO.
+  **Note**: the Z axis is not affected by the LFO.
 
 ### Release Mode
 
@@ -64,11 +65,10 @@ To customize the MIDI mapping (MIDI mode), from the settings view, select the ax
 
 ![Axis assign on MIDI mode](https://www.imaginando.pt/images/products/lk/help/xy/axis-assign-midi-mode.png)
 
-
 ## Assigning an Ableton Live Parameter
 
 To customize the parameters (in Live mode), again, from the settings view, the AXIS you want to map by tapping its mapping button and change the parameter you want assign on Ableton Live or using the Matrix devices section. Press OK to confirm.
 
 ![Axis assign live mode](https://www.imaginando.pt/images/products/lk/help/xy/axis-assign-live-mode.png)
 
-[Learn all about the Chorder module.](https://www.imaginando.pt/products/lk/help/chorder)
+[Learn all about the Chorder module.](chorder)

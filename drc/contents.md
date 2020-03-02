@@ -10,15 +10,12 @@ Don't hesitate to contact us if you any questions, comments or other inquiries.
 
 ## Contents
 
-* [Overview](https://www.imaginando.pt/products/drc/help/overview)
-* [Settings](https://www.imaginando.pt/products/drc/help/settings)
-* [Patches](https://www.imaginando.pt/products/drc/help/patches)
-* [Oscillators](https://www.imaginando.pt/products/drc/help/oscillators)
-* [Filter](https://www.imaginando.pt/products/drc/help/filter)
-* [Mixer](https://www.imaginando.pt/products/drc/help/mixer)
-* [Modifiers](https://www.imaginando.pt/products/drc/help/modifiers)
-* [Performance modes](https://www.imaginando.pt/products/drc/help/performance-modes)
-* [Troubleshooting](https://www.imaginando.pt/products/drc/help/troubleshooting)
-
-
-
+- [Overview](overview)
+- [Settings](settings)
+- [Patches](patches)
+- [Oscillators](oscillators)
+- [Filter](filter)
+- [Mixer](mixer)
+- [Modifiers](modifiers)
+- [Performance modes](performance-modes)
+- [Troubleshooting](troubleshooting)

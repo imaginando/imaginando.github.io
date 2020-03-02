@@ -50,4 +50,4 @@ On the right side of the status bar are 5 icons:
 
 - This selects the next patch from the list of patches in the currently selected bank.
 
-[See next how to configure DRC settings.](https://www.imaginando.pt/products/drc/help/settings)
+[See next how to configure DRC settings.](settings)

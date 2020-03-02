@@ -8,4 +8,4 @@
 
 3. **If any of the above don't work** - A way to solve this problem might be to log out of the app store in settings, re-log, reboot DRC and try to restore purchase again.
 
-[Go back to introduction](https://www.imaginando.pt/products/drc/help/contents)
+[Go back to introduction](contents)

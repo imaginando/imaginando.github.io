@@ -66,4 +66,4 @@ TKFX allows the use of all units at the same time but for that you just need to 
 
 This is all you need to know about Effects Module. If you have any question doesn't hesitate in contact us using the contact form.
 
-[Now for the Troubleshooting page.](https://www.imaginando.pt/products/tkfx/help/troubleshooting)
+[Now for the Troubleshooting page.](troubleshooting)

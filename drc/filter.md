@@ -70,4 +70,4 @@ The MOD TAB represents the Filter Modulation Section of **DRC**. You use the sli
 
 - **VEL** - The VEL slider allow you to control the VCA Amplitude with a control voltage that is analogous of the velocity or force with which you press a key in a keyboard \(a midi keyboard that has velocity sensing\). This is analogous of what happens in most instruments which produce a louder sound as you play them harder. This slider is bipolar meaning that you have no effect in the center, as you go up you give a positive effect and going below half way you are dialing a negative effect.
 
-[We now move to explain the Mixer on DRC.](https://www.imaginando.pt/products/drc/help/mixer)
+[We now move to explain the Mixer on DRC.](mixer)

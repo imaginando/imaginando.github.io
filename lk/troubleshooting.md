@@ -58,4 +58,4 @@ The problem is that the KB2999226 (Universal CRT) which is part of the Visual C+
 
 If the problem you are having is not listed here contact us for personalised help.
 
-[Go back to introduction](https://www.imaginando.pt/products/lk/help)
+[Go back to introduction](contents)

@@ -68,4 +68,4 @@ The problem is that the KB2999226 (Universal CRT) which is part of the Visual C+
 
 **3) Run the .exe again and select Install**
 
-[Go back to introduction](https://www.imaginando.pt/products/tkfx/help)
+[Go back to introduction](contents)

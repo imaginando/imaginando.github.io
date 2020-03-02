@@ -36,4 +36,4 @@ Ableton Link is a technology that keeps devices synced in time over a local netw
 
 There are numerous iOS apps that have this technology integrated, thus making it possible to sync all app's tempo effortlessly. By default Ableton Link is disabled. Use this option to enable it.
 
-[Now let's look at the Oscillator section of DRC.](https://www.imaginando.pt/products/drc/help/oscillators)
+[Now let's look at the Oscillator section of DRC.](oscillators)

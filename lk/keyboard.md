@@ -54,4 +54,4 @@ This section allows the mapping of any Live or MIDI CC parameter to the position
 
 To map a parameter to the **Keyboard**, just press the corresponding axis. If in Live mode, changing the parameter to map will automatically assing that parameter to the chosen axis. In MIDI mode a screen will popup allowing the selection of a MIDI control change value.
 
-[Go to the **LK** Troubleshooting page.](https://www.imaginando.pt/products/lk/help/troubleshooting)
+[Go to the **LK** Troubleshooting page.](troubleshooting)

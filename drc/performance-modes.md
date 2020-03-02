@@ -76,4 +76,4 @@ To switch across different octaves on the **Chorder** keyboard, there are arrows
 
 Right above the arrow buttons to change the octave there is a performace adjust button \(marked with a green square on the first picture of this page\) allowing a full screen of the Chorder's play area.
 
-[Go to troubleshooting](https://www.imaginando.pt/products/drc/help/troubleshooting)
+[Go to troubleshooting](troubleshooting)

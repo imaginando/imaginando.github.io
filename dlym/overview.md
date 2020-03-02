@@ -18,4 +18,4 @@ The left of the menu bar lists the name of the current preset/patch, and the rig
 
 - **DOWN** - selects the next patch/preset from the list of patches
 
-[Next: Parameters](https://www.imaginando.pt/products/dlym/help/parameters)
+[Next: Parameters](parameters)

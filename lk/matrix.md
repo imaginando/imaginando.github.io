@@ -1,10 +1,10 @@
 # Matrix Module
 
-The Matrix module is an Ableton Live remote controller, carefully designed to give you access to most common operations on the Ableton Live Session View, making it easy for you to focus more on your music. Note that using Matrix requires the installation of LK control surface. For more information on LK control surface please visit the [Setup](https://www.imaginando.pt/products/lk/help/setup) section.
+The Matrix module is an Ableton Live remote controller, carefully designed to give you access to most common operations on the Ableton Live Session View, making it easy for you to focus more on your music. Note that using Matrix requires the installation of LK control surface. For more information on LK control surface please visit the [Setup](setup) section.
 
 ![LK Matrix Module sequencer overview of Ableton Live's Session view](https://www.imaginando.pt/images/products/lk/help/matrix/overview.png)
 
-As soon as a [connection](https://www.imaginando.pt/products/lk/help/setup) is established, you will instantly find similarities with your current Live Set. The module is composed of several subsections and hidden menus, as listed and explained next.	At the top of the screen, in the status bar, you will find different fields:
+As soon as a [connection](setup) is established, you will instantly find similarities with your current Live Set. The module is composed of several subsections and hidden menus, as listed and explained next. At the top of the screen, in the status bar, you will find different fields:
 
 - **MODE** - currently only Live mode is available for this module.
 - **POSITION** - shows the current arrangement position.
@@ -47,7 +47,6 @@ The stop button for the clips or scenes can be found at the clips zone in the co
 
 If a track is armed on the Mixer section (either if it is a MIDI or an audio track), tapping on a blank clip will automatically create a new clip and start the recording process, while tapping on a pre-existing clip will record on said clip, depending if the overdub function is activated or not.
 
-
 ## Mixer and return tracks
 
 Tapping on the Mixer button on the Transport bar menu will show you the mixer details on the Matrix module, including the tracks Stop Clip, Mute, Solo, Arm and select track buttons.
@@ -72,7 +71,7 @@ Right above the transport bar there is a split view bar which allows the Inspect
 - **DEVICES** - allows browsing and editing of the selected track devices
 - **SENDS** - edit the selected track sends.
 - **COMPOSER** - allows visualization and edit of the selected clip contents
-**Tip:** to get an enhanced experience using the Inspector panel, maximize it by tapping on the left or right of the drag line of the split view bar.
+  **Tip:** to get an enhanced experience using the Inspector panel, maximize it by tapping on the left or right of the drag line of the split view bar.
 
 ### Devices
 
@@ -93,6 +92,7 @@ When browsing a Kit-Core 909 on Matrix you will see that this device has a devic
 When you select a different device on the chain list, the selected device will be loaded at its right. You can access the respective device parameters by dragging the device label to the left. This browsing will give you theoretically unlimited access (your mobile device resources are not limited and excessive memory can make operating system cause a forced shutdown to LK) to your device chain, independently of its complexity.
 
 ![LK Matrix Module devices inspector detail of intrument full rack of Ableton Live Devices](https://www.imaginando.pt/images/products/lk/help/matrix/inspect-devices-instrument-rack-full.png)
+
 ### Sends
 
 Sends tab is really simple and straightforward. It will list the select track sends. To change the send value, touch the slider and move it to the desired position.
@@ -118,6 +118,7 @@ The composer features a toolbar at its top with the following functions:
 - ** CLIP LOOPING** - determines the looping state of the clip
 - **ZOOM FIT** - enclosures the viewport to the area occupied by all the notes in the clip. If the clip is empty, this button sets a predefined viewport
 - **CREATE/DELETE NOTE** - located at the right side of the toolbar, allows you to create/delete a clip on the selected slot (only available since Ableton Live 9)
+
 #### Piano Roll
 
 The Piano roll is where you can view and edit the contents of the each of the sessions clips.
@@ -147,5 +148,4 @@ To edit a note’s velocity, simply press and drag up and down the velocity edit
 
 ![LK Matrix Module composer inspector detail of velocity of an Ableton Live clip](https://www.imaginando.pt/images/products/lk/help/matrix/inspect-notes-velocity.png)
 
-[Learn all about the MIDI Pads module.](https://www.imaginando.pt/products/lk/help/midi-pads)
-
+[Learn all about the MIDI Pads module.](midi-pads)

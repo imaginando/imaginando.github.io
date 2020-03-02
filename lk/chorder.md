@@ -84,4 +84,4 @@ While creating a custom preset allows your to set the scale of a chord, you may 
 
 The Mode key in the middle toggles between play mode which allows you to play the cells normally and the **Select mode** which allows to change the selected chord without playing the chord. This is useful to play with the strummer without playing the chorder cells.
 
-[Now for the Keyboard Module page.](https://www.imaginando.pt/products/lk/help/keyboard)
+[Now for the Keyboard Module page.](keyboard)

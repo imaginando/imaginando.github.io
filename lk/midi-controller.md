@@ -38,10 +38,10 @@ To customize the MIDI mapping (MIDI mode), the assign key must be pressed while 
 
 ## Assigning an Ableton Live Parameter
 
-To customize the parameters in Live mode, select the screen control you want to map, then press ASSIGN. Change the parameter you want assign on Ableton Live or using the [Matrix](https://www.imaginando.pt/products/lk/help/matrix) devices section. The name of the parameter will be displayed in the screen, press OK to confirm.
+To customize the parameters in Live mode, select the screen control you want to map, then press ASSIGN. Change the parameter you want assign on Ableton Live or using the [Matrix](matrix) devices section. The name of the parameter will be displayed in the screen, press OK to confirm.
 
 In any case it is possible to return to the default CC mapping by pressing ASSIGN and then RESET.
 
 ![LK Midi Controller Ableton Live Parameter assign](https://www.imaginando.pt/images/products/lk/help/controller/live-assign.png)
 
-[Learn all about the XY-Pad Module.](https://www.imaginando.pt/products/lk/help/xy-pad)
+[Learn all about the XY-Pad Module.](xy-pad)

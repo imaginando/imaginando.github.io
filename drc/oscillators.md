@@ -112,4 +112,4 @@ The **PERF** tab contains parameters relating to the performance settings of **D
 
 - **LEGATO** - Toggles Legato style note transitions **ON** or **OFF**
 
-[And now for the Filter section.](https://www.imaginando.pt/products/drc/help/filter)
+[And now for the Filter section.](filter)

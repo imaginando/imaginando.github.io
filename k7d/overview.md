@@ -22,4 +22,4 @@ The following features are found on K7D's status bar:
 
 - **Down** - Selects the next patch.
 
-[Next: Parameters](https://www.imaginando.pt/products/k7d/help/parameters)
+[Next: Parameters](parameters)

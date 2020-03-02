@@ -4,6 +4,6 @@
 
 ## Contents
 
-- [Overview](https://www.imaginando.pt/products/dlym/help/overview)
-- [Parameters](https://www.imaginando.pt/products/dlym/help/parameters)
-- [Patches](https://www.imaginando.pt/products/dlym/help/patches)
+- [Overview](overview)
+- [Parameters](parameters)
+- [Patches](patches)

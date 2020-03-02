@@ -103,6 +103,6 @@ After opening Ableton Live with LK control surface selected, the full connection
 
 If you want to mark a connection as favorite, tap on the star. Next time LK finds that connection it automatically connect to it. When only one connection is available, LK will automatically connect to it.
 
-Now that you are connected it's time to play. If your are still having issues, please take a look at our [troubleshooting](https://www.imaginando.pt/products/lk/help/troubleshooting) section or contact us using the support or contact section of our website.
+Now that you are connected it's time to play. If your are still having issues, please take a look at our [troubleshooting](troubleshooting) section or contact us using the support or contact section of our website.
 
-[Learn about and how to use the Matrix module.](https://www.imaginando.pt/products/lk/help/matrix)
+[Learn about and how to use the Matrix module.](matrix)

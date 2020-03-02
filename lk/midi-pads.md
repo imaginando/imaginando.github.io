@@ -56,4 +56,4 @@ The chorder function allows you to play chords while pressing a single midi pad.
 
 **Tip:** use the chorder along with the arpeggiator to get some really interesting musical results.
 
-[Learn all about the MIDI Controller module.](https://www.imaginando.pt/products/lk/help/midi-controller)
+[Learn all about the MIDI Controller module.](midi-controller)

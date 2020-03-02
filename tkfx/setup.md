@@ -26,4 +26,4 @@ Close the preferences and click the Metronome symbol on the left side of the Glo
 
 ![Traktor clock panel](https://www.imaginando.pt/images/products/tkfx/help/traktor-clock-panel.png)
 
-We are done here. See next how to [link TKFX with your computer](https://www.imaginando.pt/products/tkfx/help/linking).
+We are done here. See next how to [link TKFX with your computer](linking).

@@ -6,6 +6,6 @@ Thank you for your interest in **K7D**.
 
 ## Contents
 
-* [Overview](https://www.imaginando.pt/products/k7d/help/overview)
-* [Parameters](https://www.imaginando.pt/products/k7d/help/parameters)
-* [Patches](https://www.imaginando.pt/products/k7d/help/patches)
+- [Overview](overview)
+- [Parameters](parameters)
+- [Patches](patches)

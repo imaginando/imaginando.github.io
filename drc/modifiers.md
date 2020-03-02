@@ -76,4 +76,4 @@ LFO stands for Low frequency Generator. As the name implies this is a special ty
 
 - **HOLD** - chooses whether to hold the notes, allowing to sustain them until pressing the next key
 
-<a href="https://www.imaginando.pt/products/drc/help/performance-modes">We now move to explain the performance modes.</a>
+[We now move to explain the performance modes.](performance-modes)

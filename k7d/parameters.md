@@ -54,4 +54,4 @@
 
 - **PING PONG** - If set to **ON** the the first delay tap plays only on the left and the second tap plays only on right side and so on. **STEREO WIDTH** must be greater than zero to hear this effect.
 
-[Next: Patches](https://www.imaginando.pt/products/k7d/help/patches)
+[Next: Patches](patches)
