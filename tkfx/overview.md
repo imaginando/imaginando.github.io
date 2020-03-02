@@ -1,5 +1,4 @@
-#
-Overview
+# Overview
 
 TKFX has been designed to give you full control of Traktor, in a single tablet/mobile app, with a flexible user interface which adapts to any size touchscreen. To maximize functionality, TKFX is Split into two modules, **DECKS** and **EFFECTS**.
 
@@ -12,8 +11,6 @@ With control of all 4 decks, the mixer and the music library, you can mix a whol
 #### EFFECTS
 
 Don't worry, we didn't forget about Traktor's FX/effects - we built a revolutionary, custom FX control system instead! One of the most exciting parts of TKFX, it offers innovative and creative new ways to use Traktor's FX units.
-
-
 
 ![TKFX Traktor Controller Decks Module Overview](https://www.imaginando.pt/images/products/tkfx/help/tkfx_traktor_controller_decks_module_overview.png)
 
@@ -30,4 +27,3 @@ The app menu is available at any time, providing you access to profile, connecti
 ![TKFX Traktor Controller settings menu](https://www.imaginando.pt/images/products/tkfx/help/tkfx_traktor_controller_menu.png)
 
 [Learn how to configure the TKFX to use with Traktor.](https://www.imaginando.pt/products/tkfx/help/setup)
-

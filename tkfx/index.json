@@ -1,0 +1,9 @@
+[
+  { "key": "contents", "label": "Contents" },
+  { "key": "overview", "label": "Overview" },
+  { "key": "setup", "label": "Setup" },
+  { "key": "linking", "label": "Linking" },
+  { "key": "decks", "label": "Decks" },
+  { "key": "effects", "label": "Effects" },
+  { "key": "troubleshooting", "label": "Troubleshooting" }
+]

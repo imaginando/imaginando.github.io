@@ -1,5 +1,4 @@
-#
-Decks Module
+# Decks Module
 
 TKFX Decks module was designed to allow full control of Traktor's decks and mixer, allowing you to do a complete dj set with just TKFX running on your mobile device and Traktor running on your computer.
 
@@ -17,7 +16,7 @@ On the left side of the screen, there is a column where you can choose which dec
 
 Below, on both sides we have the **SHIFT** button which provides alternate functionality for many TKFX buttons. Please refer below to know them in detail.
 
-#Deck Unit Overview
+# Deck Unit Overview
 
 We will describe all the functions and controls on single unit perspective but it can be applied to all units as they have a shared behaviour.
 
@@ -39,13 +38,13 @@ Right below this Deck's row of buttons we have got two additional rows. The uppe
 
 ![TKFX Traktor Controller Jog dial](https://www.imaginando.pt/images/products/tkfx/help/tkfx_jog.png)
 
-##Equalization
+## Equalization
 
 At the center of the unit we have got the **EQ** and **FILTER** section. From left to right you have **LOW**, **MID**, **HIGH** and **FILTER** controls represented. The controls are represented vertically where the bottom half is used to attenuate and the upper half is used to amplify. If you double tap this control it will reset to the center. You can also shift tap the control to kill/unkill the frequency in case of the EQ bands, and to enable/disable the **FILTER**.
 
 ![TKFX Traktor Controller Deck Unit Mixer Screenshot](https://www.imaginando.pt/images/products/tkfx/help/tkfx_deck_unit_mixer_section.png)
 
-##Cue Points
+## Cue Points
 
 Below the **EQ** section are the **CUE POINTS** buttons. In this section, creating, recalling and deleting CUE POINTS is easily done. When a particular CUE POINT button is pressed, one off three behaviours can occur:
 
@@ -55,7 +54,7 @@ Below the **EQ** section are the **CUE POINTS** buttons. In this section, creati
 
 ![TKFX Traktor Controller Cue Points Section](https://www.imaginando.pt/images/products/tkfx/help/tkfx_deck_unit_cue_points_section.png)
 
-##Loops
+## Loops
 
 Below the cue points section you will find the looper section. If you are in single unit mode, all the available loop intervals should be available without scrolling. Otherwise, the loops intervals area will be scrollable.
 
@@ -67,7 +66,7 @@ Activating a loop is simply achieved by tapping the desired loop interval. It wi
 
 ![TKFX Traktor Controller Looper Section](https://www.imaginando.pt/images/products/tkfx/help/tkfx_deck_unit_looper_section.png)
 
-##Transport
+## Transport
 
 At the bottom of the unit are located the transport controls section:
 

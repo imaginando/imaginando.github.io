@@ -1,11 +1,10 @@
-#
-Setup
+# Setup
 
 Some simple configuration steps are needed to take the most out of **TKFX**, but don't worry: follow this guide and in a couple of minutes you will be up and running. First thing you need to do is download [**UBRIDGE**](https://www.imaginando.pt/products/ubridge/downloads).
 
 Once you have installed UBRIDGE, you just need to start the application. If you are running Mac OSX no additional configuration is necessary as Mac OSX allows the creation of virtual MIDI ports and UBRIDGE will automatically create **UBRIDGE Virtual**. You just need to ensure they are are selected under UBRIDGE's TKFX tab.
 
-On Windows systems however, an additional virtual MIDI driver is necessary. There are several options out there but we usually recommend [loopMIDI](http://www.tobias-erichsen.de/wp-content/uploads/2015/08/loopMIDISetup_1_0_13_24.zip) from [Tobias Erichsen](http://www.tobias-erichsen.de/software/loopmidi.html).
+On Windows systems however, an additional virtual MIDI driver is necessary. There are several options out there but we usually recommend [loopMIDI](https://www.tobias-erichsen.de/wp-content/uploads/2015/08/loopMIDISetup_1_0_13_24.zip) from [Tobias Erichsen](https://www.tobias-erichsen.de/software/loopmidi.html).
 
 If you have chosen to use loopMIDI, after opening the application, press the plus key on the bottom right side of the window to add a new port and give it the name **UBRIDGE** Virtual.
 
@@ -28,4 +27,3 @@ Close the preferences and click the Metronome symbol on the left side of the Glo
 ![Traktor clock panel](https://www.imaginando.pt/images/products/tkfx/help/traktor-clock-panel.png)
 
 We are done here. See next how to [link TKFX with your computer](https://www.imaginando.pt/products/tkfx/help/linking).
-

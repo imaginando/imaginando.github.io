@@ -1,0 +1,11 @@
+[
+  { "key": "contents", "label": "Contents" },
+  { "key": "overview", "label": "Overview" },
+  { "key": "settings", "label": "Settings" },
+  { "key": "oscilattors", "label": "Oscilattors" },
+  { "key": "filter", "label": "Filter" },
+  { "key": "mixer", "label": "Mixer" },
+  { "key": "modifiers", "label": "Modifiers" },
+  { "key": "performance-modes", "label": "Performance Modes" },
+  { "key": "troubleshooting", "label": "Troubleshooting" }
+]

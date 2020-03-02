@@ -1,0 +1,11 @@
+[
+  { "key": "contents", "label": "Contents" },
+  { "key": "overview", "label": "Overview" },
+  { "key": "matrix", "label": "Matrix Module" },
+  { "key": "midi-pads", "label": "Midi Pads Module" },
+  { "key": "midi-controller", "label": "Midi Controller Module" },
+  { "key": "xy-pad", "label": "X/Y Pad Module" },
+  { "key": "chorder", "label": "Chorder Module" },
+  { "key": "keyboard", "label": "Keyboard Module" },
+  { "key": "troubleshooting", "label": "Troubleshooting" }
+]

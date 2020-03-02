@@ -1,5 +1,4 @@
-#
-LK - Ableton Live and Midi Controller
+# LK - Ableton Live and Midi Controller
 
 Thank you for your interest in **LK**.
 
@@ -12,4 +11,3 @@ Thank you for your interest in **LK**.
 Please refer to the Setup for a basics walk-through which will get you up and running in no time.
 
 For detailed information about each module, please refer to the pages Matrix Module, Midi Pads Module, Midi Controller Module, X/Y Pad Module and Chorder Module sections.
-

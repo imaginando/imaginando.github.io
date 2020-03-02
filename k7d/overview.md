@@ -8,22 +8,18 @@ The interface of **K7D** consists of a status bar on the top, a main panel with 
 
 The following features are found on K7D's status bar:
 
-* **Tempo** - Tempo in BPM's. If K7D is running as a plugin, tempo is defined by host.
+- **Tempo** - Tempo in BPM's. If K7D is running as a plugin, tempo is defined by host.
 
-* **Patch** - Displays current selected patch. Click on this area to open patch browser.
+- **Patch** - Displays current selected patch. Click on this area to open patch browser.
 
-* **Save** - Open the patch save dialog.
+- **Save** - Open the patch save dialog.
 
-* **Revert** - Restores the currently loaded patch to its original saved state.
+- **Revert** - Restores the currently loaded patch to its original saved state.
 
-* **Randomize** - Assigns a random value to each parameter.
+- **Randomize** - Assigns a random value to each parameter.
 
-* **Up** - Selects the previous patch.
+- **Up** - Selects the previous patch.
 
-* **Down** - Selects the next patch.
+- **Down** - Selects the next patch.
 
-* [Next: Parameters](https://www.imaginando.pt/products/k7d/help/parameters)
-
-
-
-
+[Next: Parameters](https://www.imaginando.pt/products/k7d/help/parameters)

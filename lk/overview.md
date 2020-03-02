@@ -1,9 +1,8 @@
-#
-Overview
+# Overview
 
 LK is divided in several different modules that can work along or independently of each other. These can be purchased separately, allowing you to mold **LK** to your needs.
 
-![LK Matrix Module default empty state overview](http://www.imaginando.pt/images/products/lk/help/overview/overview.png)
+![LK Matrix Module default empty state overview](https://www.imaginando.pt/images/products/lk/help/overview/overview.png)
 
 Available modules:
 
@@ -27,10 +26,9 @@ The following sub-menus can be found under settings:
 - **About** - displays the app's version and credits.
 - **Help** - opens this web page on your browser.
 
-
 ### Settings
 
-![LK Main menu](http://www.imaginando.pt/images/products/lk/help/overview/menu.png)
+![LK Main menu](https://www.imaginando.pt/images/products/lk/help/overview/menu.png)
 
 The following global settings are available:
 
@@ -42,7 +40,6 @@ The following global settings are available:
 - **Knobs sensitivity** - adjust the app's knobs sensitivity
 - **Screen size** - change the app's screen size
 
-
-![LK Settings submenu of main menu](http://www.imaginando.pt/images/products/lk/help/overview/settings.png)
+![LK Settings submenu of main menu](https://www.imaginando.pt/images/products/lk/help/overview/settings.png)
 
 [See next how to configure **LK** for use with Ableton Live](https://www.imaginando.pt/products/lk/help/setup)

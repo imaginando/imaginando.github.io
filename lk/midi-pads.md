@@ -1,5 +1,4 @@
-#
-Midi Pads Module
+# Midi Pads Module
 
 The Midi Pads module is composed by a 4x4 grid of midi pads, velocity controls, arpeggiator, chorder and an octave selector.
 
@@ -11,13 +10,13 @@ The **MIDI Pads** section has two modes: the **MIDI mode**, that can be used to 
 
 Depending on the selected mode, you will find different fields in the status bar at the top of the midi pads module screen:
 
-* **MODE** - allows toggling between Live and MIDI modes.
-* **TEMPO** - allows BPM adjustment, which affects the arpeggiator \(MIDI mode only as in Live mode it depends on Live's tempo\).
-* **SELECTED TRACK** - selects the MIDI track controlled by the MIDI pads \(Live mode only\).
-* **TRACK ARMED** - toggles record arm on track ON or OFF \(Live mode only\).
-* **REC. QUANT.** - enable and choose record quantization \(Live mode only\).
-* **DEVICE** - selects the MIDI device to be used.
-* **CHANNEL** - selects the MIDI channel.
+- **MODE** - allows toggling between Live and MIDI modes.
+- **TEMPO** - allows BPM adjustment, which affects the arpeggiator \(MIDI mode only as in Live mode it depends on Live's tempo\).
+- **SELECTED TRACK** - selects the MIDI track controlled by the MIDI pads \(Live mode only\).
+- **TRACK ARMED** - toggles record arm on track ON or OFF \(Live mode only\).
+- **REC. QUANT.** - enable and choose record quantization \(Live mode only\).
+- **DEVICE** - selects the MIDI device to be used.
+- **CHANNEL** - selects the MIDI channel.
 
 On the lower part of the screen, a split view can be opened by dragging the green line or tapping anywhere else on the left of right of it. This allows access to Midi Pads settings.
 
@@ -35,19 +34,19 @@ This allows you to make the midi pads louder when pressed at the center and more
 
 The Midi Pads module is equipped with an arpeggiator, enhancing creativity when using the midi pads. The arpeggiator unit is composed of the following parameters:
 
-* **ON** - toggles the arpeggiator between on and off
-* **SYNC** - synchronises the arpeggiator to the session's tempo
-* **MODE** - defines the order on which the arpeggio notes will be played. There are four modes available:
+- **ON** - toggles the arpeggiator between on and off
+- **SYNC** - synchronises the arpeggiator to the session's tempo
+- **MODE** - defines the order on which the arpeggio notes will be played. There are four modes available:
 
-* Up - notes are played from lower to higher.
-* Down - notes are played from higher to lower.
-* Up/Down I - notes are played from lower to higher and then from higher to lower.
-* Up/Down II - notes are played from lower to higher and then from higher to lower but repeating the higher and lower notes.
-* Random - notes are played randomly.
+- Up - notes are played from lower to higher.
+- Down - notes are played from higher to lower.
+- Up/Down I - notes are played from lower to higher and then from higher to lower.
+- Up/Down II - notes are played from lower to higher and then from higher to lower but repeating the higher and lower notes.
+- Random - notes are played randomly.
 
-* **STEPS** - allows choosing the number of octaves the arpeggio will go up to.
-* **RATE** - defines the arpeggiator rate.
-* **GATE** - defines the length of each note's event \(time on vs time off\).
+- **STEPS** - allows choosing the number of octaves the arpeggio will go up to.
+- **RATE** - defines the arpeggiator rate.
+- **GATE** - defines the length of each note's event \(time on vs time off\).
 
 When sync is off, arpeggiator rate units is milliseconds. By turning sync on, the arpeggiator will sync to the section BPM and the rate will be available in 21 quantized steps, ranging from 2/1 to 1/128 including dotted and triplet values.
 
@@ -58,4 +57,3 @@ The chorder function allows you to play chords while pressing a single midi pad.
 **Tip:** use the chorder along with the arpeggiator to get some really interesting musical results.
 
 [Learn all about the MIDI Controller module.](https://www.imaginando.pt/products/lk/help/midi-controller)
-

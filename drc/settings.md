@@ -1,5 +1,4 @@
-#
-Settings
+# Settings
 
 ## MIDI Clock and MIDI Channel
 
@@ -31,7 +30,7 @@ Use this option to determine if the synthesizer engine keeps running when the ap
 
 **Note:** the synthesizer engine is CPU intensive. It will drain you device battery even when you have the screen locked and the display is off. Don't forget it!
 
-## Ableton Link \(iOS only\)
+## Ableton Link (iOS only)
 
 Ableton Link is a technology that keeps devices synced in time over a local network, so you can forget the hassle of setting up and focus on playing music.
 

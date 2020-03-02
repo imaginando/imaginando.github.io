@@ -1,6 +1,4 @@
-#
-Troubleshooting
-
+# Troubleshooting
 
 We will continuously populate this section with relevant information, as it heavily depends on user input and on the nature of the problem.
 
@@ -30,26 +28,25 @@ This is one of the most common problems. The solution varies from case to case a
 
 In order to connect to your mobile device via USB it’s mandatory that you enable USB debugging. This is an advanced Android feature that is usually hidden but pretty simple to access:
 
-1) Open "Settings" on your device
+1. Open "Settings" on your device
 
-2) Scroll down to the bottom and choose About phone or About tablet option
+2. Scroll down to the bottom and choose About phone or About tablet option
 
-3) Scroll down to the bottom and locate the build number field
+3. Scroll down to the bottom and locate the build number field
 
-4) Tap the Build number field seven times to enable Developer Options. Tapping a few times will unlock a countdown that reads "You are now 3 steps away from being a developer."
+4. Tap the Build number field seven times to enable Developer Options. Tapping a few times will unlock a countdown that reads "You are now 3 steps away from being a developer."
 
-5) When you are done, you'll see the message "You are now a developer!".
+5. When you are done, you'll see the message "You are now a developer!".
 
-6) Tap the Back button and you'll see the Developer options menu under System on your Settings screen.
+6. Tap the Back button and you'll see the Developer options menu under System on your Settings screen.
 
-7) Now choose the "Developer options" item and find the "USB debugging" option. Tapping will enable it and Android will prompt you with a confirmation: press accept.
+7. Now choose the "Developer options" item and find the "USB debugging" option. Tapping will enable it and Android will prompt you with a confirmation: press accept.
 
-8) With UBRIDGE open, replug your device. You should see it's model name listed under "Connected Devices" section
+8. With UBRIDGE open, replug your device. You should see it's model name listed under "Connected Devices" section
 
 **You are not recieving MIDI IN on LK (Windows)**
 
 Probably you need to restart the UBRIDGE with administrator rights.
-
 
 If the problem you are having is not listed here or if you are still having issues, contact us for personalized help using the contact form below or the [support](https://www.imaginando.pt/contact-us) section.
 
@@ -61,7 +58,6 @@ If the problem you are having is not listed here or if you are still having issu
 
 **3) If any of the above don't work** - A way to solve this problem might be to log out of the app store in settings, re-log, reboot TKFX and try to restore purchase again.
 
-
 **api-ms-win-crt-runtime-11-1-0.dll is missing when opening UBRIDGE**
 
 The problem is that the KB2999226 (Universal CRT) which is part of the Visual C++ Redistributable for Visual Studio 2015 failed to install.
@@ -71,6 +67,5 @@ The problem is that the KB2999226 (Universal CRT) which is part of the Visual C+
 **2)Download the Visual C++ Redistributable**- For Windows 64-bit: Visual C++ Redistributable for Visual Studio 2017 (64-bit). For Windows 32-bit: Visual C++ Redistributable for Visual Studio 2017 (32-bit). Run the vcredist_x64.exe (64-bit) or vcredist_x86.exe (32-bit) and select Uninstall.
 
 **3) Run the .exe again and select Install**
-
 
 [Go back to introduction](https://www.imaginando.pt/products/tkfx/help)

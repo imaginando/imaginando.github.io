@@ -1,5 +1,4 @@
-#
-Linking
+# Linking
 
 There are three ways of linking TKFX with Traktor:
 
@@ -7,7 +6,7 @@ There are three ways of linking TKFX with Traktor:
 - **Network** (USB) - Low latency and great stability.
 - **MIDI** (USB) - Low latency and great stability.
 
-#Network connection
+# Network connection
 
 To have a link we need a connection between TKFX and the host computer. For that to happen we need to have UBRIDGE open on the host computer, open the menu on TKFX and choose connections. You should have at least one connection with your host computer name. To activate a connection, tap on the connection item. When connected, the connection item becomes highlighted.
 
@@ -23,7 +22,7 @@ Now we need to ensure that we have a MIDI input and output device selected on th
 
 If the connection is active, the midi ports are enabled and communication is happening then you should see the two indicator lights showing the connection activity existing at the **MIDI IN** and **MIDI OUT** status items.
 
-#MIDI Connection
+# MIDI Connection
 
 For a **MIDI** link connection of your mobile device and the computer, what is needed is a USB MIDI interface connected to your mobile device and on the other end midi cables connected to a sound card with midi capabilities on your computer.
 
@@ -35,7 +34,7 @@ Starting on Android 6, creating a MIDI connection over USB is also possible. To 
 
 ![Android 6 USB MIDI configuration](https://www.imaginando.pt/images/products/tkfx/help/android_usb_midi.png)
 
-#Final considerations
+# Final considerations
 
 If you decide to use a MIDI connection instead of a Network connection, you need to ensure that Traktor's controller page is sending/receiving midi messages on the midi ports you are using instead of UBRIDGE Virtual.
 

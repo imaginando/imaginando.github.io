@@ -1,5 +1,4 @@
-#
-Performance modes
+# Performance modes
 
 As tools for performance, DRC features two modes: a **Piano Keyboard** and a **Chorder.**
 
@@ -15,7 +14,7 @@ The adjustable view-port located as a line right on top of the keyboard, allows 
 
 ![DRC Full Piano Keyboard ](https://www.imaginando.pt/images/products/drc/help/performance-modes/piano-keyboard-fullscreen.png)
 
-To open the **Piano Keyboard** configuration, a settings button is located right above the HOLD button \(marked on the first picture with a green square\). This section is a dedicated setup area for extra modulations and keyboard setup. This is where you control the PITCH BEND range and destination, and what is affected by the MOD.WHEEL and AFTER TOUCH. This section also features a keyboard SCALE** **setup panel from which you can configure the notes included in the **Piano Keyboard**. Lets cover them in detail.
+To open the **Piano Keyboard** configuration, a settings button is located right above the HOLD button \(marked on the first picture with a green square\). This section is a dedicated setup area for extra modulations and keyboard setup. This is where you control the PITCH BEND range and destination, and what is affected by the MOD.WHEEL and AFTER TOUCH. This section also features a keyboard SCALE\*\* **setup panel from which you can configure the notes included in the **Piano Keyboard\*\*. Lets cover them in detail.
 
 ## Keyboard Scale Tab
 
@@ -31,51 +30,50 @@ In order to add an additional layer of complexity or tweaking we provide the abi
 
 ### Controls
 
-* **CUTOFF** - Increase or decrease the amount of FILTER CUTOFF. 1 at the top, -1 at the bottom, 0 at the center \(no effect\). Double tap to reset.
+- **CUTOFF** - Increase or decrease the amount of FILTER CUTOFF. 1 at the top, -1 at the bottom, 0 at the center \(no effect\). Double tap to reset.
 
-* **RESONANCE** - Increase or decrease the amount of FILTER RESONANCE. 1 at the top, -1 at the bottom, 0 at the center \(no effect\). Double tap to reset.
+- **RESONANCE** - Increase or decrease the amount of FILTER RESONANCE. 1 at the top, -1 at the bottom, 0 at the center \(no effect\). Double tap to reset.
 
-* **LFO 2 RATE** - Increase or decrease the amount of LFO 2 rate. 1 at the top, -1 at the bottom, 0 at the center \(no effect\). Double tap to reset.
+- **LFO 2 RATE** - Increase or decrease the amount of LFO 2 rate. 1 at the top, -1 at the bottom, 0 at the center \(no effect\). Double tap to reset.
 
-* **VBR LFO 1** - Add vibrato effect based on LFO 1 rate. 1 at the top, 0 at the bottom. Double tap to reset.
+- **VBR LFO 1** - Add vibrato effect based on LFO 1 rate. 1 at the top, 0 at the bottom. Double tap to reset.
 
-* **OSCS MOD** - Increase or decrease the amount of modulations on OSC1, OSC 2 and SUB oscillators. 1 at the top, -1 at the bottom, 0 at the center \(no effect\). Double tap to reset.
+- **OSCS MOD** - Increase or decrease the amount of modulations on OSC1, OSC 2 and SUB oscillators. 1 at the top, -1 at the bottom, 0 at the center \(no effect\). Double tap to reset.
 
-* **FILTER MOD** - Increase or decrease the amount of filter modulations. 1 at the top, -1 at the bottom, 0 at the center \(no effect\). Double tap to reset.
+- **FILTER MOD** - Increase or decrease the amount of filter modulations. 1 at the top, -1 at the bottom, 0 at the center \(no effect\). Double tap to reset.
 
-* **TRANSPOSE** - Transpose up or down the pitch. 1 at the top, -1 at the bottom, 0 at the center \(no effect\). Double tap to reset.
+- **TRANSPOSE** - Transpose up or down the pitch. 1 at the top, -1 at the bottom, 0 at the center \(no effect\). Double tap to reset.
 
 ### Pitch Bend Tab
 
-<img src="http://www.imaginando.pt/images/products/drc/help/performance-modes/piano-keyboard-pitch-bend.png" alt="DRC Pitch Ben Configuration" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
+<img src="https://www.imaginando.pt/images/products/drc/help/performance-modes/piano-keyboard-pitch-bend.png" alt="DRC Pitch Ben Configuration" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
 
-* **DESTINATION** - Here you select the destination of the pitch bend modulation. It can affect OSC 1, OSC 2, FILTER or all of them at once.
+- **DESTINATION** - Here you select the destination of the pitch bend modulation. It can affect OSC 1, OSC 2, FILTER or all of them at once.
 
-* **RANGE** - This is the semitones range of the pitch bend control. You can choose between 0, 2, 3, 5, 7, 12 and 24 semitones.
+- **RANGE** - This is the semitones range of the pitch bend control. You can choose between 0, 2, 3, 5, 7, 12 and 24 semitones.
 
 # Chorder
 
-The Chorder mode has two main parts: the honeycomb keyboard which allows you to play three different chords \(**Minor**, **Major** and **Dom7\) **and the strummers** **that allow a strumming type of play like that of a guitar.
+The Chorder mode has two main parts: the honeycomb keyboard which allows you to play three different chords \(**Minor**, **Major** and **Dom7\) **and the strummers\*\* \*\*that allow a strumming type of play like that of a guitar.
 
-![DRC Chorder Keyboard and Strummer](http://www.imaginando.pt/images/products/drc/help/performance-modes/honeycomb-keyboard.png)
+![DRC Chorder Keyboard and Strummer](https://www.imaginando.pt/images/products/drc/help/performance-modes/honeycomb-keyboard.png)
 
 The honeycomb keyboard has two modes that can be toggled by pressing the key labeled PLAY on the bottom left side of the screen next to the strummer. This modes are PLAY and SELECT:
 
-* **Play Mode** - each honeycomb selects and plays the specified chord at the same time.
+- **Play Mode** - each honeycomb selects and plays the specified chord at the same time.
 
-* **Select Mode** - each honeycomb only selects the base key to form the chord which will be played on the strummer.
+- **Select Mode** - each honeycomb only selects the base key to form the chord which will be played on the strummer.
 
 You can hold a chord, by pressing the HOLD button \(same as using a midi sustain pedal\) just below the PLAY button.
 
-Right below the HOLD button, we have the melodic interval combo box which allows one to select the interval in which the notes on the Honeycomb** **keyboard progress.
+Right below the HOLD button, we have the melodic interval combo box which allows one to select the interval in which the notes on the Honeycomb\*\* \*\*keyboard progress.
 
 On the bottom left corner, right under the interval select button we have the PAN function which allows us to pan the Honeycomb cells around, suiting each performance needs, particularly on the full screen mode in which the cells are much bigger and can be outside of the viewport.
 
-![DRC Full Chorder Keyboard and Strummer](http://www.imaginando.pt/images/products/drc/help/performance-modes/honeycomb-fullscreen.png)
+![DRC Full Chorder Keyboard and Strummer](https://www.imaginando.pt/images/products/drc/help/performance-modes/honeycomb-fullscreen.png)
 
 To switch across different octaves on the **Chorder** keyboard, there are arrows buttons located on the bottom right corner of the screen.
 
 Right above the arrow buttons to change the octave there is a performace adjust button \(marked with a green square on the first picture of this page\) allowing a full screen of the Chorder's play area.
 
 [Go to troubleshooting](https://www.imaginando.pt/products/drc/help/troubleshooting)
-

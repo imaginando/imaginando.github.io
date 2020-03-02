@@ -1,5 +1,4 @@
-#
-Overview
+# Overview
 
 DRC features a minimalistic interface designed to operate in the various screen sizes, ranging from mobile to desktop. The interface is divided in four parameters panels and a perform section. Each panel is composed of several tabs that allow access to other parameters in a easy and intuitive way.
 
@@ -7,9 +6,9 @@ DRC features a minimalistic interface designed to operate in the various screen 
 
 The following features are found on the left side of **DRC**'s status bar:
 
-* **Midi Learn** - toggle midi learn on and off
-* **Tempo** - main session tempo
-* **Patch** - indicates the currently selected patch. Tap it to open patch browser
+- **Midi Learn** - toggle midi learn on and off
+- **Tempo** - main session tempo
+- **Patch** - indicates the currently selected patch. Tap it to open patch browser
 
 ## Midi learn
 
@@ -31,24 +30,24 @@ Tapping here opens the patch browser where it is possible to navigate between th
 
 On the right side of the status bar are 5 icons:
 
-* **Disk**
+- **Disk**
 
-* This opens the save menu where you can name/save the current patch state as either a new patch, or overwrite an existing one, in either the local or cloud bank.
+- This opens the save menu where you can name/save the current patch state as either a new patch, or overwrite an existing one, in either the local or cloud bank.
 
-* **Revert**
+- **Revert**
 
-* This resets the current patch back to its original saved state. (This button is only active/available if changes have been made to a saved patch - to indicate this, an asterisk will appear to the right of the patch name.)
+- This resets the current patch back to its original saved state. (This button is only active/available if changes have been made to a saved patch - to indicate this, an asterisk will appear to the right of the patch name.)
 
-* **Random**
+- **Random**
 
-* When pressed this will assign a random value to each parameter.
+- When pressed this will assign a random value to each parameter.
 
-* **Up arrow**
+- **Up arrow**
 
-* This selects the previous patch from the list of patches in the currently selected bank.
+- This selects the previous patch from the list of patches in the currently selected bank.
 
-* **Down arrow**
+- **Down arrow**
 
-* This selects the next patch from the list of patches in the currently selected bank.
+- This selects the next patch from the list of patches in the currently selected bank.
 
 [See next how to configure DRC settings.](https://www.imaginando.pt/products/drc/help/settings)

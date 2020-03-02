@@ -1,0 +1,6 @@
+[
+  { "key": "contents", "label": "Contents" },
+  { "key": "overview", "label": "Overview" },
+  { "key": "parameters", "label": "Parameters" },
+  { "key": "patches", "label": "Patches" }
+]

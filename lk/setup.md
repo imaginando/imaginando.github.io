@@ -1,5 +1,4 @@
-#
-Setup
+# Setup
 
 **LK** has two operations modes: you can use it as a standalone MIDI controller - requires a USB MIDI interface connected to your device - or as an **Ableton** Live remote controller through a wireless or USB connection. It can also be used in both modes simultaneously.
 
@@ -15,7 +14,7 @@ Note \(Windows only\): before running UBRIDGE, right-click on the application's 
 
 After this you should be looking to a window like the one below:
 
-![UBRIDGE Screenshot](http://www.imaginando.pt/images/products/lk/help/setup/ubridge.jpg)
+![UBRIDGE Screenshot](https://www.imaginando.pt/images/products/lk/help/setup/ubridge.jpg)
 
 The **UBRIDGE** detects midi devices present on your system, and helps installing a dedicated Ableton Live control surface to allow communication to and from LK. It also detects and lists mobile devices connected to the computer.
 
@@ -23,9 +22,9 @@ The **UBRIDGE** detects midi devices present on your system, and helps installin
 
 To configure UBRIDGE to use LK we need to perform the following steps:
 
-* Select LK tab
-* Configure the midi output device
-* Install LK control surface onto Ableton Live
+- Select LK tab
+- Configure the midi output device
+- Install LK control surface onto Ableton Live
 
 ### Select LK tab
 
@@ -37,7 +36,7 @@ UBRIDGE allows MIDI to and from LK but at this moment only midi output is used. 
 
 If you are on Mac it is easy, you just need to select **UBRIDGE Virtual Output** because OSX allows the creation of virtual MIDI ports.
 
-If you are on Windows, you need to install a virtual midi driver. There are several options out there but we usually recommend [Tobias Erichsen's loopMIDI](http://www.tobias-erichsen.de/software/loopmidi.html). After installing loopMIDI, create a port and name it UBRIDGE Virtual.
+If you are on Windows, you need to install a virtual midi driver. There are several options out there but we usually recommend [Tobias Erichsen's loopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html). After installing loopMIDI, create a port and name it UBRIDGE Virtual.
 
 ![loopMIDI virtual port](https://www.imaginando.pt/images/products/ubridge/help/loopmidi.png)
 
@@ -61,8 +60,8 @@ By default LK is not bundled with Ableton Live because we are not an industry st
 
 **Note 1:** as an alternative you can click on the **+** sign on the drop area to open a file dialog. Locate Ableton Live with the file dialog.
 
-**Note 2: you need to restart Live otherwise the control surface list will not be updated.
-**
+**Note 2:** you need to restart Live otherwise the control surface list will not be updated.
+\*\*
 Since there are people with more than one version of Ableton Live installed, you can make additional drops. An entry will be created for each unique provided path.
 
 ![UBRIDGE Control Surface Installation on Ableton Live](https://www.imaginando.pt/images/products/lk/help/setup/ubridge-window-drop-area.png)
@@ -87,8 +86,8 @@ UBRIDGE detects mobile devices connected to the computer. Start by connecting yo
 
 For devices to be detected you must ensure the following:
 
-* iOS - ensure that you have iTunes installed and updated.
-* Android - ensure that USB debugging is enabled and that your computer has the necessary drivers \(windows only\)
+- iOS - ensure that you have iTunes installed and updated.
+- Android - ensure that USB debugging is enabled and that your computer has the necessary drivers \(windows only\)
 
 ## Establishing a connection with LK
 
@@ -107,4 +106,3 @@ If you want to mark a connection as favorite, tap on the star. Next time LK find
 Now that you are connected it's time to play. If your are still having issues, please take a look at our [troubleshooting](https://www.imaginando.pt/products/lk/help/troubleshooting) section or contact us using the support or contact section of our website.
 
 [Learn about and how to use the Matrix module.](https://www.imaginando.pt/products/lk/help/matrix)
-

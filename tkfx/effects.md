@@ -1,5 +1,4 @@
-#
-Effects Module
+# Effects Module
 
 Effects Module provides a unique way of controlling Traktor effects. By allowing the possibility to assign a effect parameter to an X/Y parameter, plus, having the ability the automatically enable the effect and increase the amount of effect applied through the use of an ASR (Attack Sustain Decay) envelope generator.
 
@@ -60,6 +59,7 @@ TKFX allows you to hold the effect while keeping your hands free. To hold the ef
 ![TKFX Traktor Controller Effect Unit Hold function](https://www.imaginando.pt/images/products/tkfx/help/tkfx_traktor_controller_effect_unit_hold_function.png)
 
 ## Multi mode and effect link
+
 TKFX allows the use of all units at the same time but for that you just need to enable the LINK function. From that point forward, when you press the pad, all the effects will be triggered at the same time. This is especially notorious on the tablet version of TKFX where you can toggle between single and multi unit visualization modes.
 
 ![TKFX Traktor Controller Effect Unit Link function](https://www.imaginando.pt/images/products/tkfx/help/tkfx_traktor_controller_effect_unit_link_function.png)

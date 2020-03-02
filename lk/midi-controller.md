@@ -1,5 +1,4 @@
-#
-Midi Controller Module
+# Midi Controller Module
 
 ![LK Midi Controller Overview](https://www.imaginando.pt/images/products/lk/help/controller/overview.png)
 

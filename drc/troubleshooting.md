@@ -1,5 +1,4 @@
-#
-Troubleshooting
+# Troubleshooting
 
 ** DRC is telling me I need to purchase the software but i have already purchased (mobile only).**
 
