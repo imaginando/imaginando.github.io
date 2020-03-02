@@ -1,0 +1,18 @@
+[
+  { "key": "contents", "label": "Contents" },
+  { "key": "overview", "label": "Overview" },
+  { "key": "status-bar", "label": "Status Bar" },
+  { "key": "settings", "label": "Settings" },
+  { "key": "patches", "label": "Patches" },
+  { "key": "file-browser", "label": "File browser" },
+  {
+    "key": "combining-available-synthesis",
+    "label": "Combining Available Synthesis"
+  },
+  { "key": "fm-synthesis", "label": "FM Synthesis" },
+  { "key": "granular-synthesis", "label": "Granular Synthesis" },
+  { "key": "layer", "label": "Layers" },
+  { "key": "patches", "label": "Patches" },
+  { "key": "performance-modes", "label": "Performance Modes" },
+  { "key": "subtractive-synthesis", "label": "Subtractive Synthesis" }
+]
