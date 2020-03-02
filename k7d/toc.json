@@ -1,1 +1,6 @@
-["introduction", "overview", "parameters", "patches"] 
+{
+	"contents": "Contents",
+	"overview": "Overview",
+	"parameters": "Parameters",
+	"patches": "Patches"
+} 
