@@ -12,10 +12,10 @@ The **Bank tab** will display the available banks at the time, each bank contain
 
 - **Cloud** - This bank stores the presets saved by the user to the cloud. They can be accessed in every machine that has an internet connection and when the user has logged in. Bear in mind that in order to use this feature, users must have an imaginando account and be logged in. Cloud has a free plan and several paid ones each one with different available capacities. If users reach their current cloud plan limit, they won’t be able to save new patches to this bank.
 
-- **Favorites** - This bank stores the favorite presets selected by the user. This works as a shortcut bank, since users can select patches as favorites and all of them will be available here. 
-To do this just use the favorites icon:
+- **Favorites** - This bank stores the favorite presets selected by the user. This works as a shortcut bank, since users can select patches as favorites and all of them will be available here.
+  To do this just use the favorites icon:
 
-    <img src="images/favorites-icon.png" style="padding: 0px; bottom-padding: 0px;"/>
+<img src="images/favorites-icon.png" style="padding: 0px; bottom-padding: 0px;"/>
 
 In the other two columns there are:
 
@@ -33,4 +33,3 @@ To save a patch just click the save patch icon:
 - **Save** - Overwrites the current patch. This is only available if the patch is different from its original state, or by changing the patch name.
 
 - **Save as...** - Saves the current patch as a new patch with the specified name and in the specified bank
-
