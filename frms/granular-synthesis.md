@@ -1,6 +1,6 @@
 # Granular Synthesis
 
-    A complex sound may be imagined as a multicolored firework in which each point of light appears and instantaneously disappears against a black sky … A line of light would be created by a sufficiently large multitude of points appearing and disappearing instantaneously. (Xenakis 1992 pp. 43-44)
+_A complex sound may be imagined as a multicolored firework in which each point of light appears and instantaneously disappears against a black sky … A line of light would be created by a sufficiently large multitude of points appearing and disappearing instantaneously. (Xenakis 1992 pp. 43-44)_
 
 Granular synthesis consists of combining a large number of tiny audio units (grains) over time, resulting in complex sound structures. Despite the origins of this concept being theoretically present way back, it was only after Dennis Gabor and Iannis Xenakis experiments that this kind of synthesis became more well funded. Then, Curtis Roads took granular concepts and applied them with computational models and we were left with a completely new kind of sound synthesis, capable of new timbres and sonic atmospheres.
 
