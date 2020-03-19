@@ -8,7 +8,7 @@ FRMS was designed to be a complex and rich sounding synthesizer with an user fri
 
 - [Overview](overview)
 - [Granular Synthesis](granular-synthesis)
-- [Subtractive Synthesis](subtractive-synthesis)
+- [Additive/Subtractive Synthesis](subtractive-synthesis)
 - [Fm Synthesis](fm-synthesis)
 - [Combining Available Synthesis](combining-available-synthesis)
 - [Settings](settings)

@@ -2,7 +2,7 @@
   { "key": "contents", "label": "Contents" },
   { "key": "overview", "label": "Overview" },
   { "key": "granular-synthesis", "label": "Granular Synthesis" },
-  { "key": "subtractive-synthesis", "label": "Subtractive Synthesis" },
+  { "key": "subtractive-synthesis", "label": "Additive/Subtractive Synthesis" },
   { "key": "fm-synthesis", "label": "FM Synthesis" },
   { "key": "combining-available-synthesis", "label": "Combining Available Synthesis"},
   { "key": "settings", "label": "Settings" },
