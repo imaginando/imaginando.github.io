@@ -1,6 +1,7 @@
 [
   { "key": "contents", "label": "Contents" },
   { "key": "overview", "label": "Overview" },
+  { "key": "setup", "label": "Setup" },
   { "key": "matrix", "label": "Matrix Module" },
   { "key": "midi-pads", "label": "Midi Pads Module" },
   { "key": "midi-controller", "label": "Midi Controller Module" },

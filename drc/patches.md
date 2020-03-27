@@ -27,4 +27,4 @@ Factory presets are the presets included by default in **DRC**. You can select t
 
 - **Cloud** - If you activate the cloud feature of **DRC** in the settings menu, you are able to sync patches among different devices. To do so, click the sync button.
 
-[We now explain the Patches section of DRC.](patches)
+[Now let's look at the Oscillator section of DRC.](oscillators)

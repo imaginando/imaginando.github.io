@@ -2,6 +2,7 @@
   { "key": "contents", "label": "Contents" },
   { "key": "overview", "label": "Overview" },
   { "key": "settings", "label": "Settings" },
+  { "key": "patches", "label": "Patches" },
   { "key": "oscillators", "label": "Oscillators" },
   { "key": "filter", "label": "Filter" },
   { "key": "mixer", "label": "Mixer" },
