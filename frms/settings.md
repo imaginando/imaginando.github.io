@@ -4,7 +4,7 @@ On the upper left corner we have the settings icon <img src="images/settings.png
 
 <img src="images/settings-panel.png" style="padding: 0px; bottom-padding: 0px;" />
 
-- **PROFILE** - To use FRMS in the full feature mode, is it necessary to have an Imaginando account. Here is where the user login is made. If the user forgets its password, there is a “recover password” button that will help with the recovery. When the login has been made, user informations will appear, such as “licence status”, “email”, “name”, “genre”, “activity”, “age”, “country”, “website”, “facebook”, “soundcloud”, “twitter” and “youtube”.
+- **PROFILE** - This is where you login with your Imaginando account. On mobile (iOS and Android), it is completely optional. However, on desktop (Mac/Windows) it is required to have an Imaginando account and login in order to activate the product. Otherwise it will always run in DEMO mode. When logged in you can see your license or Rent To Own status (desktop only), and your profile data.
 
 - **MIDI** - Lists the current available midi devices. They can be selected or unselected to work in the current section
 
