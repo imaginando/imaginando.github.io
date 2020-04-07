@@ -85,9 +85,9 @@ Below these buttons there is a panel which displays the current layer’s audio 
 
 - **RESONANCE Knob** (Global) - Controls the resonance of the layer filter.
 
-- **MODE Button** (Global) - Selects the layer filter mode. Filter can be a 4 - pole low pass, 2 pole low pass, high pass, band pass and notch.
+- **MODE Button** (Global) - Selects the layer filter mode. Filter can be a 4 pole low-pass, 2 pole low-pass, high-pass, band-pass and notch.
 
-- **EG 2 Button** (Global) - Controls the amount of modulation being applied to filter cutoff by the EG2.
+- **EG 2 Knob** (Global) - Controls the amount of modulation being applied to filter cutoff by the EG2.
 
 - **COARSE** (Global) - Selects the tuning of the layer. It has a range of -3/+3 octaves and can be used as a quantized of free knob.
 
@@ -97,7 +97,7 @@ Below these buttons there is a panel which displays the current layer’s audio 
 
 - **WAVEFORM Button** (Oscillator) - Selects the type of oscillator. Wave can be  **Sinusoidal (sin), Triangular (tri), Sawtooth (saw) and Square (sqr)**.
 
-- **PULSE WIDTH** (Oscillator) - Controls the square wave pulse if the wave type is "sqr".
+- **PULSE WIDTH** (Oscillator) - Controls the square wave pulse size if the wave type is square ("sqr").
 
 - **Window Interactive Zone** (Granulator) - Controls the shape of grain's window.
 
@@ -152,20 +152,19 @@ Below these buttons there is a panel which displays the current layer’s audio 
 
 ## **Envelope Panel**
 
-This is the envelope panel. There are two independent envelopes that can be used. EG1 is used to shape the sound, and both can be used as modulators
-Both have the same parameters to be controlled.
+This is the envelope panel. There are two independent envelopes that can be used. EG1 is used to shape the amplitude of the sound, and EG2 controls the layer's filter by default (using EG2 Knob), still, both can be used as modulators and have the same parameters to be controlled.
 
 <img src="images/envelope-panel.png" style="padding: 0px; bottom-padding: 0px;"/>
 
-- **LINK Button** - When active, the two egs are linked, so changes made affects both of them.
+- **LINK Button** - When active, the two EG's are linked, so changes made affects both of them.
 
-- **INV Button** - This button inverts the shape of the Eg vertically.
+- **INV Button** - This button inverts the shape of the EG vertically.
 
 - **SYNC Button** - When on, EG values are relative to the bpm.
 
 - **ATTACK Knob** - Controls the attack time of the envelope.
 
-- **CURVE Knob** - Controls the type of curve being applied to the attack stage.
+- **CURVE Knob** - Controls the type of CRUVE being applied to the attack stage.
 
 - **DECAY Knob** - Controls the decay time of the envelope.
 
@@ -177,7 +176,7 @@ Both have the same parameters to be controlled.
 
 - **CURVE Knob** - Controls the type of curve being applied to the release stage.
 
-- **ALT Button** - When pressed, this button switches the curve buttons to MAX buttons.
+- **ALT Button** - When pressed, this button switches the CURVE buttons to MAX buttons.
 
 - **MAX Knob** - Controls the maximum time that can be applied to the envelope parameter laying on it's left.
 
@@ -185,7 +184,7 @@ Both have the same parameters to be controlled.
 
 - **R.VEL Knob** - Controls the amount of modulation being applied to release stage.
 
-The panel with the drawed Eg can be manipulated directly. It's possible to change the attack, decay, sustain, release, and the respective curve by making left/right and up/down movements.
+The panel with the drawed EG can be manipulated directly. It's possible to change the attack, decay, sustain, release, and the respective curve by making left/right and up/down movements.
 
 ## **Matrix Panel**
 
@@ -198,7 +197,7 @@ This is the matrix panel of modulations. Here there are sources on the left that
 - **RESET button** - Clears all the modulations of the current layer.
 
 ### Sources:
-- **PAGE 1** - LFO1, LFO2, LFO3, LFO4 EG1, EG2.
+- **PAGE 1** - LFO1, LFO2, LFO3, LFO4, EG1, EG2.
 
 - **PAGE 2** - Sequencer (SEQ), Mod Wheel (MOD), Keyboard (KBD), Velocity (VEL) and After Touch (AFT).
 
@@ -207,28 +206,28 @@ This is the matrix panel of modulations. Here there are sources on the left that
 
 ## **Modifiers Panel**
 
-This panel gives access to the Lfo's and the arpeggiator tabs.
+This panel gives access to the LFO's and the arpeggiator tabs.
 
-### LFO
-FRMS has two independent lfo's to be used as modulators
+### **LFO**
+FRMS has two independent LFO's to be used as modulators
 
 <img src="images/lfo-panel.png" style="padding: 0px; bottom-padding: 0px;"/>
 
-- **1/2/3/4 buttons** - Selects between the lfo 1, 2, 3 and 4.
+- **1/2/3/4 buttons** - Selects between the LFO 1, 2, 3 and 4.
 
-- **Lfo Type Buttons** - Selects the waveform of the lfo. From the left to the right: Sinusoidal, Square, Sawtooth, Triangular, Sample and Hold (S&H), Filtered Sample and Hold (FS&H).
+- **LFO Type Buttons** - Selects the waveform of the LFO. From the left to the right: Sinusoidal, Square, Sawtooth, Triangular, Sample and Hold (S&H), Filtered Sample and Hold (FS&H).
 
-- **SYNC Button** - When enable the lfo frequency is synced with the BPM.
+- **SYNC Button** - When enable the LFO frequency is synced with the BPM.
 
-- **PHASE Button** - Selects the behaviour of the lfo when pressing a key.
-    - FREE - The lfo is always running.
-    - Key - The lfo phase is restarted when a key is pressed. This way the lfo will have the same behaviour every time a key is pressed.
+- **PHASE Button** - Selects the behaviour of the LFO when pressing a key.
+    - FREE - The LFO is always running.
+    - Key - The LFO phase is restarted when a key is pressed. This way the LFO will have the same behaviour every time a key is pressed.
 
-- **RATE Knob** - Controls the lfo frequency.
+- **RATE Knob** - Controls the LFO frequency.
 
-- **DELAY Knob** - Controls the amount of time the lfo is delayed before starting.
+- **DELAY Knob** - Controls the amount of time the LFO is delayed before starting.
 
-### Arpeggiator
+### **Arpeggiator**
 
 <img src="images/arpeggiator-panel.png" style="padding: 0px; bottom-padding: 0px;"/>
 
@@ -243,7 +242,7 @@ FRMS has two independent lfo's to be used as modulators
 
 - **GATE Slider** - Controls the duration of the notes being played. The least the gate, the least the duration and vice-versa.
 
-- **STEPS Knob** - Selects the amount of octaves being added to the arp notes. If steps are equal to 0, the arpeggiator only plays pressed notes. When steps is greater than 0, arpeggiator plays pressed notes plus that same notes in the octaves above (according to its amount).
+- **STEPS Knob** - Selects the amount of octaves being added to the arpeggiator notes. If steps are equal to 0, the arpeggiator only plays pressed notes. When steps is greater than 0, arpeggiator plays pressed notes plus that same notes in the octaves above (according to its amount).
 
 - **RATE Slider** - Controls the speed of the arpeggiator.
 
@@ -255,15 +254,15 @@ FRMS has two independent lfo's to be used as modulators
 
 Has the overall controls of the instrument divided in 5 panels
 
-<img src="images/general-panel.png" style="padding: 0px; bottom-padding: 0px;"/>
+<img src="images/general-panel.png" style="padding: 0px; padding-bottom: 0px;"/>
 
-### Modes
+### **Modes**
 - **MODE Button** - Selects between voicing mode. It can be Poly, Mono or Unisson.
 - **TRANSPOSE Knob** - Can pitch up/down all layers simultaneously.
 - **LEGATO** - Turns on/off legato.
 - **GLIDE** - Defines the duration of the glide between notes. When at zero there’s no glide.
 
-### FM Modes
+### **FM Modes**
 Frms has a fm engine that enables fm synthesis between the layers. Each layer functions as an individual operator with 8 different fm modes available that organizes the operators in different ways.
 
 - **Operators Image** - Displays the current selected fm mode. When off, the image has opacity.
@@ -271,8 +270,11 @@ Frms has a fm engine that enables fm synthesis between the layers. Each layer fu
 - **ON/OFF Button** - Enables/disables Fm engine.
 - **Right Arrow Button** - Selects the current fm mode in an increasing order.
 
-### Delay
-Frms has a delay line functioning as an auxiliary track. Each layer can individually send a given amount of signal to the delay line that will sum to the overall output.
+### **FX**
+
+FRMS has two independent fx units connected as auxiliary channels. FX's sends can be used from each layer to each of the effect units
+
+### **Delay**
 
 - **TIME Knob** - Controls the amount of delay time.
 - **FEEDBACK Knob** - Controls the amount of feedback being applied to the delay.
@@ -281,24 +283,23 @@ Frms has a delay line functioning as an auxiliary track. Each layer can individu
 - **HP CUTOFF Knob** - Controls the cutoff of the delay’s high pass filter.
 - **LP CUTOFF Knob** - Controls the cutoff of the delay’s low pass filter.
 
-### Reverb
-Frms has a reverb line functioning as an auxiliary track. Each layer can individually send a given amount of signal to the reverb line that will sum to the overall output.
+### **Reverb**
 
 - **DECAY Knob** - Controls the amount of decay.
 - **DAMPING Knob** - Controls the amount of damping.
 - **HP FILTER Knob** - Controls the cutoff of the reverb’s high pass filter.
 
-### Filter
-Master filter section. This is a lowpass/highpass filter that can be manipulated directly on the window where cutoff and resonance can be changed. This filter can be modulated by the lfos and egs.
+### **Filter**
+Master filter section. This is a lowpass/highpass filter that can be manipulated directly on the window where cutoff and resonance can be changed. This filter can be modulated by the LFO's and EG's.
 
 - **CUTOFF Knob** - Controls the cutoff of the master filter.
 - **RESONANCE Knob** - Controls the resonance of the master filter.
 - **MODE Button** - Selects the type of filter being used. It can be a lowpass (LP) or highpass (HP) filter.
-- **SOURCE Button** - Selects the first source of modulation. It can be Lfo 1 or Lfo 2.
+- **SOURCE Button** - Selects the first source of modulation. It can be LFO 1 or LFO 2.
 - **AMOUNT Knob** - Selects the amount of modulation being applied by first source.
-- **SOURCE Button** - Selects the second source of modulation. It can be Eg1 or Eg2 of any layer. The “L” represents the number of the layer, so for example, when selecting “L1EG1” the Eg1 of the first layer is being chosen to be the second source.
+- **SOURCE Button** - Selects the second source of modulation. It can be EG1 or EG2 of any layer. The “L” represents the number of the layer, so for example, when selecting “L1EG1” the EG1 of the first layer is being chosen to be the second source.
 - **AMOUNT Knob** - Selects the amount of modulation being applied by second source.
 
-### Output
+### **Output**
 - **MASTER Knob** - Master volume. Controls the overall level of the instrument.
 - **PRE GAIN Knob** - Controls the pre gain given to the overall sound.
