@@ -8,7 +8,7 @@ There are two layer panels which means that you can work on two layers at the sa
 
 On the top left of each layer panel container you will find the following controls:
 
-- **1 | 2 | 3 | 4 Buttons** - This is the layer selector. The colored number represents the current selected layer.
+- **Layer selector** - Choose between four available layers numbered from 1 to 4. The colored number represents the current selected layer.
 
 - **Lock Icon** - Locks the upper view with the bottom view. Eg: When you select a layer on the top view, it will automatically set the same layer on the bottom view.
 

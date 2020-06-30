@@ -7,7 +7,7 @@ They can be changed using the icon on the bottom left of the instrument
 
 <img src="images/keyboard.png" style="padding: 0px; bottom-padding: 0px;"/>
 
-The built-in keyboard works as a regular keyboard, with the possibility of also playing in MPE mode. 
+The built-in keyboard works as a regular keyboard, with the possibility of also playing in MPE mode.
 
 - **PITCH** - Pitch Bend.
 
@@ -17,7 +17,7 @@ The built-in keyboard works as a regular keyboard, with the possibility of also 
 
 - **HOLD** - Holds a note after it is pressed.
 
-Moving (left and right) the zone between the two circles moves the keyboard keys up and down the octaves, and moving up and down increases and decreases the key’s size. 
+Moving (left and right) the zone between the two circles moves the keyboard keys up and down the octaves, and moving up and down increases and decreases the key’s size.
 
 <img src="images/keyboard-zoom.png" style="padding: 0px; bottom-padding: 0px;"/>
 
@@ -45,9 +45,11 @@ On the left there are the following buttons:
 - **PAN** (device) - It is possible to move the chorder view while pressing this button and moving the chorder zone. This is available in the FRMS app for device.
 
 The lateral horizontal lines represent the individual notes of the current selected chord. Clicking on them will play the corresponding note. Chords can be played with single notes simultaneously.
-    
+  
 <img src="images/strummer.png" style="padding: 0px; bottom-padding: 0px;"/>
 
 The foremost right arrows will shift (up/down) the current chords by one octave at a time.
 
 <img src="images/chorder-octave-icon.png" style="padding: 0px; bottom-padding: 0px;"/>
+
+[See next how to use file browser.](file-browser)
