@@ -1,13 +1,13 @@
 # Global Panel
 
-In this panel you control settings that affect the overall synth performance and sound such as polyphony, FM, effects, global filter, master output. It is divided in 5 panels
+In this panel you control settings that affect the overall synth performance and sound, such as: polyphony, FM, effects, global filter, master output. It is divided in 5 panels
 
 <img src="images/general-panel.png" style="padding: 0px; padding-bottom: 0px;"/>
 
 ### **Modes**
 
-- **MODE Button** - Selects between voicing mode. It can be Poly, Mono or Unisson.
-- **TRANSPOSE Knob** - Can pitch up/down all layers simultaneously.
+- **MODE** - Selects between voicing mode. It can be Poly, Mono or Unisson.
+- **TRANSPOSE** - Can pitch up/down all layers simultaneously.
 - **LEGATO** - Turns on/off legato.
 - **GLIDE** - Defines the duration of the glide between notes. When at zero there’s no glide.
 
