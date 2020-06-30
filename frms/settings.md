@@ -52,5 +52,3 @@ Sets the MIDI channel(s) that will be used for MIDI output. By default this valu
 
 **Voices** defines the total polyphony of **FRMS**, this means the amount of notes that can be played simultaneously. A higher polyphony means a higher the CPU load.
 On mobile devices the maximum number of voices is limited to 4. If you experience audio dropouts while playing FRMS, try to decrease the number of voices for optimal performance.
-
-[We now explain the Patches section of FRMS.](patches)

@@ -38,4 +38,4 @@ To save a patch just click the save patch icon:
 
 - **Save as...** - Saves the current patch as a new patch with the specified name and bank.
 
-[See next how to configure FRMS settings.](layers)
+[See next how to use the file browser.](file-browser)

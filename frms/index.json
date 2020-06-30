@@ -1,8 +1,6 @@
 [
   { "key": "contents", "label": "Contents" },
   { "key": "overview", "label": "Overview" },
-  { "key": "settings", "label": "Settings" },
-  { "key": "patches", "label": "Patches" },
   { "key": "layers", "label": "Layers" },
   { "key": "waveform-panel", "label": "Waveform Panel" },
   { "key": "control-panel", "label": "Control Panel" },
@@ -10,6 +8,8 @@
   { "key": "matrix-panel", "label": "Matrix Panel" },
   { "key": "modifiers-panel", "label": "Modifiers Panel" },
   { "key": "global-panel", "label": "Global Panel" },
+  { "key": "performance-modes", "label": "Performance Modes" },
+  { "key": "patch-browser", "label": "Patch Browser" },
   { "key": "file-browser", "label": "File browser" },
-  { "key": "performance-modes", "label": "Performance Modes" }
+  { "key": "settings", "label": "Settings" }
 ]

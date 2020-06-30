@@ -51,4 +51,4 @@ On the right side of the status bar are 5 icons:
 
   This selects the next patch from the list of patches in the currently selected bank.
 
-[See next how to configure FRMS settings.](settings)
+[See next how to use FRMS layers.](layers)

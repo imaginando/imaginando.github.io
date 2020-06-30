@@ -7,8 +7,6 @@ FRMS was designed to be a complex and rich sounding synthesizer with an user fri
 ## Contents
 
 - [Overview](overview)
-- [Settings](settings)
-- [Patches](patches)
 - [Layers](layers)
 - [Waveform Panel](waveform-panel)
 - [Control Panel](control-panel)
@@ -16,4 +14,6 @@ FRMS was designed to be a complex and rich sounding synthesizer with an user fri
 - [Matrix Panel](matrix-panel)
 - [Modifiers Panel](modifiers-panel)
 - [Performance modes](performance-modes)
+- [Patch Browser](patch-browser)
 - [File Browser](file-browser)
+- [Settings](settings)
