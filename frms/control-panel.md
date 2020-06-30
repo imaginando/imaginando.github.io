@@ -15,6 +15,7 @@
     - **Sinusoidal** - The simplest and purest waveform. A sinusoidal is composed with only a single fundamental, having no harmonics.
     - **Sawtooth** - This waveform is the richest classic periodic waveform because it is composed of all harmonics of its fundamental.
     - **Square and Triangle** - These two waveforms is composed only be odd harmonics
+      <br/><br/>
 
   - **Granulator Mode**
 
