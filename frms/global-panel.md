@@ -26,9 +26,9 @@ It is possible to have a chain of frequency modulations, where for example, osci
 FRMS has an FM engine that enables FM synthesis between the layers. Each layer functions as an individual operator with 8 different FM modes available that organizes the operators in different ways.
 
 - **Operators Image** - Displays the current selected FM mode. When off, the image has opacity.
-- **Left Arrow Button** - Selects the current FM mode in a decreasing order.
-- **ON/OFF Button** - Enables/disables Fm engine.
-- **Right Arrow Button** - Selects the current FM mode in an increasing order.
+- **Left Arrow** - Selects the current FM mode in a decreasing order.
+- **ON/OFF** - Enables/disables Fm engine.
+- **Right Arrow** - Selects the current FM mode in an increasing order.
 
 Available FM modes (each number corresponds to the layer number):
 
@@ -43,38 +43,40 @@ Available FM modes (each number corresponds to the layer number):
 
 ### **FX**
 
-FRMS has two independent fx units connected as auxiliary channels. FX's sends can be used from each layer to each of the effect units
+FRMS has two independent effect units connected as auxiliary channels. The amount of signal that is sent to these units is controlled with the DELAY and REVERB knobs that can be found in each layer.
 
 ### **Delay**
 
-- **TIME Knob** - Controls the amount of delay time.
-- **FEEDBACK Knob** - Controls the amount of feedback being applied to the delay.
-- **SYNC Button** - Enables/disables sync function. When on, delay time is relative to the bpm.
-- **SPREAD Knob** - Controls the amount of stereo spread given to the delay output.
-- **HP CUTOFF Knob** - Controls the cutoff of the delay’s high pass filter.
-- **LP CUTOFF Knob** - Controls the cutoff of the delay’s low pass filter.
+- **TIME** - Controls the amount of delay time.
+- **FEEDBACK** - Controls the amount of feedback.
+- **SYNC** - Enables/disables sync function. When on, delay time is in sync with the BPM.
+- **SPREAD** - Controls the amount of stereo spread.
+- **HP CUTOFF** - Controls the cutoff of the delay’s high pass filter.
+- **LP CUTOFF** - Controls the cutoff of the delay’s low pass filter.
 
 ### **Reverb**
 
-- **DECAY Knob** - Controls the amount of decay.
-- **DAMPING Knob** - Controls the amount of damping.
-- **HP FILTER Knob** - Controls the cutoff of the reverb’s high pass filter.
+- **DECAY** - Controls the amount of decay.
+- **DAMPING** - Controls the amount of damping.
+- **HP FILTER** - Controls the cutoff of the reverb’s high pass filter.
 
 ### **Filter**
 
 Master filter section. This is a lowpass/highpass filter that can be manipulated directly on the window where cutoff and resonance can be changed. This filter can be modulated by the LFO's and EG's.
 
-- **CUTOFF Knob** - Controls the cutoff of the master filter.
-- **RESONANCE Knob** - Controls the resonance of the master filter.
-- **MODE Button** - Selects the type of filter being used. It can be a lowpass (LP) or highpass (HP) filter.
-- **SOURCE Button** - Selects the first source of modulation. It can be LFO 1 or LFO 2.
-- **AMOUNT Knob** - Selects the amount of modulation being applied by first source.
-- **SOURCE Button** - Selects the second source of modulation. It can be EG1 or EG2 of any layer. The “L” represents the number of the layer, so for example, when selecting “L1EG1” the EG1 of the first layer is being chosen to be the second source.
-- **AMOUNT Knob** - Selects the amount of modulation being applied by second source.
+- **CUTOFF** - Controls the cutoff of the master filter.
+- **RESONANCE** - Controls the resonance of the master filter.
+- **MODE** - Selects the type of filter being used. It can be a lowpass (LP) or highpass (HP) filter.
+- **SOURCE** - Selects the first source of modulation. It can be LFO 1 or LFO 2.
+- **AMOUNT** - Selects the amount of modulation being applied by first source.
+- **SOURCE** - Selects the second source of modulation. It can be EG1 or EG2 of any layer. The “L” represents the number of the layer, so for example, when selecting “L1EG1” the EG1 of the first layer is being chosen to be the second source.
+- **AMOUNT** - Selects the amount of modulation being applied by second source.
 
 ### **Output**
 
-- **MASTER Knob** - Master volume. Controls the overall level of the instrument.
-- **PRE GAIN Knob** - Controls the pre gain given to the overall sound.
+- **MASTER** - Master volume. Controls the overall level of the instrument.
+- **PRE GAIN** - Controls the pre gain given to the overall sound.
+
+<br/>
 
 [See next how to use performance modes.](performance-modes)
