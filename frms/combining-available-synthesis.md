@@ -1,7 +1,0 @@
-# Combining Available Synthesis
-
-Since FRMS is built upon a layering system, it is possible to combine the three available synthesis at once. With this, the sonic possibilities are expanded because a single sound can have all the best characteristics of each mode. For example, it is possible to have a granular sound, with a low end constant sine tone, and some high distorted fm harmonics all at once. Despite the granular being the main focus of this instrument, with this approach it is possible to achieve and complement some sounds that in another way will require more time or different instruments to become available.
-
-With this layering system, fm synthesis becomes very fluent and easy to achieve, because regardless of a layer being an oscillator or a granulator, it will function as an operator. It is only necessary to enable the fm engine, select the desired fm mode, and control the amount of fm being applied by the desired layers. In this way, instead of modulating only oscillators, it is also possible to modulate a granular layer by an oscillator or vice-versa.
-
-Combining these engines (and also not forgetting the possibilities offered by the modulations) transforms FRMS in an instrument capable of producing amazing rich and complex sounds, with a high degree of versatility for all kinds of music, inspiration and sound goals.
