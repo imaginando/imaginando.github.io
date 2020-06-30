@@ -1,4 +1,4 @@
-## **Waveform Panel**
+# Waveform Panel
 
 This panel displays the waveforms and has two possible working modes:
 

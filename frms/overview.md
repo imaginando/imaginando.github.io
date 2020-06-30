@@ -2,7 +2,7 @@
 
 FRMS features a clean minimal interface that can help on the control of advanced concepts through a simple and easy to use design. The interface consists of a main window that has a status bar on the top and a user/settings zone on the left plus two layer panels and a lower zone that can be a keyboard, a chorder or a step sequencer. The layering system is composed of several tabs for easy access to the different parameters and functionalities. Through the use of two separate layer visualizations, it is possible to manage an intuitive and easygoing workflow using FRMS as a production tool or as an instrument for live performances.
 
-<img alt="FRMS Main Screen" align="center" src="https://www.imaginando.pt/images/products/frms/help/overview/overview@2x.jpg" style="padding: 40px;"/>
+<img alt="FRMS Main Screen" align="center" src="images/overview.png" style="padding: 0px;"/>
 
 The following features are found on the left side of **FRMS**'s status bar:
 

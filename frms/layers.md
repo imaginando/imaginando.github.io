@@ -2,7 +2,7 @@
 
 FRMS consists of 4 layers that can be used simultaneously or individually as an oscillator or granulator and each one has a distinctive color so it can be easily recognizable.
 
-Each layer can be thought of as an instrument on its own. They can be summed toghether or used as an FM operator. [Learn more about FM in the global panel section.](panel-global)
+Each layer can be thought of as an instrument on its own. They can be summed together or used as an FM operator. [Learn more about FM in the global panel section.](panel-global)
 
 There are two layer panels which means that you can work on two layers at the same time (without being constantly toggling between them if the lock function is disable. See below).
 

@@ -1,4 +1,4 @@
-## **Envelope Panel**
+# Envelope Panel
 
 This is the envelope panel. There are two independent envelopes that can be used. EG1 is used to shape the amplitude of the sound, and EG2 controls the layer's filter by default (using EG2 Knob), still, both can be used as modulators and have the same parameters to be controlled.
 

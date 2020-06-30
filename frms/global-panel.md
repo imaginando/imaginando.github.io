@@ -1,4 +1,4 @@
-## **Global Panel**
+# Global Panel
 
 Has the overall controls of the instrument divided in 5 panels
 

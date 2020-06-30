@@ -1,4 +1,4 @@
-## **Modifiers Panel**
+# Modifiers Panel
 
 This panel gives access to the LFO's and the arpeggiator tabs.
 

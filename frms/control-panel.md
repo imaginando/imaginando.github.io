@@ -1,4 +1,4 @@
-## **Control Panel**
+# Control Panel
 
 <img src="images/layer-panel.png" style="padding: 0px; bottom-padding: 0px;"/>
 

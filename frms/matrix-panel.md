@@ -1,4 +1,4 @@
-## **Matrix Panel**
+# Matrix Panel
 
 This is the matrix panel of modulations. Here there are sources on the left that can modulate targets above. When clicking in a cell, it's value can be changed using the **Right Fader**. Each cell displays the amount of a source signal that is being applied to a target signal.
 
