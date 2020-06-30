@@ -3,6 +3,8 @@
 In this panel you control settings that affect the overall synth performance and sound, such as: polyphony, FM, effects, global filter, master output. It is divided in 5 panels
 
 <img src="images/general-panel.png" style="padding: 0px; padding-bottom: 0px;"/>
+<br/>
+<br/>
 
 ### **Modes**
 
@@ -10,6 +12,8 @@ In this panel you control settings that affect the overall synth performance and
 - **TRANSPOSE** - Can pitch up/down all layers simultaneously.
 - **LEGATO** - Turns on/off legato.
 - **GLIDE** - Defines the duration of the glide between notes. When at zero there’s no glide.
+
+<br/>
 
 ### **FM Modes**
 
@@ -29,6 +33,8 @@ FRMS has an FM engine that enables FM synthesis between the layers. Each layer f
 - **Left Arrow** - Selects the current FM mode in a decreasing order.
 - **ON/OFF** - Enables/disables Fm engine.
 - **Right Arrow** - Selects the current FM mode in an increasing order.
+
+<br/>
 
 Available FM modes (each number corresponds to the layer number):
 
@@ -54,11 +60,15 @@ FRMS has two independent effect units connected as auxiliary channels. The amoun
 - **HP CUTOFF** - Controls the cutoff of the delay’s high pass filter.
 - **LP CUTOFF** - Controls the cutoff of the delay’s low pass filter.
 
+<br/>
+
 ### **Reverb**
 
 - **DECAY** - Controls the amount of decay.
 - **DAMPING** - Controls the amount of damping.
 - **HP FILTER** - Controls the cutoff of the reverb’s high pass filter.
+
+<br/>
 
 ### **Filter**
 
@@ -71,6 +81,8 @@ Master filter section. This is a lowpass/highpass filter that can be manipulated
 - **AMOUNT** - Selects the amount of modulation being applied by first source.
 - **SOURCE** - Selects the second source of modulation. It can be EG1 or EG2 of any layer. The “L” represents the number of the layer, so for example, when selecting “L1EG1” the EG1 of the first layer is being chosen to be the second source.
 - **AMOUNT** - Selects the amount of modulation being applied by second source.
+
+<br/>
 
 ### **Output**
 
