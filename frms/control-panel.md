@@ -70,17 +70,17 @@
   - **FORWARD** - Grain is read from the beginning to the end.
   - **BACKWARD** - Grain is read from the end to the beginning.
 
-- **RANDOM (OFFSET)** - Controls the amount of random applied to the grain starting point. Random is applied everytime a grain is started.
+- **RANDOM (OFFSET)** - Controls the amount of random applied to the grain starting point. Randomization is applied everytime a grain is fired.
 
 - **SIZE** - Controls the amount of grain size.
 
 - **SIZE Mode** - Selects the type of grain's size.
 
   - **RELATIVE** - The amount of grain size is relative to the size of the sample.
-  - **ABSOLUTE** - The amount of grain size is relative to a fixed value of 100 frames.
+  - **ABSOLUTE** - The amount of grain size is relative to a fixed value of 100 samples.
   - **SYNC** - The amount of grain size is relative to the bpm.
 
-- **RANDOM (SIZE)** - Controls the amount of random applied to each grain size. Random is applied everytime a grain is started.
+- **RANDOM (SIZE)** - Controls the amount of random applied to each grain size. Randomization is applied everytime a grain is fired.
 
 - **DENSITY** - Controls the amount of grains that are being used.
 
