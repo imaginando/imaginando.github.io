@@ -62,6 +62,7 @@
   - **LOOP** - Grains are being looped within OFFSET+SIZE boundaries.
   - **P.PONG** - Grains go back and forth within OFFSET+SIZE boundaries.
   - **END** - Grains stop when reach the end of the OFFSET+SIZE boundaries.
+    <br/><br/>
 
 - **RAND COLOR** - Controls the type of random that is generated and feeded to randomization parameters.
 
@@ -81,6 +82,7 @@
   - **RELATIVE** - The amount of grain size is relative to the size of the sample.
   - **ABSOLUTE** - The amount of grain size is relative to a fixed value of 100 samples.
   - **SYNC** - The amount of grain size is relative to the bpm.
+    <br/><br/>
 
 - **RANDOM (SIZE)** - Controls the amount of random applied to each grain size. Randomization is applied everytime a grain is fired.
 
@@ -91,6 +93,7 @@
   - **EVEN** - Grains are fired evenly across the grain size.
   - **TIMED** - Grains are fired with a fixed time interval.
   - **SYNC** - Grains are fired with an interval that is in relation with the BPM.
+    <br/><br/>
 
 - **RANDOM (DENSITY)** - Controls the amount of random applied to density. Randomization is applied everytime a grain is fired.
 
@@ -109,5 +112,7 @@
 - **DELAY** - Controls the amount of signal being sent to the global delay effect.
 
 - **REVERB** - Controls the amount of signal being sent to the global reverb effect.
+
+<br/>
 
 [See next how to use envelope panel.](envelope-panel)
