@@ -19,7 +19,7 @@ In this panel you control settings that affect the overall synth performance and
 
 **_A new application of the well-known process of frequency modulation is shown to result in a surprising control of audio spectra. The technique provides a means of great simplicity to control the spectral components and their evolution in time. Such dynamic spectra are diverse in their subjective impressions and include sounds both known and unknown. (Chowning 1973 The Synthesis of Complex Audio Spectra by Means of Frequency Modulation)_**
 
-1973 was the year John Chowning released he’s paper about fm synthesis. There he stated that, despite being a known method for other applications, frequency modulation applied to sound could result in new rich sounds. With this synthesis method, one could even “replicate” other instruments using only sinusoidal waveforms.
+1973 was the year John Chowning released he’s paper about FM synthesis. There he stated that, despite being a known method for other applications, frequency modulation applied to sound could result in new rich sounds. With this synthesis method, one could even “replicate” other instruments using only sinusoidal waveforms.
 
 Contrary to subtractive synthesis, which modifies the spectral content of an harmonic rich sound, fm synthesis creates new spectral content that is modulated over time, by modulating an oscillator’s frequency (carrier) with the output’s amplitude of other oscillator (modulator). With this, even using simple sounds as a sine wave, it is possible to create complex ones, because when applying frequency modulation, new side bands emerge, thus resulting in new timbres.
 
