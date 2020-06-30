@@ -8,7 +8,7 @@
 
 - **ENGINE Button** (Global) - Selection of layer engine. Layer can be an oscillator or granulator.
 
-  ### Oscillator Mode
+  ### **Oscillator Mode**
 
   Despite the main focus of FRMS being the granular engine, it is possible to use each layer as an oscillator source. Subtractive synthesis is based on the sculpting of rich and complex waveforms, through the process of filtering and modulation. The name of subtractive comes from the fact that we start with full spectral waveforms, and we can manipulate them with the removal of its harmonic content, generating different timbral sounds all coming from the same source. With this in mind, we offer 4 kinds of waveforms:
 
@@ -16,7 +16,7 @@
   - **Sawtooth** - This waveform is the richest classic periodic waveform because it is composed of all harmonics of its fundamental.
   - **Square and Triangle** - These two waveforms is composed only be odd harmonics
 
-  ### Granulator Mode
+  ### **Granulator Mode**
 
   **_A complex sound may be imagined as a multicolored firework in which each point of light appears and instantaneously disappears against a black sky … A line of light would be created by a sufficiently large multitude of points appearing and disappearing instantaneously. (Xenakis 1992 pp. 43-44)_**
 
