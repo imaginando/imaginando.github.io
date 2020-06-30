@@ -10,6 +10,8 @@ This panel displays the waveforms and has two possible working modes:
 
     <img src="images/wavefile-display.png" style="padding: 0px; bottom-padding: 0px;"/>
 
+<br/>
+
 Depending on the layer engine mode, the following controls are available:
 
 <img src="images/waveform-panel.png" style="padding: 0px; bottom-padding: 0px;"/>

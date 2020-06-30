@@ -16,10 +16,10 @@ On the top left of each layer panel container you will find the following contro
 
 - **Layer selector** - Choose between four available layers numbered from 1 to 4. The colored number represents the current selected layer.
 
-- **Lock Icon** - Locks the upper view with the bottom view. Eg: When you select a layer on the top view, it will automatically set the same layer on the bottom view.
+- **Lock** - Locks the upper view with the bottom view. Eg: When you select a layer on the top view, it will automatically set the same layer on the bottom view.
 
-- **COPY Button** - Press it to copy all layer parameters state to memory (excluding waveform)
+- **COPY** - Copies all layer parameters state to memory (excluding waveform)
 
-- **PASTE Button** - Press it to paste all layer parameters in memory to the current layer (excluding waveform).
+- **PASTE** - Pastes all layer parameters in memory to the current layer (excluding waveform).
 
 [See next how to use the waveform panel.](waveform-panel)
