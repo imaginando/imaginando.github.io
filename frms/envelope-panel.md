@@ -1,37 +1,40 @@
 # Envelope Panel
 
-This is the envelope panel. There are two independent envelopes that can be used. EG1 is used to shape the amplitude of the sound, and EG2 controls the layer's filter by default (using EG2 Knob), still, both can be used as modulators and have the same parameters to be controlled.
+There are two independent envelopes that can be used. EG1 is used to shape the amplitude of the sound, and EG2 controls the layer's filter cutoff.
+
+This module can be manipulated direct with mouse or touch. It's possible to change the attack, decay, sustain, release, and the respective curve by making left/right and up/down movements.
 
 <img src="images/envelope-panel.png" style="padding: 0px; bottom-padding: 0px;"/>
 
-- **LINK Button** - When active, the two EG's are linked, so changes made affects both of them.
+<br/>
+<br/>
 
-- **INV Button** - This button inverts the shape of the EG vertically.
+- **LINK** - When active, links the changes made on the current EG to the same EG on all other layers.
 
-- **SYNC Button** - When on, EG values are relative to the bpm.
+- **INV** - This button inverts the shape of the EG vertically.
 
-- **ATTACK Knob** - Controls the attack time of the envelope.
+- **SYNC** - When on, EG time based values (ATTACK, DECAY, RELEASE) are in sync with the BPM.
 
-- **CURVE Knob** - Controls the type of CRUVE being applied to the attack stage.
+- **ATTACK** - Controls the attack time of the envelope.
 
-- **DECAY Knob** - Controls the decay time of the envelope.
+- **CURVE** - Controls the type of curve being applied to the attack stage.
 
-- **CURVE Knob** - Controls the type of curve being applied to the decay stage.
+- **DECAY** - Controls the decay time of the envelope.
 
-- **SUSTAIN Knob** - Controls the sustain amount of the envelope.
+- **CURVE** - Controls the type of curve being applied to the decay stage.
 
-- **RELEASE Knob** - Controls the release time of the envelope.
+- **SUSTAIN** - Controls the sustain amount of the envelope.
 
-- **CURVE Knob** - Controls the type of curve being applied to the release stage.
+- **RELEASE** - Controls the release time of the envelope.
 
-- **ALT Button** - When pressed, this button switches the CURVE buttons to MAX buttons.
+- **CURVE** - Controls the type of curve being applied to the release stage.
 
-- **MAX Knob** - Controls the maximum time that can be applied to the envelope parameter laying on it's left.
+- **ALT** - When toggled, this button allows access to the alternate function MAX, which allows you to control the maximum values of the time based parameters (ATTACK, DECAY, RELEASE).
 
-- **A.VEL Knob** - Controls the amount of modulation being applied to the attack stage by velocity value.
+- **A.VEL** - Controls the amount of modulation being applied to the attack stage by velocity value.
 
-- **R.VEL Knob** - Controls the amount of modulation being applied to release stage.
+- **R.VEL** - Controls the amount of modulation being applied to release stage.
 
-The panel with the drawed EG can be manipulated directly. It's possible to change the attack, decay, sustain, release, and the respective curve by making left/right and up/down movements.
+<br/>
 
 [See next how to use matrix panel.](matrix-panel)

@@ -43,6 +43,8 @@
 
 - **EG 2** - Controls the amount of modulation being applied to filter cutoff by the EG2.
 
+  **Note**: It is also possible to apply envelope modulation to filter cutoff using the MATRIX panel (attention: they are accumulative). This is a quick and convenient way of doing it.
+
 - **COARSE** - Selects the tuning of the layer. It has a range of -3/+3 octaves and can be used as a quantized of free knob.
 
 - **QUANTIZED/FREE** - Selects the behaviour of the coarse knob. When in QUANTIZED mode, coarse works with fix steps of 1 semitone. In FREE mode there’s no fixed steps.
