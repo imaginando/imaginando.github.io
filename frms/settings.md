@@ -1,15 +1,56 @@
 # Settings
 
-On the upper left corner we have the settings icon <img src="images/settings.png" style="padding: 0px; bottom-padding: 0px;" /> . When pressed it will open the settings sidebar.
+## Audio Device
 
-<img src="images/settings-panel.png" style="padding: 0px; bottom-padding: 0px;" />
+Select the audio device (only available on desktop standalone version)
 
-- **PROFILE** - This is where you login with your Imaginando account. On mobile (iOS and Android), it is completely optional. However, on desktop (Mac/Windows) it is required to have an Imaginando account and login in order to activate the product. Otherwise it will always run in DEMO mode. When logged in you can see your license or Rent To Own status (desktop only), and your profile data.
+## Sample Rate
 
-- **MIDI** - Lists the current available midi devices. They can be selected or unselected to work in the current section
+Select the sample rate (only available on desktop standalone version)
 
-- **SETTINGS** - The program global settings. Regarding sound engine it is possible to select the audio device, sample rate and buffer size. Regarding midi, it is possible to select the midi in and out channels, turn **Midi Polyphonic Expression (MPE)** on/off, select the MPE pitch bend range, and choose if FRMS should send midi out. Also it is possible to turn on/off notifications, to select the number of voices that can be simultaneously played and the knobs sensitivity.
+## Buffer Size
 
-- **ABOUT** - Some information about the program such as version number, company name and people who contributed to the software.
+Select the buffer size (only available on desktop standalone version)
 
-- **HELP** - When pressed redirects the the product help page.
+## Apple Pencil Support (iOS only)
+
+When enabled it allows the use of Apple Pencil to interact with the controls.
+
+## Notifications
+
+Enable or disable push notifications (promotions and other type of general notifications from Imaginando)
+
+## Background Audio (iOS or Android only)
+
+Use this option to determine if the synthesizer engine keeps running when the app is on background. When on, you are able to play the synthesizer with an external midi controller when using other apps. This option is disabled by default.
+
+**Note:** the synthesizer engine is CPU intensive. It will drain you device battery even when you have the screen locked and the display is off. Don't forget it!
+
+## High Quality
+
+Enables or disables the high quality audio rendering. Higher audio quality means more CPU usage.
+
+## MPE Mode
+
+Enables or disabled the MIDI Polyphonic Expression mode support. The internal keyboard will also behave accordingly.
+
+## MPE Pitch Bend Range
+
+Defines the pitch bend sensitivy when sliding a key.
+
+## MIDI In Channel
+
+Sets the MIDI channel(s) that are accept as input.
+
+You can filter the MIDI channels inputs individually by ticking the boxes numbered from 1 to 16. When a channel is off, the routed destination inputs will be ignored. Use the clear and select all options to activate/deactivate all the channels.
+
+## MIDI Out Channel
+
+Sets the MIDI channel(s) that will be used for MIDI output. By default this value is set to 1.
+
+## Voices
+
+**Voices** defines the total polyphony of **FRMS**, this means the amount of notes that can be played simultaneously. A higher polyphony means a higher the CPU load.
+On mobile devices the maximum number of voices is limited to 4. If you experience audio dropouts while playing FRMS, try to decrease the number of voices for optimal performance.
+
+[We now explain the Patches section of FRMS.](patches)

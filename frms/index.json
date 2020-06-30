@@ -1,14 +1,15 @@
 [
   { "key": "contents", "label": "Contents" },
   { "key": "overview", "label": "Overview" },
-  { "key": "granular-synthesis", "label": "Granular Synthesis" },
-  { "key": "subtractive-synthesis", "label": "Subtractive Synthesis" },
-  { "key": "fm-synthesis", "label": "FM Synthesis" },
-  { "key": "combining-available-synthesis", "label": "Combining Available Synthesis"},
   { "key": "settings", "label": "Settings" },
-  { "key": "status-bar", "label": "Status Bar" },
   { "key": "patches", "label": "Patches" },
-  { "key": "file-browser", "label": "File browser" },
   { "key": "layers", "label": "Layers" },
+  { "key": "waveform-panel", "label": "Waveform Panel" },
+  { "key": "control-panel", "label": "Control Panel" },
+  { "key": "envelope-panel", "label": "Envelope Panel" },
+  { "key": "matrix-panel", "label": "Matrix Panel" },
+  { "key": "modifiers-panel", "label": "Modifiers Panel" },
+  { "key": "global-panel", "label": "Global Panel" },
+  { "key": "file-browser", "label": "File browser" },
   { "key": "performance-modes", "label": "Performance Modes" }
 ]

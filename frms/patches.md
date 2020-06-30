@@ -1,35 +1,41 @@
 # Patches
 
-The patch browser is divided in three columns: **Banks, Patches and Filter**.
+The patch browser is divided in three columns: **Banks**, **Patches** and **Filter**. Three banks are available by default:
 
-<img src="images/patch-browser.png" style="padding: 0px; bottom-padding: 0px;"/>
-
-The **Bank tab** will display the available banks at the time, each bank containing the patches. Since we release new patches over time, new banks can be added to this list.
-
-- **Factory** - This bank stores the default presets included in FRMS.
-
+- **Factory** - This bank stores the default presets included in FRMS
+- **Favorites** - presets you marked as favorite
 - **Local** - This bank stores the presets saved by the user in the local machine.
+- **Cloud** - The bank where your saved presets will be store on the cloud \(This bank is available when you have a profile account\).
 
-- **Cloud** - This bank stores the presets saved by the user to the cloud. They can be accessed in every machine that has an internet connection and when the user has logged in. Bear in mind that in order to use this feature, users must have an imaginando account and be logged in. Cloud has a free plan and several paid ones each one with different available capacities. If users reach their current cloud plan limit, they won’t be able to save new patches to this bank.
+_Note_: local bank is stored under Documents/Imaginando/FRMS/local.json and all the local resource files are store in Resources directory in the same path.
 
-- **Favorites** - This bank stores the favorite presets selected by the user. This works as a shortcut bank, since users can select patches as favorites and all of them will be available here.
-  To do this just use the favorites icon:
+_Note_: All registered users have access to a free cloud sync plan for a maximum of 5 documents on the cloud. Paid plans with larger capacity are available. For more information, check your dashboard.
 
-<img src="images/favorites-icon.png" style="padding: 0px; bottom-padding: 0px;"/>
+<img src="images/patch-browser.png" style="padding: 0px;"/>
 
-In the other two columns there are:
+## Patches
 
-- **NAME** - here will be displayed the patches that are contained on the selected bank, and they can be selected (by clicking on the desired one), deleted (by clicking on the right cross that appear when the patch is selected) or saved to the favorites bank (by clicking on the start icon).
+This section allows you to navigate through the patches of a certain bank. Touch a patch to select it. If you want to mark as favorite, tap the star icon on the right side its name.
 
-- **FILTER** - Patches can be filtered by selecting the desired tags.
+## Filter
+
+Use this section to filter by tags the patches listed.
+
+## Saving a ptch
 
 To save a patch just click the save patch icon:
-<img src="images/patch-save-icon.png" style="padding: 0px; bottom-padding: 0px;"/> and the following panel will appear:
+<img src="images/patch-save-icon.png" style="padding: 0px;"/>
 
-<img src="images/patch-save-panel.png" style="padding: 0px; bottom-padding: 0px;"/>
+<img src="images/patch-save-panel.png" style="padding: 0px;"/>
 
-- **Cancel** - Exists the patch saving window without saving the patch
+- **Name** - Use this field to choose the patch name
 
-- **Save** - Overwrites the current patch. This is only available if the patch is different from its original state, or by changing the patch name.
+- **Bank** - Use this field to select the destination bank. Cloud bank is only available when logged in under Profile section.
 
-- **Save as...** - Saves the current patch as a new patch with the specified name and in the specified bank
+- **Cancel** - cancels the operation and closes the dialog.
+
+- **Save** - Overwrites the current patch. Only possible when the patch is modified or the name is different.
+
+- **Save as...** - Saves the current patch as a new patch with the specified name and bank.
+
+[See next how to configure FRMS settings.](layers)
