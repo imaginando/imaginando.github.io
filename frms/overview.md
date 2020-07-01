@@ -1,6 +1,6 @@
 # Overview
 
-FRMS features a clean minimal interface that can help on the control of advanced concepts through a simple and easy to use design. The interface consists of a main window that has a status bar on the top, a collapsable menu at the left, two layer panels at the center and a performance zone at the bottom. The layering system is composed of several tabs for easy access to the different parameters and functionalities. Through the use of two separate layer visualizations, it is possible to manage an intuitive and easygoing workflow using FRMS as a production tool or as an instrument for live performances.
+FRMS features a clean, minimal interface designed to facilitate the control of advanced concepts using a simple, efficient and easy to use layout. The main window consists of a status bar across the top, a collapsable menu down the left side, two horizontal layer panels in the center and a performance zone across the bottom. The performance zone includes two note generation methods which can be toggled between; a standard piano keys layout and a hexagonal chorder display for one-touch chords. The layer panels use several tabs for easy access to the different groups of parameters and functions. By displaying two separate layer panels simultaneously, it is possible to manage an intuitive and productive FRMS workflow, for both production and live performance.
 
 <img alt="FRMS Main Screen" align="center" src="images/overview.png" style="padding: 0px;"/>
 <br/>
@@ -8,8 +8,8 @@ FRMS features a clean minimal interface that can help on the control of advanced
 
 The following features are found on **FRMS**'s status bar:
 
-- **Midi Learn** - toggle midi learn on and off
-- **Clock Source** - Selection of the engine clock source. It can be internal, midi clock or ableton link
+- **Midi Learn** - toggle MIDI learn on and off
+- **Clock Source** - Selection of the engine clock source. It can be internal, MIDI clock or ableton link
 - **Tempo** - main session tempo
 - **Patch** - indicates the currently selected patch. Tap it to open patch browser
 
@@ -17,13 +17,13 @@ The following features are found on **FRMS**'s status bar:
 
 The Mapping feature of **FRMS** allows the mapping of its parameters for remote control by a MIDI controller.
 
-Toggle the MIDI Learn function by tapping it and **FRMS**'s controls will get darker. When the desired mapping parameter is selected, it will get highlighted \(if the parameter doesn't have any assignment it will be labeled as N/A\).
+Toggle the MIDI Learn function on by tapping it and **FRMS**'s controls will get darker. Select the control you want to map, which will then appear highlighted \(if the parameter doesn't have any assignment it will be labeled as N/A\).
 
-Once a message from the MIDI Device is received, it will be mapped and displayed on **FRMS**. Once you are done with the mappings, turn off MIDI Learn on the status bar and **FRMS** is ready to operate with the given assignments.
+Move the MIDI control you want to map and once a message from the MIDI Device is received, it will be mapped and displayed on **FRMS**. Once you are done mapping, turn MIDI Learn off and **FRMS** is ready to operate with the given assignments.
 
 ## Tempo
 
-The tempo setting, controls the value of **FRMS**'s internal clock. If FRMS is working in slave mode (as a plugin in a DAW or as a inter-app audio node), the tempo is defined by the host.
+The tempo setting, controls the value of **FRMS**'s internal clock. If FRMS is being used as a plugin inside a DAW, the tempo is defined by the host.
 
 ## Patch
 
@@ -35,7 +35,7 @@ On the right side of the status bar are 5 icons:
 
 - **Disk**
 
-  This opens the save menu where you can name/save the current patch state as either a new patch, or overwrite an existing one, in either the local or cloud bank.
+  This opens the save patch menu where you can name/save the current patch state as either a new patch, or overwrite an existing one, in either the local or cloud bank.
 
 - **Revert**
 
