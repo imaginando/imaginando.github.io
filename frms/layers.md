@@ -8,8 +8,6 @@ With this architecture, the sonic possibilities are expanded because each FRMS p
 
 With this layering system, FM synthesis becomes very fluent and easy to achieve, because regardless of whether a layer is an oscillator or a granulator, it will function as an operator. It is only necessary to enable the FM engine, select the desired FM mode, and control the amount of FM being applied by the desired layers. In this way, instead of modulating only oscillators, it is also possible to modulate a granular layer using an oscillator or vice-versa.
 
-Combining these engines (and also not forgetting the possibilities offered by the modulation) FRMS is an instrument capable of producing amazingly rich and complex sounds, with a high degree of versatility and variety for all kinds of music and sound design goals.
-
 There are two layer panels which means that you can work on two layers at the same time (without constantly toggling between them if the lock function is disabled - See below).
 
 On the top left of each layer panel container you will find the following controls:
