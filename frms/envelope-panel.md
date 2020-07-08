@@ -1,8 +1,8 @@
 # Envelope Panel
 
-There are two independent envelopes that can be used. EG1 is used to shape the amplitude of the sound, and EG2 controls the layer's filter cutoff.
+There are two independent envelopes that can be used. Envelope generator 1 (EG1) is used to shape the amplitude of the sound, and envelope generator 2 (EG2) controls the layer's filter cutoff.
 
-This module can be manipulated direct with mouse or touch. It's possible to change the attack, decay, sustain, release, and the respective curve by making left/right and up/down movements.
+This module can be manipulated direct with mouse or touch, either using the individual ADSR knobs or by directly interacting with the visual display of the envelope curve, it's possible to change the attack, decay, sustain and release by making left/right and up/down movements.
 
 <img src="images/envelope-panel.png" style="padding: 0px; bottom-padding: 0px;"/>
 
@@ -13,7 +13,7 @@ This module can be manipulated direct with mouse or touch. It's possible to chan
 
 - **INV** - This button inverts the shape of the EG vertically.
 
-- **SYNC** - When on, EG time based values (ATTACK, DECAY, RELEASE) are in sync with the BPM.
+- **SYNC** - When activated, EG time based values (ATTACK, DECAY, RELEASE) are in sync with the BPM.
 
 - **ATTACK** - Controls the attack time of the envelope.
 
