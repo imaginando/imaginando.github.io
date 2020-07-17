@@ -16,7 +16,7 @@ Depending on the layer engine mode, the following controls are available:
 
 <img src="images/waveform-panel.png" style="padding: 0px; bottom-padding: 0px;"/>
 
-**Note 1**: All this options are disabled when engine is oscillator
+**Note 1**: All these options are disabled when engine is oscillator
 
 **Note 2**: When layer engine mode is granulator, you can use this area to create a selection for the crop functionality (when applied).
 
@@ -28,9 +28,9 @@ _In waveform mode there are the following options:_
 
 - **2nd Icon (Record)** - Records a sound from the audio input.
 
-- **3th Icon (Cut)** - When there is a selection area in the waveform display, pressing cut will crop the wavefile in that selection.
+- **3rd Icon (Cut)** - When there is a selection area in the waveform display, pressing cut will crop the wavefile to that selection.
 
-- **4th Icon (Delete)** - Deletes the current loaded file
+- **4th Icon (Delete)** - Deletes the currently loaded file
 
 - **5th Icon (Copy)** - Copy file to be pasted on a different layer
 
