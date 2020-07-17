@@ -101,7 +101,7 @@
 
 - **RANDOM Tune** - Controls the amount of random adjustment applied to each grain tune. Randomization is applied everytime a grain is fired.
 
-- **AMP SPREAD** - Controls the amount of random applied the amplitude of each grain. Randomization is applied everytime a grain is fired.
+- **AMP SPREAD** - Controls the amount of random applied to the amplitude of each grain. Randomization is applied everytime a grain is fired.
 
 - **STEREO SPREAD** - Controls the amount of random applied to the panning position of each each grain. Randomization is applied everytime a grain is fired.
 
