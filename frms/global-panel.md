@@ -38,14 +38,16 @@ FRMS has an FM engine that enables FM synthesis between the layers. Each layer f
 
 Available FM modes (each number corresponds to the layer number):
 
-<img src="images/fm-modes-1.png" style="padding: 40px; bottom-padding: 0px" />
-<img src="images/fm-modes-2.png" style="padding: 40px; bottom-padding: 0px" />
-<img src="images/fm-modes-3.png" style="padding: 40px; bottom-padding: 0px" />
-<img src="images/fm-modes-4.png" style="padding: 40px; bottom-padding: 0px" />
-<img src="images/fm-modes-5.png" style="padding: 40px; bottom-padding: 0px" />
-<img src="images/fm-modes-6.png" style="padding: 40px; bottom-padding: 0px" />
-<img src="images/fm-modes-7.png" style="padding: 40px; bottom-padding: 0px" />
-<img src="images/fm-modes-8.png" style="padding: 40px; bottom-padding: 0px" />
+<div>
+  <img src="images/fm-modes-1.png" style="padding: 40px; bottom-padding: 0px" />
+  <img src="images/fm-modes-2.png" style="padding: 40px; bottom-padding: 0px" />
+  <img src="images/fm-modes-3.png" style="padding: 40px; bottom-padding: 0px" />
+  <img src="images/fm-modes-4.png" style="padding: 40px; bottom-padding: 0px" />
+  <img src="images/fm-modes-5.png" style="padding: 40px; bottom-padding: 0px" />
+  <img src="images/fm-modes-6.png" style="padding: 40px; bottom-padding: 0px" />
+  <img src="images/fm-modes-7.png" style="padding: 40px; bottom-padding: 0px" />
+  <img src="images/fm-modes-8.png" style="padding: 40px; bottom-padding: 0px" />
+</div>
 
 ### **FX**
 
