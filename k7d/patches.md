@@ -10,4 +10,4 @@ Clicking on the patch name on the status bar opens the patch browser, which cons
 
 To exit the patch manager, simply click the name of the currently selected patch on the menu bar again.
 
-<img src="images/patch-manager.png" alt="K7D Patch Manager" style="padding: 0px; bottom-padding: 0px" />
+<img src="/k7d/images/patch-manager.png" alt="K7D Patch Manager" style="padding: 0px; bottom-padding: 0px" />

@@ -11,7 +11,7 @@ _Note_: local bank is stored under Documents/Imaginando/FRMS/local.json and all 
 
 _Note_: All registered users have access to a free cloud sync plan for a maximum of 5 documents on the cloud. Paid plans with larger capacity are available. For more information, check your dashboard.
 
-<img src="images/patch-browser.png" style="padding: 0px;"/>
+<img src="/frms/images/patch-browser.png" style="padding: 0px;"/>
 
 ## Patches
 
@@ -24,9 +24,9 @@ Use this section to filter by tags the patches listed.
 ## Saving a ptch
 
 To save a patch just click the save patch icon:
-<img src="images/patch-save-icon.png" style="padding: 0px;"/>
+<img src="/frms/images/patch-save-icon.png" style="padding: 0px;"/>
 
-<img src="images/patch-save-panel.png" style="padding: 0px;"/>
+<img src="/frms/images/patch-save-panel.png" style="padding: 0px;"/>
 
 - **Name** - Use this field to choose the patch name
 

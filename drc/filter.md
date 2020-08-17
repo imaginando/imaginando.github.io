@@ -8,7 +8,7 @@ Pressing FILTER will bring you back to the default tab which is the MAIN TAB. In
 
 ## Main Controls
 
-<img src="images/filter/main_tab.png" alt="DRC Filter control" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
+<img src="/drc/images/filter/main_tab.png" alt="DRC Filter control" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
 
 This tab is where you can access the main filter controls. The focus here is to be able to control the filter parameters in real time, with big knobs and an overall uncluttered interface. This is key to enhance expression and sound sculpting in real time. The MAIN TAB also the default tab for the FILTER PANEL, so you can press MAIN or FILTER to get here quickly.
 
@@ -36,7 +36,7 @@ This tab is where you can access the main filter controls. The focus here is to 
 
 ## Modulation
 
-<img src="images/filter/mod_tab.png" alt="DRC Filter Modulation" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
+<img src="/drc/images/filter/mod_tab.png" alt="DRC Filter Modulation" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
 
 The MOD TAB represents the Filter Modulation Section of **DRC**. You use the sliders to inject modulation in the Filter. All modulation goes to the Filter Frequency with the exception of VEL \(Velocity - the velocity or force with which you press a keyboard key\). VEL injects this force sensing control voltage in the EG 2 AMOUNT which in turn affects the Frequency, but in this way with an envelope instead of a constant voltage.
 
@@ -54,7 +54,7 @@ The MOD TAB represents the Filter Modulation Section of **DRC**. You use the sli
 
 ## Voltage Controlled Amplitude
 
-<img src="images/filter/vca_tab.png" alt="DRC Amplitude Modulation" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
+<img src="/drc/images/filter/vca_tab.png" alt="DRC Amplitude Modulation" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
 
 ### Parameters
 

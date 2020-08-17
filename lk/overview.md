@@ -2,7 +2,7 @@
 
 LK is divided in several different modules that can work along or independently of each other. These can be purchased separately, allowing you to mold **LK** to your needs.
 
-![LK Matrix Module default empty state overview](images/overview/overview.png)
+![LK Matrix Module default empty state overview](/lk/images/overview/overview.png)
 
 Available modules:
 
@@ -28,7 +28,7 @@ The following sub-menus can be found under settings:
 
 ### Settings
 
-![LK Main menu](images/overview/menu.png)
+![LK Main menu](/lk/images/overview/menu.png)
 
 The following global settings are available:
 
@@ -40,6 +40,6 @@ The following global settings are available:
 - **Knobs sensitivity** - adjust the app's knobs sensitivity
 - **Screen size** - change the app's screen size
 
-![LK Settings submenu of main menu](images/overview/settings.png)
+![LK Settings submenu of main menu](/lk/images/overview/settings.png)
 
 [See next how to configure **LK** for use with Ableton Live](setup)

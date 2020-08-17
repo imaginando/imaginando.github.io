@@ -1,6 +1,6 @@
 # Midi Controller Module
 
-![LK Midi Controller Overview](images/controller/overview.png)
+![LK Midi Controller Overview](/lk/images/controller/overview.png)
 
 This module is composed of several screen controls distributed through 8 columns per bank; each column has a **knob**, a **button**, a **fader** and a **pad**.
 
@@ -34,7 +34,7 @@ By default, the CC values are distributed in an ascending order in each column a
 
 To customize the MIDI mapping (MIDI mode), the assign key must be pressed while pressing the screen controller intended for mapping. This will open a list of CC values available - press the number of the value you want to map and press OK to confirm. To reset a CC, open the assign window and choose Reset at the bottom.
 
-![LK Midi Controller Module CC Assign](images/controller/cc-assign.png)
+![LK Midi Controller Module CC Assign](/lk/images/controller/cc-assign.png)
 
 ## Assigning an Ableton Live Parameter
 
@@ -42,6 +42,6 @@ To customize the parameters in Live mode, select the screen control you want to 
 
 In any case it is possible to return to the default CC mapping by pressing ASSIGN and then RESET.
 
-![LK Midi Controller Ableton Live Parameter assign](images/controller/live-assign.png)
+![LK Midi Controller Ableton Live Parameter assign](/lk/images/controller/live-assign.png)
 
 [Learn all about the XY-Pad Module.](xy-pad)

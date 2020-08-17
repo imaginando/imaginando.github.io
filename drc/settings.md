@@ -2,7 +2,7 @@
 
 ## MIDI Clock and MIDI Channel
 
-<img alt="DRC MIDI Clock MIDI Channel Settings" src="images/settings/midi-settings.jpg" width="400" style="float: right; padding: 20px; right-padding: 0px;" />
+<img alt="DRC MIDI Clock MIDI Channel Settings" src="/drc/images/settings/midi-settings.jpg" width="400" style="float: right; padding: 20px; right-padding: 0px;" />
 
 **Send clock out** option allows you to send midi clock messages throughout the available MIDI outputs. Use **Sync to clock in** to sync **DRC** to an external clock source.
 

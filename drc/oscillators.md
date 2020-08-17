@@ -20,7 +20,7 @@ There are 5 TABs in this panel: OSC 1, OSC 2, SUB/NOISE, MOD and PERF.
 
 ## Oscillator 1
 
-<img src="images/oscillators/osc1_tab.png" alt="DRC Oscillators Panel" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
+<img src="/drc/images/oscillators/osc1_tab.png" alt="DRC Oscillators Panel" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
 
 OSC 1 is the default sound source in **DRC** and is the one that in a sense defines the pitch of the synthesizer. This Oscillator has some unique capabilities such as the ability to change the Pulse Width of the Square Wave and to do Pulse Width Modulation, but lacks for instance the ability to detune. In **DRC** you detune OSC 2 in relation to OSC 1 and the frequency of the Sub Oscillator is tied to the frequency of OSC 1.
 
@@ -44,7 +44,7 @@ OSC 1 is the default sound source in **DRC** and is the one that in a sense defi
 
 ## Oscillator 2
 
-<img src="images/oscillators/osc2_tab.png" alt="DRC Oscillator 2 Panel" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
+<img src="/drc/images/oscillators/osc2_tab.png" alt="DRC Oscillator 2 Panel" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
 
 OSC 2 is similar to OSC 1 but with 3 additional parameters.
 
@@ -58,7 +58,7 @@ OSC 2 is similar to OSC 1 but with 3 additional parameters.
 
 ## Sub Oscillator and Noise Generator
 
-<img src="images/oscillators/sub_tab.png" alt="DRC Sub/Noise Oscillator Panel" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
+<img src="/drc/images/oscillators/sub_tab.png" alt="DRC Sub/Noise Oscillator Panel" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
 
 In this TAB you control the Sub Octave Oscillator and the Noise generator section of the Oscillators. The Sub Octave Oscillator is an auxiliary oscillator used to fatten the sound. In analog synths it is derived from one main oscillator, usually OSC 1, by doubling consecutively its period, which is very easy to do with logic integrated circuits. Here things work a bit differently and we are able to provide different waveforms at the same processing cost, so, why not. The Noise Generator outputs White Noise, which is random static noise. Noise is used to give texture to sounds. In **DRC** the Noise can be Filtered in order to give more noise flavours with less high frequency content.
 
@@ -78,7 +78,7 @@ In this TAB you control the Sub Octave Oscillator and the Noise generator sectio
 
 ## Modulation
 
-<img src="images/oscillators/mod_tab.png" alt="DRC Oscillators Modulation Tab" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
+<img src="/drc/images/oscillators/mod_tab.png" alt="DRC Oscillators Modulation Tab" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
 
 In **DRC** you can modulate the pitch \(note\) with LFO’s \(Low Frequency Oscillators\) and EG’s \(Envelope Generators\). In this TAB you can choose modulation sources and decide what gets affected by the modulation. You have two main modulation sources SRC1 and SRC2 and a common destination for both sources \(OSC1, OSC2 or BOTH\).
 

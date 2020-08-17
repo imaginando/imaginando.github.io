@@ -2,7 +2,7 @@
 
 TKFX Decks module was designed to allow full control of Traktor's decks and mixer, allowing you to do a complete dj set with just TKFX running on your mobile device and Traktor running on your computer.
 
-![TKFX Traktor Controller one Deck overview](images/tkfx_traktor_controller_decks_module_overview.png)
+![TKFX Traktor Controller one Deck overview](/tkfx/images/tkfx_traktor_controller_decks_module_overview.png)
 
 TKFX's Decks module can be composed of one, two, or four decks depending on the type of device you have.
 
@@ -10,7 +10,7 @@ On phone devices, due to screen size restrictions, only one deck can be seen at 
 
 On multi deck mode, it will show two or four decks depending on the number of decks settings. By default multi decks mode shows two decks. You can change this under **menu->settings->decks** as it is illustrated below.
 
-![TKFX Traktor Controller App Settings](images/tkfx_traktor_controller_app_settings.png)
+![TKFX Traktor Controller App Settings](/tkfx/images/tkfx_traktor_controller_app_settings.png)
 
 On the left side of the screen, there is a column where you can choose which decks are visible (A/B/C/D) or (A/B | C/D). This column disappears when TKFX is on four decks mode as it becomes useless (tablet devices only).
 
@@ -36,13 +36,13 @@ On the top of each unit we have the following buttons:
 
 Right below this Deck's row of buttons we have got two additional rows. The upper one represents the phase sync of the current playing track in relation to the master track, the thicker represents the current deck's track position, which can be used to seek the tracks position by sliding the finger on it.
 
-![TKFX Traktor Controller Jog dial](images/tkfx_jog.png)
+![TKFX Traktor Controller Jog dial](/tkfx/images/tkfx_jog.png)
 
 ## Equalization
 
 At the center of the unit we have got the **EQ** and **FILTER** section. From left to right you have **LOW**, **MID**, **HIGH** and **FILTER** controls represented. The controls are represented vertically where the bottom half is used to attenuate and the upper half is used to amplify. If you double tap this control it will reset to the center. You can also shift tap the control to kill/unkill the frequency in case of the EQ bands, and to enable/disable the **FILTER**.
 
-![TKFX Traktor Controller Deck Unit Mixer Screenshot](images/tkfx_deck_unit_mixer_section.png)
+![TKFX Traktor Controller Deck Unit Mixer Screenshot](/tkfx/images/tkfx_deck_unit_mixer_section.png)
 
 ## Cue Points
 
@@ -52,7 +52,7 @@ Below the **EQ** section are the **CUE POINTS** buttons. In this section, creati
 - If the CUE POINT is already set, then it is recalled, making that the current position of the track a playing it while it is pressed (much like with the **CUE** button).
 - If the **SHIFT** button is pressed when you tap a highlight CUE POINT, it gets deleted.
 
-![TKFX Traktor Controller Cue Points Section](images/tkfx_deck_unit_cue_points_section.png)
+![TKFX Traktor Controller Cue Points Section](/tkfx/images/tkfx_deck_unit_cue_points_section.png)
 
 ## Loops
 
@@ -64,7 +64,7 @@ Activating a loop is simply achieved by tapping the desired loop interval. It wi
 
 - **OUT** - Set loop end point and triggers loop play. If loop play is already on then pressing **OUT** will disable the loop and the track will resume normal play.
 
-![TKFX Traktor Controller Looper Section](images/tkfx_deck_unit_looper_section.png)
+![TKFX Traktor Controller Looper Section](/tkfx/images/tkfx_deck_unit_looper_section.png)
 
 ## Transport
 
@@ -76,7 +76,7 @@ At the bottom of the unit are located the transport controls section:
 
 - **CUE PLAY** - the same behaviour as the **CUE** button but after release the track keeps on playing.
 
-![TKFX Traktor Controller Transport Section](images/tkfx_deck_transport_section.png)
+![TKFX Traktor Controller Transport Section](/tkfx/images/tkfx_deck_transport_section.png)
 
 ## Global Controls
 
@@ -86,6 +86,6 @@ At each side of the **CROSSFADER** slider are located buttons designed for "Punc
 
 When shift is pressed, they become a "Cut & Paste" function which means that when you press the button, the crossfader is moved to the side of the button you pressed and it will stay there.
 
-![TKFX Traktor Controller Crossfader Section](images/tkfx_deck_crossfader_detail.png)
+![TKFX Traktor Controller Crossfader Section](/tkfx/images/tkfx_deck_crossfader_detail.png)
 
 [Next learn how to use the Effects Module.](effects)

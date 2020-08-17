@@ -2,7 +2,7 @@
 
 DRC features a minimalistic interface designed to operate in the various screen sizes, ranging from mobile to desktop. The interface is divided in four parameters panels and a perform section. Each panel is composed of several tabs that allow access to other parameters in a easy and intuitive way.
 
-<img alt="DRC Main Screen" align="center" src="images/overview/overview@2x.jpg" style="padding: 40px;"/>
+<img alt="DRC Main Screen" align="center" src="/drc/images/overview/overview@2x.jpg" style="padding: 40px;"/>
 
 The following features are found on the left side of **DRC**'s status bar:
 

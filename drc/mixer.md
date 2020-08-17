@@ -6,7 +6,7 @@ Its also in the MIXER panel that you find all the available **DRC** Effects. Eff
 
 ## Amp
 
-<img src="images/mixer/amp_tab.png" alt="DRC Amp Mixer Pad" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
+<img src="/drc/images/mixer/amp_tab.png" alt="DRC Amp Mixer Pad" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
 
 ### Parameters
 
@@ -22,7 +22,7 @@ Its also in the MIXER panel that you find all the available **DRC** Effects. Eff
 
 ## Delay
 
-<img src="images/mixer/delay_tab.png" alt="DRC Effect Delay Panel" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
+<img src="/drc/images/mixer/delay_tab.png" alt="DRC Effect Delay Panel" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
 
 The Delay effect of **DRC** is unique. The delay topology is inspired in classic BBD analog delay and Tape Delay topologies, but with a bunch of little tweaks that make it a very simple yet extremely powerful tool. The **DRC** DELAY uses modeled wow, flutter and noise typical of tape delay machines to give it a very pleasing characteristic with feedback pushed to the limits. The feedback repetitions are filtered and the cutoff frequency can be tailored from bright to very dark altering completely the behaviour of the DELAY. There are actually two separate delay lines working together and there is the possibility to SPREAD the time between left and right delay lines. There is a very unique trick employed here that makes the DELAY stereo image interact with the CUTOFF slider. On top of that this DELAY can be synced to the tempo and tuned to the notes being played, the later makes possible the use of the delay line as a Metalizer effect.
 
@@ -48,7 +48,7 @@ Note **SHIMMER DELAY**: If you decrease linearly a DELAY TIME you get an increas
 
 ## Reverb
 
-<img src="images/mixer/reverb_tab.png" alt="DRC Effect Reverb Panel" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
+<img src="/drc/images/mixer/reverb_tab.png" alt="DRC Effect Reverb Panel" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
 
 Reverb is what defines the characteristic sound of a particular space, it's made of the build up of all the different reflections on surrounding surfaces. Your synth can sound great without it, dry as a bone, but one out of ten times, a little bit of reverb contributes to make a good patch sound even better/bigger, specially when not buried deep in a cluttered arrangement.
 
@@ -68,7 +68,7 @@ The REVERB in **DRC** is not trying to emulate any particular physical space, no
 
 ## Chorus
 
-<img src="images/mixer/chorus_tab.png" alt="DRC Effect Chorus Panel" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
+<img src="/drc/images/mixer/chorus_tab.png" alt="DRC Effect Chorus Panel" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
 
 Chorus in the analog synth context is an effect which thickens the sound and also widens the stereo image. It accomplishes this by mixing the unprocessed signal with a small delay that is modulated. Many great synths and string machines have used it to capture the lushness and power of a whole ensemble. In **DRC** we implemented two types of chorus, both true stereo inspired in the best analog examples we were able to put our hands on.
 

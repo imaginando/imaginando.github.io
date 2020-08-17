@@ -1,6 +1,6 @@
 # Chorder Module
 
-![LK Chorder Module overview](images/chorder/overview.png)
+![LK Chorder Module overview](/lk/images/chorder/overview.png)
 
 This module is meant to serve as the ultimate digital alternative custom keyboard, as it allows the creation of user sets of keys which can play either notes or full fledged chords, as well as a strumming utility that allows even more creative playing possibilities.
 
@@ -44,7 +44,7 @@ If more scales are needed, another preset can be stacked into the playing sectio
 
 To create a new set of Scale/Chord, on the upper right corner of this section, press the + button. A new screen will appear with the controls for scale and chord customization.
 
-![LK Chorder Module chord and scale preset creation](images/chorder/preset-creation.png)
+![LK Chorder Module chord and scale preset creation](/lk/images/chorder/preset-creation.png)
 
 This screen is divided into three rows:
 

@@ -2,7 +2,7 @@
 
 FRMS features a clean, minimal interface designed to facilitate the control of advanced concepts using a simple, efficient and easy to use layout. The main window consists of a status bar across the top, a collapsable menu down the left side, two horizontal layer panels in the center and a performance zone across the bottom. The performance zone includes two note generation methods which can be toggled between; a standard piano keys layout and a hexagonal chorder display for one-touch chords. The layer panels use several tabs for easy access to the different groups of parameters and functions. By displaying two separate layer panels simultaneously, it is possible to manage an intuitive and productive FRMS workflow, for both production and live performance.
 
-<img alt="FRMS Main Screen" align="center" src="images/overview.png" style="padding: 0px;"/>
+<img alt="FRMS Main Screen" align="center" src="/frms/images/overview.png" style="padding: 0px;"/>
 <br/>
 <br/>
 

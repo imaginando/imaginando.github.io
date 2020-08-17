@@ -4,7 +4,7 @@ There are two independent envelopes that can be used. Envelope generator 1 (EG1)
 
 This module can be manipulated direct with mouse or touch, either using the individual ADSR knobs or by directly interacting with the visual display of the envelope curve, it's possible to change the attack, decay, sustain and release by making left/right and up/down movements.
 
-<img src="images/envelope-panel.png" style="padding: 0px; bottom-padding: 0px;"/>
+<img src="/frms/images/envelope-panel.png" style="padding: 0px; bottom-padding: 0px;"/>
 
 <br/>
 <br/>

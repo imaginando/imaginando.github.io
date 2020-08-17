@@ -2,7 +2,7 @@
 
 The Matrix module is an Ableton Live remote controller, carefully designed to give you access to most common operations on the Ableton Live Session View, making it easy for you to focus more on your music. Note that using Matrix requires the installation of LK control surface. For more information on LK control surface please visit the [Setup](setup) section.
 
-![LK Matrix Module sequencer overview of Ableton Live's Session view](images/matrix/overview.png)
+![LK Matrix Module sequencer overview of Ableton Live's Session view](/lk/images/matrix/overview.png)
 
 As soon as a [connection](setup) is established, you will instantly find similarities with your current Live Set. The module is composed of several subsections and hidden menus, as listed and explained next. At the top of the screen, in the status bar, you will find different fields:
 
@@ -77,27 +77,27 @@ Right above the transport bar there is a split view bar which allows the Inspect
 
 The first tab of the Inspector panel is the Devices panel, which allows you to browse and tweak the selected track devices. Start by selecting a track with devices (if there are no devices available on the track, the tab will display a message). By default all devices appear collapsed.
 
-![LK Matrix Module devices inspector of Ableton Live Devices](images/matrix/inspect-devices.png)
+![LK Matrix Module devices inspector of Ableton Live Devices](/lk/images/matrix/inspect-devices.png)
 
 When opened, a device will fill the whole tab, while the next devices ahead will break to the next line. Drag the detail area up to scroll down and view the other devices.
 
-![LK Matrix Module devices inspector detail scroll of Ableton Live Devices](images/matrix/inspect-devices-scroll.png)
+![LK Matrix Module devices inspector detail scroll of Ableton Live Devices](/lk/images/matrix/inspect-devices-scroll.png)
 
 Each device container is scrollable, allowing horizontal navigation of all the screen control parameters and subdevices. If the device has only a small set of parameters then the rest of the tab will be represented by empty space, except when the device has a device chain (i.e. a Drum Rack or Instrument Rack). Let’s look at this example:
 
 When browsing a Kit-Core 909 on Matrix you will see that this device has a device chain for each drumpad assigned. You will also see that the first parameters correspond to the chain instrument default parameters, followed by the list of devices on the chain, as represented on this image:
 
-![LK Matrix Module devices inspector detail of intrument rack of Ableton Live Devices](images/matrix/inspect-devices-instrument-rack.png)
+![LK Matrix Module devices inspector detail of intrument rack of Ableton Live Devices](/lk/images/matrix/inspect-devices-instrument-rack.png)
 
 When you select a different device on the chain list, the selected device will be loaded at its right. You can access the respective device parameters by dragging the device label to the left. This browsing will give you theoretically unlimited access (your mobile device resources are not limited and excessive memory can make operating system cause a forced shutdown to LK) to your device chain, independently of its complexity.
 
-![LK Matrix Module devices inspector detail of intrument full rack of Ableton Live Devices](images/matrix/inspect-devices-instrument-rack-full.png)
+![LK Matrix Module devices inspector detail of intrument full rack of Ableton Live Devices](/lk/images/matrix/inspect-devices-instrument-rack-full.png)
 
 ### Sends
 
 Sends tab is really simple and straightforward. It will list the select track sends. To change the send value, touch the slider and move it to the desired position.
 
-![LK Matrix Module sends inspector of Ableton Live Sends](images/matrix/inspect-sends.png)
+![LK Matrix Module sends inspector of Ableton Live Sends](/lk/images/matrix/inspect-sends.png)
 
 ### Composer
 
@@ -146,6 +146,6 @@ To avoid conflict between notes located at the same time position, the velocity 
 
 To edit a note’s velocity, simply press and drag up and down the velocity editor’s grey area, below the note you wish to edit. The notes will have a different color intensity depending on its velocity value.
 
-![LK Matrix Module composer inspector detail of velocity of an Ableton Live clip](images/matrix/inspect-notes-velocity.png)
+![LK Matrix Module composer inspector detail of velocity of an Ableton Live clip](/lk/images/matrix/inspect-notes-velocity.png)
 
 [Learn all about the MIDI Pads module.](midi-pads)
