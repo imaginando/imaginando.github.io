@@ -2,7 +2,7 @@
 
 In this panel you control settings that affect the overall synth performance and sound, such as: polyphony, FM, effects, global filter, master output. It is divided in 5 panels
 
-<img src="/frms/images/general-panel.png" style="padding: 0px; padding-bottom: 0px;"/>
+<img src="/frms/images/general-panel.png" style="padding: 0px; padding-bottom: 0px;" alt="FRMS General Panel" />
 <br/>
 <br/>
 
@@ -39,14 +39,14 @@ FRMS has an FM engine that enables FM synthesis between the layers. Each layer f
 Available FM modes (each number corresponds to the layer number):
 
 <div>
-  <img src="/frms/images/fm-modes-1.png" style="padding: 40px; bottom-padding: 0px" />
-  <img src="/frms/images/fm-modes-2.png" style="padding: 40px; bottom-padding: 0px" />
-  <img src="/frms/images/fm-modes-3.png" style="padding: 40px; bottom-padding: 0px" />
-  <img src="/frms/images/fm-modes-4.png" style="padding: 40px; bottom-padding: 0px" />
-  <img src="/frms/images/fm-modes-5.png" style="padding: 40px; bottom-padding: 0px" />
-  <img src="/frms/images/fm-modes-6.png" style="padding: 40px; bottom-padding: 0px" />
-  <img src="/frms/images/fm-modes-7.png" style="padding: 40px; bottom-padding: 0px" />
-  <img src="/frms/images/fm-modes-8.png" style="padding: 40px; bottom-padding: 0px" />
+  <img src="/frms/images/fm-modes-1.png" style="padding: 40px; bottom-padding: 0px" alt="FRMS Frequency Modulation (FM) Mode 1" />
+  <img src="/frms/images/fm-modes-2.png" style="padding: 40px; bottom-padding: 0px" alt="FRMS Frequency Modulation (FM) Mode 2" />
+  <img src="/frms/images/fm-modes-3.png" style="padding: 40px; bottom-padding: 0px" alt="FRMS Frequency Modulation (FM) Mode 3" />
+  <img src="/frms/images/fm-modes-4.png" style="padding: 40px; bottom-padding: 0px" alt="FRMS Frequency Modulation (FM) Mode 4" />
+  <img src="/frms/images/fm-modes-5.png" style="padding: 40px; bottom-padding: 0px" alt="FRMS Frequency Modulation (FM) Mode 5" />
+  <img src="/frms/images/fm-modes-6.png" style="padding: 40px; bottom-padding: 0px" alt="FRMS Frequency Modulation (FM) Mode 6" />
+  <img src="/frms/images/fm-modes-7.png" style="padding: 40px; bottom-padding: 0px" alt="FRMS Frequency Modulation (FM) Mode 7" />
+  <img src="/frms/images/fm-modes-8.png" style="padding: 40px; bottom-padding: 0px" alt="FRMS Frequency Modulation (FM) Mode 8" />
 </div>
 
 ### **FX**

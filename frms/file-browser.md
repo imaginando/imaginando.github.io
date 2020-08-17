@@ -2,11 +2,11 @@
 
 Frms has a file browser that enables browsing and loading of audio files being used with the granular engine.
 
-<img src="/frms/images/file-browser.png" style="padding: 0px; bottom-padding: 0px;"/>
+<img src="/frms/images/file-browser.png" style="padding: 0px; bottom-padding: 0px;" alt="FRMS File Browser" />
 
 This window is open when clicking on the “Load” icon of the waveform panel. It is important to note that the loaded waveform will only be displayed when the layer is in Granulator mode.
 
-<img src="/frms/images/load-file-icon.png" style="padding: 0px; bottom-padding: 0px;"/>
+<img src="/frms/images/load-file-icon.png" style="padding: 0px; bottom-padding: 0px;" alt="FRMS Load File Icon"/>
 
 When opening the file browser, it will display a window with two sections:
 
@@ -18,6 +18,6 @@ Audio files can be loaded to the current layer through the **LOAD** button, or d
 
 When browsing through the audio files of system and recordings folders, it is also possible to delete the files through the Cross button in front of each file name. **Deleting the files in FRMS will also delete the files from your computer or device**.
 
-<img src="/frms/images/file-delete-icon.png" style="padding: 0px; bottom-padding: 0px;"/>
+<img src="/frms/images/file-delete-icon.png" style="padding: 0px; bottom-padding: 0px;" alt="FRMS File Delete Icon" />
 
 [And finally, learn about FRMS settings.](settings)

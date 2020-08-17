@@ -6,7 +6,7 @@ This panel gives access to the LFO's and the arpeggiator tabs.
 
 FRMS has four LFO's available to be used as modulation sources.
 
-<img src="/frms/images/lfo-panel.png" style="padding: 0px; bottom-padding: 0px;"/>
+<img src="/frms/images/lfo-panel.png" style="padding: 0px; bottom-padding: 0px;" alt="FRMS LFO Panel" />
 
 - **LFO** - Selects between the LFO 1, 2, 3 and 4.
 
@@ -25,7 +25,7 @@ FRMS has four LFO's available to be used as modulation sources.
 
 ### **Arpeggiator**
 
-<img src="/frms/images/arpeggiator-panel.png" style="padding: 0px; bottom-padding: 0px;"/>
+<img src="/frms/images/arpeggiator-panel.png" style="padding: 0px; bottom-padding: 0px;" alt="FRMS Arpeggiator Panel" />
 
 - **ENABLED** - Enables/disables arpeggiator.
 
