@@ -7,7 +7,7 @@ The patch browser is divided in three columns: **Banks**, **Patches** and **Filt
 - **Local** - The bank where your saved presets are stored.
 - **Cloud** - The bank where your saved presets will be store on the cloud \(This bank is available when you have a profile account\).
 
-<img src="https://www.imaginando.pt/images/products/drc/help/patches/patch-browser.jpg" alt="DRC Patch Browser" style="padding: 40px; bottom-padding: 0px" />
+<img src="images/patches/patch-browser.jpg" alt="DRC Patch Browser" style="padding: 40px; bottom-padding: 0px" />
 
 ## Patches
 

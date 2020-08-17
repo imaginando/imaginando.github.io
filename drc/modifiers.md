@@ -8,7 +8,7 @@ The Arpeggiator is a module which takes the notes you play and converts them to 
 
 ## Envelope Generators
 
-<img src="https://www.imaginando.pt/images/products/drc/help/modifiers/eg1_tab.png" alt="DRC Envelope Generator panel" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
+<img src="images/modifiers/eg1_tab.png" alt="DRC Envelope Generator panel" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
 
 EG stands for Envelope Generator. EG’s generate a control signal that resembles the envelope of real instruments \(or not\), generated when you hit it, or pluck a string, or whatever. You can control 4 major parameters, ATTACK, DECAY, SUSTAIN and RELEASE and with these construct any kind of sound behaviour.
 
@@ -32,7 +32,7 @@ In **DRC** you have two EG’s, one used by default in the VCA and the other har
 
 ## Low Frequency Oscillators
 
-<img src="https://www.imaginando.pt/images/products/drc/help/modifiers/lfo1_tab.png" alt="DRC LFO Panel" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
+<img src="images/modifiers/lfo1_tab.png" alt="DRC LFO Panel" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
 
 LFO stands for Low frequency Generator. As the name implies this is a special type of Oscillator which creates a slow moving waveform, below audible. This waveforms are used to control all sorts of parameters throughout the synth. This gives life to sounds, making them evolve in time. We use 2 LFO’s in **DRC** and both have many different waveforms for you to choose from. LFO’s can be delayed and Synced to master tempo.
 
@@ -52,7 +52,7 @@ LFO stands for Low frequency Generator. As the name implies this is a special ty
 
 ## Arpeggiator
 
-<img src="https://www.imaginando.pt/images/products/drc/help/modifiers/arp_tab.png" alt="DRC ARP Panel" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
+<img src="images/modifiers/arp_tab.png" alt="DRC ARP Panel" width="500" style="float: right; padding: 20px; right-padding: 0px;" />
 
 ### Parameters
 

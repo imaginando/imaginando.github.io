@@ -8,22 +8,22 @@ On Windows systems however, an additional virtual MIDI driver is necessary. Ther
 
 If you have chosen to use loopMIDI, after opening the application, press the plus key on the bottom right side of the window to add a new port and give it the name **UBRIDGE** Virtual.
 
-![loopMIDI Configuration](https://www.imaginando.pt/images/products/ubridge/help/loopmidi.png)
+![loopMIDI Configuration](../ubridge/images/loopmidi.png)
 
 Then open **UBRIDGE**, and choose the new port you just created on loopMIDI as MIDI IN and MIDI OUT as seen on the picture below.
 
-![Ubridge TKFX Link](https://www.imaginando.pt/images/products/ubridge/help/ubridge_tkfx.png)
+![Ubridge TKFX Link](../ubridge/images/ubridge_tkfx.png)
 
 The second thing we need to do is to configure the Traktor MIDI mapping, so let’s start by downloading the free Traktor Mapping from our [downloads](https://www.imaginando.pt/products/tkfx/downloads) section. Next, open Traktor preferences and select "Controller Manager", click add, choose "Import TSI" and then "Import Other...". Select the mapping file you have previously downloaded from our website. Alternatively you can simply click on the import button located at the bottom of Traktor's preferences window.
 
-![Traktor Settings](https://www.imaginando.pt/images/products/tkfx/help/traktor.png)
+![Traktor Settings](images/traktor.png)
 
 If you want TKFX to sync to Traktor’s BPM you need to configure the MIDI clock. On Traktor’s Preferences choose “MIDI Clock” and tick the "Send MIDI Clock" check box.
 
-![Traktor midi clock settings](https://www.imaginando.pt/images/products/tkfx/help/midi-clock.png)
+![Traktor midi clock settings](images/midi-clock.png)
 
 Close the preferences and click the Metronome symbol on the left side of the Global section to switch to Master Clock panel. Press Start/Pause button to send MIDI Clock.
 
-![Traktor clock panel](https://www.imaginando.pt/images/products/tkfx/help/traktor-clock-panel.png)
+![Traktor clock panel](images/traktor-clock-panel.png)
 
 We are done here. See next how to [link TKFX with your computer](linking).

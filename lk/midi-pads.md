@@ -6,7 +6,7 @@ The **MIDI Pads** section has two modes: the **MIDI mode**, that can be used to 
 
 **Note:** these two modes can be used alternatively.
 
-![LK Midi Pads Module screenshot](https://www.imaginando.pt/images/products/lk/help/pads/overview.png)
+![LK Midi Pads Module screenshot](images/pads/overview.png)
 
 Depending on the selected mode, you will find different fields in the status bar at the top of the midi pads module screen:
 
