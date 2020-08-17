@@ -1,4 +1,4 @@
-# Overview
+# DLYM Help - Overview
 
 **DLYM** takes an input signal and allows the user to add a customised, simulated delay to the playback of the audio which results in phase irregularities, commonly referred to as chorus, flanger and phaser effects.
 

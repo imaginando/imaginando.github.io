@@ -1,4 +1,4 @@
-# Midi Pads Module
+# LK Help - Midi Pads Module
 
 The Midi Pads module is composed by a 4x4 grid of midi pads, velocity controls, arpeggiator, chorder and an octave selector.
 

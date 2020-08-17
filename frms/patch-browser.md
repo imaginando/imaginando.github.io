@@ -1,4 +1,4 @@
-# Patches
+# FRMS Help - Patches
 
 The patch browser is divided in three columns: **Banks**, **Patches** and **Filter**. Three banks are available by default:
 

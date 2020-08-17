@@ -1,4 +1,4 @@
-# Performance Modes
+# FRMS Help - Performance Modes
 
 FRMS has two types of performance modes: Keyboard and Chorder.
 They can be changed using the icon on the bottom left of the instrument

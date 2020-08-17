@@ -1,4 +1,4 @@
-# Control Panel
+# FRMS Help - Control Panel
 
 <img src="/frms/images/layer-panel.png" style="padding: 0px; bottom-padding: 0px;"/>
 <br/>

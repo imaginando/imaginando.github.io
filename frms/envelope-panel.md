@@ -1,4 +1,4 @@
-# Envelope Panel
+# FRMS Help - Envelope Panel
 
 There are two independent envelopes that can be used. Envelope generator 1 (EG1) is used to shape the amplitude of the sound, and envelope generator 2 (EG2) controls the layer's filter cutoff.
 

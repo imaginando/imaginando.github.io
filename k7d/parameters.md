@@ -1,4 +1,4 @@
-# Parameters
+# K7D Help - Parameters
 
 #### **MAIN PANEL**
 

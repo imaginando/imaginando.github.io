@@ -1,4 +1,4 @@
-# X/Y Pad Module
+# LK Help - X/Y Pad Module
 
 ![LK X/Y Modulation Control Pad Module](/lk/images/xy/overview.png)
 

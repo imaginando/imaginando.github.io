@@ -1,4 +1,4 @@
-# Mixer
+# DRC Help - Mixer
 
 The MIXER is a central hub to where all sound sources go. Here the Oscillators get mixed before being sent to the Filter. It's in the mixer that you choose the balance between all the available sound sources. In **DRC** you are able to saturate the input of the FILTER and this has an effect not only in the overall tone but also in the perceived balance between different sources. After reaching a nice balance between sources you can take advantage of the PRE GAIN fader \(pre-filter\) to control how much signal goes to the FILTER input.
 

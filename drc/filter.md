@@ -1,4 +1,4 @@
-# Filter
+# DRC Help - Filter
 
 If you consider the oscillators the soul of a synth, the filter is definitely the body. It restricts the soul but at the same time it adds a whole different dimension unattainable by any other mean. A lot of attention and time was dedicated to the design of the **DRC** filters and a lot of the overall character comes from this piece of code. We analyzed lots of classic analog Ladder Filter Topologies, analog Multimode Filter implementations and tried to capture every little nuance of the most interesting examples.
 

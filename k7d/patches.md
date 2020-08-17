@@ -1,4 +1,4 @@
-# Patches
+# K7D Help - Patches
 
 Clicking on the patch name on the status bar opens the patch browser, which consists in three columns:
 

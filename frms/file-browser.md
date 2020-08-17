@@ -1,4 +1,4 @@
-# File Browser
+# FRMS Help - File Browser
 
 Frms has a file browser that enables browsing and loading of audio files being used with the granular engine.
 

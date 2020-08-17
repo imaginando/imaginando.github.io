@@ -1,4 +1,4 @@
-# Matrix Panel
+# FRMS Help - Matrix Panel
 
 The modulation matrix allows you to define how much a modulation source(s) affects a modulation target(s).
 

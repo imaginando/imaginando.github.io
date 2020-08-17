@@ -1,4 +1,4 @@
-# Performance modes
+# DRC Help - Performance modes
 
 As tools for performance, DRC features two modes: a **Piano Keyboard** and a **Chorder.**
 

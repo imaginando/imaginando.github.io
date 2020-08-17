@@ -1,4 +1,4 @@
-# Overview
+# DRC Help - Overview
 
 DRC features a minimalistic interface designed to operate in the various screen sizes, ranging from mobile to desktop. The interface is divided in four parameters panels and a perform section. Each panel is composed of several tabs that allow access to other parameters in a easy and intuitive way.
 

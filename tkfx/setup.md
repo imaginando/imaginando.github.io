@@ -1,4 +1,4 @@
-# Setup
+# TKFX Help - Setup
 
 Some simple configuration steps are needed to take the most out of **TKFX**, but don't worry: follow this guide and in a couple of minutes you will be up and running. First thing you need to do is download [**UBRIDGE**](https://www.imaginando.pt/products/ubridge/downloads).
 

@@ -1,4 +1,4 @@
-# Settings
+# DRC Help - Settings
 
 ## MIDI Clock and MIDI Channel
 

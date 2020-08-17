@@ -1,4 +1,4 @@
-# Modifiers
+# DRC Help - Modifiers
 
 In this panel you get to control all the available modulation sources \(EG 1, EG 2, LFO 1, LFO 2\) and also the Arpegiator. This various modulations are then fed through the synth and give life and movement to the sounds. They are fed to the Oscillators, Filter and even to the Delay and Reverb Effects.
 

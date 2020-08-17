@@ -1,4 +1,4 @@
-# Troubleshooting
+# LK Help - Troubleshooting
 
 We will continuously populate this section with relevant information, as it heavily depends on user input and on the nature of the problem.
 

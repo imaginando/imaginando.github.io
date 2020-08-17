@@ -1,4 +1,4 @@
-# Layers
+# FRMS Help - Layers
 
 FRMS consists of 4 layers that can be used as either an oscillator or granulator, with the controls of each layer colour coded for ease of use.
 

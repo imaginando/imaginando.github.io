@@ -1,4 +1,4 @@
-# Setup
+# LK Help - Setup
 
 **LK** has two operations modes: you can use it as a standalone MIDI controller - requires a USB MIDI interface connected to your device - or as an **Ableton** Live remote controller through a wireless or USB connection. It can also be used in both modes simultaneously.
 

@@ -1,4 +1,4 @@
-# Keyboard Module
+# LK Help - Keyboard Module
 
 Keyboard module serves as a Live or MIDI enhanced keyboard controller with 3-axis expression capabilities. It is fully customisable to scale and keyboard range. It also allows the possibility of mapping any Live or MIDI CC parameters to be controlled by the position you play in each of the keys of the keyboard thus providing additional expression to the performance of each note.
 

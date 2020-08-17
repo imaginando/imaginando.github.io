@@ -1,4 +1,4 @@
-# Linking
+# TKFX Help - Linking
 
 There are three ways of linking TKFX with Traktor:
 

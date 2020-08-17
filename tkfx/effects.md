@@ -1,4 +1,4 @@
-# Effects Module
+# TKFX Help - Effects Module
 
 Effects Module provides a unique way of controlling Traktor effects. By allowing the possibility to assign a effect parameter to an X/Y parameter, plus, having the ability the automatically enable the effect and increase the amount of effect applied through the use of an ASR (Attack Sustain Decay) envelope generator.
 

@@ -1,4 +1,4 @@
-# Settings
+# FRMS Help - Settings
 
 ## Audio Device
 

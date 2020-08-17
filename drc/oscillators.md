@@ -1,4 +1,4 @@
-# Oscillators
+# DRC Help - Oscillators
 
 The Oscillators are the foundation of any subtractive synth. They create harmonically rich waveforms \(or simpler ones\) which get “sculpted” as the sound passes from module to module.
 

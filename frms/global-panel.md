@@ -1,4 +1,4 @@
-# Global Panel
+# FRMS Help - Global Panel
 
 In this panel you control settings that affect the overall synth performance and sound, such as: polyphony, FM, effects, global filter, master output. It is divided in 5 panels
 

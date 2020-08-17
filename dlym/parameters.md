@@ -1,4 +1,4 @@
-# Parameters
+# DLYM Help - Parameters
 
 **Chorus** can be described as an attempt to emulate the phase interactions produced by two instrumentalists playing the same piece of music, on the same instrument, at the same time, with all of the fluctuations in pitch and timing expected. A chorus effect unit achieves this effect by adding a slight delay to the audio input, whilst also dynamically changing the delay time, pitch and amplitude of the effect, also known as modulation.
 

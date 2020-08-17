@@ -1,4 +1,4 @@
-# Decks Module
+# TKFX Help - Decks Module
 
 TKFX Decks module was designed to allow full control of Traktor's decks and mixer, allowing you to do a complete dj set with just TKFX running on your mobile device and Traktor running on your computer.
 

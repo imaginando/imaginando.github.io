@@ -1,4 +1,4 @@
-# Patches
+# DLYM Help - Patches
 
 Clicking on the menu bar patch name opens the built-in patch browser/manager, it consists of 3 columns:
 
