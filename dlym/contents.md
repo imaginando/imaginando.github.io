@@ -1,4 +1,6 @@
-# DLYM - Delay Modulator
+# DLYM Help
+
+Thank you for your interest in **DLYM** - Delay Modulator.
 
 **DLYM** is a free Delay Modulator plugin which produces chorus and flanger style effects, and is distribute as a free product.
 

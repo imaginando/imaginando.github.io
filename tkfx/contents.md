@@ -1,4 +1,4 @@
-# TKFX - Traktor Dj Controller
+# TKFX Help
 
 Thank you for your interest in **TKFX** dedicated **Traktor** controller.
 

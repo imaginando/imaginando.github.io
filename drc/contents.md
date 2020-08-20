@@ -1,6 +1,6 @@
-# DRC - Polyphonic Synthesizer
+# DRC Help
 
-Thank you for your interest in **DRC**.
+Thank you for your interest in **DRC** - Polyphonic Synthesizer.
 
 **DRC** was designed to be a simple and powerful synthesizer, allowing beginners as well as experienced users to take control of the full potential of its sonic capabilities.
 

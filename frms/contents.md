@@ -1,6 +1,6 @@
-# FRMS - Granular Synthesizer
+# FRMS Help
 
-Thank you for your interest in FRMS.
+Thank you for your interest in **FRMS** - Granular Synthesizer.
 
 FRMS is designed to be a complex and rich sounding synthesizer with a user friendly interface. Combining the sonic possibilities of granular and FM synthesis, FRMS gives all levels of experience, from beginner to advanced, the perfect tool to create a massive variety of sounds. Soundscapes, leads, drones, crispy metallic textures and much more, let your imagination run wild through an exciting new world of sound design.
 

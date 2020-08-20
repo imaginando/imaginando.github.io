@@ -1,6 +1,6 @@
-# LK - Ableton Live and Midi Controller
+# LK Help
 
-Thank you for your interest in **LK**.
+Thank you for your interest in **LK** - Ableton Live and Midi Controller.
 
 **LK** was designed to be a tool of trade to any musician, allowing him to interact with any MIDI enabled software/hardware wired or wireless, in both live-act concert or in a studio situation.
 
