@@ -1,30 +1,28 @@
 # LK Help - Overview
 
-LK is divided in several different modules that can work along or independently of each other. These can be purchased separately, allowing you to mold **LK** to your needs.
+LK features a modular system for both content and pricing. All modules can be trialled with time-limitations, with the option to unlock any module via in-app purchase, for continued usage. This means that you only need to pay for the modules containing the functions and features that you want to use, providing a flexible way to get great value. You can try any module as many times as you wish, by restarting the app to start a new test session.
+
+Each module is accessible via its own icon/button down the left hand side of the screen, making it easy to switch between them in an instant.
 
 ![LK Matrix Module default empty state overview](/lk/images/overview/overview.png)
 
 Available modules:
 
-- **Matrix** - Ableton Live session view controller.
-- **MIDI Pads** - MPC style pads with arpeggiator and chorder.
-- **MIDI Controller** - generic MIDI controller module.
-- **XY/Pad** - KAOSS style X/Y midi controller.
-- **Chorder** - Custom keyboard and chords controller.
+- **Matrix** - Ableton Session view controller and powerful MIDI clip launcher
+- **MIDI Pads** - MPC style pads with arpeggiator and chorder
+- **MIDI Controller** - generic MIDI controller module
+- **XY/Pad** - KAOSS style X/Y MIDI controller
+- **Chorder** - One-touch chord generator
 
-On the left side of the screen there is a navigation bar. This bar has buttons which allow access to the app's menu as well as the different modules that compose the application.
+Above and below the module icons, are two buttons which both provide access to LK’s in-app menu, which contains the following sections:
 
-To open the menu at any time, click on the top-left side button or swipe your finger from left to right on the lower half of the bar, below the modules buttons.
-
-The following sub-menus can be found under settings:
-
-- **Profile** - allows log in to user account.
-- **Connection** - lists available connections to UBRIDGE.
-- **Store** - allows you to purchase and activate LK modules.
-- **MIDI** - lists available midi connections.
-- **Settings** - lists app's global settings.
-- **About** - displays the app's version and credits.
-- **Help** - opens this web page on your browser.
+- **PROFILE** - Login to your Imaginando account
+- **CONNECTION** - display available UBRIDGE connections and select active connection
+- **STORE** - purchase and activate LK modules
+- **MIDI** - show available MIDI connectivity
+- **SETTINGS** - global settings
+- **ABOUT** - show version number and info
+- **HELP** - opens LK's help page in your browser
 
 ### Settings
 

@@ -2,12 +2,10 @@
 
 Thank you for your interest in **LK** - Ableton Live and Midi Controller.
 
-**LK** was designed to be a tool of trade to any musician, allowing him to interact with any MIDI enabled software/hardware wired or wireless, in both live-act concert or in a studio situation.
+LK provides touchscreen interaction with any MIDI enabled software/hardware, offering a wide range of creative possibilities for both live performance and studio environments.
 
-**LK** also features a tight integration with the industry standard **Ableton Live** DAW. It is one of the most comprehensive, yet simple to use app's for remote control of this DAW, available for **iOS** and **Android** based mobile devices.
+Featuring tight integration with Ableton Live, LK gives you simple and effective remote control via a clean, minimalist interface, suitable for any screen size. LK has extensive MIDI capabilities too, allowing for communication and control of any MIDI compliant software or hardware, even apps running on the same device thanks to virtual MIDI support and AUv3 integration too.
 
-**LK** is distributed as a **free download**, for both iOS and Android devices. It is fully functional but it will invite you to unlock the individual modules to keep using without interruptions, making it perfect for a test run and to get to know all of its incredible features.
+For detailed information about each module, please see the relevant section in this guide.
 
-Please refer to the Setup for a basics walk-through which will get you up and running in no time.
-
-For detailed information about each module, please refer to the pages Matrix Module, Midi Pads Module, Midi Controller Module, X/Y Pad Module and Chorder Module sections.
+[Next up:](overview)
