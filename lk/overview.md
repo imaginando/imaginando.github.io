@@ -10,9 +10,10 @@ Available modules:
 
 - **Matrix** - Ableton Session view controller and powerful MIDI clip launcher
 - **MIDI Pads** - MPC style pads with arpeggiator and chorder
-- **MIDI Controller** - generic MIDI controller module
+- **MIDI Controller** - faders, knobs and buttons
 - **XY/Pad** - KAOSS style X/Y MIDI controller
 - **Chorder** - One-touch chord generator
+- **Keyboard** - MIDI piano keyboard
 
 Above and below the module icons, are two buttons which both provide access to LK’s in-app menu, which contains the following sections:
 
