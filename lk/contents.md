@@ -8,4 +8,4 @@ Featuring tight integration with Ableton Live, LK gives you simple and effective
 
 For detailed information about each module, please see the relevant section in this guide.
 
-[Next up:](overview)
+[Next up: Overview](overview)
