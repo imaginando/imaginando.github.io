@@ -1,9 +1,10 @@
 # LK Help - Setup and configure LK for use with Ableton Live
 
-LK communicates with Ableton Live and any MIDI compliant software via our custom bridging tool, ‘UBRIDGE’, which needs to be installed on the PC or Mac that you wish to control. 
+LK communicates with Ableton Live and any MIDI compliant software via our custom bridging tool, ‘UBRIDGE’, which needs to be installed on the PC or Mac that you wish to control.
 
-You can connect LK to UBRIDGE wirelessly over a local WIFI network, or via USB cable from device to computer. A wired connection offers the lowest latency and best stability, whereas wireless latency will depend on network conditions such as distance to router, interference etc. Note: Network security software such as firewalls can block wireless connections between UBRIDGE and LK - you may need to define custom rules to specify that the connection should be allowed.
+You can connect LK to UBRIDGE wirelessly over a local WIFI network, or via USB cable from device to computer. A wired connection offers the lowest latency and best stability, whereas wireless latency will depend on network conditions such as distance to router, interference etc.
 
+**Note: Network security software such as firewalls can block wireless connections between UBRIDGE and LK - you may need to define custom rules to specify that the connection should be allowed.**
 
 Start by downloading and installing [UBRIDGE](https://www.imaginando.pt/products/ubridge/downloads).
 
@@ -20,18 +21,21 @@ The UBRIDGE application window consists of three sections:
 - **Devices** - mobile devices currently connected to UBRIDGE
 
 ## Configuring UBRIDGE to use LK
+
 To configure UBRIDGE to use LK we need to perform the following steps, while LK tab is selected (green):
+
 - Configure MIDI Input and Output ports
 - Install LK control surface onto Ableton Live
 
 ### Configure MIDI Input and Output ports
+
 On Mac it’s easy, just select ‘**UBRIDGE Virtual Input**’ and ‘**UBRIDGE Virtual Output**’- these virtual MIDI ports are automatically created for you by OSX.
 
 If you are on Windows, you need to install a virtual MIDI driver. We recommend [Tobias Erichsen's loopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html). After installing and opening loopMIDI, create a new virtual MIDI port by typing ‘**UBRIDGE Virtual**’ into the port-name field and then click the **+** icon.
 
 ![loopMIDI virtual port](/ubridge/images/loopmidi.png)
 
-**Note**: If you have installed loopMIDI after opening UBRIDGE, you will need to restart UBRIDGE in order for the virtual MIDI ports to be listed.
+**Note: If you have installed loopMIDI after opening UBRIDGE, you will need to restart UBRIDGE in order for the virtual MIDI ports to be listed.**
 
 Once you have configured UBRIDGE input and output MIDI ports, open Ableton Live where the ports should now be listed:
 
@@ -66,19 +70,23 @@ After successful installation, open Ableton Live and setup LK as a control surfa
 ![Ableton Live Preferences Control Surfaces](/lk/images/setup/ableton-live-preferences-control-surfaces.png)
 
 ## Connecting LK to UBRIDGE
+
 LK can be connected via USB cable or wirelessly using a standard WIFI network.
 
 ### Connect using USB cable
+
 Connect the USB cable and you should see the device’s name (in case of iOS devices) or the device’s model name (in case of Android devices) listed:
 
 ![UBRIDGE Control Surface Installation devices](/lk/images/setup/ubridge-devices.png)
 
 For devices connected via USB cable to be detected you must ensure the following:
+
 - iOS - ensure that you have iTunes installed and updated.
 - Android - ensure that USB debugging is enabled
 - Accept any device notifications asking you to allow/trust the connection
 
 ### Connect using WiFi
+
 Connect the mobile device and computer to the same wireless network. LK app must be open for UBRIDGE to list the mobile device as a connected device. Devices connected via WiFi are listed by their local IP address.
 
 ## Establishing a connection with LK
