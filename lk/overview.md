@@ -8,12 +8,12 @@ Each module is accessible via its own icon/button down the left hand side of the
 
 Available modules:
 
-- **Matrix** - Ableton Session view controller and powerful MIDI clip launcher
-- **MIDI Pads** - MPC style pads with arpeggiator and chorder
-- **MIDI Controller** - faders, knobs and buttons
-- **XY/Pad** - KAOSS style X/Y MIDI controller
-- **Chorder** - One-touch chord generator
-- **Keyboard** - MIDI piano keyboard
+- **MATRIX** - Ableton Session view controller and powerful MIDI clip sequencer and editor
+- **MIDI PADS** - MPC style pads with arpeggiator and chorder
+- **MIDI CONTROLLER** - faders, knobs and buttons
+- **XY PAD** - KAOSS style X/Y MIDI controller
+- **CHORDER** - One-touch chord generator
+- **KEYBOARD** - MIDI piano keyboard
 
 Above and below the module icons, are two buttons which both provide access to LK’s in-app menu, which contains the following sections:
 
@@ -34,10 +34,10 @@ The following global settings are available:
 - **Initial module** - select default open module
 - **Song model** - when selected, all chain devices that might be included in an ableton device will be loaded and available for edit, otherwise, only the main device will be loaded and available.
 - **Matrix clips** - toggle ableton's clip launch when pressing clip in the Matrix module between trigger and gate.
-- **Matrix launch width** - change the Matrix module clips width
-- **Matrix launch height** - change the Matrix module clips height
+- **Matrix cell size** - change the Matrix module clips size
 - **Knobs sensitivity** - adjust the app's knobs sensitivity
-- **Screen size** - change the app's screen size
+- **Notifications** - enables/disables push notifications
+- **Work in background** - app stays active even when not visible
 
 ![LK Settings submenu of main menu](/lk/images/overview/settings.png)
 
