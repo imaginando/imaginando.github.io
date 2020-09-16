@@ -8,4 +8,14 @@ Featuring tight integration with Ableton Live, LK gives you simple and effective
 
 For detailed information about each module, please see the relevant section in this guide.
 
-[Next up: Overview](overview)
+## Contents
+
+- [Overview](overview)
+- [Setup](setup)
+- [Matrix Module](matrix)
+- [Midi Pads Module](midi-pads)
+- [Midi Controller Module](midi-controller)
+- [X/Y Pad Module](xy-pad)
+- [Chorder Module](chorder)
+- [Keyboard Module](keyboard)
+- [Troubleshooting](troubleshooting)
