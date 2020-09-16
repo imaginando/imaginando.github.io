@@ -1,4 +1,4 @@
-# LK Help - Chorder Module
+# Chorder Module - LK Help
 
 ![LK Chorder Module overview](/lk/images/chorder/overview.png)
 

@@ -1,4 +1,4 @@
-# LK Help - MIDI PADS Module
+# MIDI PADS Module - LK Help
 
 The MIDI PADS module is composed of a 4x4 grid of MIDI PADS, velocity controls, arpeggiator, chorder and a note range selector.
 

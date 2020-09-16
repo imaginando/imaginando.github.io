@@ -1,4 +1,4 @@
-# LK Help - Matrix Module
+# MATRIX Module - LK Help
 
 The Matrix module is an Ableton Live remote controller, carefully designed to give you access to most common operations on the Ableton Live Session View, making it easy for you to focus more on your music. Note that using Matrix requires the installation of LK control surface. For more information on LK control surface please visit the [Setup](setup) section.
 

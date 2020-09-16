@@ -1,4 +1,4 @@
-# LK Help - Setup and configure LK for use with Ableton Live
+# Setup - LK Help
 
 LK communicates with Ableton Live and any MIDI compliant software via our custom bridging tool, ‘UBRIDGE’, which needs to be installed on the PC or Mac that you wish to control.
 
@@ -58,7 +58,6 @@ This section refers to the installation of the LK control surface which enables 
 
 **Note 2:** If you have more than one version of Ableton Live installed, you will need to install the LK control surface for each version that you wish to use LK with.
 
-
 ![UBRIDGE Control Surface Installation on Ableton Live](/lk/images/setup/ubridge-window-drop-area.png)
 
 Each entry will state the version number of Ableton Live followed by the version of the control surface that has been installed. If the installation was successful the text colour should be green. If the installation fails, the text will be red and the control surface version will be N/A.
@@ -94,7 +93,6 @@ Connect the mobile device and computer to the same wireless network. LK app must
 You can view available connections from LK’s in-app menu under the Connection section:
 
 ![LK Network Connecting to Ableton Live](/lk/images/setup/lk-connected-to-ubridge.png)
-
 
 When only one connection is available, LK will automatically connect to it.
 If more than one connection is available, you can tap each connection name to switch to that connection. If the connection is successfully established, the text will be green. Matrix module will display the message "**Waiting for Ableton Live**".

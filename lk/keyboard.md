@@ -1,4 +1,4 @@
-# LK Help - Keyboard Module
+# Keyboard Module - LK Help
 
 Keyboard module serves as a Live or MIDI enhanced keyboard controller with 3-axis expression capabilities. It is fully customisable to scale and keyboard range. It also allows the possibility of mapping any Live or MIDI CC parameters to be controlled by the position you play in each of the keys of the keyboard thus providing additional expression to the performance of each note.
 
@@ -27,6 +27,7 @@ The arpeggiator unit is composed of the following parameters:
 - **SYNC**
 - synchronizes the arpeggiator to the session's tempo
 - **MODE**- defines the order on which the arpeggio notes will be played. There are four modes available:
+
   - Up - notes are played from lower to higher.
   - Down - notes are played from higher to lower.
   - Up/Down I - notes are played from lower to higher and then from higher to lower.

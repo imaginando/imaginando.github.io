@@ -1,4 +1,4 @@
-# LK Help - Overview
+# Overview - LK Help
 
 LK features a modular system for both content and pricing. All modules can be trialled with time-limitations, with the option to unlock any module via in-app purchase, for continued usage. This means that you only need to pay for the modules containing the functions and features that you want to use, providing a flexible way to get great value. You can try any module as many times as you wish, by restarting the app to start a new test session.
 

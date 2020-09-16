@@ -1,4 +1,4 @@
-# LK Help - Midi Controller Module
+# Midi Controller Module - LK Help
 
 ![LK Midi Controller Overview](/lk/images/controller/overview.jpg)
 
