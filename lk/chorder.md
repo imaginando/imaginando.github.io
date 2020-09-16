@@ -63,13 +63,11 @@ The Midi Pads section is equipped with an arpeggiator, enhancing creativity when
 - **ON** - toggles the arpeggiator between on and off
 - **SYNC** - synchronizes the arpeggiator to the session's tempo
 - **MODE** - defines the order on which the arpeggio notes will be played. There are four modes available:
-
-- Up - notes are played from lower to higher.
-- Down - notes are played from higher to lower.
-- Up/Down I - notes are played from lower to higher and then from higher to lower.
-- Up/Down II - notes are played from lower to higher and then from higher to lower but repeating the higher and lower notes.
-- Random - notes are played randomly.
-
+  - Up - notes are played from lower to higher.
+  - Down - notes are played from higher to lower.
+  - Up/Down I - notes are played from lower to higher and then from higher to lower.
+  - Up/Down II - notes are played from lower to higher and then from higher to lower but repeating the higher and lower notes.
+  - Random - notes are played randomly.
 - **STEPS** - allows choosing the number of octaves the arpeggio will go up to.
 - **RATE** - defines the arpeggiator rate.
 - **GATE** - defines the length of each note's event \(time on vs time off\).
