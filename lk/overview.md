@@ -4,11 +4,7 @@ LK features a modular system for both content and pricing. All modules can be tr
 
 Each module is accessible via its own icon/button down the left hand side of the screen, making it easy to switch between them in an instant.
 
-<br/>
-
 ![LK Matrix Module default empty state overview](/lk/images/overview/overview.png)
-
-<br/>
 
 Available modules:
 
@@ -29,11 +25,7 @@ Above and below the module icons, are two buttons which both provide access to L
 - **ABOUT** - show version number and info
 - **HELP** - opens LK's help page in your browser
 
-<br/>
-
 ![LK Main menu](/lk/images/overview/menu.png)
-
-<br/>
 
 ## Settings
 
@@ -47,10 +39,6 @@ The following global settings are available:
 - **Notifications** - enables/disables push notifications
 - **Work in background** - app stays active even when not visible
 
-<br/>
-
 ![LK Settings submenu of main menu](/lk/images/overview/settings.png)
-
-<br/>
 
 [See next how to configure **LK** for use with Ableton Live](setup)
