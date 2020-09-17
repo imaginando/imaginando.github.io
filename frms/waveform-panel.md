@@ -4,17 +4,17 @@ This panel displays the waveforms and has two possible working modes:
 
 - Oscillator mode example
 
-    <img src="/frms/images/oscillator-display.png" style="padding: 0px; bottom-padding: 0px;" alt="FRMS Oscillator Display" />
+    <img src="/frms/images/oscillator-display.png" alt="FRMS Oscillator Display" />
 
 - Granulator mode example
 
-    <img src="/frms/images/wavefile-display.png" style="padding: 0px; bottom-padding: 0px;" alt="FRMS Wavefile Display" />
+    <img src="/frms/images/wavefile-display.png" alt="FRMS Wavefile Display" />
 
 <br/>
 
 Depending on the layer engine mode, the following controls are available:
 
-<img src="/frms/images/waveform-panel.png" style="padding: 0px; bottom-padding: 0px;" alt="FRMS Waveform Panel" />
+<img src="/frms/images/waveform-panel.png" alt="FRMS Waveform Panel" />
 
 **Note 1**: All these options are disabled when engine is oscillator
 
@@ -38,7 +38,7 @@ _In waveform mode there are the following options:_
 
 _In Input mode there are the following options:_
 
-<img src="/frms/images/input-options.png" style="padding: 0px; bottom-padding: 0px;" alt="FRMS Input Options" />
+<img src="/frms/images/input-options.png" alt="FRMS Input Options" />
 
 - **1/8** - Selects the size of the buffer being used to store live input information as a 1/8 of 2 seconds
 

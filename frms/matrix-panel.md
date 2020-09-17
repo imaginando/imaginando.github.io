@@ -6,7 +6,7 @@ The values can be between -1 and 1. This means that you can modulate negatively 
 
 In order to change a value, choose on the correspondent intersection and then use the slider at the right side.
 
-<img src="/frms/images/matrix-panel.png" style="padding: 0px; bottom-padding: 0px;" alt="FRMS Matrix Panel" />
+<img src="/frms/images/matrix-panel.png" alt="FRMS Matrix Panel" />
 
 - **PAGE** - Toggles between page 1 and page 2.
 
