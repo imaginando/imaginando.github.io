@@ -175,6 +175,9 @@ The Piano roll is where you can view and edit the contents of each session clip.
 To zoom, just pinch two fingers inwards (to zoom in) or outwards (to zoom out). To pan the clip area just drag two fingers in the direction you wish to pan. (Vertically or horizontally)
 
 ### Clip Loop Zone
+
+![LK Matrix Module clip composer clip loop zone](/lk/images/matrix/clip-composer-loop-zone.png)
+
 At the top of the composer, aligning with the beat markers, is the loop marker, that indicates the loop region. You can change its start and end by manually dragging the left or the right loop handles. (The thicker edges each side of the blue line). To move the loop region, without changing its size, drag the centre of the loop marker left or right.
  
 ### Selecting Notes
