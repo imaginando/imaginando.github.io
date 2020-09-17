@@ -27,6 +27,7 @@ The arpeggiator unit is composed of the following parameters:
 - **ON** - toggle the arpeggiator on and off
 - **SYNC** - synchronize the arpeggiator to the session tempo
 - **MODE** - the order in which the arpeggio notes will be played. There are four modes available:
+  <<<<<<< HEAD
   - **Up** - notes are played from lowest to highest
   - **Down** - notes are played from highest to lowest
   - **Up/Down I** - notes are played from lowest to highest and then from highest to lowest.
@@ -36,10 +37,23 @@ The arpeggiator unit is composed of the following parameters:
 - **RATE** - define the arpeggiator rate
 - **GATE** - define the length of each note's event (time on vs time off).
   When sync is off, arpeggiator rate is measured in milliseconds. By turning sync on, the arpeggiator will sync to the session BPM and the rate will be available in 21 quantized steps, ranging from 2/1 to 1/128 including dotted and triplet values.
+  ======= - **Up** - notes are played from lowest to highest - **Down** - notes are played from highest to lowest - **Up/Down I** - notes are played from lowest to highest and then from highest to lowest. - **Up/Down II** - notes are played from lowest to highest and then from highest to lowest but repeating the highest and lowest notes - **Random** - notes are played at random
+- **STEPS** - set the number of octaves included in the arpeggio
+- **RATE** - define the arpeggiator rate
+- **GATE** - define the length of each note's event (time on vs time off).
+  When sync is off, arpeggiator rate is measured in milliseconds. By turning sync on, the arpeggiator will sync to the session BPM and the rate will be available in 21 quantized steps, ranging from 2/1 to 1/128 including dotted and triplet values.
+  > > > > > > > keyboard copy
 
 ### Modulation
 
 This section allows the mapping of any Ableton Live or MIDI CC parameter, to the relative position inside the key that it is pressed, on a specific axis. This means, for example, if we map the velocity of a MIDI channel to the Y axis, the key will play with more velocity when touched near the top of the note.
 To map a parameter to the Keyboard, just press the corresponding axis. If in Live mode, changing the parameter to map will automatically assign that parameter to the chosen axis. In MIDI mode a screen will popup allowing the selection of a MIDI control change value.
+
+<<<<<<< HEAD
+This section allows the mapping of any Ableton Live or MIDI CC parameter, to the relative position inside the key that it is pressed, on a specific axis. This means, for example, if we map the velocity of a MIDI channel to the Y axis, the key will play with more velocity when touched near the top of the note.
+To map a parameter to the Keyboard, just press the corresponding axis. If in Live mode, changing the parameter to map will automatically assign that parameter to the chosen axis. In MIDI mode a screen will popup allowing the selection of a MIDI control change value.
+=======
+
+> > > > > > > keyboard copy
 
 [Go to the **LK** Troubleshooting page.](troubleshooting)
