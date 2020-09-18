@@ -2,18 +2,24 @@
 
 ![LK Keyboard Module Overview](/lk/images/keyboard/overview.png)
 
-Keyboard module serves as an Ableton Live or enhanced MIDI keyboard controller with 3-axis expression capabilities. It is fully customisable to scale and keyboard range. It also allows the possibility of mapping any Live or MIDI CC parameters to be controlled by the position you play in each of the keys of the keyboard thus providing additional expression to the performance of each note.
+The Keyboard module serves as an enhanced Ableton Live or MIDI keyboard controller, with 3-axis expression capabilities. It is fully customisable to scale and keyboard range. It also allows the possibility of mapping Ableton Live or MIDI CC parameters to be controlled by where you touch each key, providing additional expression opportunities to the performance of each note.
 
+<<<<<<< HEAD
 The Keyboard module features an adjustable view-port, with pitch bend, modulation wheel and HOLD function which allows the sustain of notes, just like a sustain pedal.
 
+=======
+The interface features an adjustable view-port, pitch bend and modulation wheel controls and a HOLD function which allows the sustain of notes, just like a sustain pedal.
+ 
+>>>>>>> minor text tweaks
 The view-port adjustment control is located across the top of the screen, consisting of a solid green line with two draggable circle handles at each end, which represent the visible range of keyboard notes displayed in the view-port.
 
 ![LK Keyboard Module view-port adjustment control](/lk/images/keyboard/viewport-control.png)
 
 Drag either circle to adjust the visible range of notes displayed in the viewport; the larger the range, the greater the number of notes that are displayed, with all notes resized accordingly.
 
-Drag the centre of the green line to scroll/move up and down the visible octaves
-Again, like on other modules, the Keyboard has a settings area that you can open by dragging one of the thin, feint grey horizontal lines at the left or right side of the bar, or tapping anywhere else inside the bar to instantly maximize/minimize.
+Drag the centre of the green line to scroll/move up and down the visible octaves.
+
+The Keyboard has a settings area that you can open by dragging up/down one of the thin, feint grey horizontal lines at the left or right side of the bar, or tapping anywhere else inside the bar to instantly maximize/minimize.
 
 ## Settings
 
@@ -60,4 +66,4 @@ To map a parameter to the Keyboard, just press the corresponding axis. If in Liv
 
 > > > > > > > keyboard copy
 
-[Go to the **LK** Troubleshooting page.](troubleshooting)
+[Go to the LK Troubleshooting page.](troubleshooting)
