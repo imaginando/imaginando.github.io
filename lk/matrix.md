@@ -1,150 +1,207 @@
 # MATRIX Module - LK Help
 
-The Matrix module is an Ableton Live remote controller, carefully designed to give you access to most common operations on the Ableton Live Session View, making it easy for you to focus more on your music. Note that using Matrix requires the installation of LK control surface. For more information on LK control surface please visit the [Setup](setup) section.
+The Matrix module is a controller for Ableton Live and other MIDI software/hardware, carefully designed to give you access to the most common functions and operations for Ableton Live’s Session View (LIVE Mode), or for use with your mobile MIDI studio workflow (MIDI Mode). Tap LIVE or MIDI to toggle between modes. Ableton Live users please note: using Matrix requires the installation of LK control surface. For more information about how to install the LK control surface please visit the [Setup](setup) section.
 
 ![LK Matrix Module sequencer overview of Ableton Live's Session view](/lk/images/matrix/overview.png)
 
-As soon as a [connection](setup) is established, you will instantly find similarities with your current Live Set. The module is composed of several subsections and hidden menus, as listed and explained next. At the top of the screen, in the status bar, you will find different fields:
+The Matrix module is composed of several subsections and hidden menus, at the top of the screen, in the status bar, you will find the following fields:
 
-- **MODE** - currently only Live mode is available for this module.
-- **POSITION** - shows the current arrangement position.
-- **TEMPO** - allows BPM adjustments for the Live session currently in use.
-- **METRONOME** - controls Live's metronome sound on/off during playback or recording.
-- **TRIGGER QUANTIZE** - allows the adjustment of the clip triggering quantization.
-- **RECORD QUANTIZE** - allows the adjustment of the clip recording quantization.
+- **MODE** -  Toggle between LIVE and MIDI mode.
+- **POSITION** (LIVE mode only) - shows the current arrangement position.
+- **CLOCK SOURCE** (MIDI mode only) - Toggle between Internal, MIDI clock, and Link
+- **TEMPO** - displays current session tempo and allows BPM adjustments
+In MIDI mode tapping tempo lets you also activate a built in metronome and send midi clock
+- **METRONOME** (LIVE mode only) - controls Live's metronome sound on/off during playback or recording.
+- **TRIGGER QUANT** - allows the adjustment of the clip triggering quantization.
+- **REC QUANT** - allows the adjustment of the clip recording quantization.
 - **PITCH** - displays the pitch value and toggles pitch slider visibility.
+- **PROJECT** (MIDI mode only) - Opens the patch browser.
+- **SAVE ICON** (MIDI mode only) - Saves the current patch.
 
 ## TRANSPORT CONTROLS MENU BAR
 
-At the bottom of the screen you will find the transport bar:
+Across the bottom of the screen you will find the transport bar with the following icons/buttons (left to right):
 
 - **PLAY** - starts playback.
 - **STOP** - stops the playback.
-- **RECORD** - sets the recording on and starts playback.
-- **JUMP BACK** - jumps the song position back, one beat.
-- **JUMP FORWARD** - jumps the song position forward, one beat.
-- **LOOP** - toggles between on and off the loop function on the arrangement view.
-- **OVERDUB** - activates the overdub recording on the currently armed clips.
-- **UNDO/REDO** - tap to undo last change (can be repeated for preceding commands), proceed with shift for redo.
-- **MIXER** - hides or shows the mixer section on the Matrix module.
-- **RETURN** - hides or shows the return tracks section on the Matrix module.
-- **CROSSFADER** - hides or shows the crossfader section on the Matrix module.
-- **SHIFT** - alternates function of certain buttons on the Matrix module, allowing the creation or deletion of Live tracks or Live session clips, as well as duplicates. It also toggles the undo button between undo and redo and allows for non-exclusive selection of the tracks arm and solo buttons.Double-tapping the shift button holds the shift function, double-tapping again disables hold.
+- **RECORD** - sets the recording. In LIVE mode it also starts playback.
+- **JUMP BACK** - rewinds the song position back by one beat.
+- **JUMP FORWARD** - forwards the song position by one beat.
+- **LOOP** (LIVE MODE) - toggles Ableton Live arrangement view loop function on or off
+- **OVERDUB** - activates overdub recording on the currently armed clips.
+- **UNDO/REDO** - tap to undo the last change/action (can be repeated for preceding commands), use with shift key modifier for redo.
+- **MIXER** - hides or shows the mixer section.
+- **INPUTS/OUT** (MIDI mode only) - Opens the input/output section of the tracks, allowing the selection of input and output device/channel.
+- **RETURN** (LIVE mode only) - hides or shows the return tracks section on the Matrix module.
+- **CROSSFADER** (LIVE mode only) - hides or shows the crossfader section on the Matrix module.
+- **SHIFT** - alternates the function of certain buttons on the Matrix module. You can either hold shift, or double tap it to toggle on and off. Shift can be used to add, delete, duplicate and rename tracks and scenes. You’ll also be able to select clips without triggering them, and select multiple arm and solo buttons.
+
 
 ## Clip Grid
+Occupying most of the screen is the clip grid of the Matrix module.
+In LIVE MODE, this view corresponds to Ableton Live session view.
+It consists of tracks, scenes, clips, a transport bar across the bottom and an inspector zone that can be opened using the bar on the top of the transport zone. The inspector zone holds the devices and sends sections (in LIVE MODE) and the composer section.
+It is possible to change the size of the clip grid by going to Settings menu on the Main Menu and adjusting accordingly to your preferences using the “Matrix Cell Size” field.
 
-Occupying most of the screen is the clip grid of the Matrix module that corresponds to the session view on Ableton Live.
+### Tracks
+Tracks are displayed vertically, from left to right, each track occupying a single Matrix column, with the Master track on the right. The clip grid can be scrolled/navigated by dragging anywhere within the clip grip, except the Master track area. Each track has a stop button that when pressed sends a stop message to that track’s active clip. It will stop accordingly to trigger quantisation, so everything stays in sync. Clicking on the stop button of the master track will stop all active clips.
+You can add, remove, rename and duplicate tracks using the shift button. In LIVE MODE the track’s information will be linked with ableton live. 
 
-On the right side of the grid you have the scene launch buttons and it's corresponding label disposed vertically, while the rest of the buttons correspond to the session clips of the corresponding channel. A series of visual mechanisms will help you while working with the grid: a vertical and horizontal highlight of the selected track and scene, plus clip color/name matching the color/name on the Ableton Live session view.
+### Scenes
+On the right side of the grid is the Master track which contains the scene launch buttons. Tapping on a scene launch button triggers all the clips in that row. Using the shift modifier button you can add, remove, rename and duplicate scenes by tapping a Matrix cell with a label showing three dots “. . .”
 
-Note: It is possible to change the size of the clip grid by going to Settings menu on the Main Menu and adjusting accordingly to your preferences.
+**Note for MIDI MODE:** 
+When using MIDI mode, it is possible to choose the other LK modules as track inputs. This way you can record clips using the midi output of your desired modules.
+If you’re using LK as an AUv3 unit, you can receive and send midi information in your tracks by using the “LK Input” and “LK Output” as your track’s input and output respectively.
+
+### Clips (MIDI mode)
+To create a new clip you just need to DOUBLE TAP any empty grid cell (any cell containing a stop button). You can also create one using the composer section. 
+Tapping a clip will trigger it, and it will start to play accordingly to the sessions trigger quantisation so that everything is in sync.
+To select a clip without triggering it, use the shift modifier button.
+
+LONG PRESSING a clip will open these clip options:
+
+- **COPY** - copy all parameters of the current clip, so you can paste them in another slot
+- **PASTE** - paste the currently copied clip into the selected slot
+- **DELETE** - delete the clip
+- **IMPORT MIDI** - Create a new clip from an external .mid file
+- **PROPERTIES** - open the clip's properties
+
+When a clip is playing, a solid rectangle along the bottom edge of the clip, represents the playing position of the clip, from left to right.
 
 ### Playing and recording clips
-
 The clips on Matrix have the same behavior as the session clips on Ableton Live, meaning that tapping on an existing clip will play it, while tapping again on the clip will relaunch it. Similarly, tapping on the scene launch will trigger the corresponding row of clips and tapping it again will relaunch the exact same row.
 
 The stop button for the clips or scenes can be found at the clips zone in the corresponding channel, represented by a black square on a grey background or as the first button of the Mixer.
-
 If a track is armed on the Mixer section (either if it is a MIDI or an audio track), tapping on a blank clip will automatically create a new clip and start the recording process, while tapping on a pre-existing clip will record on said clip, depending if the overdub function is activated or not.
 
-## Mixer and return tracks
+### Mixer 
+Tapping on the Mixer button (M icon) on the Transport bar menu shows/hides mixer controls for each track: Stop Clip, enable/disable track, Solo, Arm and select track.
 
-Tapping on the Mixer button on the Transport bar menu will show you the mixer details on the Matrix module, including the tracks Stop Clip, Mute, Solo, Arm and select track buttons.
+To record notes into a clip it is necessary to turn on the track’s ‘Arm’ button and the record button in the transport bar. Remember that the shift button allows for non-exclusive selection of the Solo and Arm buttons.
 
-By default, the Return tracks are hidden. Tap the Return button on the function menu to toggle their visibility. The number of return tracks is limited to four. However, its display area is scrollable.
+When tapping the mixer icon, 3 buttons will appear in the master track (VOL, PAN, CUE). tapping on each one will open a slider for each track, that will let you control that track’s volume, panning and cue respectively.
 
-To stop the track's clip playback, Mute, Solo, Arm or just select a track, tap on the corresponding buttons on each channel. Remember that the shift button allows for non-exclusive selection of the Solo and Arm buttons.
+LIVE MODE Notes: All changes on LK or Live will be mirrored: muting or soloing a track on Matrix will have effect in the Ableton Live session view and vice-versa.
 
-All changes on LK or Live will be mirrored: muting or soloing a track on Matrix will have effect on the Live session view and vice-versa.
+Tapping the track label selects the respective track. Expanding the Inspector panel will open the channel’s subsection of devices, sends and the track Composer.
 
-Tapping the track label selects the respective track. Opening the Inspector panel will open the channel’s subsection of devices, sends and the track Composer.
+### Return Tracks (Live Mode)
+When activating the return track, Ableton Live’s return tracks will appear on the left of the master track. 
+Just like the other tracks, you’ll be able to mute/solo and change its volume/pan. 
 
-## Shift View
+### Inspector panel
+Right above the transport bar there is a split view bar which allows the Inspector panel to be opened. This can be done by dragging one of the thin, faint grey horizontal lines at the left or right side of the bar, or tapping anywhere else inside the bar to instantly maximize/minimize. While in LIVE mode the Inspector panel consists of three parts:
 
-On the bottom right corner of the Matrix module there is an upward arrow button which changes the Matrix module into the Shift view.
-In the Shift view, some of the buttons in view are replaced. Pressing the plus (+) buttons adds new tracks as well as pressing the trash icon button deletes the corresponding tracks.
+- **DEVICES** (LIVE MODE) - allows browsing and editing of the selected track devices
+- **SENDS** (LIVE MODE) - edit the selected track sends.
+- **COMPOSER** - allows visualization and editing of the selected clip contents Tip: to get an enhanced experience using the Inspector panel, maximize it by tapping anywhere in between the two horizontal lines on the split view bar.
 
-## Inspector panel
-
-Right above the transport bar there is a split view bar which allows the Inspector panel to be opened. This can be done by either dragging the middle green line of the bar up, or tapping anywhere else over this bar. The Inspector panel is divided into three parts and provides access to critical display and tools to work with the Matrix module
+In MIDI mode, only Composer is shown.
 
 - **DEVICES** - allows browsing and editing of the selected track devices
 - **SENDS** - edit the selected track sends.
 - **COMPOSER** - allows visualization and edit of the selected clip contents
-  **Tip:** to get an enhanced experience using the Inspector panel, maximize it by tapping on the left or right of the drag line of the split view bar.
+  **Tip:** to get an enhanced experience using the Inspector panel, maximize it by tapping anywhere in between the two horizontal lines on the split view bar.
 
 ### Devices
 
-The first tab of the Inspector panel is the Devices panel, which allows you to browse and tweak the selected track devices. Start by selecting a track with devices (if there are no devices available on the track, the tab will display a message). By default all devices appear collapsed.
+The first tab of the Inspector panel is the Devices panel, which allows you to browse and tweak the selected Ableton Live track devices. Start by selecting a track with devices (if there are no devices available on the track, the tab will display a message). By default all devices appear collapsed.
 
 ![LK Matrix Module devices inspector of Ableton Live Devices](/lk/images/matrix/inspect-devices.png)
 
-When opened, a device will fill the whole tab, while the next devices ahead will break to the next line. Drag the detail area up to scroll down and view the other devices.
+When opened, the first device will fill the whole tab, while the next devices ahead will break to the next line. Drag the detail area up to scroll down and view the other devices.
 
 ![LK Matrix Module devices inspector detail scroll of Ableton Live Devices](/lk/images/matrix/inspect-devices-scroll.png)
 
-Each device container is scrollable, allowing horizontal navigation of all the screen control parameters and subdevices. If the device has only a small set of parameters then the rest of the tab will be represented by empty space, except when the device has a device chain (i.e. a Drum Rack or Instrument Rack). Let’s look at this example:
+Each device container is scrollable, allowing horizontal navigation of all the screen control parameters and subdevices. If the device has only a small set of parameters then the rest of the tab will be represented by empty space, except when the device has a device chain (i.e. a Drum Rack or Instrument Rack). Note: The option to ‘include chain’ must be enabled in LK settings. Let’s look at this example:
 
 When browsing a Kit-Core 909 on Matrix you will see that this device has a device chain for each drumpad assigned. You will also see that the first parameters correspond to the chain instrument default parameters, followed by the list of devices on the chain, as represented on this image:
 
 ![LK Matrix Module devices inspector detail of intrument rack of Ableton Live Devices](/lk/images/matrix/inspect-devices-instrument-rack.png)
 
-When you select a different device on the chain list, the selected device will be loaded at its right. You can access the respective device parameters by dragging the device label to the left. This browsing will give you theoretically unlimited access (your mobile device resources are not limited and excessive memory can make operating system cause a forced shutdown to LK) to your device chain, independently of its complexity.
+When you select a different device on the chain list, the selected device will be loaded to its right. You can access the respective device parameters by dragging the device label to the left. This browsing will give you theoretically unlimited access to your device chain. (Note: Your mobile device resources are not unlimited and excessive memory usage can make the operating system cause a forced shutdown to LK)
 
 ![LK Matrix Module devices inspector detail of intrument full rack of Ableton Live Devices](/lk/images/matrix/inspect-devices-instrument-rack-full.png)
 
 ### Sends
 
-Sends tab is really simple and straightforward. It will list the select track sends. To change the send value, touch the slider and move it to the desired position.
+The Sends tab lists the selected track sends. To change the send value, touch the slider and move it to the desired position.
 
 ![LK Matrix Module sends inspector of Ableton Live Sends](/lk/images/matrix/inspect-sends.png)
 
-### Composer
+## Composer
 
-The Composer view displays a Piano Roll environment which allows you to edit the contents of the midi clips. Composer will always reflect the selected clip on Live. The selected clip is usually the intersection between the selected track and select scene on Live. There are however a few exceptions, per instance, when you have a return track or the master track selected. In this case, composer will keep showing you the last selected clip. If that last position does not have a clip or the clip is audio, it will clearly state you that and therefore composer will not be available.
-The composer features a toolbar at its top with the following functions:
+![LK Matrix Module clip composer](/lk/images/matrix/clip-composer.png)
 
-- **LISTEN** - determines if the midi note will be sent and heard when you touch the composer's piano roll (track must be armed).
-- **SELECTION TOOL** - allows you to select an area for grouped notes operations.
-- **DRAW TOOL** - allows you to create and delete notes.
+The Composer view displays a Piano Roll environment which allows you to edit the contents of the midi clips. Composer will always reflect the selected clip on the clip grid. The selected clip is the intersection between the selected track and select scene. On Live mode there are however a few exceptions, per instance, when you have a return track or the master track selected. In this case, composer will keep showing you the last selected clip. If that last position does not have a clip or the clip is audio, it will state that composer is not available.
+ 
+The composer features a toolbar across the top with the following functions:
+- **LISTEN** - determines if the midi note will be sent and heard when you touch the composer piano roll (track must be armed).
+- **DELETE** - deletes the currently selected clip.
 - **DUPLICATE** - duplicates the selected note or the selected group of notes.
-- **SNAP GRID** - defines the grid snap resolution.
 - **SNAP ON/OFF** - toggles the grid snap on or off.
-- **CLIP SIZE** - displays the clip's size in bars.
-- **CLIP LENGTH x2** - doubles the clip length by two.
-- **CLIP LENGTH /2** - divides the clip length by two.
+- **Q** - Quantizes the start of selected notes
+- **GRID RESOLUTION** - Defines the resolution of the grid.
+- **CLIP SIZE** - displays the clip's size in bars 
 - **CLIP PLAY** - playback the selected clip.
 - **CLIP STOP** - stops the current clip playback.
-- ** CLIP LOOPING** - determines the looping state of the clip
-- **ZOOM FIT** - enclosures the viewport to the area occupied by all the notes in the clip. If the clip is empty, this button sets a predefined viewport
-- **CREATE/DELETE NOTE** - located at the right side of the toolbar, allows you to create/delete a clip on the selected slot (only available since Ableton Live 9)
+- **CLIP LOOPING** - determines the looping state of the clip
+- **ZOOM FIT** - automatically adjusts the viewport display to show all the notes in the clip. If the clip is empty, this button sets a predefined viewport
+- **VIEWPORT NAVIGATOR** - Navigate/zoom horizontally through the clip
+- **PROPERTIES** - Open the clip properties panel
+ 
+### Properties Panel
 
-#### Piano Roll
+![LK Matrix Module clip composer properties panel](/lk/images/matrix/clip-composer-properties-panel.png)
 
-The Piano roll is where you can view and edit the contents of the each of the sessions clips.
-Just like in Ableton Live, zooming and panning of the Piano Roll are available. So for vertical zooming, touch down on the blank area located at composer’s piano roll left side, dragging it left or right to zoom in or out, respectively. For Horizontal zooming, touch the dark area between composer’s timeline and dragging down/up, depending if you want to zoom in or out, respectively. Panning the view is achieved by pressing and dragging left and right on the composer’s timeline.
+- **NAME** - Allows you to write the clip’s name
+- **COLOR** - Allows you to select the clip’s color
+- **LOOP START/END** - Selects the start and the end of the loop
+- **LENGTH** - Allows you to select the clip length with 1 bar increments
+- **X2** - Doubles the clip’s length
+- **/2** - Halves the clip’s length
+- **MIDI TRIGGERING** - Allows you to select a midi channel, and a cc number so you can launch clips with midi
+- **FOLLOW ACTION** - Allows you to choose what happens when the current clip reaches its end. 
+  - **NONE** - No follow action will be done.
+  - **NEXT** - Next clip in the track will be triggered
+  - **RANDOM** - A random clip in the track will be triggered
+ 
+ 
+### Piano Roll
+The Piano roll is where you can view and edit the contents of each session clip. All the basic actions, such as creating/deleting notes, zooming and moving notes, are available through gestures.
 
-#### Drawing notes
+### Zooming and Panning
+To zoom, just pinch two fingers inwards (to zoom in) or outwards (to zoom out). To pan the clip area just drag two fingers in the direction you wish to pan. (Vertically or horizontally)
 
-To draw notes, select the draw tool and tap on the desired note location. Note length will be dependent on the grid snap resolution. If you press the screen and slide the finger to the right, a note will be created for each length of the snap resolution, allowing you to easily create a series of sequential notes. To create a custom length note, tap to create a note, press on the same note and drag to the right. The note length will be increased in steps of the snap resolution size.
+### Clip Loop Zone
 
-#### Deleting notes
+![LK Matrix Module clip composer clip loop zone](/lk/images/matrix/clip-composer-loop-zone.png)
 
-To delete a note you just have to tap it. To delete a group of notes, choose the selection tool to select a group of notes and then switch again to draw tool. Tap on any grouped note to delete them all.
+At the top of the composer, aligning with the beat markers, is the loop marker, that indicates the loop region. You can change its start and end by manually dragging the left or the right loop handles. (The thicker edges each side of the blue line). To move the loop region, without changing its size, drag the centre of the loop marker left or right.
+ 
+### Selecting Notes
+To select notes, simply press and drag inside the composer area. This will create a blue selection area, and all the notes inside that bounding box will be selected. When a group of notes is selected, the actions made to any selected note will affect all the other selected notes.
+ 
+### Drawing notes
+To draw notes, just tap on the desired note location within the grid. Note length will be dependent on the grid snap resolution. If you press and slide to the right when adding a note, you can set a custom note size.
 
-#### Move notes
+### Deleting notes
+To delete a single note simply tap it. To delete a group of notes just select the notes you want to delete, then tap any note from the selection to delete them all.
 
-To move a note choose the selection tool, touch down and drag the note to the desired location. The note will always snap to the grid resolution. To move a group of notes, create a grouping that enclosures all the desired notes, then touch on any selected note to move them.
+### Changing note lengths
+To change the size of a note, just press and drag the right edge of the note (the end zone is marked with a darker color) left to decrease length, and right to increase. When snap to grid is on, its length will be always snapped to the grid resolution. 
+If a group of notes is selected, changing the length of one note will change the length of all selected notes by the same increments.
+ 
+### Moving notes
+To move a note just drag the note to the desired location. The note will always snap to the grid resolution if the snap to grid option is active. To move a group of notes, make the selection, then drag any selected note to move them all simultaneously.
 
-Note: When Inspector is open and a clip slot is selected, Ableton Live will always be reporting changes to the clip. This allows you to have a continuous linking between both sides. Unfortunately, when this happens, if you drag a note in Ableton Live, the action will produce an awkward behavior by creating copies of the note along the drag movement. If you need to interact with the clip in Ableton Live, you will need to close the Inspector view.
+If a note is moved and dropped on top of an existing note, the existing note length will be changed to that of the new note.
 
-#### Changing the velocity
-
-By maximizing the inspector view, the velocity editor will appear at the composer’s bottom. You can increase the velocity editor resolution by dragging its top bar up and down.
-
-To avoid conflict between notes located at the same time position, the velocity editor will only show the notes on the selected key track, visually indicated by a red bounding box on the currently selected key track. To change the key track, press a note on the piano roll.
-
-To edit a note’s velocity, simply press and drag up and down the velocity editor’s grey area, below the note you wish to edit. The notes will have a different color intensity depending on its velocity value.
+Note when using Live mode: When Composer is open and a clip slot is selected, Ableton Live will always be reporting changes to the clip. This allows you to have a continuous linking between both sides. Unfortunately, when this happens, if you drag a note in Ableton Live, the action will produce an awkward behavior by creating copies of the note along the drag movement. If you need to interact with the clip using Ableton Live, you will need to close the Inspector view.
+ 
+### Changing note velocity
+By maximizing the inspector view, the velocity editor will appear at the bottom of the composer. The velocities will be displayed by red rectangles that will have the same vertical position as the notes they are representing. You can change the velocity of notes by drag selecting the blue bounding box around the notes, then dragging the red velocity rectangle up and down in the virtual zone. The rectangle height, and the note’s color opacity will represent the current velocity value. If more than one note is selected, all note velocities will be edited simultaneously by the same increment.
 
 ![LK Matrix Module composer inspector detail of velocity of an Ableton Live clip](/lk/images/matrix/inspect-notes-velocity.png)
 
