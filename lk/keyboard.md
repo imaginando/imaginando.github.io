@@ -1,10 +1,14 @@
 # Keyboard Module - LK Help
 
+![LK Keyboard Module Overview](/lk/images/keyboard/overview.png)
+
 Keyboard module serves as an Ableton Live or enhanced MIDI keyboard controller with 3-axis expression capabilities. It is fully customisable to scale and keyboard range. It also allows the possibility of mapping any Live or MIDI CC parameters to be controlled by the position you play in each of the keys of the keyboard thus providing additional expression to the performance of each note.
 
 The Keyboard module features an adjustable view-port, with pitch bend, modulation wheel and HOLD function which allows the sustain of notes, just like a sustain pedal.
 
 The view-port adjustment control is located across the top of the screen, consisting of a solid green line with two draggable circle handles at each end, which represent the visible range of keyboard notes displayed in the view-port.
+
+![LK Keyboard Module view-port adjustment control](/lk/images/keyboard/viewport-control.png)
 
 Drag either circle to adjust the visible range of notes displayed in the viewport; the larger the range, the greater the number of notes that are displayed, with all notes resized accordingly.
 
