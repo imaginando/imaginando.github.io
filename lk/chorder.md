@@ -1,10 +1,10 @@
 # Chorder Module - LK Help
 
-![LK Chorder Module overview](/lk/images/chorder/overview.png)
+![LK Chorder Module overview](/lk/images/chorder/overview.jpg)
 
 The Chorder module allows for the playing of complex chords with a single tap containing a huge library of chord types, as well as a strumming utility that allows even more creative playing possibilities.
 
-Like all other LK modules, the Chorder module has a settings area that you can open by dragging one of the thin, faint grey horizontal lines at the left or right side of the bar, or tapping anywhere else inside the bar to instantly maximize/minimize.
+Like all other LK modules, the Chorder module has a settings area that you can open by dragging one of the thin, feint grey horizontal lines at the left or right side of the bar, or tapping anywhere else inside the bar to instantly maximize/minimize.
 
 Chorder has two modes: LIVE mode and MIDI mode - tap to toggle.
 Depending on the mode selected, you will find different fields in the status bar, located at the top of the screen:
@@ -44,7 +44,7 @@ To create a new set of Scale/Chord, on the upper right corner of this section, p
 
 This screen is divided into three rows:
 
-![LK Chorder Module chord and scale preset creation](/lk/images/chorder/preset-creation.png)
+![LK Chorder Module chord and scale preset creation](/lk/images/chorder/preset-creation.jpg)
 
 The first row represents the scale: here the 12 notes of a chromatic scale are represented and known scales can be selected on the right side of the row.
 Customization is also possible by pressing to select or remove keys from the scale, as well as changing the octave of the respective key by pressing the + / - buttons above and below the key.
@@ -62,11 +62,11 @@ The arpeggiator has the following parameters:
 - **ON** - toggles the arpeggiator between on and off
 - **SYNC** - synchronizes the arpeggiator to the session's tempo
 - **MODE** - defines the order on which the arpeggio notes will be played. There are four modes available:
-  - **UP** - notes are played from lower to higher.
-  - **DOWN** - notes are played from higher to lower.
-  - **UP/DOWN I** - notes are played from lower to higher and then from higher to lower.
-  - **UP/DOWN II** - notes are played from lower to higher and then from higher to lower but repeating the higher and lower notes.
-  - **Random** - notes are played randomly.
+  - **UP** - notes are played from lowest to highest.
+  - **DOWN** - notes are played from highest to lowest.
+  - **UP/DOWN I** - notes are played from lowest to highest and then from highest to lowest.
+  - **UP/DOWN II** - notes are played from lowest to highest and then from highest to lowest but repeating the highest and lowest notes.
+  - **Random** - notes are played at random.
 - **STEPS** - allows choosing the number of octaves the arpeggio will go up to.
 - **RATE** - defines the arpeggiator rate.
 - **GATE** - defines the length of each note's event (time on vs time off).
