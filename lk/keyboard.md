@@ -22,7 +22,7 @@ The Keyboard has three settings columns to fully customize its use: Scale, Arpeg
 
 ### Scale
 
-Here, a root key can be chosen to serve as the tonic note of a selected scale. There are many musical scales available to choose from, which will automatically adapt the keyboard to its corresponding intervals.
+Here, a root key can be chosen to serve as the tonic note of a selected scale. There are many musical scales available to choose from, which will automatically adapt the keyboard to its corresponding intervals. You can also set a custom scale, and choose which notes are included/shown.
 
 ### Arpeggiator
 
