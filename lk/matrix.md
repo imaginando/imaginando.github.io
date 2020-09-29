@@ -224,10 +224,30 @@ If a note is moved and dropped on top of an existing note, the existing note len
 
 Note when using Live mode: When Composer is open and a clip slot is selected, Ableton Live will always be reporting changes to the clip. This allows you to have a continuous linking between both sides. Unfortunately, when this happens, if you drag a note in Ableton Live, the action will produce an awkward behavior by creating copies of the note along the drag movement. If you need to interact with the clip using Ableton Live, you will need to close the Inspector view.
 
-### Changing note velocity
+### Velocity and Automations
 
-By maximizing the inspector view, the velocity editor will appear at the bottom of the composer. The velocities will be displayed by red rectangles that will have the same vertical position as the notes they are representing. You can change the velocity of notes by drag selecting the blue bounding box around the notes, then dragging the red velocity rectangle up and down in the virtual zone. The rectangle height, and the note’s color opacity will represent the current velocity value. If more than one note is selected, all note velocities will be edited simultaneously by the same increment.
+By maximizing the inspector view, an editor will appear at the bottom of the composer which will allow you to change note’s velocities and create midi automation lanes.
 
-![LK Matrix Module composer inspector detail of velocity of an Ableton Live clip](/lk/images/matrix/inspect-notes-velocity.png)
+![LK Matrix Module composer velocity and automation zone](/lk/images/matrix/velocity-automation-zone.jpg)
+
+By selecting a target in the list, you'll be able to edit the notes's velocities or edit the automation values of a selected automation channel. By default, the composer will initiate with the velocity section
+
+#### Velocity
+
+The velocities will be displayed by red rectangles that will have the same vertical position as the notes they are representing. You can change the velocity of notes by drag selecting the blue bounding box around the notes, then dragging the red velocity rectangle up and down in the virtual zone. The rectangle height, and the note’s color opacity will represent the current velocity value. If more than one note is selected, all note velocities will be edited simultaneously by the same increment.
+
+![LK Matrix Module composer inspector detail of velocity of an Ableton Live clip](/lk/images/matrix/inspect-notes-velocity.jpg)
+
+#### Automations
+
+To create and edit automations, first you'll have to add new automation channel. This can be done by clicking on the "plus" icon, that will open the following popup menu:
+
+![LK Matrix Module composer automations channel selection](/lk/images/matrix/automations-channels-selection.jpg)
+
+
+Here you will have the option to choose several channels for your midi automations.
+
+When a new channel is added will be able to do the following actions:
+
 
 [Learn all about the MIDI Pads module.](midi-pads)
