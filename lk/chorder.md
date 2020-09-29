@@ -4,7 +4,7 @@
 
 The Chorder module allows for the playing of complex chords with a single tap containing a huge library of chord types, as well as a strumming utility that allows even more creative playing possibilities.
 
-Like all other LK modules, the Chorder module has a settings area that you can open by dragging one of the thin, feint grey horizontal lines at the left or right side of the bar, or tapping anywhere else inside the bar to instantly maximize/minimize.
+Like all other LK modules, the Chorder module has a settings area that you can open by dragging the == icon, or tapping anywhere else inside the bar to instantly maximize/minimize.
 
 Chorder has two modes: LIVE mode and MIDI mode - tap to toggle.
 Depending on the mode selected, you will find different fields in the status bar, located at the top of the screen:

@@ -14,7 +14,7 @@ Drag either circle to adjust the visible range of notes displayed in the viewpor
 
 Drag the centre of the green line to scroll/move up and down the visible octaves.
 
-The Keyboard has a settings area that you can open by dragging up/down one of the thin, feint grey horizontal lines at the left or right side of the bar, or tapping anywhere else inside the bar to instantly maximize/minimize.
+The Keyboard has a settings area that you can open by dragging the == icon, or tapping anywhere else inside the bar to instantly maximize/minimize.
 
 ## Settings
 
