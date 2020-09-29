@@ -18,7 +18,7 @@ Depending on the mode selected, you will find different sections in the status b
 - **PARAMETER** - shows the CC number (MIDI MODE) or the Ableton Live parameter (LIVE MODE) of the selected screen control
 - **VALUE** - shows the value of data transmitted by the selected screen control.
 
-At the bottom of the screen, a split view can be opened by dragging the green line in the middle of the bar or by tapping anywhere else on the bar. This menu gives access to the following module settings:
+At the bottom of the screen, a split view can be open by dragging the == icon, or tapping anywhere else inside the bar to instantly maximize/minimize. This menu gives access to the following module settings:
 
 - **BANKS** - four independent and customizable banks.
 - **RENAME** - change the label name of a controller (While pressing this button, press your desired screen control to change its name).
