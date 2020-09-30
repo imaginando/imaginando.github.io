@@ -28,9 +28,9 @@ You can select the visible MIDI PADS range by dragging the finger up and down th
 
 ## EXPRESSIVENESS
 
-In the EXPRESSIVENESS section, you can adjust velocity response for the MIDI PADS with two parameters, one for the CENTRE velocity and another for the BOUNDS velocity.
+In the EXPRESSIVENESS section, you can adjust velocity response for the MIDI PADS with two parameters, changing the velocity of each note played depending on whereabouts inside the pad you press.
 
-This allows you to make the MIDI PADS louder when pressed at the center and more gentle at the bounds, or the opposite, thus giving you a more natural expression.
+When expressiveness mode is set to 'RADIAL' the two controls are 'CENTRE' and 'BOUNDS', and when expressiveness mode is 'LINEAR' the controls are 'TOP' and 'BOTTOM'
 
 ## PLAYING MIDI PADS WITH ARPEGGIATOR
 
