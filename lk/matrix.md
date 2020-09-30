@@ -240,31 +240,31 @@ The velocities will be displayed by red rectangles that will have the same verti
 
 #### Automations
 
-To create and edit automations, first you'll have to add a new automation channel. This can be done by clicking on the "plus" icon, that will open the following popup menu:
+To create and edit automations, first you'll have to add a new automation lane. This can be done by clicking on the "plus" icon, that will open the following popup menu:
 
-![LK Matrix Module composer automations channel selection](/lk/images/matrix/automations-channels-selection.jpg)
+![LK Matrix Module composer automation lane selection](/lk/images/matrix/automations-channels-selection.jpg)
 
+Here you will have the option to choose several properties for your MIDI automations.
 
-Here you will have the option to choose several channels for your midi automations.
+When a new lane is added you will be able to do the following actions:
 
-When a new channel is added you will be able to do the following actions:
- - Create an automation node - Tap any empty space in the automations zone
-  - Delete an automation node - Tap any existing node
-  - Change a node's position - By pressing and moving and existing node you'll be able to change its value and position(time)
-  - Change the value of two linked nodes - Pressing and dragging a line that is connecting two nodes, will change their values accordingly.
+- Create - Tap any empty space in the automations zone to create a node
+- Delete - Tap any existing node to delete it
+- Drag - Drag a node to change its value and position (time). Drag a line to change the value of the conencting nodes at the same time.
 
-When creating nodes, their position (time) in the automation's zone are related to the same position above in the composer area. So, if you change the view position of the composer zone, the automations view will change accordingly. You can zoom in the composer view, to fine tune the automation node time. 
-You have also a drag bar, that will let you expand the automations zone vertically, or even hide it to save some space while working with the composer.
+When creating nodes, their x axis position (time) in the automation's zone are related to the same position above in the composer area. So, if you change composer's viewport, automations view will change accordingly. You can zoom in the composer view, to fine tune the automation node time.
 
-On the left, you have a list with your active automation channels, so you can change which one you want to view and interact. Bare in mind that only one automation channel at a time will be available to edit, and all active ones will be processed when the clip is playing.
+Tip: You have also a drag bar, that will let you expand the automations zone vertically, or even hide it to save some space while working with the composer.
+
+On the left, you have a list with your active automation lanes, so you can change which one you want to view and interact. Bare in mind that only one automation lane will be available to edit at each time.
 
 Bellow this list there are the following icons:
- - Plus - Add a new automation channel.
- - Cross - Delete the selected automation channel and its nodes.
- - Pencil - When this is active, pressing and sliding will create nodes with its position snapped to the current composer grid division.
- - Eraser - When active, pressing and sliding will delete the nodes at a given position.
 
-When a clip has automations and it is playing, midi output messages will be sent to the clip's track selected midi output device and selected midi output channel, according to the created nodes x axis position (time) and y axis position (the value to be sent). Between nodes, the values will be sent accordingly with the line that links them. 
-  
+- Plus - Add a new automation lane.
+- Cross - Delete the selected automation lane (and its nodes).
+- Pencil - Enable/disable draw mode. Pressing and sliding will create nodes with its position snapped to the current composer grid division.
+- Eraser - Enable/disable eraser. Pressing and sliding will delete the nodes at a given position.
+
+When a clip is playing, automation MIDI messages will be sent to the midi output device and channel of the parent track.
 
 [Learn all about the MIDI Pads module.](midi-pads)
