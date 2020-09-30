@@ -17,7 +17,7 @@ Depending on the mode selected, you will find different fields in the status bar
 
 ## The ASR envelope generator
 
-The Z axis features an ASR (Attack, Sustain, Release) envelope generator located on the right.
+The Z axis (touch on/touch off) features an ASR (Attack, Sustain, Release) envelope generator located on the right.
 
 Attack defines the amount of time it will take to get to the Sustain level while Release will define how much time it will take to get back to the value defined on the RELEASE MODE existing on the menu opened by the drag-able bar (see below). The ASR unit is triggered as soon as you press the pad.
 Note: If nothing is assigned to the Z axis, then no meaningful behaviour will occur.
@@ -26,14 +26,14 @@ Two additional control functions are available: sync and hold. Sync allows the r
 
 ## Module settings
 
-As in other LK modules, on the bottom of the screen there is a split view bar which allows the Inspector panel to be opened. This can be done by dragging one of the thin, faint grey horizontal lines at the left or right side of the bar, or tapping anywhere else inside the bar to instantly maximize/minimize. Inside are four columns of settings for the X/Y Pad:
+As in other LK modules, on the bottom of the screen there is a split view bar which allows the Inspector panel to be opened. This can be done by open by dragging the == icon, or tapping anywhere else inside the bar to instantly maximize/minimize. Inside are four columns of settings for the X/Y Pad:
 
 - **BANKS**
 - **AXIS (with two modes: CC and Note)**
 - **LFO**
 - **RELEASE MODE**
 
-### Bank
+### Banks
 
 There are 4 selectable and configurable banks for the X/Y PAD. Just choose the one you want to work on, edit what you want and it is already saved on that bank.
 
@@ -56,9 +56,9 @@ The integrated LFO unit provides you with additional modulation control on the X
 - **RATE** - defines the frequency of the oscillator
 - **DELAY** - defines the time LFO will take to start Note: the Z axis is not affected by the LFO.
 
-### Release Mode
+### RELEASE MODE
 
-Release Mode allows the user to define the default position to which the X/Y cursor returns to. This means that whenever you release your finger from the pad, X and Y positions will tend to the point defined by the Release Mode with the release time defined by the ASR envelope generator settings. The X/Y could return to the center, to the zero position (0,0) or stay where it was released.
+Release Mode allows the user to define the default position to which the X/Y cursor returns to. This means that whenever you release your finger from the pad, X and Y positions will tend to the point defined by the Release Mode with the release time defined by the ASR envelope generator settings. The X/Y could return to the centre, to the zero position (0,0) or stay where it was released.
 
 ## Assigning a custom MIDI CC
 

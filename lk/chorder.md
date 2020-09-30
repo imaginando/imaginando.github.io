@@ -4,7 +4,7 @@
 
 The Chorder module allows for the playing of complex chords with a single tap containing a huge library of chord types, as well as a strumming utility that allows even more creative playing possibilities.
 
-Like all other LK modules, the Chorder module has a settings area that you can open by dragging one of the thin, feint grey horizontal lines at the left or right side of the bar, or tapping anywhere else inside the bar to instantly maximize/minimize.
+Like all other LK modules, the Chorder module has a settings area that you can open by dragging the == icon, or tapping anywhere else inside the bar to instantly maximize/minimize.
 
 Chorder has two modes: LIVE mode and MIDI mode - tap to toggle.
 Depending on the mode selected, you will find different fields in the status bar, located at the top of the screen:
@@ -73,12 +73,12 @@ The arpeggiator has the following parameters:
 
 When sync is off, the arpeggiator rate is shown in milliseconds. By turning sync on, the arpeggiator will sync to the section BPM and the rate will be available in 21 quantized steps, ranging from 2/1 to 1/128 including dotted and triplet values.
 
-### View
+### Tools
 
-This settings, allows to change the chorder viewport to your needs. Use the -/+ buttons to zoom out/in the viewport, and the ‘pan’ button to scroll the display left or right. To pan, hold the pan button down and then drag left or right within the viewport.
+These settings allow you to change the chorder viewport to your needs. Use the -/+ buttons to zoom out/in the viewport. To pan, hold the pan button down (the bottom right button with 4 way arrows on) and then drag left or right within the viewport.
 
 Use the buttons labelled with -12 and +12 for a full octave transpose of all the keys simultaneously.
 
-The Mode key in the middle toggles between ‘play’ mode and ‘select mode. In ‘play’ mode the chords will play when each cell is tapped, whereas ‘select’ mode will select the chord without playing it. This is useful to play with the strummer without playing the chorder cells.
+The mode key (top right button) toggles between a play icon and a stop icon. When the play icon is displayed, tapping a chord will play it. When the stop button is displayed, tappinng a chord will only select it, without playing it. (useful for selecting which notes appear in the strumming zones.)
 
 [Now for the Keyboard Module page.](keyboard)

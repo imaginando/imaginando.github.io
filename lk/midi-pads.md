@@ -18,7 +18,7 @@ Depending on the selected mode, you will find different fields in the status bar
 - **DEVICE (MIDI MODE)** - selects the MIDI device to be used.
 - **CHANNEL (MIDI MODE)** - selects the MIDI output channel to be used.
 
-On the lower part of the screen, there is a split view bar which allows the Inspector panel to be opened. This can be done by dragging one of the thin, faint grey horizontal lines at the left or right side of the bar, or tapping anywhere else inside the bar to instantly maximize/minimize. This allows access to MIDI PADS settings.
+On the lower part of the screen, there is a split view bar which allows the Inspector panel to be opened. This can be done by dragging the == icon, or tapping anywhere else inside the bar to instantly maximize/minimize. This allows access to MIDI PADS settings.
 
 ## THE MIDI PADS SECTION
 
@@ -26,9 +26,11 @@ The MIDI PADS are layed out from C-2 to G8 notes.
 
 You can select the visible MIDI PADS range by dragging the finger up and down the right side area of the screen.
 
-In the VELOCITY section, you can adjust velocity response for the MIDI PADS with two parameters, one for the outer velocity and another for the inner velocity.
+## EXPRESSIVENESS
 
-This allows you to make the MIDI PADS louder when pressed at the center and more gentle at the bounds, or the opposite, thus giving you a more natural expression.
+In the EXPRESSIVENESS section, you can adjust velocity response for the MIDI PADS with two parameters, changing the velocity of each note played depending on whereabouts inside the pad you press.
+
+When expressiveness mode is set to 'RADIAL' the two controls are 'CENTRE' and 'BOUNDS', and when expressiveness mode is 'LINEAR' the controls are 'TOP' and 'BOTTOM'
 
 ## PLAYING MIDI PADS WITH ARPEGGIATOR
 
@@ -50,7 +52,7 @@ When sync is off, arpeggiator rate units are in milliseconds. By turning sync on
 
 ## PLAYING CHORDS WITH THE MIDI PADS
 
-The chorder function allows you to play chords while pressing a single MIDI pad. Start by choosing one of the many available chords to automatically play a chord when you tap on a MIDI pad. To turn this function off, tap the “power” icon, on the right of the CHORDER label.
+The chorder function allows you to play chords by pressing a single MIDI pad. Start by choosing one of the many available chord types, then turn the function on with the power button icon at the top right of the chorder section. To turn this function off, tap the power icon to toggle it off.
 
 When the chorder mode is on, if you change the chord type while pressing a pad, you’ll play the selected chord. This will allow you to play different chords of the same root, without the need to press the pad again.
 
