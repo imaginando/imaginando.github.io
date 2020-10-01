@@ -1,6 +1,6 @@
 # Keyboard Module - LK Help
 
-![LK Keyboard Module Overview](/lk/images/keyboard/overview.png)
+![LK Keyboard Module Overview](/lk/images/keyboard/overview.jpg)
 
 The Keyboard module serves as an enhanced Ableton Live or MIDI keyboard controller, with 3-axis expression capabilities. It is fully customisable to scale and keyboard range. It also allows the possibility of mapping Ableton Live or MIDI CC parameters to be controlled by where you touch each key, providing additional expression opportunities to the performance of each note.
 
@@ -14,7 +14,7 @@ Drag either circle to adjust the visible range of notes displayed in the viewpor
 
 Drag the centre of the green line to scroll/move up and down the visible octaves.
 
-The Keyboard has a settings area that you can open by dragging up/down one of the thin, feint grey horizontal lines at the left or right side of the bar, or tapping anywhere else inside the bar to instantly maximize/minimize.
+The Keyboard has a settings area that you can open by dragging the == icon, or tapping anywhere else inside the bar to instantly maximize/minimize.
 
 ## Settings
 
@@ -22,7 +22,7 @@ The Keyboard has three settings columns to fully customize its use: Scale, Arpeg
 
 ### Scale
 
-Here, a root key can be chosen to serve as the tonic note of a selected scale. There are many musical scales available to choose from, which will automatically adapt the keyboard to its corresponding intervals.
+Here, a root key can be chosen to serve as the tonic note of a selected scale. There are many musical scales available to choose from, which will automatically adapt the keyboard to its corresponding intervals. You can also set a custom scale, and choose which notes are included/shown.
 
 ### Arpeggiator
 
