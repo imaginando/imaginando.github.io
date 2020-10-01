@@ -156,7 +156,7 @@ The Composer view displays a Piano Roll environment which allows you to edit the
 The composer features a toolbar across the top with the following functions:
 
 - **LISTEN** - determines if the MIDI note will be sent and heard when you touch the composer piano roll (track must be armed).
-- **DELETE** - deletes the currently selected clip.
+- **DELETE** - deletes the currently selected clip. (If there is no clip, this icon changes to a plus sign which when pressed will create a blank clip)
 - **DUPLICATE** - duplicates the selected note or the selected group of notes.
 - **SNAP ON/OFF** - toggles the grid snap on or off.
 - **Q** - Quantizes the start of selected notes
@@ -240,14 +240,31 @@ The velocities will be displayed by red rectangles that will have the same verti
 
 #### Automations
 
-To create and edit automations, first you'll have to add new automation channel. This can be done by clicking on the "plus" icon, that will open the following popup menu:
+To create and edit automations, first you'll have to add a new automation lane. This can be done by clicking on the "plus" icon at the bottom left, that will open the following popup menu:
 
-![LK Matrix Module composer automations channel selection](/lk/images/matrix/automations-channels-selection.jpg)
+![LK Matrix Module composer automation lane selection](/lk/images/matrix/automations-channels-selection.jpg)
 
+Here you will have the option to choose one of several properties to create MIDI automations for.
 
-Here you will have the option to choose several channels for your midi automations.
+When a new lane is added you will be able to do the following actions:
 
-When a new channel is added will be able to do the following actions:
+- Create - Tap any empty space in the automations zone to create a node
+- Delete - Tap any existing node to delete it
+- Drag - Drag a node to change its value (vertical) and position (horizontal/time). Drag a line to change the vertical value of the connecting nodes at the same time.
 
+When creating nodes, their x axis position (time) in the automation zone are related to the same position above in the composer notes area. So, if you change the composer viewport, the automation view will change accordingly. You can zoom in composer view, to fine tune the automation.
+
+**Tip: You have also a == drag bar, that will let you expand the automations zone vertically, or even hide it to save some space while working with the composer.**
+
+On the left, you have a list with your active automation lanes, so you can change which one you want to view and interact. Bare in mind that only one automation lane will be available to edit at each time.
+
+Bellow this list there are the following icons:
+
+- Plus - Add a new automation lane.
+- Cross - Delete the selected automation lane (and its nodes).
+- Pencil - Enable/disable draw mode. Pressing and sliding will create nodes with its position snapped to the current composer grid division.
+- Eraser - Enable/disable eraser. Pressing and sliding will delete the nodes at a given position.
+
+When a clip is playing, automation MIDI messages will be sent to the midi output device and channel of the parent track.
 
 [Learn all about the MIDI Pads module.](midi-pads)
