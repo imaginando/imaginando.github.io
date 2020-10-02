@@ -108,7 +108,7 @@ Just like the other tracks, you’ll be able to mute/solo and change its volume/
 
 ### Inspector panel
 
-Right above the transport bar there is a split view bar which allows the Inspector panel to be opened. This can be done by dragging one of the thin, faint grey horizontal lines at the left or right side of the bar, or tapping anywhere else inside the bar to instantly maximize/minimize. While in LIVE mode the Inspector panel consists of three parts:
+Right above the transport bar there is a split view bar which allows the Inspector panel to be opened. This can be done by dragging the == icon, or tapping anywhere else inside the bar to instantly maximize/minimize. While in LIVE mode the Inspector panel consists of three parts:
 
 - **DEVICES** (LIVE MODE) - allows browsing and editing of the selected track devices
 - **SENDS** (LIVE MODE) - edit the selected track sends.
