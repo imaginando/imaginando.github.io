@@ -171,7 +171,15 @@ The composer features a toolbar across the top with the following functions:
 
 ### Properties Panel
 
-![LK Matrix Module clip composer properties panel](/lk/images/matrix/clip-composer-properties-panel.png)
+![LK Matrix Module clip composer properties panel](/lk/images/matrix/clip-composer-properties-panel.jpg)
+
+This section holds different panels, each one with different options so you can manage your clip with ease. We give you some tools to help you with your creativity, like melody/chord generation/mutation, scales, follow actions and some tools to help you change and edit your clip's content easily and musically.
+
+These options are grouped into specific tabs, for a quick usage.
+
+#### CLIP PROPERTIES
+
+Here you can change overall settings of the clip
 
 - **NAME** - Allows you to write the clip’s name
 - **COLOR** - Allows you to select the clip’s color
@@ -180,10 +188,74 @@ The composer features a toolbar across the top with the following functions:
 - **X2** - Doubles the clip’s length
 - **/2** - Halves the clip’s length
 - **MIDI TRIGGERING** - Allows you to select a MIDI channel, and a cc number so you can launch clips with MIDI
-- **FOLLOW ACTION** - Allows you to choose what happens when the current clip reaches its end.
-  - **NONE** - No follow action will be done.
-  - **NEXT** - Next clip in the track will be triggered
-  - **RANDOM** - A random clip in the track will be triggered
+
+#### KEYBOARD
+
+Here you can change which scale do you want to be displayed on the current clip. When selecting one, the composer piano keys of the scale will have a red square so you can easily identify them.
+
+- **KEYBOARD SCALE** - Allows you to choose the scale and its root
+
+When selecting the "custom" scale, the greyed out rectangle with the 11 notes will be available so you can choose which keys do you want to use.
+
+#### RHYTHM
+
+Here you can make rythm manipulations of the clip's notes
+
+- **SWING** - Allows you to swing your rhythm. This gives your groove a more "jazzy" feel through a triplets beat transformation. You can change the amount of swing to apply, and your desired swing division
+- **HUMANIZE** - Allows you to change the time of the notes slightly to give your composition a more "human" feel. Like in swing you can change the amount being applied and also its division
+
+#### NOTE TOOLS
+
+Here you have some custom actions to your clips notes. You have basic operations that will save you some time and also some musical operations to easily change your created lines without loosing the musicality.
+
+- **Select All** - Selects all notes of the clip
+- **Deselect** - Deselects the selected notes
+- **Del. All** - Deletes all notes
+- **Del. Selected** - Deletes selected notes
+
+The following actions will be applied to all notes or the selected ones (if theres any)
+
+- **MIRROR** - Mirrors the notes positions (vertical) or the notes pitches (horizontal)
+- **TIME SHIFT** - Shifts the notes to left or right according with the composer grid division
+- **PITCH SWAP** - Swaps each note's pitch with the adjacent one (left or right)
+- **TRANSPOSE** - Transpose notes by the selected semitones
+
+#### GENERATE
+
+Here you can generate or change notes in a musical manner. **This action will take account of the clip's scale**. If you want some friendly results please choose a scale (or make a custom one) so the generated notes will be always in tune with your song.
+
+- **CHORDS** - Generates random chords
+- **MELODY** - Generates random individual notes
+- **RANGE** - Defines the minimum and maximum pitches that the generated/mutated notes can have.
+- **MUTATION** - Changes your composition slightly in two ways:
+  - **Chords** - With your written melody serving as root notes, chords will be generated, preserving your written melody
+  - **Melody** - Slight change of the pitches of your current melody maintaining the note's times
+
+#### FOLLOW ACTIONS
+
+Here you can choose what will happen to the clip/notes when the current clip reaches its end.
+
+- **CLIP** - Follow actions related to the current track clips
+  - **None** - No follow action will be done.
+  - **Next** - Next clip in the track will be triggered
+  - **Previous** - Previous clip in the track will be triggered
+  - **First** - Triggers the first clip of the track
+  - **Last** - Triggers the last clip of the track
+  - **Random Any** - Triggers a random clip of the track
+  - **Random Other** - Triggers a random clip of the track excluding the current one
+  - **Stop** - Stops the current clip
+
+- **NOTES** - Follow actions relates to the clip's notes.
+  - **Generate Chords** - Clears the clip content and generates random chords
+  - **Generate Melody** - Clears the clip content and generates a  random melody
+  - **Mutate Chords** - Generates random chords with the current notes serving as their root
+  - **Mutate Melody** - Slight change of the current melody
+  - **Mirror Horizontal** - Mirrors the note's pitches
+  - **Miroor Vertical** - Mirros the note's times
+  - **Time Shift Left** - Shifts the note's times to the left according with the grid resolution
+  - **Time Shift Right** Shift the note's times to the right according with the grid resolution
+  - **Pitch Swap Left** - Swap each note pitch with its right note pitch
+  - **Pitch Swap Right** - Swap each note pitch with its left note pitch
 
 ### Piano Roll
 
