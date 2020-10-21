@@ -195,7 +195,7 @@ Here you can change which scale do you want to be displayed on the current clip.
 
 - **KEYBOARD SCALE** - Allows you to choose the scale and its root
 
-When selecting the "custom" scale, the greyed out rectangle with the 11 notes will be available so you can choose which keys do you want to use.
+When selecting the "custom" scale, the greyed out rectangle with the 12 notes will be available so you can choose which keys do you want to use.
 
 #### RHYTHM
 
@@ -236,6 +236,7 @@ Here you can generate or change notes in a musical manner. **This action will ta
 Here you can choose what will happen to the clip/notes when the current clip reaches its end.
 
 - **CLIP** - Follow actions related to the current track clips
+
   - **None** - No follow action will be done.
   - **Next** - Next clip in the track will be triggered
   - **Previous** - Previous clip in the track will be triggered
@@ -247,7 +248,7 @@ Here you can choose what will happen to the clip/notes when the current clip rea
 
 - **NOTES** - Follow actions relates to the clip's notes.
   - **Generate Chords** - Clears the clip content and generates random chords
-  - **Generate Melody** - Clears the clip content and generates a  random melody
+  - **Generate Melody** - Clears the clip content and generates a random melody
   - **Mutate Chords** - Generates random chords with the current notes serving as their root
   - **Mutate Melody** - Slight change of the current melody
   - **Mirror Horizontal** - Mirrors the note's pitches
