@@ -167,23 +167,94 @@ The composer features a toolbar across the top with the following functions:
 - **CLIP LOOPING** - determines the looping state of the clip
 - **ZOOM FIT** - automatically adjusts the viewport display to show all the notes in the clip. If the clip is empty, this button sets a predefined viewport
 - **VIEWPORT NAVIGATOR** - Navigate/zoom horizontally through the clip
-- **PROPERTIES** - Open the clip properties panel
+- **Tools** - Open the clip tools menu
 
-### Properties Panel
+### Clip tools menu
 
-![LK Matrix Module clip composer properties panel](/lk/images/matrix/clip-composer-properties-panel.png)
+![LK Matrix Module clip composer properties panel](/lk/images/matrix/clip-composer-properties-panel.jpg)
 
-- **NAME** - Allows you to write the clip’s name
-- **COLOR** - Allows you to select the clip’s color
-- **LOOP START/END** - Selects the start and the end of the loop
-- **LENGTH** - Allows you to select the clip length with 1 bar increments
-- **X2** - Doubles the clip’s length
-- **/2** - Halves the clip’s length
-- **MIDI TRIGGERING** - Allows you to select a MIDI channel, and a cc number so you can launch clips with MIDI
-- **FOLLOW ACTION** - Allows you to choose what happens when the current clip reaches its end.
-  - **NONE** - No follow action will be done.
-  - **NEXT** - Next clip in the track will be triggered
-  - **RANDOM** - A random clip in the track will be triggered
+Located on the right, this menu consists of several panels which can be expanded and minimised by tapping each panel title. Here you can access the clip's properties plus a range of creative tools to help generate and edit MIDI notes in a variety of useful and interesting ways. 
+
+#### CLIP PROPERTIES
+
+Here you can access the clip's general properties
+
+- **NAME** - Edit the clip’s name
+- **COLOR** - Change the clip’s background color
+- **LOOP START/END** - Select the start and the end of the loop
+- **LENGTH** - Set the clip length using 1 bar increments
+- **X2** - Double the clip’s length
+- **/2** - Halve the clip’s length
+- **MIDI TRIGGERING** - Select a MIDI channel, and a CC number to launch clips with MIDI
+
+#### KEYBOARD
+
+This provides the option to set a scale for the current clip and mark all piano roll keys for that scale with a red square. This serves as a visual aid to help you stay in key when editing MIDI clips.
+
+- **KEYBOARD SCALE** - Allows you to choose the scale and its root
+
+The 'custom' scale allows you to manually select which notes are included.
+
+#### RHYTHM
+
+Here you can make subtle timing adjustments to the notes
+
+- **SWING** - Allows you to add swing to your rhythm. This gives your groove a more "jazzy" feel through a triplets beat transformation. You can change the amount of swing to apply, and your desired swing division
+- **HUMANIZE** - Allows you to change the timing of the notes slightly to give your composition a more "human" feel. Like swing, you can change the amount being applied and also its division
+
+#### NOTE TOOLS
+
+These are a range of custom note actions from basic time-saving tools to musical operations, allowing you to easily change your created lines without losing the musicality.
+
+- **Select All** - Selects all notes of the clip
+- **Deselect** - Deselects the selected notes
+- **Del. All** - Deletes all notes
+- **Del. Selected** - Deletes selected notes
+
+The following actions will be applied to all notes or the selected ones (if  any notes are currently selected)
+
+- **MIRROR** - Mirrors the notes positions (vertical) or the notes pitches (horizontal)
+- **TIME SHIFT** - Shifts the notes to left or right according with the composer grid division
+- **PITCH SWAP** - Swaps each note's pitch with the adjacent one (left or right)
+- **TRANSPOSE** - Transpose notes by the selected semitones
+
+#### GENERATE
+
+Here you can generate or change notes in a musical manner. **This action will take account of the clip's scale**. If you want some friendly results, please choose a scale (or make a custom one) so that the generated notes will be always in tune with your song.
+
+- **CHORDS** - Generates random chords
+- **MELODY** - Generates random individual notes
+- **RANGE** - Defines the minimum and maximum pitches that the generated/mutated notes can have.
+- **MUTATION** - Changes your composition slightly in two ways:
+  - **Chords** - With your written melody serving as root notes, chords will be generated, preserving your written melody
+  - **Melody** - Slightly changes the pitches of your current melody maintaining the note timings
+
+#### FOLLOW ACTIONS
+
+Here you can choose what will happen to the clip/notes when the current clip reaches its end.
+
+- **CLIP** - Follow actions related to the current track clips
+
+  - **None** - No follow action will be done.
+  - **Next** - Next clip in the track will be triggered
+  - **Previous** - Previous clip in the track will be triggered
+  - **First** - Triggers the first clip of the track
+  - **Last** - Triggers the last clip of the track
+  - **Random Any** - Triggers a random clip of the track
+  - **Random Other** - Triggers a random clip of the track excluding the current one
+  - **Stop** - Stops the current clip
+
+- **NOTES** - Follow actions related to the clip's notes.
+  - **Generate Chords** - Clears the clip content and generates random chords
+  - **Generate Melody** - Clears the clip content and generates a random melody
+  - **Mutate Chords** - Generates random chords with the current notes serving as their root
+  - **Mutate Melody** - Slight change of the current melody
+  - **Mirror Horizontal** - Mirrors the note's pitches
+  - **Mirror Vertical** - Mirrors the note's times
+  - **Time Shift Left** - Shifts the note's times to the left according with the grid resolution
+  - **Time Shift Right** Shift the note's times to the right according with the grid resolution
+  - **Pitch Swap Left** - Swap each note pitch with its right note pitch
+  - **Pitch Swap Right** - Swap each note pitch with its left note pitch
 
 ### Piano Roll
 
