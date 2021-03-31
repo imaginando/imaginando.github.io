@@ -40,11 +40,11 @@ _In Input mode there are the following options:_
 
 <img src="/frms/images/input-options.png" alt="FRMS Input Options" />
 
-- **1/8** - Selects the size of the buffer being used to store live input information as a 1/8 of 2 seconds
+- **1/8** - Selects the size of the buffer being used to store live input information as a 1/8 of 1 second
 
-- **1/4** - Selects the size of the buffer being used to store live input information as a 1/4 of 2 seconds
+- **1/4** - Selects the size of the buffer being used to store live input information as a 1/4 of 1 second
 
-- **1/2** - Selects the size of the buffer being used to store live input information as a 1/2 of 2 seconds
+- **1/2** - Selects the size of the buffer being used to store live input information as a 1/2 of 1 second
 
 - **1** - Selects the size of the buffer being used to store live input information as 1 second
 
