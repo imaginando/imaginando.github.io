@@ -80,8 +80,8 @@ Connect the USB cable and you should see the device’s name (in case of iOS dev
 
 For devices connected via USB cable to be detected you must ensure the following:
 
-- iOS - ensure that you have iTunes installed and updated.
-- Android - ensure that USB debugging is enabled
+- iOS - iTunes is installed on your computer and is upto date
+- Android - USB debugging is enabled on your mobile device
 - Accept any device notifications asking you to allow/trust the connection
 
 ### Connect using WiFi
@@ -92,13 +92,13 @@ Connect the mobile device and computer to the same wireless network. LK app must
 
 You can view available connections from LK’s in-app menu under the Connection section:
 
-![LK Network Connecting to Ableton Live](/lk/images/setup/lk-connected-to-ubridge.png)
+![LK Network Connecting to Ableton Live](/lk/images/setup/lk-connected-to-ubridge.jpg)
 
 When only one connection is available, LK will automatically connect to it.
 If more than one connection is available, you can tap each connection name to switch to that connection. If the connection is successfully established, the text will be green. Matrix module will display the message "**Waiting for Ableton Live**".
 After opening Ableton Live with LK control surface setup, the full connection will be established and the round trip latency will appear in the connection entry:
 
-![LK Network Connection to Ableton Live](/lk/images/setup/lk-connected-to-live.png)
+![LK Network Connection to Ableton Live](/lk/images/setup/lk-connected-to-live.jpg)
 
 If you want to mark a connection as favorite, tap on the star. Next time LK finds that connection it will automatically connect to it.
 If you are having trouble connecting LK, UBRIDGE and Ableton Live, please take a look at our [troubleshooting](troubleshooting) section before contacting us for support.
