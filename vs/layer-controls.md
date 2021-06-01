@@ -54,4 +54,5 @@ The background layer has its own set of parameters, since it deals with image an
 **Tip: to reset the background, long press the background button and choose clear from the context menu.**
 ***
 <br/>
+
 [**In the next chapter we will look at layer modulations**](layer-modulations)

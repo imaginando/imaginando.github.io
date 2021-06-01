@@ -28,4 +28,5 @@ VS’ interface consists of the following three sections: an horizontal status b
 
 8. **8) Show/hide Layer Modulations** - increases size of render area by collapsing the modulation section
 <br/>
+
 [**Now let's look at the Layer Manager in detail**](layer-manager)
