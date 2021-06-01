@@ -11,7 +11,6 @@ Don't hesitate to contact us if you any questions, comments or other inquiries.
 ## Contents
 
 - [Overview](overview)
-- [User Interface](interface)
 - [Layer Manager](layer-manager)
 - [Layer Controls](layer-controls)
 - [Layer Modulations](layer-modulation)

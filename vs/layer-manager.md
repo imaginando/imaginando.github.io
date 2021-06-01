@@ -1,6 +1,6 @@
 # Layer Manager
 
-<img alt="VS Screen" align="center" src="/vs/images/layer-manager.jpg" style="padding: 40px;"/>
+<img alt="VS Layer Manager" align="center" src="/vs/images/layer-manager@2x.png" style="padding: 40px;"/>
 
 The Layer Manager allows you to select layers, load materials via the material browser and set the Z index (stacking order) of the layers.
 
@@ -29,7 +29,7 @@ Toggles between the audio modulators panel and the modulation matrix panel. If t
 
 ## Color Panel
 
-<img alt="VS Color Panel" align="center" src="/vs/images/color-panel.jpg" style="padding: 40px;"/>
+<img alt="VS Color Panel" align="center" src="/vs/images/color-panel@2x.png" style="padding: 40px;"/>
 
 Clicking on the circle on the left will open the color panel that will let you manage the color of the selected layer. This button will have the color of the selected layer 
 
