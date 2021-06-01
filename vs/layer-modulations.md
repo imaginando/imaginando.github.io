@@ -31,7 +31,9 @@ On the left of the panel is the LFOs section. There are 4 independent LFOs, acce
 
 A visual representation of the waveform is shown to the left of the controls.
 
+***
 **Note: playing with the LFOs will only produce visible changes when they have been assigned to targets in the Modulation Matrix (see below for details).**
+***
 
 ### EG
 
@@ -47,9 +49,11 @@ In audio terms, the attack stage is how long it takes for a sound to reach its s
 
 We provide you two independent EGs to choose from.
 
+***
 **Note: by default EG1 is set to modulate layer BRIGHTNESS parameter in the modulation matrix. This allows a layer to be “played” with notes on/off when TRIGGER mode is set to MIDI. When a note on event is received, BRIGHTNESS will ramp from 0 to 1 in ATTACK time. You can change this at any time in the matrix modulation panel.**
-
+***
 **Note: bear in mind that the EG is just like an LFO, a way for you to have a signal that can act as a modulator. But while the LFO is always running, the EG needs a trigger to activate its attack stage, and another trigger to activate its release stage. Then you can use it to modulate the available parameters in the matrix panel.**
+***
 
 ### Audio Modulators
 
@@ -85,4 +89,6 @@ In addition to the LFO, EG and AM (audio modulator) modulation sources, a furthe
 - **KBD (Keyboard)** - the amount of modulation determined by the pitch of the note on events. The midi pitch 60 corresponds to the zero point of the modulation. Pitches higher will act as increasing positive modulation and pitches lower will act as decreasing negative modulation.
 - **VEL (Velocity)** - the amount of modulation determined by the velocity of the midi note on events
 
+***
 **Tip: to reset all of a layer’s matrix values to zero, click and hold the layer button, located on the render area, select ‘reset’ from the pop-up menu, then select the ‘modulation matrix’ radio button and click reset.**
+***
