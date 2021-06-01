@@ -78,5 +78,5 @@ Select any file to display a preview, then choose to either load the selection i
 ***
 **Note: the iOS version opens the native file browser**
 ***
-
+<br/>
 [**In the next chapter we will look at layer controls**](layer-controls)
