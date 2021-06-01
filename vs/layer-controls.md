@@ -1,8 +1,8 @@
 # Layer Controls
 
-The layer control panel provides access to the parameters of the currently selected layer.
+<img alt="VS Layer Controls" src="/vs/images/layer-controls@2x.png" />
 
-<img alt="VS Layer Controls" align="center" src="/vs/images/layer-controls@2x.png" />
+The layer control panel provides access to the parameters of the currently selected layer.
 
 The number of controls that appear for each layer varies depending on the layer’s active material, specifically the amount of custom parameters the material contains. When a layer is selected, the available controls automatically change.
 
@@ -30,9 +30,9 @@ Tip: this controls are midi mappable. To assign them to a midi controller knob, 
 
 ## Background Layer
 
-The background layer has its own set of parameters, since it deals with image and video. The background layer honours the color panel selection if no image or video is set.
+<img alt="VS Layer Controls" src="/vs/images/background-layer-controls@2x.png" />
 
-<img alt="VS Layer Controls" align="center" src="/vs/images/background-layer-controls@2x.png" />
+The background layer has its own set of parameters, since it deals with image and video. The background layer honours the color panel selection if no image or video is set.
 
 - **Enabled** - Turn the layer on/off.
 - **Alpha** - controls the transparency
