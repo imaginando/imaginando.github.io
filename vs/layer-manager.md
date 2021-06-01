@@ -9,19 +9,20 @@ There are 8 numbered material layers, plus one background layer, ‘B’. The ba
 Each layer item has a live preview of its current material. If the layer is disabled, the preview changes to black. This helps you keep track of your project, as you can see the contents of all layers simultaneously.
 
 Layers are rendered in a stack; the leftmost layer is top, and the very bottom layer is the background layer on the right. To reorder the layers, click and drag each layer to the new desired position.
-
-**Note: The background layer cannot be moved.**
-
+****
+**Note: The background layer cannot be 
+moved.**
+****
 Clicking and holding a layer open it’s additional options:
 
-- Copy - copy the layer that is in the selected slot to memory
-- Paste - paste the layer that is in memory into the selected slot
-- Reset - open the reset dialog
+- **Copy** - copy the layer that is in the selected slot to memory
+- **Paste** - paste the layer that is in memory into the selected slot
+- **Reset** - open the reset dialog
 
 The reset button has two options:
 
-- Reset Material - resets the current material to its default state (does not affect the color as color is a layer property
-- Reset Modulation Matrix - resets all values in the modulation matrix.
+- **Reset Material** - resets the current material to its default state (does not affect the color as color is a layer property
+- **Reset Modulation Matrix** - resets all values in the modulation matrix.
 
 ## Modulations toggle
 
@@ -39,17 +40,17 @@ The circle button changes the primary color’s hue and saturation values, and t
 
 Blend modes alter how a stack of layers is rendered by changing the way that layers interact based on different operations on color information from the layers.
 
-- Normal - The default mode is ‘Normal’ - where pixels are drawn ‘on top of each other’, effectively covering up the pixels of any layers below
-- Screen - Looks at each channel’s color information and multiplies the inverse of the blend and base colors. The effect is similar to projecting multiple photographic slides on top of each other.
-- Hard Light - Multiplies or screens the colors, depending on the blend color. This is useful for adding shadows to an image.
-- Soft Light - Darkens or lightens the colors, depending on the blend color.
-- Overlay - a gentle multiplication of colors, both layers preserve details
-- Difference - a kind of psychedelic 70’s effect, with high contrast, inverted colors
-- Exclusion - similar to difference, but desaturated/washed out colors
-- Subtract - creates a darker image by subtracting brightness
-
+- **Normal** - The default mode is ‘Normal’ - where pixels are drawn ‘on top of each other’, effectively covering up the pixels of any layers below
+- **Screen** - Looks at each channel’s color information and multiplies the inverse of the blend and base colors. The effect is similar to projecting multiple photographic slides on top of each other.
+- **Hard Light** - Multiplies or screens the colors, depending on the blend color. This is useful for adding shadows to an image.
+- **Soft Light** - Darkens or lightens the colors, depending on the blend color.
+- **Overlay** - a gentle multiplication of colors, both layers preserve details
+- **Difference** - a kind of psychedelic 70’s effect, with high contrast, inverted colors
+- **Exclusion** - similar to difference, but desaturated/washed out colors
+- **Subtract** - creates a darker image by subtracting brightness
+***
 **Tip: if you are tweaking existing presets by playing with their layers and are getting unexpected results, perhaps check the current blend mode setting and try changing modes.**
-
+***
 ## Material Browser
 
 To open the material browser, double click any numbered layer.
@@ -62,7 +63,7 @@ The currently loaded material is indicated by a yellow outline. Click any materi
  
 To exit the material browser without loading a new material, click the ‘X’ button located at the bottom right of the screen.
 
-<img alt="VS Material Browser" align="center" src="/vs/images/material-browser.jpg" style="padding: 40px;"/>
+<img alt="VS Material Browser" align="center" src="/vs/images/material-browser@2x.png" style="padding: 40px;"/>
 
 ## Background browser
 
