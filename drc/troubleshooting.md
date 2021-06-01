@@ -1,6 +1,6 @@
 # DRC Help - Troubleshooting
 
-** DRC is telling me I need to purchase the software but i have already purchased (mobile only).**
+**DRC is telling me I need to purchase the software but i have already purchased (mobile only).**
 
 1. **Try to restore purchase** - Ensure that you have your device configured with the same account you have made the purchase with. Open DRC, open menu, choose Store, tap Restore Purchases.
 
