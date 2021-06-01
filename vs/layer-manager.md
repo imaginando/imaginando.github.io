@@ -1,10 +1,10 @@
 # Layer Manager
 
-<img alt="VS Layer Manager" align="center" src="/vs/images/layer-manager@2x.png" style="padding: 40px;"/>
+<img alt="VS Layer Manager" align="center" src="/vs/images/layer-manager@2x.png" />
 
 The Layer Manager allows you to select layers, load materials via the material browser and set the Z index (stacking order) of the layers.
 
-There are 8 numbered material layers, plus one background layer, ‘B’. The background layer can use either a video or image file; it cannot load materials. 
+There are 8 numbered material layers, plus one background layer, ‘B’. The background layer can use either a video or image file; it cannot load materials.
 
 Each layer item has a live preview of its current material. If the layer is disabled, the preview changes to black. This helps you keep track of your project, as you can see the contents of all layers simultaneously.
 
@@ -24,13 +24,11 @@ The reset button has two options:
 - **Reset Material** - resets the current material to its default state (does not affect the color as color is a layer property
 - **Reset Modulation Matrix** - resets all values in the modulation matrix.
 
-## Modulations toggle
-
-Toggles between the audio modulators panel and the modulation matrix panel. If the modulations section is collapsed, it will be expanded.
+At the right most side of the layer manager you will find the modulations button which toggles between the modulation sources panel and the modulation matrix panel. If the modulations section is collapsed, it will be expanded.
 
 ## Color Panel
 
-<img alt="VS Color Panel" align="center" src="/vs/images/color-panel@2x.png" style="padding: 40px;"/>
+<img alt="VS Color Panel" align="center" src="/vs/images/color-panel@2x.png" />
 
 Clicking on the circle on the left will open the color panel that will let you manage the color of the selected layer. This button will have the color of the selected layer 
 
@@ -53,6 +51,8 @@ Blend modes alter how a stack of layers is rendered by changing the way that lay
 ***
 ## Material Browser
 
+<img alt="VS Material Browser" align="center" src="/vs/images/material-browser@2x.png" />
+
 To open the material browser, double click any numbered layer.
 
 Materials are presented in a scrollable grid, with an animated preview for each material.
@@ -63,11 +63,9 @@ The currently loaded material is indicated by a yellow outline. Click any materi
 ***
 To exit the material browser without loading a new material, click the ‘X’ button located at the bottom right of the screen.
 
-<img alt="VS Material Browser" align="center" src="/vs/images/material-browser@2x.png" style="padding: 40px;"/>
-
 ## Media browser
 
-<img alt="VS File Manager" align="center" src="/vs/images/file-manager@2x.png" style="padding: 40px;"/>
+<img alt="VS File Manager" align="center" src="/vs/images/file-manager@2x.png" />
 
 To open the media browser, double click the background layer ‘B’. You can then navigate your local filesystem for supported file types.
 
@@ -75,7 +73,6 @@ Select any file to display a preview, then choose to either load the selection i
 
 ***
 **Note: support files extensions are: jpg, png, mp4, mov.**
-***
 ***
 **Note: the in-app file browser has a file delete function. Use it carefully as it deletes the file from your file system.**
 ***
