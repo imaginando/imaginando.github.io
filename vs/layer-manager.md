@@ -58,25 +58,28 @@ To open the material browser, double click any numbered layer.
 Materials are presented in a scrollable grid, with an animated preview for each material.
 
 The currently loaded material is indicated by a yellow outline. Click any material to load it into the selected layer. When a new material is loaded, the layer’s colour property does not change, the new material will use the layer’s currently selected colour.
-
+***
 **Note: loading a new material resets all layer material parameters. If the same material is reloaded, material parameters are preserved.**
- 
+***
 To exit the material browser without loading a new material, click the ‘X’ button located at the bottom right of the screen.
 
 <img alt="VS Material Browser" align="center" src="/vs/images/material-browser@2x.png" style="padding: 40px;"/>
 
-## Background browser
+## Media browser
 
-To open the background file browser, double click the background layer ‘B’. You can then navigate your local filesystem for supported file types.
+<img alt="VS File Manager" align="center" src="/vs/images/file-manager@2x.png" style="padding: 40px;"/>
 
-**Note: support files extensions are: jpg, png, mp4, mov.**
+To open the media browser, double click the background layer ‘B’. You can then navigate your local filesystem for supported file types.
 
 Select any file to display a preview, then choose to either load the selection into the background layer, or cancel the operation using the close button.
 
+***
+**Note: support files extensions are: jpg, png, mp4, mov.**
+***
+***
 **Note: the in-app file browser has a file delete function. Use it carefully as it deletes the file from your file system.**
-
+***
 **Note: the iOS version opens the native file browser**
+***
 
-<img alt="VS File Browser" align="center" src="/vs/images/file-browser.jpg" style="padding: 40px;"/>
-
-[In the next chapter we will look at layer controls](layer-controls)
+[**In the next chapter we will look at layer controls**](layer-controls)
