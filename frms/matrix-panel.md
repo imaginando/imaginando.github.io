@@ -14,8 +14,6 @@ In order to change a value, choose on the correspondent intersection and then us
 
 - **VALUE SLIDER** - Allows you to set the modulation ammount of the select cell.
 
-<br/>
-
 ### Sources:
 
 - **PAGE 1**
@@ -37,8 +35,6 @@ In order to change a value, choose on the correspondent intersection and then us
   - AFT (After Touch)
 
   **Note**: Sequencer modulation is not used yet.
-
-<br/>
 
 ### Targets:
 
