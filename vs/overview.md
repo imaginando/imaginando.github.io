@@ -10,6 +10,21 @@ A layer is a polyphonic synthesis engine which means that the same material can 
 
 VS’ interface consists of the following three sections: an horizontal status bar across the top, a display area in the center of the window, controls section at the bottom of the screen
 
+The status bar includes the following labelled elements:
+
+- **MIDI Learn** - Assign VS parameter control to a MIDI controller. Select to toggle on/off. Once on, press the desired parameter to make the mapping.
+- **Clock source** - select timing/tempo source
+- **Demo** - a selection of short music loops for VS testing purposes. Each demo is equipped with audio and midi routed internally so you can use it to trigger/modulate your materials.
+- **Tempo** - shows VS current tempo BPM (this value is editable using the + and - buttons which appear when tempo is selected, if clock source is set to ‘Internal’ or ‘Link’
+- **Patch** - show/hide VS preset/patch manager
+
+The status bar also contains the following icon buttons (from left to right):
+
+- **Disk icon** - save current patch state
+- **Revert icon** - revert current patch to its last saved/original state
+- **Up arrow** - select the current bank’s previous patch
+- **Down arrow** - select the current bank’s next patch
+
 1. **1) Help** - This launches a set of quickstart tool tips to guide you through your first steps of navigating the VS interface.
 
 2. **2) Frame Rate Counter** - This is useful for you to see if you are achieving your target frame rate. If your frame rate is too low, you can try reducing the quality to achieve a better performance.

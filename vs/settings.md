@@ -1,4 +1,4 @@
-#Settings
+# Settings
 
 - **Profile** - Login to Imaginando account
 - **MIDI** - configure MIDI input and output ports
