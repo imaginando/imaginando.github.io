@@ -94,4 +94,5 @@ In addition to the LFO, EG and AM (audio modulator) modulation sources, a furthe
 ***
 
 <br/>
+
 [**In the next chapter we will look at general settings**](settings)
