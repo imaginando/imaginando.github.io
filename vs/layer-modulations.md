@@ -92,3 +92,6 @@ In addition to the LFO, EG and AM (audio modulator) modulation sources, a furthe
 ***
 **Tip: to reset all of a layer’s matrix values to zero, click and hold the layer button, located on the render area, select ‘reset’ from the pop-up menu, then select the ‘modulation matrix’ radio button and click reset.**
 ***
+
+<br/>
+[**In the next chapter we will look at general settings**](settings)
