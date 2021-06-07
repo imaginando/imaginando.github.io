@@ -50,4 +50,6 @@ The status bar also contains the following icon buttons (from left to right):
 **Note: you can navigate presets in the selected bank by swiping up/down.**
 ***
 
+<br/>
+
 [**Now let's look at the Layer Manager in detail**](layer-manager)
