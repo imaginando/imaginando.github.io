@@ -16,7 +16,7 @@ This is an acronym for Low Frequency Oscillator. LFOs are signals with very low 
 On the left of the panel is the LFOs section. There are 4 independent LFOs, accessed using the numbered buttons, and each LFO consists of the following parameters:
 
 - **Waveform** - Click to cycle through these available types:
-    - **SINE** - Sinusoidal.
+    - **SINE** - Sinusoidal
     - **SQR** - Square
     - **SAW** - Sawtooth
     - **TRI** - Triangle
@@ -31,9 +31,13 @@ On the left of the panel is the LFOs section. There are 4 independent LFOs, acce
 
 A visual representation of the waveform is shown to the left of the controls.
 
+<br/>
+
 ***
 **Note: playing with the LFOs will only produce visible changes when they have been assigned to targets in the Modulation Matrix (see below for details).**
 ***
+
+<br/>
 
 ### EG
 
@@ -43,17 +47,21 @@ Envelope generators usually have four stages: Attack, decay, sustain and release
 
 In audio terms, the attack stage is how long it takes for a sound to reach its sustain value from the moment it is triggered, and the release is the amount of time the sound will take to reach silence, once the note has been released. In simplified terms, you can think of attack as fade in, and release as fade out. Then you have two parameters to control in the EG:
 
-- **Attack** - controls the amount of time the brightness will take from zero to its layer defined value once a trigger on event (note on) is received.
+- **Attack** - controls the amount of time the brightness will take from zero to its layer defined value once a trigger on event (note on) is received
 
-- **Release** - controls the amount of time the brightness will take from its sustain value to zero once a trigger off event (note off) is received.
+- **Release** - controls the amount of time the brightness will take from its sustain value to zero once a trigger off event (note off) is received
 
 We provide you two independent EGs to choose from.
 
+<br/>
+
 ***
-**Note: by default EG1 is set to modulate layer BRIGHTNESS parameter in the modulation matrix. This allows a layer to be “played” with notes on/off when TRIGGER mode is set to MIDI. When a note on event is received, BRIGHTNESS will ramp from 0 to 1 in ATTACK time. You can change this at any time in the matrix modulation panel.**
+**Note: by default EG1 is set to modulate layer BRIGHTNESS parameter in the modulation matrix. This allows a layer to be “played” with notes on/off when TRIGGER mode is set to MIDI. When a note on event is received, BRIGHTNESS will ramp from 0 to its level, in ATTACK time. You can change this at any time in the matrix modulation panel.**
 ***
 **Note: bear in mind that the EG is just like an LFO, a way for you to have a signal that can act as a modulator. But while the LFO is always running, the EG needs a trigger to activate its attack stage, and another trigger to activate its release stage. Then you can use it to modulate the available parameters in the matrix panel.**
 ***
+
+<br/>
 
 ### Audio Modulators
 
@@ -72,22 +80,24 @@ Audio modulator parameters:
 - **Numbered boxes** - select the desired audio modulator
 Mode - Select the mode of the current audio modulator (Gate or Spectrum)
 - **Threshold** - Define the limit where the input will start to be used as modulation
-- **Gain** - This serves as a multiplier of the resulting modulation values. It can be useful to amplify quieter signals or to reduce strong ones.
-- **Attack** - As explained above, the attack is related to the amount of time a given signal takes to reach the maximum value as soon as there is an on trigger. In this case, we consider the signal passing the threshold as the trigger, and its current value as the target. So what attack will do is to make a kind of ramp between values. The greater the amount of attack, the slower it will change the output of the modulator. In other words, longer attacks will cause slower onset of modulations.
-- **Release** - This is triggered when the signal passes below the threshold, and defines the time the output modulation will take to reach the zero value. In other words, longer release values will cause modulations to fade more slowly. 
+- **Gain** - This serves as a multiplier of the resulting modulation values. It can be useful to amplify quieter signals or to reduce strong ones
+- **Attack** - As explained above, the attack is related to the amount of time a given signal takes to reach the maximum value as soon as there is an on trigger. In this case, we consider the signal passing the threshold as the trigger, and its current value as the target. So what attack will do is to make a kind of ramp between values. The greater the amount of attack, the slower it will change the output of the modulator. In other words, longer attacks will cause slower onset of modulations
+- **Release** - This is triggered when the signal passes below the threshold, and defines the time the output modulation will take to reach the zero value. In other words, longer release values will cause modulations to fade more slowly
 
 ## Modulation Matrix
 
 <img alt="VS Layer Controls" src="/vs/images/modulation-matrix@2x.png" />
 
-The modulation matrix panel lets you assign modulation sources to specific layer parameters, arranged in a two dimensional grid of cells, with modulation sources on the x axis (top) and parameters on the y axis (left). Clicking a cell value and then dragging either up/down or left/right will increase or decrease the amount of modulation effect that the source will have on the parameter. This value can range from -1 to +1, with the default setting zero representing no modulation effect. To aid visual clarity, each cell shows a white horizontal line under the value, if the value is greater than or less than zero. The origin point of the line is centered, so positive values draw to the right and negative to the left.
+The modulation matrix panel lets you assign modulation sources to specific layer parameters, arranged in a two dimensional grid of cells, with modulation sources on the x axis (top) and parameters on the y axis (left). Clicking a cell value and then dragging either up/down or left/right will decrease or increase the amount of modulation effect that the source will have on the parameter. This value can range from -1 to +1, with the default setting zero representing no modulation effect. To aid visual clarity, each cell shows a white horizontal line under the value, if the value is greater than or less than zero. The origin point of the line is centered, so positive values draw to the right and negative to the left.
 
 The matrix is split into three tabs, click each tab to access the different pages of each layer’s parameters. You can also click and hold some layer parameter rotary knob to quickly navigate to its corresponding matrix cell (for this to work, the layer parameter must exist in the matrix).
 
 In addition to the LFO, EG and AM (audio modulator) modulation sources, a further two sources are available for MIDI note data trigger based modulation:
 
-- **KBD (Keyboard)** - the amount of modulation determined by the pitch of the note on events. The midi pitch 60 corresponds to the zero point of the modulation. Pitches higher will act as increasing positive modulation and pitches lower will act as decreasing negative modulation.
+- **KBD (Keyboard)** - the amount of modulation determined by the pitch of the note on events. The midi pitch 60 corresponds to the zero point of the modulation. Pitches higher will act as increasing positive modulation and pitches lower will act as decreasing negative modulation
 - **VEL (Velocity)** - the amount of modulation determined by the velocity of the midi note on events
+
+<br/>
 
 ***
 **Tip: to reset all of a layer’s matrix values to zero, click and hold the layer button, located on the render area, select ‘reset’ from the pop-up menu, then select the ‘modulation matrix’ radio button and click reset.**
