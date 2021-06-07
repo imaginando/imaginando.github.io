@@ -2,7 +2,7 @@
 
 VS is an additive synthesizer in which oscillators do not produce sound, but visuals. These oscillators are called materials. Just like an audio oscillator will produce a distinct sound, a material produces a unique visual output. A material can have one or more parameters that can alter its characteristics. Materials are loaded into layers.
 
-A layer is a polyphonic synthesis engine which means that the same material can be played by multiple voices. Different voices have different characteristics and this could affect particularites of a material assigned to a layer, resulting in increased expressivess. Layers play an important role in VS as you can stack them in order to create your visual composition. In VS there are 8 layers. Additionally there is a background layer with special characteristics.
+A layer is a polyphonic synthesis engine which means that the same material can be played by multiple voices. Different voices have different characteristics and this could affect particularites of a material assigned to a layer, resulting in increased expressiveness. Layers play an important role in VS as you can stack them in order to create your visual composition. In VS there are 8 layers. Additionally there is a background layer with special characteristics.
 
 ## User Interface
 
@@ -14,7 +14,7 @@ The status bar includes the following labelled elements:
 
 - **MIDI Learn** - Assign VS parameter control to a MIDI controller. Select to toggle on/off. Once on, press the desired parameter to make the mapping.
 - **Clock source** - select timing/tempo source
-- **Demo** - a selection of short music loops for VS testing purposes. Each demo is equipped with audio and midi routed internally so you can use it to trigger/modulate your materials.
+- **Demo** - a selection of short music loops for VS testing purposes. Each demo is equipped with audio and midi routed internally so you can use it to trigger/modulate your materials
 - **Tempo** - shows VS current tempo BPM (this value is editable using the + and - buttons which appear when tempo is selected, if clock source is set to ‘Internal’ or ‘Link’
 - **Patch** - show/hide VS preset/patch manager
 
