@@ -23,13 +23,13 @@ Each material can have up to 8 parameters that are specific to it. The layer con
 <br/>
 
 ***
-Tip: if you get no noticeable effect when triggering with midi, make sure that the midi is being sent / received on the same channel. Also make sure that brightness in the layer you want to map to midi is not set to zero, as - by default - midi will modulate brightness using EG1.
+**Tip: if you get no noticeable effect when triggering with midi, make sure that the midi is being sent / received on the same channel. Also make sure that brightness in the layer you want to map to midi is not set to zero, as - by default - midi will modulate brightness using EG1.**
 ***
-Tip: double click a parameter knob to set it to default
+**Tip: double click a parameter knob to set it to default.**
 ***
-Tip: long press a material parameter knob to highlight it in the modulation matrix. If the modulations panel is closed, this action will open it in the page containing the respective parameter.
+**Tip: long press a material parameter knob to highlight it in the modulation matrix. If the modulations panel is closed, this action will open it in the page containing the respective parameter.**
 ***
-Tip: this controls are midi mappable. To assign them to a midi controller knob, enable midi learn in the status bar, click the desired control, move the knob/button on your controller and disable midi learn
+**Tip: this controls are midi mappable. To assign them to a midi controller knob, enable midi learn in the status bar, click the desired control, move the knob/button on your controller and disable midi learn.**
 ***
 
 <br/>
