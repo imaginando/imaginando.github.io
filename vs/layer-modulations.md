@@ -21,7 +21,7 @@ On the left of the panel is the LFOs section. There are 4 independent LFOs, acce
     - **SAW** - Sawtooth
     - **TRI** - Triangle
     - **S&H** - Sample and hold (this will give you jumps between random values for modulation)
-    - **FS&H** - Filtered sample and hold (equal to sample and hold but there will be a ramp between values, causing smooth glides between random values rather than jumps)
+    - **FS&H** - Filtered sample and hold (the same as sample and hold but there will be a ramp between values, causing smooth glides between random values rather than jumps)
 
 - **Rate** - Define the speed of the LFO. This will set the frequency of the oscillation that will determine how fast the values are changed
 
