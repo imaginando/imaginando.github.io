@@ -10,9 +10,13 @@ Each layer item has a live preview of its current material. If the layer is disa
 
 Layers are rendered in a stack; the leftmost layer is top, and the very bottom layer is the background layer on the right. To reorder the layers, click and drag each layer to the new desired position.
 
+<br/>
+
 ****
 **Note: The background layer cannot be moved.**
 ****
+
+<br/>
 
 Clicking and holding a layer open it’s additional options:
 
@@ -53,9 +57,13 @@ Blend modes alter how a stack of layers is rendered by changing the way that lay
 - **Exclusion** - similar to difference, but desaturated/washed out colors
 - **Subtract** - creates a darker image by subtracting brightness
 
+<br/>
+
 ***
 **Tip: if you are tweaking existing presets by playing with their layers and are getting unexpected results, perhaps check the current blend mode setting and try changing modes.**
 ***
+
+<br/>
 
 ## Material Browser
 
@@ -67,9 +75,13 @@ Materials are presented in a scrollable grid, with an animated preview for each 
 
 The currently loaded material is indicated by a yellow outline. Click any material to load it into the selected layer. When a new material is loaded, the layer’s colour property does not change, the new material will use the layer’s currently selected colour.
 
+<br/>
+
 ***
 **Note: loading a new material resets all layer material parameters. If the same material is reloaded, material parameters are preserved.**
 ***
+
+<br/>
 
 To exit the material browser without loading a new material, click the ‘X’ button located at the bottom right of the screen.
 
@@ -81,6 +93,8 @@ To open the media browser, double click the background layer ‘B’. You can th
 
 Select any file to display a preview, then choose to either load the selection into the background layer, or cancel the operation using the close button.
 
+<br/>
+
 ***
 **Note: support files extensions are: jpg, png, mp4, mov.**
 ***
@@ -88,6 +102,7 @@ Select any file to display a preview, then choose to either load the selection i
 ***
 **Note: the iOS version opens the native file browser**
 ***
+
 <br/>
 
 [**In the next chapter we will look at layer controls**](layer-controls)
