@@ -1,11 +1,11 @@
 # Layer Modulations
 
 This panel is divided into three sections: LFOs, envelopes and audio modulation.
-These are audio related terms that we choose to adopt so people using this software with their audio compositions can feel at home in the visual world also. 
+These are audio related terms that we chose to adopt so people using this software with their audio compositions can feel at home in the visual world also. 
 
 However, if you’re new to these terms we will happily explain them right now.
 
-## Modulations Sources
+## Modulation Sources
 
 <img alt="VS Layer Controls" src="/vs/images/modulation-sources@2x.png" />
 
@@ -67,7 +67,7 @@ We provide you two independent EGs to choose from.
 
 Finally, on the right of the modulators panel there is the audio modulator panel. Here it’s possible to use the input audio as a modulation source, just like the LFOs and EGs. 
 
-There are four independent audio modulators, with two mode of operation:
+There are four independent audio modulators, with two modes of operation:
 
 - **GATE** - in this mode audio input will serve as a modulator only if its amplitude is above a specific level, defined by the THRESHOLD parameter. There is a visual analyser, so it is possible to see the amplitude range of the input and adjust the threshold accordingly. When the audio signal passes the defined threshold, it will work as an envelope follower. In order words, the amount of modulation will be linked to the ‘strength’ of the signal. The greater the amplitude, the greater the value of the modulation.
 
@@ -94,8 +94,8 @@ The matrix is split into three tabs, click each tab to access the different page
 
 In addition to the LFO, EG and AM (audio modulator) modulation sources, a further two sources are available for MIDI note data trigger based modulation:
 
-- **KBD (Keyboard)** - the amount of modulation determined by the pitch of the note on events. The midi pitch 60 corresponds to the zero point of the modulation. Pitches higher will act as increasing positive modulation and pitches lower will act as decreasing negative modulation
-- **VEL (Velocity)** - the amount of modulation determined by the velocity of the midi note on events
+- **KBD (Keyboard)** - the amount of modulation determined by the pitch of the note on events. The MIDI pitch 60 corresponds to the zero point of the modulation. Pitches higher will act as increasing positive modulation and pitches lower will act as decreasing negative modulation
+- **VEL (Velocity)** - the amount of modulation determined by the velocity of the MIDI note on events
 
 <br/>
 

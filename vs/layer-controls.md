@@ -1,6 +1,6 @@
 # Layer Controls
 
-<img alt="VS Layer Controls" src="/vs/images/layer-controls@2x.png" />
+![VS Layer Controls](/vs/images/layer-controls@2x.png)
 
 The layer control panel provides access to the parameters of the currently selected layer.
 
@@ -15,21 +15,21 @@ All material layers have the following common controls:
 - **Speed** - Controls the movement speed of the layer material. Value can be positive, negative or zero (static)
 - **Mono** - restricts the layer to a single visual voice
 - **Trigger** - when set to ‘MIDI’, the layer will be triggered on and off by MIDI note data. Multiple simultaneous notes will generate a layer of polyphonic visual voices. When this mode is active, it is important to ensure that brightness is being modulated by the EG, the default behaviour
-- **Trigger Channel** - specifies the MIDI channel that will trigger this layer. This can be useful to have different layers reacting to different midi voices
-- **Glide** - This works like a portamento. When glide is greater than zero and KBD (notes pitch) is being used as a modulation source in the modulation matrix, the frequency of these notes will be interpolated (only available in midi mode)
+- **Trigger Channel** - specifies the MIDI channel that will trigger this layer. This can be useful to have different layers reacting to different MIDI voices
+- **Glide** - This works like a portamento. When glide is greater than zero and KBD (notes pitch) is being used as a modulation source in the modulation matrix, the frequency of these notes will be interpolated (only available in MIDI mode)
 
 Each material can have up to 8 parameters that are specific to it. The layer control knobs placed between SPEED and MONO parameters are specific to the material. Their label will adjust according to the material. If a material does not make use of certain parameters, its label will be N/A and the knob will be disabled.
 
 <br/>
 
 ***
-**Tip: if you get no noticeable effect when triggering with midi, make sure that the midi is being sent / received on the same channel. Also make sure that brightness in the layer you want to map to midi is not set to zero, as - by default - midi will modulate brightness using EG1.**
+**Tip: if you get no noticeable effect when triggering with MIDI, make sure that MIDI is being sent/received on the same channel. Also make sure that brightness in the layer you want to map to MIDI is not set to zero, as by default, MIDI will modulate brightness using EG1.**
 ***
 **Tip: double click a parameter knob to set it to default.**
 ***
 **Tip: long press a material parameter knob to highlight it in the modulation matrix. If the modulations panel is closed, this action will open it in the page containing the respective parameter.**
 ***
-**Tip: this controls are midi mappable. To assign them to a midi controller knob, enable midi learn in the status bar, click the desired control, move the knob/button on your controller and disable midi learn.**
+**Tip: this controls are MIDI mappable. To assign them to a MIDI controller knob, enable MIDI learn in the status bar, click the desired control, move the knob/button on your controller and disable MIDI learn.**
 ***
 
 <br/>
@@ -41,8 +41,8 @@ Each material can have up to 8 parameters that are specific to it. The layer con
 The background layer has its own set of parameters, since it deals with image and video. The background layer honours the color panel selection if no image or video is set.
 
 - **Enabled** - Turn the layer on/off
-- **Alpha** - controls the transparency
-- **Scale** - resizes the media
+- **Alpha** - Controls the transparency
+- **Scale** - Resizes the media
 - **Rotate** - Rotates the media
 - **X** - Changes the horizontal position of the media
 - **Y** - Changes the vertical position of the media
@@ -50,10 +50,10 @@ The background layer has its own set of parameters, since it deals with image an
 - **Mode** - Defines the playback mode of the video (video only)
 - **Loop** - In this mode video playback continuously repeats
 - **Still** - In this mode the video remains paused on a single frame
-- **Position** - select the frame used for still mode. This parameter is only enabled when mode is STILL (video only)
+- **Position** - Select the frame used for still mode. This parameter is only enabled when mode is STILL (video only)
 - **End** - Defines the end point of the video (video only)
 - **Fill Mode** - Defines how media fill mode:
-    - **Fit** - the media will fit in the screen without being cropped. Can lead to empty or black spaces
+    - **Fit** - The media will fit in the screen without being cropped. Can lead to empty or black spaces
     - **Crop** - Media will occupy all the available display area. Cropping can occur
 
 <br/>
