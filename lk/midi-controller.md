@@ -17,27 +17,26 @@ Depending on the mode selected, you will find different sections in the status b
 - **CHANNEL (MIDI MODE)** - chooses the MIDI output channel.
 - **PARAMETER** - shows the CC number (MIDI MODE) or the Ableton Live parameter (LIVE MODE) of the selected screen control
 - **VALUE** - shows the value of data transmitted by the selected screen control.
+- **BANK** - switch between the four different banks of controls
 
-At the bottom of the screen, a split view can be open by dragging the == icon, or tapping anywhere else inside the bar to instantly maximize/minimize. This menu gives access to the following module settings:
-
-- **BANKS** - four independent and customizable banks.
-- **RENAME** - change the label name of a controller (While pressing this button, press your desired screen control to change its name).
-- **ASSIGN** - allows mapping of a CC (While pressing this button, press your desired screen control to change its cc value (MIDI MODE), or to sync it with an Ableton Live parameter (LIVE MODE)).
-
-By default, the CC values are distributed in an ascending order in each column and bank, from 0 to 128. This means that the first screen control of bank A is by default mapped to CC 0, while the last screen control, on bank D is by default mapped to CC 128. Nevertheless, all these parameters can be customized, giving you the possibility to adapt this section to your needs.
+By default, the CC values are distributed in an ascending order in each column and bank, from 0 to 127. This means that the first screen control of bank 1 is by default mapped to CC 0, while the last screen control, on bank 4 is by default mapped to CC 127. Nevertheless, all these parameters can be customized, giving you the possibility to adapt this section to your needs.
 
 ## Assigning a custom MIDI CC
 
-To customize the MIDI mapping (MIDI mode), the assign key must be pressed while pressing the screen controller intended for mapping. This will open a list of CC values available - press the number of the value you want to map and press OK to confirm. To reset a CC, open the assign window and choose RESET at the bottom.
+To customize the MIDI mapping (MIDI mode), tap ASSIGN, then tap the control you wish to change. This will open a pop-up allowing you to edit the name, color, MIDI channel, CC number and min and max values.
 
-![LK Midi Controller Module CC Assign](/lk/images/controller/cc-assign.jpg)
+![LK Midi Controller Module CC Assign](/lk/images/controller/midi-controller-assign-cc.png)
+
+To exit mapping mode, tap ASSIGN to change it back to disabled.
+
+To return a control to the default CC mapping, press ASSIGN and then RESET.
 
 ## Assigning an Ableton Live Parameter
 
-To customize the parameters in Live mode, select the screen control you want to map, then press ASSIGN. Change the parameter you want assign on Ableton Live or using the [Matrix](matrix) devices section. The name of the parameter will be displayed in the screen, press OK to confirm.
+To customize the parameters in Live mode, select the LK control you want to map, then press ASSIGN. Change the parameter you want to assign in Ableton Live or using the [Matrix](matrix) devices section. The name of the parameter will be displayed on the screen, press OK to confirm.
 
-In any case it is possible to return to the default CC mapping by pressing ASSIGN and then RESET.
+![LK Midi Controller Ableton Live Parameter assign](/lk/images/controller/live-assign.png)
 
-![LK Midi Controller Ableton Live Parameter assign](/lk/images/controller/live-assign.jpg)
+To exit mapping mode, tap ASSIGN to change it back to disabled.
 
 [Learn all about the XY-Pad Module.](xy-pad)
