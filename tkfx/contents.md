@@ -17,3 +17,5 @@ With control of all 4 decks, the mixer and the music library, you can mix a whol
 Don't worry, we didn't forget about Traktor's FX/effects - we built a revolutionary, custom FX control system instead! One of the most exciting parts of TKFX, it offers innovative and creative new ways to use Traktor's FX units.
 
 We’ve designed the initial setup process to be as fast and easy as possible, with a simple step-by-step guide to get you up and running in just minutes!
+
+[Click here to get started with an overview of TKFX.](overview)

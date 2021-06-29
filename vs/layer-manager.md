@@ -6,7 +6,7 @@ The Layer Manager allows you to select layers, load materials via the material b
 
 There are 8 numbered material layers, plus one background layer, ‘B’. The background layer can use either a video or image file; it cannot load materials. Background layer honours selected color when no media is loaded. By default the background layer color is black.
 
-Each layer item has a live preview of its current material. If the layer is disabled, the preview changes to black. This helps you keep track of your project, as you can see the contents of all layers simultaneously.
+Each layer item has a live preview of its current material. If the layer is disabled, the preview changes to black.
 
 Layers are rendered in a stack; the leftmost layer is top, and the very bottom layer is the background layer on the right. To reorder the layers, click and drag each layer to the new desired position.
 
@@ -18,7 +18,7 @@ Layers are rendered in a stack; the leftmost layer is top, and the very bottom l
 
 <br/>
 
-Clicking and holding a layer open it’s additional options:
+Clicking and holding a layer open its additional options:
 
 - **Materials** - open the material browser
 - **Copy** - copy the layer that is in the selected slot to memory
@@ -27,7 +27,7 @@ Clicking and holding a layer open it’s additional options:
 
 The reset button has two options:
 
-- **Reset Material** - resets the current material to its default state (does not affect the color, as color is a layer property
+- **Reset Material** - resets the current material to its default state (does not affect the color, as color is a layer property)
 - **Reset Modulation Matrix** - resets all values in the modulation matrix
 
 Clicking and holding the background layer opens the following options:
@@ -73,7 +73,7 @@ To open the material browser, double click any numbered layer.
 
 Materials are presented in a scrollable grid, with an animated preview for each material.
 
-The currently loaded material is indicated by a yellow outline. Click any material to load it into the selected layer. When a new material is loaded, the layer’s colour property does not change, the new material will use the layer’s currently selected colour.
+The currently loaded material is indicated by a yellow outline. Click any material to load it into the selected layer. When a new material is loaded, the layer’s color property does not change, the new material will use the layer’s currently selected color.
 
 <br/>
 
@@ -96,11 +96,11 @@ Select any file to display a preview, then choose to either load the selection i
 <br/>
 
 ***
-**Note: support files extensions are: jpg, png, mp4, mov.**
+**Note: supported files extensions are: jpg, png, mp4, mov.**
 ***
 **Note: the in-app file browser has a file delete function. Use it carefully as it deletes the file from your file system.**
 ***
-**Note: the iOS version opens the native file browser**
+**Note: the iOS version opens the native file browser.**
 ***
 
 <br/>
