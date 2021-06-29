@@ -19,7 +19,7 @@ Depending on the mode selected, you will find different sections in the status b
 - **VALUE** - shows the value of data transmitted by the selected screen control.
 - **BANK** - switch between the four different banks of controls
 
-By default, the CC values are distributed in an ascending order in each column and bank, from 0 to 128. This means that the first screen control of bank 1 is by default mapped to CC 0, while the last screen control, on bank 4 is by default mapped to CC 128. Nevertheless, all these parameters can be customized, giving you the possibility to adapt this section to your needs.
+By default, the CC values are distributed in an ascending order in each column and bank, from 0 to 127. This means that the first screen control of bank 1 is by default mapped to CC 0, while the last screen control, on bank 4 is by default mapped to CC 127. Nevertheless, all these parameters can be customized, giving you the possibility to adapt this section to your needs.
 
 ## Assigning a custom MIDI CC
 
