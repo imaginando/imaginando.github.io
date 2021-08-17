@@ -22,13 +22,13 @@ VS’ interface consists of the following elements:
 
 **6) Launch external display** - this opens an additional separate render area window, containing no overlays and controls, which can be toggled fullscreen with the ‘F’ key. This mode is suitable for live performance and VJ use, to generate a clean feed of the render output for projection or video capture, while being able to use VS controls on another screen. This option is only available in the desktop version of VS.
 
-**6) Layer Controls** - access the current layer’s parameter controls
+**7) Record button** - records VS' render output to disk as a video file. Press once to start recording, then press again to stop recording. The file will be saved to your VS 'Recordings' Folder. (note: check the 'Recording Quality' option in the settings menu, prior to recording)
 
-**7) Layer Modulations** - edit LFOs, envelope generators and audio modulators here
+**8) Layer Controls** - access the current layer’s parameter controls
 
-**8) Show/hide Layer Modulations** - increases size of render area by collapsing the modulation section
+**9) Layer Modulations** - edit LFOs, envelope generators and audio modulators here
 
-**9) Record button** - records VS' render output to disk as a video file. Press once to start recording, then press again to stop recording. The file will be saved to your VS 'Recordings' Folder. (note: check the 'Recording Quality' option in the settings menu, prior to recording)
+**10) Show/hide Layer Modulations** - increases size of render area by collapsing the modulation section
 
 <br/>
 
