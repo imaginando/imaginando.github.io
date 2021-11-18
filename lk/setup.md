@@ -6,7 +6,7 @@ You can connect LK to UBRIDGE wirelessly over a local WIFI network, or via USB c
 
 **Note: Network security software such as firewalls can block wireless connections between UBRIDGE and LK - you may need to define custom rules to specify that the connection should be allowed.**
 
-Start by downloading and installing [UBRIDGE](https://www.imaginando.pt/products/ubridge/downloads).
+Start by downloading and installing [UBRIDGE](https://www.imaginando.pt/products/ubridge-universal-bridging/downloads).
 
 The first time you open UBRIDGE, Windows Firewall will ask you to allow it to use the network connection. Ensure both private and public are ticked, then click '**Allow access**'.
 

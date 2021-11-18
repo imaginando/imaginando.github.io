@@ -1,6 +1,6 @@
 # TKFX Help - Setup
 
-Some simple configuration steps are needed to take the most out of **TKFX**, but don't worry: follow this guide and in a couple of minutes you will be up and running. First thing you need to do is download [**UBRIDGE**](https://www.imaginando.pt/products/ubridge/downloads).
+Some simple configuration steps are needed to take the most out of **TKFX**, but don't worry: follow this guide and in a couple of minutes you will be up and running. First thing you need to do is download [**UBRIDGE**](https://www.imaginando.pt/products/ubridge-universal-bridging/downloads).
 
 Once you have installed UBRIDGE, you just need to start the application. If you are running Mac OSX no additional configuration is necessary as Mac OSX allows the creation of virtual MIDI ports and UBRIDGE will automatically create **UBRIDGE Virtual**. You just need to ensure they are are selected under UBRIDGE's TKFX tab.
 
@@ -14,7 +14,7 @@ Then open **UBRIDGE**, and choose the new port you just created on loopMIDI as M
 
 ![Ubridge TKFX Link](/ubridge/images/ubridge_tkfx.png)
 
-The second thing we need to do is to configure the Traktor MIDI mapping, so let’s start by downloading the free Traktor Mapping from our [downloads](https://www.imaginando.pt/products/tkfx/downloads) section. Next, open Traktor preferences and select "Controller Manager", click add, choose "Import TSI" and then "Import Other...". Select the mapping file you have previously downloaded from our website. Alternatively you can simply click on the import button located at the bottom of Traktor's preferences window.
+The second thing we need to do is to configure the Traktor MIDI mapping, so let’s start by downloading the free Traktor Mapping from our [downloads](https://www.imaginando.pt/products/tkfx-traktor-controller/downloads) section. Next, open Traktor preferences and select "Controller Manager", click add, choose "Import TSI" and then "Import Other...". Select the mapping file you have previously downloaded from our website. Alternatively you can simply click on the import button located at the bottom of Traktor's preferences window.
 
 ![Traktor Settings](/tkfx/images/traktor.png)
 
