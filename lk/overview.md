@@ -4,7 +4,7 @@ LK features a modular system for both content and pricing. All modules can be tr
 
 Each module is accessible via its own icon/button down the left hand side of the screen, making it easy to switch between them in an instant.
 
-![LK Matrix Module default empty state overview](/lk/images/overview/overview.jpg)
+<img src="../lk/images/overview/overview.jpg" alt="LK Matrix Module default empty state overview" width="" height="" />
 
 Available modules:
 
@@ -26,7 +26,7 @@ Above and below the module icons, are two buttons which both provide access to L
 - **ABOUT** - show version number and info
 - **HELP** - opens LK's help page in your browser
 
-![LK Main menu](/lk/images/overview/menu.jpg)
+<img src="../lk/images/overview/menu.jpg" alt="LK Main menu" width="" height="" />
 
 ## Settings
 
@@ -34,12 +34,12 @@ The following global settings are available:
 
 - **Include chain (slower loading)** - when enabled, all chain devices inside each Ableton Live Rack will be loaded and available for edit, otherwise, only the main device will be loaded and available.
 - **Gate launch mode support** - when enabled, Matrix clips are triggered using Ableton's 'Gate' launch mode. (Press and hold to play the clip, then release to stop)
-- **Matrix cell Width** - change the width of Matrix module clips 
-- **Matrix cell Height** - change the height of Matrix module clips 
+- **Matrix cell Width** - change the width of Matrix module clips
+- **Matrix cell Height** - change the height of Matrix module clips
 - **Knobs sensitivity** - adjust the sensitivity of LK's virtual controls
 - **Notifications** - enables/disables push notifications (special sale events and discounts plus any important app related news/messages)
 - **Work in background** - app stays active even when not visible
 
-![LK Settings submenu of main menu](/lk/images/overview/settings.jpg)
+<img src="../lk/images/overview/settings.jpg" alt="LK Settings submenu of main menu" width="" height="" />
 
 [See next how to configure **LK** for use with Ableton Live](setup)

@@ -1,6 +1,6 @@
 # Layer Controls
 
-![VS Layer Controls](/vs/images/layer-controls@2x.png)
+<img src="../vs/images/layer-controls@2x.png" alt="VS Layer Controls" width="" height="" />
 
 The layer control panel provides access to the parameters of the currently selected layer.
 
@@ -22,15 +22,23 @@ Each material can have up to 8 parameters that are specific to it. The layer con
 
 <br/>
 
-***
+---
+
 **Tip: if you get no noticeable effect when triggering with MIDI, make sure that MIDI is being sent/received on the same channel. Also make sure that brightness in the layer you want to map to MIDI is not set to zero, as by default, MIDI will modulate brightness using EG1.**
-***
+
+---
+
 **Tip: double click a parameter knob to set it to default.**
-***
+
+---
+
 **Tip: long press a material parameter knob to highlight it in the modulation matrix. If the modulations panel is closed, this action will open it in the page containing the respective parameter.**
-***
+
+---
+
 **Tip: this controls are MIDI mappable. To assign them to a MIDI controller knob, enable MIDI learn in the status bar, click the desired control, move the knob/button on your controller and disable MIDI learn.**
-***
+
+---
 
 <br/>
 
@@ -53,14 +61,16 @@ The background layer has its own set of parameters, since it deals with image an
 - **Position** - Select the frame used for still mode. This parameter is only enabled when mode is STILL (video only)
 - **End** - Defines the end point of the video (video only)
 - **Fill Mode** - Defines how media fill mode:
-    - **Fit** - The media will fit in the screen without being cropped. Can lead to empty or black spaces
-    - **Crop** - Media will occupy all the available display area. Cropping can occur
+  - **Fit** - The media will fit in the screen without being cropped. Can lead to empty or black spaces
+  - **Crop** - Media will occupy all the available display area. Cropping can occur
 
 <br/>
 
-***
+---
+
 **Tip: to reset the background, long press the background button and choose clear from the context menu.**
-***
+
+---
 
 <br/>
 

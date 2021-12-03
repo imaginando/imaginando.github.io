@@ -1,6 +1,6 @@
 # X/Y Pad Module - LK Help
 
-![LK X/Y Modulation Control Pad Module](/lk/images/xy/overview.jpg)
+<img src="../lk/images/xy/overview.jpg" alt="LK X/Y Modulation Control Pad Module" width="" height="" />
 
 This module is composed of several screen controls for distinct modulation tools, including four banks, three mappable axis per bank, one ASR envelope generator for the Z axis with configurable release mode and an LFO for automated X/Y pad modulation.
 
@@ -64,12 +64,12 @@ Release Mode allows the user to define the default position to which the X/Y cur
 
 To customize the MIDI mapping (MIDI mode), from the settings view, select the axis you want to map by tapping the correspondent button; this will automatically show you a list of CC values. Tap on the number of the value you want to map and finally tap OK to confirm.
 
-![Axis assign on MIDI mode](/lk/images/xy/axis-assign-midi-mode.jpg)
+<img src="../lk/images/xy/axis-assign-midi-mode.jpg" alt="Axis assign on MIDI mode" width="" height="" />
 
 ## Assigning an Ableton Live Parameter
 
 To customize the parameters (in Live mode), again, from the settings view, the AXIS you want to map by tapping its mapping button and changing the parameter you want to assign in Ableton Live or using the Matrix devices section. Press OK to confirm.
 
-![Axis assign live mode](/lk/images/xy/axis-assign-live-mode.jpg)
+<img src="../lk/images/xy/axis-assign-live-mode.jpg" alt="Axis assign live mode" width="" height="" />
 
 [Learn all about the Chorder module.](chorder)

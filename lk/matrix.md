@@ -2,7 +2,7 @@
 
 The Matrix module is a controller for Ableton Live and other MIDI software/hardware, carefully designed to give you access to the most common functions and operations for Ableton Live’s Session View (LIVE Mode), or for use with your mobile MIDI studio workflow (MIDI Mode). Tap LIVE or MIDI to toggle between modes. Ableton Live users please note: using Matrix requires the installation of LK control surface. For more information about how to install the LK control surface please visit the [Setup](setup) section.
 
-![LK Matrix Module sequencer overview of Ableton Live's Session view](/lk/images/matrix/overview.png)
+<img src="../lk/images/matrix/overview.png" alt="LK Matrix Module sequencer overview of Ableton Live's Session view" width="" height="" />
 
 The Matrix module is composed of several subsections and hidden menus, at the top of the screen, in the status bar, you will find the following fields:
 
@@ -125,31 +125,31 @@ In MIDI mode, only Composer is shown.
 
 The first tab of the Inspector panel is the Devices panel, which allows you to browse and tweak the selected Ableton Live track devices. Start by selecting a track with devices (if there are no devices available on the track, the tab will display a message). By default all devices appear collapsed.
 
-![LK Matrix Module devices inspector of Ableton Live Devices](/lk/images/matrix/inspect-devices.png)
+<img src="../lk/images/matrix/inspect-devices.png" alt="LK Matrix Module devices inspector of Ableton Live Devices" width="" height="" />
 
 When opened, the first device will fill the whole tab, while the next devices ahead will break to the next line. Drag the detail area up to scroll down and view the other devices.
 
-![LK Matrix Module devices inspector detail scroll of Ableton Live Devices](/lk/images/matrix/inspect-devices-scroll.png)
+<img src="../lk/images/matrix/inspect-devices-scroll.png" alt="LK Matrix Module devices inspector detail scroll of Ableton Live Devices" width="" height="" />
 
 Each device container is scrollable, allowing horizontal navigation of all the screen control parameters and subdevices. If the device has only a small set of parameters then the rest of the tab will be represented by empty space, except when the device has a device chain (i.e. a Drum Rack or Instrument Rack). Note: The option to ‘include chain’ must be enabled in LK settings. Let’s look at this example:
 
 When browsing a Kit-Core 909 on Matrix you will see that this device has a device chain for each drumpad assigned. You will also see that the first parameters correspond to the chain instrument default parameters, followed by the list of devices on the chain, as represented on this image:
 
-![LK Matrix Module devices inspector detail of intrument rack of Ableton Live Devices](/lk/images/matrix/inspect-devices-instrument-rack.png)
+<img src="../lk/images/matrix/inspect-devices-instrument-rack.png" alt="LK Matrix Module devices inspector detail of intrument rack of Ableton Live Devices" width="" height="" />
 
 When you select a different device on the chain list, the selected device will be loaded to its right. You can access the respective device parameters by dragging the device label to the left. This browsing will give you theoretically unlimited access to your device chain. (Note: Your mobile device resources are not unlimited and excessive memory usage can make the operating system cause a forced shutdown to LK)
 
-![LK Matrix Module devices inspector detail of intrument full rack of Ableton Live Devices](/lk/images/matrix/inspect-devices-instrument-rack-full.png)
+<img src="../lk/images/matrix/inspect-devices-instrument-rack-full.png" alt="LK Matrix Module devices inspector detail of intrument full rack of Ableton Live Devices" width="" height="" />
 
 ### Sends
 
 The Sends tab lists the selected track sends. To change the send value, touch the slider and move it to the desired position.
 
-![LK Matrix Module sends inspector of Ableton Live Sends](/lk/images/matrix/inspect-sends.png)
+<img src="../lk/images/matrix/inspect-sends.png" alt="LK Matrix Module sends inspector of Ableton Live Sends" width="" height="" />
 
 ## Composer
 
-![LK Matrix Module clip composer](/lk/images/matrix/clip-composer.png)
+<img src="../lk/images/matrix/clip-composer.png" alt="LK Matrix Module clip composer" width="" height="" />
 
 The Composer view displays a Piano Roll environment which allows you to edit the contents of the MIDI clips. Composer will always reflect the selected clip on the clip grid. The selected clip is the intersection between the selected track and select scene. On Live mode there are however a few exceptions, per instance, when you have a return track or the master track selected. In this case, composer will keep showing you the last selected clip. If that last position does not have a clip or the clip is audio, it will state that composer is not available.
 
@@ -171,9 +171,9 @@ The composer features a toolbar across the top with the following functions:
 
 ### Clip tools menu
 
-![LK Matrix Module clip composer properties panel](/lk/images/matrix/clip-composer-properties-panel.jpg)
+<img src="../lk/images/matrix/clip-composer-properties-panel.jpg" alt="LK Matrix Module clip composer properties panel" width="" height="" />
 
-Located on the right, this menu consists of several panels which can be expanded and minimised by tapping each panel title. Here you can access the clip's properties plus a range of creative tools to help generate and edit MIDI notes in a variety of useful and interesting ways. 
+Located on the right, this menu consists of several panels which can be expanded and minimised by tapping each panel title. Here you can access the clip's properties plus a range of creative tools to help generate and edit MIDI notes in a variety of useful and interesting ways.
 
 #### CLIP PROPERTIES
 
@@ -211,7 +211,7 @@ These are a range of custom note actions from basic time-saving tools to musical
 - **Del. All** - Deletes all notes
 - **Del. Selected** - Deletes selected notes
 
-The following actions will be applied to all notes or the selected ones (if  any notes are currently selected)
+The following actions will be applied to all notes or the selected ones (if any notes are currently selected)
 
 - **MIRROR** - Mirrors the notes positions (vertical) or the notes pitches (horizontal)
 - **TIME SHIFT** - Shifts the notes to left or right according with the composer grid division
@@ -266,7 +266,7 @@ To zoom, just pinch two fingers inwards (to zoom in) or outwards (to zoom out). 
 
 ### Clip Loop Zone
 
-![LK Matrix Module clip composer clip loop zone](/lk/images/matrix/clip-composer-loop-zone.png)
+<img src="../lk/images/matrix/clip-composer-loop-zone.png" alt="LK Matrix Module clip composer clip loop zone" width="" height="" />
 
 At the top of the composer, aligning with the beat markers, is the loop marker, that indicates the loop region. You can change its start and end by manually dragging the left or the right loop handles. (The thicker edges each side of the blue line). To move the loop region, without changing its size, drag the centre of the loop marker left or right.
 
@@ -299,7 +299,7 @@ Note when using Live mode: When Composer is open and a clip slot is selected, Ab
 
 By maximizing the inspector view, an editor will appear at the bottom of the composer which will allow you to change note’s velocities and create midi automation lanes.
 
-![LK Matrix Module composer velocity and automation zone](/lk/images/matrix/velocity-automation-zone.jpg)
+<img src="../lk/images/matrix/velocity-automation-zone.jpg" alt="LK Matrix Module composer velocity and automation zone" width="" height="" />
 
 By selecting a target in the list, you'll be able to edit the notes's velocities or edit the automation values of a selected automation channel. By default, the composer will initiate with the velocity section
 
@@ -307,13 +307,13 @@ By selecting a target in the list, you'll be able to edit the notes's velocities
 
 The velocities will be displayed by red rectangles that will have the same vertical position as the notes they are representing. You can change the velocity of notes by drag selecting the blue bounding box around the notes, then dragging the red velocity rectangle up and down in the virtual zone. The rectangle height, and the note’s color opacity will represent the current velocity value. If more than one note is selected, all note velocities will be edited simultaneously by the same increment.
 
-![LK Matrix Module composer inspector detail of velocity of an Ableton Live clip](/lk/images/matrix/inspect-notes-velocity.jpg)
+<img src="../lk/images/matrix/inspect-notes-velocity.jpg" alt="LK Matrix Module composer inspector detail of velocity of an Ableton Live clip" width="" height="" />
 
 #### Automations
 
 To create and edit automations, first you'll have to add a new automation lane. This can be done by clicking on the "plus" icon at the bottom left, that will open the following popup menu:
 
-![LK Matrix Module composer automation lane selection](/lk/images/matrix/automations-channels-selection.jpg)
+<img src="../lk/images/matrix/automations-channels-selection.jpg" alt="LK Matrix Module composer automation lane selection" width="" height="" />
 
 Here you will have the option to choose one of several properties to create MIDI automations for.
 

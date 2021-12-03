@@ -1,6 +1,6 @@
 # Chorder Module - LK Help
 
-![LK Chorder Module overview](/lk/images/chorder/overview.jpg)
+<img src="../lk/images/chorder/overview.jpg" alt="LK Chorder Module overview" width="" height="" />
 
 The Chorder module allows for the playing of complex chords with a single tap containing a huge library of chord types, as well as a strumming utility that allows even more creative playing possibilities.
 
@@ -44,7 +44,7 @@ To create a new set of Scale/Chord, on the upper right corner of this section, p
 
 This screen is divided into three rows:
 
-![LK Chorder Module chord and scale preset creation](/lk/images/chorder/preset-creation.jpg)
+<img src="../lk/images/chorder/preset-creation.jpg" alt="LK Chorder Module chord and scale preset creation" width="" height="" />
 
 The first row represents the scale: here the 12 notes of a chromatic scale are represented and known scales can be selected on the right side of the row.
 Customization is also possible by pressing to select or remove keys from the scale, as well as changing the octave of the respective key by pressing the + / - buttons above and below the key.

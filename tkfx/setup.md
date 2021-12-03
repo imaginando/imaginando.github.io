@@ -8,22 +8,22 @@ On Windows systems however, an additional virtual MIDI driver is necessary. Ther
 
 If you have chosen to use loopMIDI, after opening the application, press the plus key on the bottom right side of the window to add a new port and give it the name **UBRIDGE** Virtual.
 
-![loopMIDI Configuration](/ubridge/images/loopmidi.png)
+<img src="../ubridge/images/loopmidi.png" alt="loopMIDI Configuration" width="" height="" />
 
 Then open **UBRIDGE**, and choose the new port you just created on loopMIDI as MIDI IN and MIDI OUT as seen on the picture below.
 
-![Ubridge TKFX Link](/ubridge/images/ubridge_tkfx.png)
+<img src="../ubridge/images/ubridge_tkfx.png" alt="Ubridge TKFX Link" width="" height="" />
 
 The second thing we need to do is to configure the Traktor MIDI mapping, so let’s start by downloading the free Traktor Mapping from our [downloads](https://www.imaginando.pt/products/tkfx-traktor-controller/downloads) section. Next, open Traktor preferences and select "Controller Manager", click add, choose "Import TSI" and then "Import Other...". Select the mapping file you have previously downloaded from our website. Alternatively you can simply click on the import button located at the bottom of Traktor's preferences window.
 
-![Traktor Settings](/tkfx/images/traktor.png)
+<img src="../tkfx/images/traktor.png" alt="Traktor Settings" width="" height="" />
 
 If you want TKFX to sync to Traktor’s BPM you need to configure the MIDI clock. On Traktor’s Preferences choose “MIDI Clock” and tick the "Send MIDI Clock" check box.
 
-![Traktor midi clock settings](/tkfx/images/midi-clock.png)
+<img src="../tkfx/images/midi-clock.png" alt="Traktor midi clock settings" width="" height="" />
 
 Close the preferences and click the Metronome symbol on the left side of the Global section to switch to Master Clock panel. Press Start/Pause button to send MIDI Clock.
 
-![Traktor clock panel](/tkfx/images/traktor-clock-panel.png)
+<img src="../tkfx/images/traktor-clock-panel.png" alt="Traktor clock panel" width="" height="" />
 
 We are done here. See next how to [link TKFX with your computer](linking).

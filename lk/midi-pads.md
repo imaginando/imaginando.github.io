@@ -6,7 +6,7 @@ The MIDI PADS section has two modes: the MIDI mode, that can be used to control 
 
 In MIDI mode, the MIDI PADS can also be routed to the MATRIX MODULE as an input source.
 
-![LK MIDI PADS Module screenshot](/lk/images/pads/overview.jpg)
+<img src="../lk/images/pads/overview.jpg" alt="LK MIDI PADS Module screenshot" width="" height="" />
 
 Depending on the selected mode, you will find different fields in the status bar at the top of the MIDI PADS module screen:
 

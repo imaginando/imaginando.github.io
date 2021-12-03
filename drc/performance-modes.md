@@ -4,7 +4,7 @@ As tools for performance, DRC features two modes: a **Piano Keyboard** and a **C
 
 These two modes can be toggled by pressing the button on the bottom left corner of the screen, the one marked with a red square on the next picture.
 
-![DRC Piano Keyboard](/drc/images/performance-modes/overview.png)
+<img src="../drc/images/performance-modes/overview.png" alt="DRC Piano Keyboard" width="" height="" />
 
 # Piano Keyboard
 
@@ -12,7 +12,7 @@ The **Piano Keyboard** features an adjustable view-port, with pitch bending, mod
 
 The adjustable view-port located as a line right on top of the keyboard, allows the user to adjust the amount of keys available on the keyboard to play, thus making each one of these keys bigger or smaller. This is done by dragging any of the handlers marked on the picture above with blue squares to the left or to the right. It also allows the adjustment of the visible notes region by dragging the line left or right.
 
-![DRC Full Piano Keyboard ](/drc/images/performance-modes/piano-keyboard-fullscreen.png)
+<img src="../drc/images/performance-modes/piano-keyboard-fullscreen.png" alt="DRC Full Piano Keyboard " width="" height="" />
 
 To open the **Piano Keyboard** configuration, a settings button is located right above the HOLD button \(marked on the first picture with a green square\). This section is a dedicated setup area for extra modulations and keyboard setup. This is where you control the PITCH BEND range and destination, and what is affected by the MOD.WHEEL and AFTER TOUCH. This section also features a keyboard SCALE\*\* **setup panel from which you can configure the notes included in the **Piano Keyboard\*\*. Lets cover them in detail.
 
@@ -56,7 +56,7 @@ In order to add an additional layer of complexity or tweaking we provide the abi
 
 The Chorder mode has two main parts: the honeycomb keyboard which allows you to play three different chords \(**Minor**, **Major** and **Dom7\) **and the strummers\*\* \*\*that allow a strumming type of play like that of a guitar.
 
-![DRC Chorder Keyboard and Strummer](/drc/images/performance-modes/honeycomb-keyboard.png)
+<img src="../drc/images/performance-modes/honeycomb-keyboard.png" alt="DRC Chorder Keyboard and Strummer" width="" height="" />
 
 The honeycomb keyboard has two modes that can be toggled by pressing the key labeled PLAY on the bottom left side of the screen next to the strummer. This modes are PLAY and SELECT:
 
@@ -70,7 +70,7 @@ Right below the HOLD button, we have the melodic interval combo box which allows
 
 On the bottom left corner, right under the interval select button we have the PAN function which allows us to pan the Honeycomb cells around, suiting each performance needs, particularly on the full screen mode in which the cells are much bigger and can be outside of the viewport.
 
-![DRC Full Chorder Keyboard and Strummer](/drc/images/performance-modes/honeycomb-fullscreen.png)
+<img src="../drc/images/performance-modes/honeycomb-fullscreen.png" alt="DRC Full Chorder Keyboard and Strummer" width="" height="" />
 
 To switch across different octaves on the **Chorder** keyboard, there are arrows buttons located on the bottom right corner of the screen.
 

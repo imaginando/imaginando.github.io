@@ -10,9 +10,9 @@ Start by downloading and installing [UBRIDGE](https://www.imaginando.pt/products
 
 The first time you open UBRIDGE, Windows Firewall will ask you to allow it to use the network connection. Ensure both private and public are ticked, then click '**Allow access**'.
 
-![UBRIDGE firewall settings prompt](/lk/images/setup/firewall.png)
+<img src="../lk/images/setup/firewall.png" alt="UBRIDGE firewall settings prompt" width="" height="" />
 
-![UBRIDGE Screenshot](/lk/images/setup/ubridge.png)
+<img src="../lk/images/setup/ubridge.png" alt="UBRIDGE Screenshot" width="" height="" />
 
 The UBRIDGE application window consists of three sections:
 
@@ -33,13 +33,13 @@ On Mac it’s easy, just select ‘**UBRIDGE Virtual Input**’ and ‘**UBRIDGE
 
 If you are on Windows, you need to install a virtual MIDI driver. We recommend [Tobias Erichsen's loopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html). After installing and opening loopMIDI, create a new virtual MIDI port by typing ‘**UBRIDGE Virtual**’ into the port-name field and then click the **+** icon.
 
-![loopMIDI virtual port](/ubridge/images/loopmidi.png)
+<img src="../ubridge/images/loopmidi.png" alt="loopMIDI virtual port" width="" height="" />
 
 **Note: If you have installed loopMIDI after opening UBRIDGE, you will need to restart UBRIDGE in order for the virtual MIDI ports to be listed.**
 
 Once you have configured UBRIDGE input and output MIDI ports, open Ableton Live where the ports should now be listed:
 
-![Ableton Live Preferences](/lk/images/setup/ableton-live-preferences-midi.png)
+<img src="../lk/images/setup/ableton-live-preferences-midi.png" alt="Ableton Live Preferences" width="" height="" />
 
 Turn on ‘**Track**’ and ‘**Remote**’ for both virtual MIDI ports as shown above.
 
@@ -58,7 +58,7 @@ This section refers to the installation of the LK control surface which enables 
 
 **Note 2:** If you have more than one version of Ableton Live installed, you will need to install the LK control surface for each version that you wish to use LK with.
 
-![UBRIDGE Control Surface Installation on Ableton Live](/lk/images/setup/ubridge-window-drop-area.png)
+<img src="../lk/images/setup/ubridge-window-drop-area.png" alt="UBRIDGE Control Surface Installation on Ableton Live" width="" height="" />
 
 Each entry will state the version number of Ableton Live followed by the version of the control surface that has been installed. If the installation was successful the text colour should be green. If the installation fails, the text will be red and the control surface version will be N/A.
 
@@ -66,7 +66,7 @@ To the right of each entry, the three buttons from left to right, allow you to o
 
 After successful installation, open Ableton Live and setup LK as a control surface:
 
-![Ableton Live Preferences Control Surfaces](/lk/images/setup/ableton-live-preferences-control-surfaces.png)
+<img src="../lk/images/setup/ableton-live-preferences-control-surfaces.png" alt="Ableton Live Preferences Control Surfaces" width="" height="" />
 
 ## Connecting LK to UBRIDGE
 
@@ -76,7 +76,7 @@ LK can be connected via USB cable or wirelessly using a standard WIFI network.
 
 Connect the USB cable and you should see the device’s name (in case of iOS devices) or the device’s model name (in case of Android devices) listed:
 
-![UBRIDGE Control Surface Installation devices](/lk/images/setup/ubridge-devices.png)
+<img src="../lk/images/setup/ubridge-devices.png" alt="UBRIDGE Control Surface Installation devices" width="" height="" />
 
 For devices connected via USB cable to be detected you must ensure the following:
 
@@ -92,13 +92,13 @@ Connect the mobile device and computer to the same wireless network. LK app must
 
 You can view available connections from LK’s in-app menu under the Connection section:
 
-![LK Network Connecting to Ableton Live](/lk/images/setup/lk-connected-to-ubridge.jpg)
+<img src="../lk/images/setup/lk-connected-to-ubridge.jpg" alt="LK Network Connecting to Ableton Live" width="" height="" />
 
 When only one connection is available, LK will automatically connect to it.
 If more than one connection is available, you can tap each connection name to switch to that connection. If the connection is successfully established, the text will be green. Matrix module will display the message "**Waiting for Ableton Live**".
 After opening Ableton Live with LK control surface setup, the full connection will be established and the round trip latency will appear in the connection entry:
 
-![LK Network Connection to Ableton Live](/lk/images/setup/lk-connected-to-live.jpg)
+<img src="../lk/images/setup/lk-connected-to-live.jpg" alt="LK Network Connection to Ableton Live" width="" height="" />
 
 If you want to mark a connection as favorite, tap on the star. Next time LK finds that connection it will automatically connect to it.
 If you are having trouble connecting LK, UBRIDGE and Ableton Live, please take a look at our [troubleshooting](troubleshooting) section before contacting us for support.
