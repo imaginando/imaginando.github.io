@@ -1,12 +1,12 @@
 # Layer Manager
 
-<img alt="VS Layer Manager" align="center" src="/vs/images/layer-manager@2x.png" />
+<img alt="VS Layer Manager" src="/vs/images/layer-manager@2x.png" width="774" height="73" />
 
 The Layer Manager allows you to select layers, load materials via the material browser and set the Z index (stacking order) of the layers.
 
 There are 8 numbered material layers, plus one background layer, ‘B’. The background layer can use either a video or image file; it cannot load materials. Background layer honours selected color when no media is loaded. By default the background layer color is black.
 
-Each layer item has a live preview of its current material. If the layer is disabled, the preview changes to black.
+Each layer item has a live preview of its current material. If the layer is disabled, the preview changes to black. (Animated thumbnails can be toggled in settings menu)
 
 Layers are rendered in a stack; the leftmost layer is top, and the very bottom layer is the background layer on the right. To reorder the layers, click and drag each layer to the new desired position.
 
@@ -36,15 +36,21 @@ Clicking and holding the background layer opens the following options:
 - **Photos** - Open the iOS photo picker (iOS only)
 - **Reset** - resets background media
 
-The layer manager has two other buttons; the circle icon on the left opens and closes the color panel, and the mixer icon on the right toggles the modulation section, to show either the modulation matrix or audio modulators panels. If the modulation section is hidden when this button is pressed, then it will be automatically shown.
+The layer manager has three other buttons; the circle icon on the left opens and closes the color panel, to the right the mixer icon toggles the modulation section, the grid icon displays the modulation matrix, and the waveform icon opens the audio/MIDI file loader.
+
+## Audio/MIDI file loader
+
+<img alt="Audio/MIDI loader" src="/vs/images/audio-midi-loader.png" width="969" height="157" />
+
+The Audio/MIDI file loader lets you load and playback both audio and MIDI files, for VS to use as modulation sources to create visuals from. To load a file, click the directory icon on the right of the panel, then select a compatible filetype. (.MID .Wav .Aiff). Once the file has loaded, you can control playback with the three transport buttons located on the left of the panel, 'play', 'stop' and 'toggle looped playback' respectively. You can also click any part of the audio waveform to play from that position.
 
 ## Color Panel
 
-<img alt="VS Color Panel" align="center" src="/vs/images/color-panel@2x.png" />
+<img alt="VS Color Panel" src="/vs/images/color-panel@2x.png" width="773" height="253" />
 
 On top you can choose the blend mode that will be applied. Normal is the default option. There are also the following modes: Screen, Hard Light, Soft Light, Overlay, Difference, Exclusion and Subtract (these are explained below).
 
-Clicking inside the color wheel sets a layer’s main color by altering hue and saturation values, and the bottom slider changes the color’s brightness.
+Clicking inside the color wheel sets a layer’s main color by altering hue and saturation values, alternatively you can manually enter a specific hex color value, and also change the layer's brightness setting with the slider.
 
 Blend modes alter how a stack of layers is rendered by changing the way that layers interact based on different operations on color information from the layers.
 
@@ -67,7 +73,7 @@ Blend modes alter how a stack of layers is rendered by changing the way that lay
 
 ## Material Browser
 
-<img alt="VS Material Browser" align="center" src="/vs/images/material-browser@2x.png" />
+<img alt="VS Material Browser" src="/vs/images/material-browser@2x.png" width="1136" height="908" />
 
 To open the material browser, double click any numbered layer.
 
@@ -83,20 +89,20 @@ The currently loaded material is indicated by a yellow outline. Click any materi
 
 <br/>
 
-To exit the material browser without loading a new material, click the ‘X’ button located at the bottom right of the screen.
+To exit the material browser without loading a new material, click the ‘X’ button located at the top right of the screen.
 
 ## Media browser
 
-<img alt="VS File Manager" align="center" src="/vs/images/file-manager@2x.png" />
+<img alt="VS Background File Manager" src="/vs/images/file-manager@2x.png" width="1136" height="908" />
 
-To open the media browser, double click the background layer ‘B’. You can then navigate your local filesystem for supported file types.
+To open the background image/video media browser, double click the background layer ‘B’. You can then navigate your local filesystem for supported file types.
 
 Select any file to display a preview, then choose to either load the selection into the background layer, or cancel the operation using the close button.
 
 <br/>
 
 ***
-**Note: supported files extensions are: jpg, png, mp4, mov.**
+**Note: supported files extensions are: jpg, png, mp4, mov, and gif.**
 ***
 **Note: the in-app file browser has a file delete function. Use it carefully as it deletes the file from your file system.**
 ***

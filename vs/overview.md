@@ -6,7 +6,7 @@ A layer is a polyphonic synthesis engine which means that the same material can 
 
 ## User Interface
 
-![VS Screen](/vs/images/overview@2x.png)
+<img src="/vs/images/overview@2x.png" alt="VS overview" width="1024" height="768" />
 
 VS’ interface consists of the following elements:
 
@@ -32,11 +32,10 @@ VS’ interface consists of the following elements:
 
 <br/>
 
-The status bar across the top of VS window includes the following labelled elements:
+The status bar across the top of VS' window includes the following labelled elements:
 
 - **MIDI Learn** - Assign VS parameter control to a MIDI controller. Select to toggle on/off. Once on, press the desired parameter to make the mapping
 - **Clock source** - select timing/tempo source
-- **Demo** - a selection of short music loops for VS testing purposes. Each demo is equipped with audio and midi routed internally so you can use it to trigger/modulate your materials
 - **Tempo** - shows VS current tempo BPM (this value is editable using the + and - buttons which appear when tempo is selected, if clock source is set to ‘Internal’ or ‘Link’
 - **Patch** - show/hide VS patch manager
 
