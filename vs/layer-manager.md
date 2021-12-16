@@ -36,7 +36,7 @@ Clicking and holding the background layer opens the following options:
 - **Photos** - Open the iOS photo picker (iOS only)
 - **Reset** - resets background media
 
-The layer manager has three other buttons; the circle icon on the left opens and closes the color panel, to the right the mixer icon toggles the modulation section, the grid icon displays the modulation matrix, and the waveform icon opens the audio/MIDI file loader.
+The layer manager has four other buttons; the circle icon on the left opens and closes the color panel, to the right the mixer icon toggles the modulation section, the grid icon displays the modulation matrix, and the waveform icon opens the audio/MIDI file loader.
 
 ## Audio/MIDI file loader
 
