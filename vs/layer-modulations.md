@@ -7,7 +7,7 @@ However, if you’re new to these terms we will happily explain them right now.
 
 ## Modulation Sources
 
-<img alt="VS Layer Controls" src="/vs/images/modulation-sources@2x.png" />
+<img alt="VS Layer Controls" src="/vs/images/modulation-sources@2x.png" width="977" height="167"/>
 
 ### LFO
 
@@ -28,6 +28,8 @@ On the left of the panel is the LFOs section. There are 4 independent LFOs, acce
 - **Sync** - When active, the speed of the LFO can be set to various increments of the tempo of the VS project, so you can have your modulations in sync with the tempo of your session
 
 - **Phase** - You can choose between FREE and KEY. In key mode, the LFO will always start from the 0 value anytime a MIDI ‘note on’ event is received. This is useful to have expected results every time you receive a trigger note, i.e. the modulation effect will always start from the same position. In free mode the LFO will run freely.
+
+- **Key** - (only enabled when phase is set to 'key') This allows you to specify a particular MIDI channel to listen for 'note on' events, or to listen for 'note on' events on all MIDI channels by setting it to 'Any'.
 
 A visual representation of the waveform is shown to the left of the controls.
 
@@ -86,11 +88,11 @@ Mode - Select the mode of the current audio modulator (Gate or Spectrum)
 
 ## Modulation Matrix
 
-<img alt="VS Layer Controls" src="/vs/images/modulation-matrix@2x.png" />
+<img alt="VS Layer Controls" src="/vs/images/modulation-matrix@2x.png" width="977" height="167" />
 
 The modulation matrix panel lets you assign modulation sources to specific layer parameters, arranged in a two dimensional grid of cells, with modulation sources on the x axis (top) and parameters on the y axis (left). Clicking a cell value and then dragging either up/down or left/right will decrease or increase the amount of modulation effect that the source will have on the parameter. This value can range from -1 to +1, with the default setting zero representing no modulation effect. To aid visual clarity, each cell shows a white horizontal line under the value, if the value is greater than or less than zero. The origin point of the line is centered, so positive values draw to the right and negative to the left.
 
-The matrix is split into three tabs, click each tab to access the different pages of each layer’s parameters. You can also click and hold some layer parameter rotary knob to quickly navigate to its corresponding matrix cell (for this to work, the layer parameter must exist in the matrix).
+The matrix is split into three tabs, with a thin yellow bar highlighting the currently displayed tab, click each yellow tab line to access the different pages of each layer’s parameters. You can also click and hold layer parameter rotary knobs to quickly navigate to its corresponding matrix cell (for this to work, the layer parameter must exist in the matrix).
 
 In addition to the LFO, EG and AM (audio modulator) modulation sources, a further two sources are available for MIDI note data trigger based modulation:
 
