@@ -44,6 +44,8 @@ The layer manager has four other buttons; the circle icon on the left opens and 
 
 The Audio/MIDI file loader lets you load and playback both audio and MIDI files, for VS to use as modulation sources to create visuals from. To load a file, click the directory icon on the right of the panel, then select a compatible filetype. (.MID .Wav .Aiff). Once the file has loaded, you can control playback with the three transport buttons located on the left of the panel, 'play', 'stop' and 'toggle looped playback' respectively. You can also click any part of the audio waveform to play from that position.
 
+VS comes loaded with a number of demo tracks, which contain both audio and MIDI parts. These can be accessed and loaded when the Audio/MIDI file is open, by selecting Banks > Demo at the top left.
+
 ## Color Panel
 
 <img alt="VS Color Panel" src="/vs/images/color-panel@2x.png" width="773" height="253" />
@@ -95,9 +97,11 @@ To exit the material browser without loading a new material, click the ‘X’ b
 
 <img alt="VS Background File Manager" src="/vs/images/file-manager@2x.png" width="1136" height="908" />
 
-To open the background image/video media browser, double click the background layer ‘B’. You can then navigate your local filesystem for supported file types.
+To open the background image/video media browser, double click or long press the background layer ‘B’. You can then navigate your local filesystem for supported file types.
 
 Select any file to display a preview, then choose to either load the selection into the background layer, or cancel the operation using the close button.
+
+You can also choose to reset the layer to a blank background.
 
 <br/>
 
