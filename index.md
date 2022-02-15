@@ -3,6 +3,7 @@
 This is the Imaginando products documentation.
 Select one of products below to get started:
 
+- [VS](vs/contents)
 - [FRMS](frms/contents)
 - [DRC](drc/contents)
 - [LK](lk/contents)
