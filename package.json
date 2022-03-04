@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "npx harp ."
+    "start": "npx harp ."
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/imaginando/imaginando.github.io/issues"
   },
-  "homepage": "https://github.com/imaginando/imaginando.github.io#readme"
+  "homepage": "https://github.com/imaginando/imaginando.github.io#readme",
+  "dependencies": {
+    "harp": "^0.41.2"
+  }
 }
