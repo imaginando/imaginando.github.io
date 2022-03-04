@@ -1,0 +1,23 @@
+{
+  "name": "imaginando.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx harp ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imaginando/imaginando.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imaginando/imaginando.github.io/issues"
+  },
+  "homepage": "https://github.com/imaginando/imaginando.github.io#readme",
+  "dependencies": {
+    "harp": "^0.41.2"
+  }
+}
