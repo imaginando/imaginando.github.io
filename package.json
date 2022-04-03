@@ -19,5 +19,8 @@
   "homepage": "https://github.com/imaginando/imaginando.github.io#readme",
   "dependencies": {
     "harp": "^0.41.2"
+  },
+  "overrides": {
+    "minimist": "^1.2.6"
   }
 }
