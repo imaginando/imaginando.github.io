@@ -39,7 +39,7 @@ Clicking and holding the background layer opens the following options:
 - **Photos** - Open the iOS photo picker (iOS only)
 - **Reset** - resets background media
 
-The layer manager has four other buttons; to the left of the layers is the circle icon, which opens and closes the color panel, and to the right of the layers there are three  buttons to access the modulation section, the modulation matrix, and the audio/MIDI file loader.
+The layer manager has four other buttons; to the left of the layers is the circle icon, which opens and closes the color panel, and to the right of the layers there are three buttons to access the modulation section, the modulation matrix, and the audio/MIDI file loader.
 
 ## Audio/MIDI file loader
 
@@ -192,7 +192,7 @@ The preview window can be moved by dragging it, and can be made full screen by c
 
 It is beyond the scope of this documentation to teach you how to write GLSL fragment shaders, as this is an highly complex topic that requires a good background understanding of computer graphics, as well as a deep knowledge of mathematics. (Something that we are by no means masters of!).
 
-Still, if you are brave enough to take on this challenge yourself, we recommend reading ['The Book of Shaders'](https://https://thebookofshaders.com/) as a starting point. It is an incredible online resource about how to write your own shaders, written by [Patricio Gonzales Vivo](http://www.patriciogonzalezvivo.com).
+Still, if you are brave enough to take on this challenge yourself, we recommend reading ['The Book of Shaders'](https://thebookofshaders.com/) as a starting point. It is an incredible online resource about how to write your own shaders, written by [Patricio Gonzales Vivo](http://www.patriciogonzalezvivo.com).
 
 However we do feel that it is important to mention some of the most basic caveats of converting a typical GLSL fragment shader code to be compatible with VS.
 
