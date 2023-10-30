@@ -9,51 +9,34 @@ across the bottom.
 <img src="/bam/images/interface/overview-top-toolbar.png" width="675" alt="BAM overview top toolbar" />
 
 1.  Menu icon - open BAM’s menu
-
 2.  MIDI learn - activate MIDI mapping mode and select highlighted
     controls to map to connected MIDI devices
-
 3.  Clock source (standalone app only) - choose between internal,
     external MIDI Clock, or Ableton Link
-
 4.  Tempo - set project tempo and adjust the volume of built-in
     metronome
-
 5.  Project - open project manager to load factory projects or locally
     saved projects
-
 6.  Save Project icon - Save current project
-
 7.  Revert project to last manually saved state
-
 8.  Open previous project in current bank
-
 9.  Open next project in current bank
-
 10. Open sample manager
 
 ### BAM Menu
 
 - **Profile** - Login to Imaginando account
-
 - **MIDI** (Standalone app only) - enable/disable available MIDI
     in/out ports
-
 - **Settings**
-
     - **Audio Driver** (Windows standalone app only) - select ASIO or
         WASAPI drivers
-
     - **Sample rate** (standalone app only) - select sample rate
-
     - **Buffer size** - (standalone app only) - select audio buffer
         size
-
     - **Window scale** - resize BAM UI size/scale
-
 - **About** - details about app version number, publisher, and
     production credits
-
 - **Help** - open BAM´s user manual in a web browser
 
 ## Top Section - Device rack
