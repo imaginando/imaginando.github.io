@@ -46,7 +46,7 @@ the SHIFT button pressed which is on the bottom right corner of the app.
 
 <br>
 
-- **(a)** Write automation - write automation value bar on thecorresponding step
+- **(a)** Write automation - write automation value bar on the corresponding step
 - **(b)** Create probability range - with this tool you can create a range value of a parameter from which a value will be randomly chosen
 - **(c)** Erase - delete the step automation
 
