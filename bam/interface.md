@@ -6,9 +6,7 @@ across the bottom.
 
 ## Top toolbar
 
-<img src="/bam/images/interface/overview-top-toolbar.png"
-width="675" height="81"
-alt="BAM overview top toolbar" />
+<img src="/bam/images/interface/overview-top-toolbar.png" width="675" alt="BAM overview top toolbar" />
 
 1.  Menu icon - open BAM’s menu
 
@@ -60,9 +58,7 @@ alt="BAM overview top toolbar" />
 
 ## Top Section - Device rack
 
-<img src="/bam/images/interface/overview-rack-section.png"
-width="686" height="134"
-alt="BAM overview rack section" />
+<img src="/bam/images/interface/overview-rack-section.png" width="686" alt="BAM overview rack section" />
 
 - **TRIGGER** - controls the behavior of some note properties
 
@@ -77,7 +73,7 @@ alt="BAM overview rack section" />
 
 ## Middle Section - Main panels
 
-<img src="/bam/images/interface/overview-middle-section.png" width="687" height="232" alt="BAM overview middle section" />
+<img src="/bam/images/interface/overview-middle-section.png" width="687" alt="BAM overview middle section" />
 
 In this section we have the panels for:
 
@@ -100,8 +96,7 @@ can press any of them to select a track.
 There are 16 pads which trigger the default note of each track´s engine,
 and provide a visual representation of each track’s audio in real time.
 
-<img src="/bam/images/interface/track-pads.png"
-width="688" height="86" alt="BAM track pads"/>
+<img src="/bam/images/interface/track-pads.png" width="688" alt="BAM track pads"/>
 
 To the right there are four toggle buttons that when active perform the
 following actions:
@@ -117,12 +112,11 @@ following actions:
 Tip: You can SOLO/ARM multiple tracks by using the SHIFT keys located at
 the bottom left and right of BAM’s interface.
 
-<img src="/bam/images/interface/shift-key.png" width="28" height="28" alt="BAM shift button" />
+<img src="/bam/images/interface/shift-key.png" width="28" alt="BAM shift button" />
 
 ## Keyboard mode (KBD)
 
-<img src="/bam/images/interface/kbd-mode.png" alt="BAM Track Pads Keyboard mode"
-width="687" height="86" />
+<img src="/bam/images/interface/kbd-mode.png" width="687" alt="BAM Track Pads Keyboard mode" />
 
 Keyboard mode changes the pads into note triggers for the currently
 selected track engine, arranged like piano keys. You can drag the
@@ -140,8 +134,7 @@ Keyboard mode is active the toggle buttons change accordingly:
 
 ## Bottom toolbar
 
-<img src="/bam/images/interface/bottom-toolbar.png"
-width="688" height="47" />
+<img src="/bam/images/interface/bottom-toolbar.png" width="688" />
 
 The bottom toolbar consists of several different functions:
 
@@ -182,7 +175,7 @@ section will automatically hide the other.
 
 ## Settings menu
 
-<img src="/bam/images/interface/settings-menu.png" width="384" height="669" alt="BAM Settings menu" />
+<img src="/bam/images/interface/settings-menu.png" width="384" alt="BAM Settings menu" />
 
 ### General
 
