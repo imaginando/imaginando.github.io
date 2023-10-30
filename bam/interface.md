@@ -61,13 +61,9 @@ across the bottom.
 In this section we have the panels for:
 
 1.  **MATRIX** - MIDI Clip and Scene launcher
-
 2.  **TIMELINE** - Step Sequencer
-
 3.  **MODULATIONS** - Clip-based parameter step-modulation editor
-
 4.  **COMPOSER** - Piano roll MIDI clip editor
-
 5.  **MIXER** - 16 track mixer plus master and return
 
 On the bottom part of this middle section you have a number representing
@@ -85,11 +81,8 @@ To the right there are four toggle buttons that when active perform the
 following actions:
 
 - **KBD** - switch to keyboard mode (see below image)
-
 - **SOLO** - select tracks to solo
-
 - **MUTE** - select tracks to mute
-
 - **ARM** - select tracks to arm for performance and recording
 
 Tip: You can SOLO/ARM multiple tracks by using the SHIFT keys located at
@@ -108,11 +101,8 @@ as zooming in and out by dragging the mouse over it vertically. While
 Keyboard mode is active the toggle buttons change accordingly:
 
 - **TRK** - switch back to pad trigger mode
-
 - **OCT +** - raise the values of all note triggers by one octave
-
 - **OCT -** - lower the values of all note triggers by one octave
-
 - **PANIC** - panic button to stop all audio
 
 ## Bottom toolbar
@@ -123,33 +113,21 @@ The bottom toolbar consists of several different functions:
 
 1.  **DSP usage meter** - displays the current level of DSP available
     being used by BAM
-
 2.  **Show/hide top section** - expands and minimizes the upper section
     (device rack)
-
 3.  **Show/hide bottom section** - expands and minimizes the lower
     section (performance area)
-
 4.  **UNDO button** - UNDO the last performed action
-
 5.  **REDO button** - revert the last UNDO function
-
 6.  **PLAY button** - start project playback
-
 7.  **STOP button** - stop project playback
-
 8.  **RECORD button** - enables recording for armed track(s)
-
 9.  **RE-ENABLE automation button** - This is used for reactivation of
     an existing step automation, when manual operation of parameters has
     temporarily overwritten the automation in currently playing clips.
-
 10. **EXPORT manager**
-
 11. **MIDI mapping manager**
-
 12. **Settings menu**
-
 13. **SHIFT button**
 
 Note: When using BAM AUv3 plugin in an iOS host DAW, the top and bottom
@@ -166,35 +144,28 @@ section will automatically hide the other.
     pop-up Engine windows always render in front of the main BAM window.
     When this setting is disabled, clicking the main BAM window will
     bring it to the front and Engine windows will render behind it.
-
 - **Open Engine windows by default** - when adding a new engine or
     changing an existing engine to a different type, if this setting is
     active, the main interface of the new engine window will always
     automatically open
-
 - **Recording Countdown** - the number of ‘count in’ bars before
     recording starts each time the record button is pressed. This is
     represented by the metronome playing the respective number of bars,
     with the first beat of each bar indicated by a higher pitch note.
-
 - **Always select master track when selection mixer** - when active,
     switching to the MIXER panel will automatically select the master
     track each time the panel is opened.
-
 - **Auto add engine parameters to modulation list** - when active,
     adding a new engine or re-selecting the engine type will
     automatically add all of its parameters to the automations panel
     list
-
 - **Auto select tracks when pressing pads** - when active, clicking
     any of the track pads automatically selects that track.
-
 - **Arm track on selection** - when active, selecting any track number
     will automatically arm the selected track (and un-arm any other
     currently armed tracks). When used in combination with the ‘Auto
     select tracks when pressing pads’ setting, clicking any track pad
     will select and arm the track simultaneously.
-
 - **Autosave Frequency** - enables auto saving of the project state,
     based on a regular time interval in minutes (a choice of 1, 2, 5 or
     10 minute intervals), or disables auto save when set to ‘off’.
