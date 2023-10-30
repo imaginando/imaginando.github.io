@@ -19,6 +19,11 @@ Whether on desktop or mobile, start making music fast, and unleash your full cre
 
 - [Interface overview](interface)
 - [The BAM workflow](workflow)
+- [MATRIX Panel](matrix)
+- [TIMELINE Panel](timeline)
+- [AUTOMATIONS Panel](automations)
+- [COMPOSER Panel](composer)
+- [MIXER Panel](mixer)
 - [Device rack](device-rack)
 - [Engine devices](engine-devices)
 - [FX devices](fx-devices)
