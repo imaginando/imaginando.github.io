@@ -1,6 +1,8 @@
 # Matrix Panel
 
-<img src="/bam/images/matrix/matrix-panel.png" width="675" alt="Matrix panel" />
+<img src="../bam/images/matrix/matrix-panel.png" width="800" alt="Matrix panel" />
+
+<br>
 
 The MATRIX panel is the heart of the BAM project structure, displayed as
 a grid of cells containing colored MIDI clips for each numbered track,
@@ -84,27 +86,29 @@ stop button on the master track, the launch button must be clicked. The
 different types of follow actions are detailed below as part of the
 MATRIX UI overview
 
-<img src="/bam/images/matrix/matrix-panel-overview.png" width="675" alt="Matrix panel overview"/>
+<img src="/bam/images/matrix/matrix-panel-overview.png" width="800" alt="Matrix panel overview"/>
 
-- **A.**  Move selected Scene one position up
-- **B.**  Move selected Scene one position down
-- **C.**  Delete selected Scene
-- **D.**  Duplicate selected Scene
-- **E.**  Create a new Scene. Created scenes will be added directly under the currently selected scene.
-- **F.**  Select Scene Follow Action:
-    - None - No follow action will be applied at the end of the Scene
-    - Next - Play next Scene
-    - Previous - Play previous Scene
-    - First - Play first Scene
-    - Last - Play last Scene
-    - RND (Any) - Play a random Scene
-    - RND (Other) - Play a random Scene excluding the currently playing scene
-    - Last Playing - Play last playing Scene
-    - Stop - Stop playback of project
-- **G.**  Number of bars before follow action event occurs
-- **H.**  Additional number of beats before follow action event occurs
-- **I.**  Scene launch buttons
-- **J.**  Track and Scene stop buttons
+<br>
+
+- **(A)**  Move selected Scene one position up
+- **(B)**  Move selected Scene one position down
+- **(C)**  Delete selected Scene
+- **(D)**  Duplicate selected Scene
+- **(E)**  Create a new Scene. Created scenes will be added directly under the currently selected scene.
+- **(F)**  Select Scene Follow Action:
+    - **None** - No follow action will be applied at the end of the Scene
+    - **Next** - Play next Scene
+    - **Previous** - Play previous Scene
+    - **First** - Play first Scene
+    - **Last** - Play last Scene
+    - **RND (Any)** - Play a random Scene
+    - **RND (Other)** - Play a random Scene excluding the currently playing scene
+    - **Last Playing** - Play last playing Scene
+    - **Stop** - Stop playback of project
+- **(G)**  Number of bars before follow action event occurs
+- **(H)**  Additional number of beats before follow action event occurs
+- **(I)**  Scene launch buttons
+- **(J)**  Track and Scene stop buttons
 
 Clicking a track stop button will stop any currently playing clips on
 that track only. Clicking the scene stop button stops playback of the
@@ -115,5 +119,5 @@ the SHIFT button engaged, which is located at the bottom right corner of
 the app.
 
 SHIFT functions:
--   Duplicate single clips by dragging
--   Select Clips/Scenes without triggering
+- Duplicate single clips by dragging
+- Select Clips/Scenes without triggering
