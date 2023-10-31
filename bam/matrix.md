@@ -1,6 +1,6 @@
 # Matrix Panel
 
-<img src="../bam/images/matrix/matrix-panel.png" width="800" alt="Matrix panel" />
+<img src="/bam/images/matrix/matrix-panel.png" width="800" alt="Matrix panel" />
 
 <br>
 
