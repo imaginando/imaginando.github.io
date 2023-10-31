@@ -188,7 +188,6 @@ amplification gain saturation to clipping and fuzz effects.
 ### INPUT
 
 - **HP** - cutoff frequency for the input´s signal high-pass filter.
-
 - **MODE** - toggle between processing the signal in stereo mode or MS (MID-SIDE) mode. In the MID-SIDE mode, instead of having a left and right signal to process, we have a mid mono signal and a SIDE mono signal in which positive and negative values are split into left and right signals and summed with the MID signal to create the full stereo signal. This allows for the processing of only the mono or stereo parts of the sound.
 - **IN LINK** - toggle between processing the two channels independently or simultaneously
 - **IN L** - Input level for channel Left or MID

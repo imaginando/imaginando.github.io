@@ -58,13 +58,13 @@ SHIFT functions:
 ## How to automate a parameter
 
 There is more than one way to automate a parameter in BAM. Any time a
-parameter is automated it is always added to the Modulation page list.
-When a parameter is added to the Modulation page list its value is
+parameter is automated it is always added to the Automation page list.
+When a parameter is added to the automation page list its value is
 always associated with the current clip. These are the ways in which you
 can automate parameters in BAM:
 
-- Automate a parameter through adding the parameter to the Modulations page and writing the desired values on each step.
-- Change the value of a parameter in a single step by pressing and holding the Step on the Modulations page or the Timeline page and manipulating the parameter. (iOS only)
+- Automate a parameter through adding the parameter to the Automations page and writing the desired values on each step.
+- Change the value of a parameter in a single step by pressing and holding the Step on the Automations page or the Timeline page and manipulating the parameter. (iOS only)
 - Manipulate a parameter directly while the record button is active
 - Holding the Shift key and manipulating a parameter will change the value of that parameter for the whole clip.
 
