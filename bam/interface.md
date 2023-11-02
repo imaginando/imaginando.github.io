@@ -1,5 +1,7 @@
 # **Interface overview**
 
+BAM is a groovebox style application ready for full autonomous music production. It comes with sound engines, effects units, a mixer, various panels for MIDI clips and automation editing as well as a factory soundbank.
+
 BAM’s interface consists of a fixed horizontal toolbar across the top, a
 dynamic three-section main work area, and a fixed horizontal toolbar
 across the bottom.
