@@ -18,6 +18,12 @@ the project's tempo. You can change time signatures, playback speed and
 direction as well as swing for each track. It is also possible to loop
 the playback of specific sections of each track’s clip.
 
+When you mark a step with a note, the value of the note can be defined in three different ways, and these are:
+- the note default value that is chosen on the note value of the Trigger Device
+- the note value defined by an automation value on the step in the Automations Panel
+- If any notes are being pressed on a MIDI keyboard or on the BAM´s keyboard while writing on a step, - that will be the value of the note written. If more than one key is pressed a chord will be written.
+
+
 You can access additional functions for some tools by using them with
 the SHIFT button pressed which is on the bottom right corner of the app.
 
