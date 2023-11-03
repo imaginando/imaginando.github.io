@@ -9,11 +9,11 @@ BAM’s interface consists of a fixed horizontal toolbar across the top, a
 dynamic three-section main work area, and a fixed horizontal toolbar
 across the bottom.
 
-<img src="/bam/images/interface/interface-overview.png" alt="BAM interface overview" />
+<img src="/bam/images/interface/interface-overview.png" width="1000" alt="BAM interface overview" />
 
 ## Top toolbar
 
-<img src="/bam/images/interface/interface-top-toolbar.png" alt="BAM interface top toolbar"/>
+<img src="/bam/images/interface/interface-top-toolbar.png" width="1000" alt="BAM interface top toolbar"/>
 
 - **(A)** Menu icon - open BAM’s menu
 - **(B)** MIDI learn - activate MIDI mapping mode and select highlighted controls to map to connected MIDI devices
@@ -41,7 +41,7 @@ across the bottom.
 
 ## Top Section - Device rack
 
-<img src="/bam/images/interface/interface-top-section.png" alt="overview-rack-section.png" />
+<img src="/bam/images/interface/interface-top-section.png" width="1000" alt="overview-rack-section.png" />
 
 - **TRIGGER** - controls the behavior of some note properties
 - **MODULATORS** - envelope based and low frequency oscillator modulation
@@ -51,7 +51,7 @@ across the bottom.
 
 ## Middle Section - Main panels
 
-<img src="/bam/images/interface/interface-main-panels.png" alt="BAM interface main panels" />
+<img src="/bam/images/interface/interface-main-panels.png" width="1000" alt="BAM interface main panels" />
 
 In this section we have the panels for:
 - **(A) MATRIX** - MIDI Clip and Scene launcher
@@ -69,7 +69,7 @@ can press any of them to select a track.
 There are 16 pads which trigger the default note of each track´s engine,
 and provide a visual representation of each track’s audio in real time.
 
-<img src="/bam/images/interface/interface-track-pads.png" alt="BAM interface performance area" />
+<img src="/bam/images/interface/interface-track-pads.png" width="1000" alt="BAM interface performance area" />
 
 To the right there are four toggle buttons that when active perform the
 following actions:
@@ -81,14 +81,14 @@ following actions:
 Tip: You can SOLO/ARM multiple tracks by using the SHIFT keys located at
 the bottom left and right of BAM’s interface:
 
-<img src="/bam/images/interface/interface-shift-keys.png" alt="BAM interface SHIFT keys" />
+<img src="/bam/images/interface/interface-shift-keys.png" width="1000" alt="BAM interface SHIFT keys" />
 
 On desktop you can use the shift keys of your computer keyboard to
 activate SHIFT function.
 
 ## Keyboard mode (KBD)
 
-<img src="/bam/images/interface/interface-kbd-mode.png" alt="BAM interface Keyboard mode (KBD)" />
+<img src="/bam/images/interface/interface-kbd-mode.png" width="1000" alt="BAM interface Keyboard mode (KBD)" />
 
 Keyboard mode changes the pads into note triggers for the currently
 selected track engine, arranged like piano keys. With SHIFT active you
@@ -103,7 +103,7 @@ the toggle buttons change accordingly:
 
 ## Bottom toolbar
 
-<img src="/bam/images/interface/interface-bottom-toolbar.png" alt="BAM interface bottom toolbar" />
+<img src="/bam/images/interface/interface-bottom-toolbar.png" width="1000" alt="BAM interface bottom toolbar" />
 
 The bottom toolbar consists of several different functions:
 
@@ -126,8 +126,8 @@ Note: When using BAM AUv3 plugin in an iOS host DAW, the top and bottomsections 
 
 ## Preferences menu
 
-<img src="/bam/images/interface/interface-preferences-menu-general.png" alt="BAM interface general preferences menu" />
-<img src="/bam/images/interface/interface-preferences-menu-performance.png" alt="BAM interface performance preferences menu" />
+<img src="/bam/images/interface/interface-preferences-menu-general.png" width="475" alt="BAM interface general preferences menu" />
+<img src="/bam/images/interface/interface-preferences-menu-performance.png" width="475" alt="BAM interface performance preferences menu" />
 
 ### General
 
