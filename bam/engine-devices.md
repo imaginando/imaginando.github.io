@@ -249,7 +249,7 @@ filter, physically modeled after the most famous classic acid synth with
 the number three hundred and three in its name
 
 - **WAVEFORM** - toggles between square and sawtooth wave produced by the synthesizer´s oscillator
-- **CUTOFF** - filter frequency after which the filter rolls off and stops affecting the signal
+- **CUTOFF** - filter frequency after which the filter rolls off and starts affecting the signal
 - **RESO** - The RESO or resonance of the filter occurs when the output from the filter is fed back to the input internally (with some caveats), creating a peak at the cutoff frequency. The RESO knob controls the amount of resonance you create this way. It is used to make the filter more aggressive.
 - **ENVELOPE** - amount of the envelope generator that is affecting the filter
 - **DECAY** - time it takes for the amplitude of the sound (or filter frequency if the amount of the ENVELOPE parameter is different from zero) to fall from full value to zero
