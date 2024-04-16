@@ -59,7 +59,7 @@ across the bottom.
 
 ## Middle Section - Main panels
 
-<img src="images/interface/bam-beat-maker-interface-main-panels.png" width="1000" alt="BAM interface main panels" />
+<img src="/bam/images/interface/bam-beat-maker-interface-main-panels.png" width="1000" alt="BAM interface main panels" />
 
 In this section we have the panels for:
 - **(A) Matrix** - MIDI Clip and Scene launcher
@@ -93,7 +93,7 @@ activate SHIFT function.
 
 ## Keyboard mode
 
-<img src="images/interface/bam-beat-maker-interface-kbd-mode.png" width="1000" alt="BAM interface Keyboard mode (KBD)" />
+<img src="/bam/images/interface/bam-beat-maker-interface-kbd-mode.png" width="1000" alt="BAM interface Keyboard mode (KBD)" />
 
 Keyboard mode changes the pads into note triggers for the currently
 selected track, arranged like piano keys. With SHIFT active you

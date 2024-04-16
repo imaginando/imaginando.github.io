@@ -1,6 +1,6 @@
 # Matrix Panel
 
-<img src="/bam/images/matrix/matrix-panel.png" width="800" alt="Matrix panel" />
+<img src="/bam/images/matrix/bam-beat-maker-matrix-panel.png" width="1000" alt="Matrix panel" />
 
 <br>
 
@@ -10,21 +10,21 @@ and white scene launcher buttons on the Master track (M).
 
 ## Triggering a clip
 
-To trigger a single clip simply click the clip you want to trigger. This
-action also selects the clip which is shown by a white border around the
+To trigger a single clip simply press the clip you want to trigger. This
+action also selects the clip, which is shown by a white border around the
 clip’s cell. A clip that is in a trigger state is shaded brighter than
-non-trigger state clips. As a clip plays a visual indication of its
+non-trigger state clips. As a clip plays, a visual indication of its
 playback position is represented by a progressive horizontal shading
 graduating from left to right. When the end of the clip is reached, it
 will automatically loop back to the start of the clip and playback will
 continuously loop until the clip is stopped.
 
-Clicking a different clip on the same track will select and trigger the
+Pressing a different clip on the same track will select and trigger the
 new clip (synchronizing the start of playback based on the ‘Trigger
-quantisation’ project settings - accessed via the cog icon on the bottom
-toolbar.)
+quantisation’ project settings - accessed via the [cog icon on the bottom
+toolbar](interface.md#preferences-menu).)
 
-Clicking a clip from a different track will select and trigger the new
+Pressing a clip from a different track will select and trigger the new
 clip, synchronizing the playback with currently playing clips. You can
 see that both clips are now selected because they both have a white
 border, and both clips will also have brighter shading to show they are
@@ -32,87 +32,106 @@ currently in triggered state.
 
 ## Selecting a clip without triggering
 
-To select a clip without triggering it, click the clip while SHIFT is
-active, this will give the clip a white border which signals the clip is
+To select a clip without triggering it, press the clip while SHIFT is
+active. This will give the clip a white border which signals the clip is
 selected, but the shading of the clip will not change as the clip is not
 triggered.
 
 ## Triggering a scene
 
-Clicking a scene launcher button on the master channel will trigger
+Pressing a scene launcher button on the master channel will trigger
 playback of all clips on the same horizontal row, adhering to the
 project ‘Trigger quantisation’ setting.
 
 ## Selecting a scene without triggering
 
-To select a scene without triggering it, click the scene while SHIFT is
+To select a scene without triggering it, press the scene while SHIFT is
 active.
 
 ## MATRIX clip and scene context menus
 
-Clicking and holding a clip or empty cell reveals this pop-up context
+Pressing and holding or right clicking a clip or empty cell reveals a pop-up context
 menu to perform relevant actions:
 
-<img src="/bam/images/matrix/matrix-cell-context-menu.png" width="125" alt="Matrix cell context menu" />
+- **Copy** - Copy MIDI notes, automations and audio content of the clip
+- **Paste** - Paste copied clip
+- **Mute**
+- **Clear** - Clear all clip content
+- **Audio** - Open the [Audio Clip](#audio-clips) Properties panel
+- **Clear Audio**
+- **Import** (iOS only) - Import MIDI file into clip
+- **Export** (iOS only) - Export MIDI content as a .mid file
 
-(Note: import/export of MIDI clips is not currently present in desktop
-versions of BAM yet)
-
-Clicking and holding a scene button reveals this pop-up context menu to
+Pressing and holding a scene button reveals a pop-up context menu to
 perform relevant actions:
 
-<img src="/bam/images/matrix/matrix-scene-context-menu.png" width="150" alt="Matrix scene context menu" />
+- **Add Scene**
+- **Duplicate**
+- **Copy**
+- **Paste**
+- **Delete**
+- **Select**
+- **Move Up**
+- **Move Down**
+- **Rename**
+
+## Audio Clips
+
+Clips may play both MIDI and audio. Dragging an audio file from the Browser to a Matrix cell will load the audio into the clip. When loaded, tempo is automatically detected and the audio is time stretched to match the project tempo.
+
+The Audio Clip Properties panel - opened through the Matrix clip context menu - can be used to manually adjust the reported audio tempo and other clip settings such as clip length and time signature.
+
+<img src="/bam/images/matrix/bam-beat-maker-matrix-audio-clip-properties.png" width="575" alt="Matrix panel overview"/>
+
+- **(A)** Reset to automatically detected tempo
+- **(B)** Insert audio tempo
+- **(C)** Halve/double current audio tempo
+- **(D)** Change clip length
+- **(E)** Halve/double current clip length
+- **(F)** Change clip time signature
+
+Note: **(B)** designates the tempo of the loaded audio, meaning the project will treat the audio as if its tempo were the reported value when stretching it. For instance, an audio clip with a tempo of 60 BPM in the context of a project at 120 BPM will play at twice its original speed.
 
 ## Scene Follow Actions
 
 For automatic transitions between scenes and song arrangement purposes,
-scenes can be assigned a Follow Action event to occur after a specified
-number of bars and beats from the moment the Scene is triggered. To
-assign a Follow Action, select the scene and then use the follow action
-settings above the clip matrix. Scenes that have a follow action
+scenes can be assigned a **follow action** event to occur after a specified
+number of bars and beats from the moment the scene is triggered. To
+assign a follow action, select the scene and then use the follow action
+settings above the Matrix. Scenes that have a follow action
 assigned show a two-letter abbreviation of the follow action type.
-Follow actions are only applied when the scene is triggered (by pressing
-it).
+Follow actions are only applied when the scene is triggered.
 
 If the song is stopped while a scene is running, the scene launcher and
 all playing clips will remain in the triggered state. Pressing the play
 button will launch the scene from the beginning, and continue follow
-actions if present. If you want to clear the trigger states, you must
-press the stop button of the master track. This is useful for example if
-you want to play just one clip (for example) just press the stop button
-on the master track and then click on the clip you want to reproduce.
-This will not trigger follow actions, to trigger them after pressing the
-stop button on the master track, the launch button must be clicked. The
-different types of follow actions are detailed below as part of the
-MATRIX UI overview
+actions if present. Pressing the stop button of the master track clears all triggered states. Doing this and then triggering a clip allows you to play a single clip.
 
-<img src="/bam/images/matrix/matrix-panel-overview.png" width="800" alt="Matrix panel overview"/>
+The different types of follow actions are detailed below as part of the
+MATRIX UI overview.
+
+<img src="/bam/images/matrix/bam-beat-maker-matrix-panel-overview.png" width="1000" alt="Matrix panel overview"/>
 
 <br>
 
-- **(A)**  Move selected Scene one position up
-- **(B)**  Move selected Scene one position down
-- **(C)**  Delete selected Scene
-- **(D)**  Duplicate selected Scene
-- **(E)**  Create a new Scene. Created scenes will be added directly under the currently selected scene.
-- **(F)**  Select Scene Follow Action:
-    - **None** - No follow action will be applied at the end of the Scene
-    - **Next** - Play next Scene
-    - **Previous** - Play previous Scene
-    - **First** - Play first Scene
-    - **Last** - Play last Scene
-    - **RND (Any)** - Play a random Scene
-    - **RND (Other)** - Play a random Scene excluding the currently playing scene
-    - **Last Playing** - Play last playing Scene
+- **(A)** Move selected scene one position up/down
+- **(B)** Add/delete/duplicate scene
+- **(C)** Select scene follow action:
+    - **None** - No follow action will be applied at the end of the scene
+    - **Next** - Play next scene
+    - **Previous** - Play previous scene
+    - **First** - Play first scene
+    - **Last** - Play last scene
+    - **RND (Any)** - Play a random scene
+    - **RND (Other)** - Play a random scene excluding the currently playing scene
+    - **Last Playing** - Play last playing scene
     - **Stop** - Stop playback of project
-- **(G)**  Number of bars before follow action event occurs
-- **(H)**  Additional number of beats before follow action event occurs
-- **(I)**  Scene launch buttons
-- **(J)**  Track and Scene stop buttons
+- **(D)** Number of bars and beats to play before follow action event occurs
+- **(E)** Enable follow actions
+- **(F)** Scene launch buttons
+- **(G)** Track stop buttons
 
-Clicking a track stop button will stop any currently playing clips on
-that track only. Clicking the scene stop button stops playback of the
-scene (and therefore all clips currently playing)
+Pressing a track stop button will stop that track's playing clip. Pressing the master track stop button stops all playing clips as well as removing all triggered states.
 
 You can access additional functions for some tools by using them with
 the SHIFT button engaged, which is located at the bottom right corner of
@@ -120,4 +139,4 @@ the app.
 
 SHIFT functions:
 - Duplicate single clips by dragging
-- Select Clips/Scenes without triggering
+- Select clips/scenes without triggering
