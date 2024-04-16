@@ -1,4 +1,4 @@
-# AUTOMATIONS panel
+# AUTOMATIONS Panel
 
 <img src="/bam/images/automations/automations-panel-overview.png" width="800" alt="BAM Automations panel overview" />
 

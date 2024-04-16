@@ -15,12 +15,12 @@ across the bottom.
 
 <img src="/bam/images/interface/bam-beat-maker-interface-top-toolbar.png" width="1000" alt="BAM interface top toolbar"/>
 
-- **(A)** Menu icon - open BAM’s menu
-- **(B)** MIDI learn - activate MIDI mapping mode and select highlighted controls to map to connected MIDI devices
-- **(C)** Clock source (standalone app only) - choose between internal, external MIDI Clock, or Ableton Link
+- **(A)** Menu icon - Open BAM’s menu
+- **(B)** MIDI learn - Activate MIDI mapping mode and select highlighted controls to map to connected MIDI devices
+- **(C)** Clock source (standalone app only) - Choose between internal, external MIDI Clock, or Ableton Link
 - **(D)** Toggle metronome
-- **(E)** Tempo - set project tempo, adjust the metronome volume and configure MIDI clock
-- **(F)** Project - open project manager to manage and load projects
+- **(E)** Tempo - Set project tempo, adjust the metronome volume and configure MIDI clock
+- **(F)** Project - Open project manager to manage and load projects
 - **(G)** Create new project
 - **(H)** Save Project
 - **(I)** Revert project to last manually saved state
@@ -31,10 +31,10 @@ across the bottom.
 
 - **Profile** - Login to Imaginando account
 - **Store** - Manage expansions
-- **MIDI** (Standalone app only) - enable/disable available MIDI in/out ports
+- **MIDI** (Standalone app only) - Enable/disable available MIDI in/out ports
 - **Controllers** - Manage external MIDI controllers with built-in support
 - **Settings**
-    - **Audio Driver** (Windows standalone app only) - select ASIO or WASAPI drivers
+    - **Audio Driver** (Windows standalone app only) - Select ASIO or WASAPI drivers
     - **Output Audio Device** - Select output audio device
     - **Input Audio Device** - Select input audio device
     - **Input Audio Channels** - Select input channel configuration
@@ -78,7 +78,7 @@ and provide a visual representation of each track’s audio in real time.
 
 To the right there are four toggle buttons that, when active, perform the
 following actions:
-- **KBD** - Switch to keyboard mode (see below)
+- **KBD** - Switch to [keyboard mode](#keyboard-mode)
 - **SOLO** - Select tracks to solo
 - **MUTE** - Select tracks to mute
 - **ARM** - Select tracks to arm for performance and recording
@@ -123,10 +123,10 @@ The bottom toolbar consists of several different functions:
 - **(F) Automation buttons**
     - **Automation record mode** - Toggle between Latch and Touch modes
     - **Re-enable automations** - This is used for reactivation of an existing step automation, when manual operation of parameters has temporarily overwritten the automation in currently playing clips
-- **(G) Export menu** - See [Export menu](export-menu)
-- **(H) MIDI mapping manager** - See [MIDI mappings](midi-mappings)
-- **(I) Preferences menu** - See below
-- **(J) Shift button** - Provides additional functions for some tools when active
+- **(G) Export menu** - Open the [Export menu](export-menu)
+- **(H) MIDI mapping manager** - Open [MIDI mappings](midi-mappings)
+- **(I) Preferences menu** - Open the [Preferences menu](#preferences-menu)
+- **(J) Shift button** - Provides additional functions for some tools when active.
 
 Note: When using BAM AUv3 plugin in an iOS host DAW, the top and bottom sections cannot both be displayed at the same time. Expanding either section will automatically hide the other.
 

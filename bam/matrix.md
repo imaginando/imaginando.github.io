@@ -1,4 +1,4 @@
-# Matrix Panel
+# MATRIX Panel
 
 <img src="/bam/images/matrix/bam-beat-maker-matrix-panel.png" width="1000" alt="Matrix panel" />
 
