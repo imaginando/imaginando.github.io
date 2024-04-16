@@ -40,4 +40,5 @@ Notes created in the composer also create Note, Velocity and Time Offset automat
 
 SHIFT functions:
 - Duplicate selected notes by dragging
+- Select note on press
 - View and select loop zone in clip page view
