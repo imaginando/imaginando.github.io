@@ -49,4 +49,4 @@ Pressing and holding or right clicking **(L)** will open the track's context men
 <br>
 
 SHIFT functions:
-- View and select loop zone in navigator
+- View and select loop zone in clip page view
