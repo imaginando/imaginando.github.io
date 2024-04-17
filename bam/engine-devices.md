@@ -2,358 +2,387 @@
 
 ## SAMPLER
 
-<img src="/bam/images/engine-devices/sampler-engine-device.png" width="800" alt="BAM sampler engine interface" />
+<img src="/bam/images/engine-devices/bam-beat-maker-engine-device-sampler.png" width="1000" alt="BAM sampler engine interface" />
 
 BAM’s SAMPLER is an easy to use sampler with a streamlined set of
 features and an intuitive minimal interface. It includes a range of
-playback modes, legato and portamento functions, tuning controls and
+playback modes, legato and portamento functions, tuning controls and a
 multi-mode filter. A notable feature is the ‘SAMPLE’ parameter control,
 which lets you switch between samples from the project’s sample pool.
 
-### AMP EG (Amplitude envelope generator) section
+### Amplitude and Filter Envelopes
 
 The amplitude envelope controls the volume of the sound over time,
-visually represented here by the yellow line. The yellow line can be
-interacted with directly by dragging different parts of the line, on
-both x and y axis. The envelope can be adjusted with the following
+visually represented by the yellow line. The envelope can be
+interacted with directly by dragging different parts of the line on
+both x and y axis. 
+
+All filter envelope parameters are the same as in the amplitude envelope 
+but applied to the cutoff frequency of the filter rather than the amplitude 
+of the sound.
+
+The envelopes can be adjusted with the following
 parameters:
 
-- **CURVE** - this button provides access to individual controls with
-    which to define non-linear curve shapes for the attack, decay and
-    release stages of the envelope
-    - **A.Curve** - Define the curve for the ATTACK phase of the EG
-    - **D.Curve** - Define the curve for the DECAY phase of the EG
-    - **R.Curve** - Define the curve for the RELEASE phase of the EG
-- **INV** - inverts the envelope so that the volume amplitude starts and ends at maximum
-- **ATTACK** - the time it takes for the sound to reach its peak volume after the start of a note
-- **DECAY** - the time it takes for the volume of the sound to transition to its SUSTAIN value while the note is held
-- **SUSTAIN** - the volume of the sound after the ATTACK and SUSTAIN stages of the envelope while the note is held
-- **RELEASE** - time it takes for the volume of the sound to transition from its SUSTAIN value to its final value after the note is released
-- **MAX** - opens controls to adjust the scale/range of the ATTACK, DECAY and RELEASE knobs by defining the maximum duration value for each knob
-    - **A.MAX** - maximum ATTACK time available
-    - **D.MAX** - maximum DECAY time available
-    - **R.MAX** - maximum RELEASE time available
+- **CURVE** - Provide access to individual controls to define non-linear 
+curve shapes for the attack, decay and release stages of the envelope
+    - **A.Curve** - Define the curve for the ATTACK phase
+    - **D.Curve** - Define the curve for the DECAY phase
+    - **R.Curve** - Define the curve for the RELEASE phase
+    - **INV** - Inverts the envelope so that the volume amplitude starts 
+    and ends at maximum
+- **ATTACK** - The time it takes for the sound to reach its peak volume 
+after the start of a note
+- **DECAY** - The time it takes for the volume of the sound to transition 
+to its SUSTAIN value while the note is held
+- **SUSTAIN** - The volume of the sound after the ATTACK and DECAY stages 
+of the envelope while the note is held
+- **RELEASE** - Time it takes for the volume of the sound to transition from 
+its SUSTAIN value to its final value after the note is released
+- **MAX** - Opens controls to adjust the scale/range of the ATTACK, DECAY 
+and RELEASE knobs by defining the maximum duration value for each knob
+    - **A.MAX** - Maximum ATTACK time available
+    - **D.MAX** - Maximum DECAY time available
+    - **R.MAX** - Maximum RELEASE time available
 
-### FILTER EG Section
+### Sample Controls
 
-All parameters are the same as the AMP EG but these are applied on the
-FILTER instead of the amplitude of the sound
+- **START** - Starting point of playback
+- **LOOP START** - Starting point of the loop when in a looping mode
+- **END** - End point of playback
+- **LINK POS** - Link START, END and LOOP START positions
+- **PLAY MODE** - Select playback mode.
+    - **F** - Play forward without looping
+    - **FL** - Play forward and loop
+    - **FLPP** - Play forward and loop back and forth in a ping pong manner
+    - **B** - Play backward
+    - **BL** - Play backward and loop
+    - **BLPP** - Play backward and loop back and forth in a ping pong manner
+- **CROSSFADE** - Length of the crossfade between start and end loop points
+- **TUNE** - Fine tuning in cents
+- **TRANSPOSE** - Base pitch in semitones
+- **SAMPLE** - Select sample from the sample pool
 
-### WAVEFORM Controls
+### Filter
 
-- **START** - starting point of sample playback
-- **LOOP START** - point where the sample starts to loop when it is in
-    loop mode
-- **END** - end point for the sample playback
-- **LINK POS** - link START, END and LOOP START positions so that they can be moved simultaneously
-- **PLAY MODE** - this defines how the sample playback is made. It can play forward, backwards, forward loop, backward loop, forward with ping-pong loop and backward with ping-pong loop
-- **CROSSFADE** - Volume crossfade when the sample loops. Only available with the loop modes
-- **TUNE** - fine tuning of the pitch for the sample
-- **TRANSPOSE** - defines the base pitch for the sample playback
-- **SAMPLE** - which sample from the sample POOL is being played at the moment
+The SAMPLER features a 2 pole multi-mode resonant filter.
 
-### FILTER Controls
+- **CUTOFF** - Filter cutoff frequency
+- **Q** - Resonance or Q factor of the filter; creates a resonant peak at the cutoff frequency
+- **MODE** - Filter mode
+    - **LP** - Low-pass
+    - **BP** - Band-pass
+    - **HP** - High-pass
+    - **NOTCH** - Band reject
+- **EG** - Amount of the envelope generator affecting the
+    filter's cutoff
 
-- **CUTOFF** - filter frequency after which the filter rolls off and stops affecting the signal
-- **Q** - The resonance of the filter or Q factor occurs when the output from the filter is fed back to the input internally (with some caveats), creating a peak at the cutoff frequency. The RESONANCE knob controls the amount of resonance you create this way.
-- **MODE** - filter type
-    - **LP** - Low pass filter
-    - **BP** - Band pass filter
-    - **HP** - High pass filter
-    - **NOTCH** - Band reject filter
-- **EG** - amount of the envelope generator that is affecting the
-    filter
+### Master
 
-### MASTER Controls
-
-- **MODE** - select between MONO (only plays one note at a time), Poly (plays up to 8 voices at a time) and UNISON (plays all 8 voices simultaneously with slight detune)
-- **LEGATO** - Toggles LEGATO style note transitions on or off. With LEGATO on and the synthesizer working in MONO mode, the sound simply shifts between the frequencies of the notes without retriggering the envelope generators.
-- **PORTAMENTO** - toggles a slide of frequency between notes when they are overlapped instead of an instant frequency shift
-- **TIME** - (If PORTAMENTO is on) this defines the time it takes for a note to pitch slide to the next note played
-- **VOLUME** - controls the main volume of the synthesizer
+- **MODE** - Select between Mono (only plays one note at a time) and Poly (plays up to 8 voices at a time).
+- **LEGATO** - Toggle Legato style note transitions on or off. With LEGATO on and in MONO mode, the notes change without retriggering the envelope generators.
+- **PORTAMENTO** - Toggle a slide between notes when they are overlapped rather than an instant pitch change.
+- **TIME** - (If PORTAMENTO is enabled) this designates the time it takes for a note to pitch slide to the next played note.
+- **VOLUME** - Controls the output volume.
 
 ## OSCILLATOR
 
-<img src="/bam/images/engine-devices/oscillator-engine-device.png" width="1000" alt="Oscillator interface" />
+<img src="/bam/images/engine-devices/bam-beat-maker-engine-device-oscillator.png" width="1000"  alt="Oscillator interface" />
 
 A subtractive analogue modeling synthesizer with two independent
-oscillators and a noise generator as its main audio source capable of
-Ring modulation, FM and a noise generator as well. It also has a
-multi-mode filter and a saturation circuit.
+oscillators and a noise generator as its main audio sources. It is also capable of
+Ring and Frequency Modulation. It features a multi-mode filter and a saturation circuit.
 
-### OSC 1
+### Osc 1
 
-- **OCTAVE 1** - controls the pitch of octave played by the oscillator
-- **COARSE 1** - controls the pitch of the oscillator in semitones
-- **FINE 1** - fine controls the pitch of the oscillator in cents
-- **WAVEFORM** - allows for choice of the base waveform shape for the oscillator sound.
-- **PULSE WIDTH** - Adjusts the pulse width of the square waveform, from an even square to an infinitely thin pulse.
-- **LEVEL** - controls the volume of the oscillator
-- **MOD MODE** - lets you choose between no oscillator modulation, ring modulation and frequency modulation between the first and second oscillator.
-- **MOD AMOUNT** - controls the amount of oscillator modulation that exists between the first and second oscillator.
+- **OCTAVE 1** - Select octave
+- **COARSE 1** - Pitch control in semitones
+- **FINE 1** - Fine tune in cents
+- **WAVEFORM** - Base waveform shape
+- **PULSE WIDTH** - Pulse width of the square waveform, from an even square to an infinitely thin pulse
+- **LEVEL** - Output volume
+- **MOD MODE** - Select modulation mode
+    - **Ring** - Perform ring modulation with OSC 2
+    - **FM** - Perform frequency modulation with OSC 2
+- **MOD AMOUNT** - Modulation amount between OSC 1 and OSC 2
 
-### OSC 2
+### Osc 2
 
-All parameters are the same as the oscillator 1 with only the MOD MODE
-and MOD AMOUNT parameters missing.
+All parameters are the same as in OSC 1 with the exception of the modulation controls.
 
-### FILTER
+### Filter
 
-- **CUTOFF** - filter frequency after which the filter rolls off and
-    stops affecting the signal
-
-- **Q** - The resonance of the filter or Q factor occurs when the output from the filter is fed back to the input internally (with some caveats), creating a peak at the cutoff frequency. The RESONANCE knob controls the amount of resonance you create this way.
-
-- **MODE** - This button allows you to switch between all the
-    different FILTER Modes:
-    - **L4P** - 4 pole Low Pass Filter (24dB/oct attenuation) - A Low Pass Filter type allows low frequency content to pass through cutting high frequency content at a rate defined by the number of poles.This filter type is a digital implementation of the Moog Transistor Ladder Filter.
-    - **L2P** - 2 pole Low Pass Filter (12dB/oct - thus less frequency
+- **CUTOFF** - Filter cutoff frequency
+- **Q** - Resonance or Q factor of the filter; creates a resonant peak at the cutoff frequency
+- **MODE** - Filter mode
+    - **L4P** - 4 pole Low-pass Filter (24dB/oct attenuation) - A low-pass 
+        filter allows low frequency content to pass through, cutting high 
+        frequency  content at a rate defined by the number of poles. This 
+        filter is a digital implementation of the Moog Transistor Ladder 
+        Filter.
+    - **L2P** - 2 pole Low-pass Filter (12dB/oct - thus less frequency
         cutting effect than the L4P) - This filter is a digital
-        implementation of an analog multimode filter topology in the
-        Lowpass Mode. A Low Pass Filter type allows low frequency
-        content to pass through cutting high frequency content at a rate
-        defined by the number of poles.
-    - **B2P** - 2 pole Bandpass Filter (12dB/oct) - The 2 pole
-        bandpass filter allows only a restricted frequency band to pass
-        through cutting frequencies below and above at a 12dB per octave
-        rate. In this filter the Resonance has a particular importance
-        as it somewhat defines the bandwidth that can get through the
-        filter.This filter represents the bandpass output of the analog
-        multiband filter implementation.
-    - **H2P** - 2 pole High Pass Filter (12dB/oct) - A 2 pole High
-        Pass Filter type allows high frequency content to pass through
-        cutting low frequency content at a rate defined by the number of
-        poles. This filter represents the High Pass output of the analog
-        multiband filter implementation.
-    - **NOTCH** - A notch filter is a filter that cuts only a very
-        restricted band of frequencies, you can think of it as a more
-        aggressive form of bandpass, that instead of allowing a band to
-        pass it cuts that band out. This filter is also a product of the
-        multimode filter topology used in the other filters (except
-        L4P). It gives the sound a sort of hollowness that can be
-        interesting in some situations, if you use an LFO to modulate
-        this filter you will get an effect that resembles a phaser. Try
-        using low resonance.
-- **EG** - amount of the envelope generator that is affecting the filter
-- **KBD** - modulate the FILTER frequency by the note of the oscillators
-- **VEL** - modulate the FILTER frequency by the velocity value of the note.
+        implementation of an analog multi-mode filter topology in the
+        low-pass mode. 
+    - **B2P** - 2 pole Band-pass Filter (12dB/oct) - A
+        band-pass filter allows only a restricted frequency band to pass
+        through, attenuating frequencies above and below. In this filter 
+        the Q factor has a particular importance as it somewhat defines 
+        the bandwidth that can pass through the filter. This filter represents 
+        the band-pass output of the analog multi-mode filter implementation.
+    - **H2P** - 2 pole High-pass Filter (12dB/oct) - A high
+        -pass filter allows high frequency content to pass through,
+        attenuating low frequency content. This filter represents the 
+        high-pass output of the analog multi-mode filter implementation.
+    - **NOTCH** - Notch Filter - A notch filter is a filter that cuts a very
+        restricted band of frequencies. The Q factor designates how narrow the
+        band is. Can be used to achieve a phaser-like effect, especially  
+        when modulating the cutoff. This filter is also a product of the
+        multi-mode filter topology used in the other filters (except L4P).
+- **EG** - Amount of the envelope generator affecting the
+    filter's cutoff
+- **KBD** - Modulate the cutoff frequency with the pitch of the played notes
+- **VEL** - Modulate the cutoff frequency with the velocity of the played notes
 
-### PITCH
+### Pitch
 
-- **EG1 MOD** - modulate the pitch of the oscillators by the first envelope generator
-- **EG2 MOD** - modulate the pitch of the oscillators by the second envelope generator
+- **EG1 MOD** - Amount of pitch modulation from the Amplitude Envelope
+- **EG2 MOD** - Amount of pitch modulation from the Filter Envelope
 
 ### VCA
 
-- **KBD** - modulate the amplitude of the oscillators by the note of the oscillators
-- **VEL** - modulate the amplitude of the sound by velocity value of the note
+- **KBD** - Modulate the volume of the oscillators with the pitch of the played notes
+- **VEL** - Modulate the volume of the oscillators with the velocity of the played notes
 
-### NOISE
+### Noise
 
-- **LEVEL** - control the volume of the noise generator
-- **TONE** - control the width of the spectrum generated by the noise
-    generator
+- **LEVEL** - Volume of the noise generator
+- **TONE** - Cutoff frequency of low-pass filter
 
-### AMP EG
+### Amplitude and Filter Envelopes
 
-- **CURVE** - access curve controls for the envelope shape
-    - **A.Curve** - Define the curve for the ATTACK phase of the EG
-    - **D.Curve** - Define the curve for the DECAY phase of the EG
-    - **R.Curve** - Define the curve for the RELEASE phase of the EG
-- **INV** - invert vertically the envelope generator shape
-- **ATTACK** - time it takes for the amplitude of the sound to reach
-    full volume after note start
-- **DECAY** - time it takes for the amplitude of the sound to fall
-    from full volume to the SUSTAIN value while the note is playing
-- **SUSTAIN** - volume of the sound after the ATTACK and SUSTAIN
-    stages of the envelope and the note is still playing
-- **RELEASE** - time it takes for the amplitude of the sound to fall
-    from the SUSTAIN level after the note is released
-- **MAX** - opens controls to adjust the scale/range of the ATTACK,
-    DECAY and RELEASE knobs by defining the maximum duration value for
-    each knob
-    - **A.MAX** - maximum ATTACK time available
-    - **D.MAX** - maximum DECAY time available
-    - **R.MAX** - maximum RELEASE time available
+The amplitude envelope controls the volume of the sound over time,
+visually represented by the yellow line. The envelope can be
+interacted with directly by dragging different parts of the line on
+both x and y axis. 
 
-### FILTER EG
+All filter envelope parameters are the same as in the amplitude envelope 
+but applied to the cutoff frequency of the filter rather than the amplitude 
+of the sound.
 
-All parameters are the same as the AMP EG but these are applied on the
-FILTER instead of the amplitude of the sound
+The envelopes can be adjusted with the following
+parameters:
 
-### MASTER
+- **CURVE** - Provide access to individual controls to define non-linear 
+curve shapes for the attack, decay and release stages of the envelope
+    - **A.Curve** - Define the curve for the ATTACK phase
+    - **D.Curve** - Define the curve for the DECAY phase
+    - **R.Curve** - Define the curve for the RELEASE phase
+    - **INV** - Inverts the envelope so that the volume amplitude starts 
+    and ends at maximum
+- **ATTACK** - The time it takes for the sound to reach its peak volume 
+after the start of a note
+- **DECAY** - The time it takes for the volume of the sound to transition 
+to its SUSTAIN value while the note is held
+- **SUSTAIN** - The volume of the sound after the ATTACK and DECAY stages 
+of the envelope while the note is held
+- **RELEASE** - Time it takes for the volume of the sound to transition from 
+its SUSTAIN value to its final value after the note is released
+- **MAX** - Opens controls to adjust the scale/range of the ATTACK, DECAY 
+and RELEASE knobs by defining the maximum duration value for each knob
+    - **A.MAX** - Maximum ATTACK time available
+    - **D.MAX** - Maximum DECAY time available
+    - **R.MAX** - Maximum RELEASE time available
 
-- **VOLUME** - controls the master volume of the synthesizer
-- **OVERDRIVE** - turn on saturation on the main signal of the synthesizer
-- **DRIVE** - increase the saturation of the main signal of the synthesizer
-- **LEGATO** - Toggles LEGATO style note transitions on or off. With LEGATO on and the synthesizer working in MONO mode, the sound simply shifts between the frequencies of the notes without retriggering the envelope generators.
-- **MODE** - select between MONO (only plays one note at a time), Poly (plays up to 8 voices at a time) and UNISON (plays all 8 voices simultaneously with slight detune)
-- **PORTAMENTO** - toggles a slide of frequency between notes when they are overlapped instead of an instant frequency shift.
-- **TIME** - (If PORTAMENTO is on) this defines the time it takes for a note to pitch slide to the next note played.
+### Master
+
+- **VOLUME** - Control the output volume
+- **OVERDRIVE** - Enable saturation on the main signal
+- **DRIVE** - (If OVERDRIVE is enabled) control the drive of the main signal 
+- **LEGATO** - Toggle Legato style note transitions on or off. With LEGATO on and in Mono mode, the notes change without retriggering the envelope generators.
+- **MODE** - Select between Mono (only plays one note at a time), Poly (plays up to 8 voices at a time) and Unison (plays all 8 voices simultaneously with slight detune)
+- **PORTAMENTO** - Toggle a slide between notes when they are overlapped rather than an instant pitch change.
+- **TIME** - (If PORTAMENTO is enabled) this designates the time it takes for a note to pitch slide to the next played note.
 
 ## DRUM SYNTH
 
-<img src="/bam/images/engine-devices/drum-synth-engine-device.png" width="800" alt="Drum synth interface" />
+<img src="/bam/images/engine-devices/bam-beat-maker-engine-device-drum-synth.png" alt="Drum synth interface" />
 
 A synthesizer specifically engineered for creating drum sounds. It has
 an oscillator with a filter, a noise generator with different noise
-sources filter and stereo controls. It also has a frequency modulation
+sources, a filter and stereo controls. It also has a frequency modulation
 section and a saturation stage.
 
-### OSCILLATOR
+### Oscillator
 
-- **FILTER TYPE** - This button allows you to switch between all the different FILTER Modes. Filter types available are: L4P, L2P, B2P, H2P, NOTCH. These were described above
-- **CUTOFF** - filter frequency after which the filter rolls off and stops affecting the signal
-- **RESO** - The RESO or resonance of the filter occurs when the output from the filter is fed back to the input internally (with some caveats), creating a peak at the cutoff frequency. The RESO knob controls the amount of resonance you create this way. It is used to make the filter more aggressive
-- **ATTACK** - time it takes for the amplitude of the sound to reach full volume after note start
-- **DECAY** - time it takes for the amplitude of the sound to fall from full volume to no volume at all
-- **WAVEFORM** - Shape of the waveform used in the oscillator part of the synthesizer
-- **TUNE** - controls the fine tuning of the pitch of the oscillator in Cents.
-- **P MOD** - Pitch modulation amount of the oscillator
-- **P DECAY** - this controls the time it takes for the pitch modulation to complete its cycle
-- **VOLUME** - controls the volume of the oscillator
+- **FILTER TYPE** - Select between the different available filter modes (Low-pass, Band-pass, High-pass, Notch and Peak)
+- **CUTOFF** - Filter cutoff frequency
+- **RESO** - Resonance or Q factor of the filter; creates a resonant peak at the cutoff frequency
+
+- **ATTACK** - The time it takes for the sound to reach its peak volume 
+after the start of a note
+- **DECAY** - The time it takes for the sound to fall from peak volume to zero
+- **WAVEFORM** - Shape of the waveform
+- **TUNE** - Fine tuning of the pitch in cents
+- **P MOD** - Pitch modulation amount
+- **P DECAY** - Decay time of the pitch modulation envelope
+    - Note that this envelope also modulates the Noise filter cutoff
+- **VOLUME** - Volume of the oscillator output
+
+### Noise
+
+- **FILTER TYPE** - Select between the different available filter modes (Low-pass, Band-pass, High-pass, Notch and Peak)
+- **CUTOFF** - Filter cutoff frequency
+- **RESO** - Resonance or Q factor of the filter; creates a resonant peak at the cutoff frequency
+- **F.MOD** - Filter cutoff frequency modulation amount
+    - Note that this cutoff frequency is modulated by the Oscillator's pitch envelope
+- **EG MODE** - Select the behavior of the envelope generator
+    - **EXP** - Exponential curve.
+    - **SHORT** - Short decay times.
+    - **CLAP** - Multiple impulse envelope to create a rattling sound. Use the Attack parameter to control the time between impulses.
+- **ATTACK** - The time it takes for the sound to reach its peak volume 
+after the start of a note
+- **DECAY** - The time it takes for the sound to fall from peak volume to zero
+- **TONE** - Cutoff frequency of low-pass filter
+- **STEREO** - Stereo width
+- **VOLUME** - Volume of the noise output
 
 ### FM
 
-- **WAVEFORM** - defines the waveform shape used for frequency modulation of the oscillator
-- **FREQ** - frequency of the oscillator
-- **OSC FM** - amount of frequency modulation introduced to the oscillator
-- **NOISE FM** - amount of frequency modulation introduced to the noise generator
+Perform frequency modulation on the Oscillator pitch and/or the Noise filter cutoff.
 
-### NOISE
+- **WAVEFORM** - Modulation waveform
+- **FREQ** - Modulation frequency
+- **OSC FM** - Amount of oscillator frequency modulation
+- **NOISE FM** - Amount of noise filter cutoff modulation
 
-- **FILTER TYPE** - This button allows you to switch between all the different FILTER Modes. Filter types available are: L4P, L2P, B2P, H2P, NOTCH. These were described above
-- **CUTOFF** - filter frequency after which the filter rolls off and stops affecting the signal
-- **RESO** - The RESO or resonance of the filter occurs when the output from the filter is fed back to the input internally (with some caveats), creating a peak at the cutoff frequency. The RESO knob controls the amount of resonance you create this way. It is used to make the filter more aggressive.
-- **F.MOD** - controls the amount of FILTER modulation introduced by the envelope generator
-- **VOLUME** - controls the volume of the noise generator
-- **EG MODE** - Toggles the behavior of the envelope generator curves between linear or exponential progression
-- **ATTACK** - time it takes for the amplitude of the sound to reach full volume after note start
-- **DECAY** - time it takes for the amplitude of the sound to fall from full volume to silence
-- **TONE** - control the width of the spectrum generated by the noise generator
-- **STEREO** - amount of stereo width produced by the noise generator
+### Master
 
-### MASTER
-
-- **DIST AMT** - distortion amount introduced in the master signal
-- **MODE** - control the destination of the distortion circuit between the oscillator, the oscillator and the noise generator or just the noise generator
-- **DECAY** - controls the time it takes for amplitude of the whole sound to drop from full volume to silence.
-- **VOLUME** - controls the volume of the whole sound of the synthesizer
+- **DIST AMT** - Distortion amount
+- **MODE** - Select distortion signal chain (Oscillator, Noise or both)
+- **DECAY** - Global decay control
+- **VOLUME** - Global master output volume
 
 ## HOFMANN
 
-<img src="/bam/images/engine-devices/hofmann-engine-device.png" width="800" alt="Hofmann interface" />
+<img src="/bam/images/engine-devices/bam-beat-maker-engine-device-hofmann.png" alt="Hofmann interface" />
 
 A monophonic synthesizer with an oscillator, a sub-oscillator and a
-filter, physically modeled after the most famous classic acid synth with
-the number three hundred and three in its name
+filter, physically modeled after the most famous classic acid synth in history.
 
-- **WAVEFORM** - toggles between square and sawtooth wave produced by the synthesizer´s oscillator
-- **CUTOFF** - filter frequency after which the filter rolls off and starts affecting the signal
-- **RESO** - The RESO or resonance of the filter occurs when the output from the filter is fed back to the input internally (with some caveats), creating a peak at the cutoff frequency. The RESO knob controls the amount of resonance you create this way. It is used to make the filter more aggressive.
-- **ENVELOPE** - amount of the envelope generator that is affecting the filter
-- **DECAY** - time it takes for the amplitude of the sound (or filter frequency if the amount of the ENVELOPE parameter is different from zero) to fall from full value to zero
-- **ACCENT** - controls the amount of ACCENT modulation of the note. The ACCENT modulation allows through velocity control (ACCENT is triggered when the velocity value is the same or above 100), to modulate the amplitude and filter of a given note.
-- **SUB LEVEL** - Controls the volume of the sub oscillator on the synthesizer. The sub-oscillator is an oscillator that is similar to the original oscillator in the synthesizer but operates at a lower octave in frequency.
-- **DISTORTION** - toggles the distortion of the main signal on or off
-- **DRIVE** - amount of distortion introduced to the synthesizer´s signal
-- **LEVEL** - level of the signal's volume after the distortion circuit.
-- **VOLUME** - control of the main signals volume
-
-## ‘08’ ENGINES COLLECTION
-
-Virtual analogue models of the sounds of the iconic drum machine. (08
-Kick / 08 Snare / 08 Clap / 08 Tom Conga / 08 Hihat / 08 Cowbell)
-
-### 08 KICK
-
-<img src="/bam/images/engine-devices/08-kick-engine-device.png" width="400" alt="08 Kick interface" />
-
-- **PITCH** - controls the pitch of the oscillator
-- **TONE** - controls the frequency at which the filter stops affecting the clicky part of the signal
-- **DECAY** - controls the time it takes for the amplitude of the signal to go from maximum to silence
-- **GAIN** - controls the level of amplification of the main signal
-- **ACCENT** - controls the amount of ACCENT modulation of the note. The ACCENT modulation allows through velocity control (ACCENT is triggered when the velocity value is the same or above 100), to modulate the amplitude
-
-### 08 SNARE
-
-<img src="/bam/images/engine-devices/08-snare-engine-device.png" width="400" alt="08 Snare interface" />
-
-- **SNAPPY** - controls the level of the noise generator
-- **FREQ** - controls the frequency of the oscillators in the synth
-- **TONE** - controls the relation of volume between the two oscillators of the synth
-- **DECAY** - controls the time it takes for the amplitude of the signal to go from maximum to silence
-- **ACCENT** - controls the amount of ACCENT modulation of the note. The ACCENT modulation allows through velocity control (ACCENT is triggered when the velocity value is the same or above 100), to modulate the amplitude
-
-### 08 CLAP
-
-<img src="/bam/images/engine-devices/08-clap-engine-device.png" width="350" alt="08 Clap interface" />
-
-- **TONE** - controls the frequency at which the filter stops affecting the signal
-- **DECAY** - controls the length of the retriggering noise clap oscillators
-- **TAIL** - controls the length of the continuous noise generator sound
-- **ACCENT** - controls the amount of ACCENT modulation of the note. The ACCENT modulation allows through velocity control (ACCENT is triggered when the velocity value is the same or above 100), to modulate the amplitude
-
-### 08 TOM CONGA
-
-<img src="/bam/images/engine-devices/08-tom-conga-engine-device.png" width="350" alt="08 Tom conga interface" />
-
-- **DECAY** - controls the time it takes for the amplitude of the sound to go from maximum value to silence
-- **PITCH** - controls the frequency of the oscillator
-- **NOISE** - controls the volume of the noise generator
-- **ACCENT** - controls the amount of ACCENT modulation of the note. The ACCENT modulation allows through velocity control (ACCENT is triggered when the velocity value is the same or above 100), to modulate the amplitude
-
-### 08 HI-HAT
-
-<img src="/bam/images/engine-devices/08-hihat-engine-device.png" width="400" alt="08 HiHat interface" />
-
-- **PITCH** - controls the pitch of the oscillator of the synth
-- **TONE** - controls the frequencies of the filter that are affectingthe signal
-- **DECAY** - controls the time it takes for the amplitude of thesound to go from maximum value to silence
-- **ACCENT** - controls the amount of ACCENT modulation of the note.The ACCENT modulation allows through velocity control (ACCENT istriggered when the velocity value is the same or above 100), tomodulate the amplitude
-- **MODE** - toggles between the OPEN HIHAT mode and CLOSED HIHAT mode of the synthesizer.
-
-### 08 COWBELL
-
-<img src="/bam/images/engine-devices/08-cowbell-engine-device.png" width="250" alt="08 Cowbell interface" />
-
-- **PITCH** - controls the main pitch of the oscillators generating the COWBELL sound
-- **DECAY** - controls the time it takes for the amplitude of the sound to go from maximum to silence
-- **ACCENT** - controls the amount of ACCENT modulation of the note. The ACCENT modulation allows through velocity control (ACCENT is triggered when the velocity value is the same or above 100), to modulate the amplitude
+- **WAVEFORM** - Toggle between square and sawtooth
+- **CUTOFF** - Cutoff frequency of the low-pass filter
+- **RESO** - Resonance of the filter; creates a resonant peak at the cutoff frequency 
+- **ENVELOPE** - Amount of filter cutoff envelope modulation
+- **DECAY** - The time it takes for the amplitude and filter envelopes to fall from peak amplitude to zero
+- **ACCENT** - Amount of accent modulation of the note
+    - An accent is triggered when the velocity of a note is over 100. Accent notes default to a short decay time and have higher amplitude and filter envelope modulation.
+- **SUB LEVEL** - Volume of the sub oscillator, which is a square wave regardless of the WAVEFORM
+- **DISTORTION** - Enable distortion of the main signal
+- **DRIVE** - (If DISTORTION is enabled) control the drive of the main signal 
+- **LEVEL** - (If DISTORTION is enabled) level of the main signal after distortion
+- **VOLUME** - Control the output volume
 
 ## NOISE
 
-<img src="/bam/images/engine-devices/noise-engine-device.png" width="550" alt="Noise engine interface" />
+<img src="images/engine-devices/bam-beat-maker-engine-device-noise.png" alt="Noise engine interface" />
 
-A creative noise generator with different noise sources three different
+A creative noise generator with different noise sources, three different
 filters and a simple envelope generator.
 
-- **SOURCE** - controls the noise source of the signal
-- **LP CUTOFF** - controls the frequency of the filter from which the filter stops affecting the signal. Frequencies above the value will be filtered
-- **HP CUTOFF** - controls the frequency of the filter from which the filter stops affecting the signal. Frequencies below the value will be filtered
-- **ATTACK** - time it takes for the amplitude of the sound to reach full volume after note start
-- **RELEASE** - time it takes for the amplitude of the sound to fall from full volume to silence
-- **NOTCH** - controls the frequency of the filter around which frequencies will be filtered.
-- **GAIN** - controls the level of amplification of the main signal
+- **SOURCE** - Select between eight different types of noise
+- **LP CUTOFF** - Cutoff frequency of the low-pass filter
+- **HP CUTOFF** - Cutoff frequency of the high-pass filter
+- **ATTACK** - The time it takes for the sound to reach its peak volume 
+after the start of a note
+- **RELEASE** - The time it takes for the sound to fall from peak volume to zero
+- **NOTCH** - Cutoff frequency of the notch filter
+- **GAIN** - Control the output volume
+
+## ‘08’ ENGINES COLLECTION
+
+Virtual analogue models of the sounds of the iconic drum machine. All engines have an ACCENT parameter which affects the sound for notes with a velocity value of over 100.
+
+### 08 KICK
+
+<img src="/bam/images/engine-devices/bam-beat-maker-engine-device-08-kick.png" alt="08 Kick interface" />
+
+- **PITCH** - Generator fine tune in cents
+- **TONE** - Low-pass filter cutoff; useful for attenuating the "clicky" transient of the sound
+- **DECAY** - The time it takes for the amplitude envelope to fall from peak volume to zero
+- **GAIN** - Control the output volume
+- **ACCENT** - Amount of accent modulation
+
+### 08 SNARE
+
+<img src="/bam/images/engine-devices/bam-beat-maker-engine-device-08-snare.png" alt="08 Snare interface" />
+
+- **SNAPPY** - Volume of the noise generator
+- **FREQ** - Oscillators pitch
+- **TONE** - Volume relation between the synth's two oscillators
+- **DECAY** - The time it takes for the noise's amplitude envelope to fall from peak volume to zero
+- **ACCENT** - Amount of accent modulation
+
+### 08 CLAP
+
+<img src="/bam/images/engine-devices/bam-beat-maker-engine-device-08-clap.png" alt="08 Clap interface" />
+
+- **TONE** - Cutoff frequency of resonant filter
+- **DECAY** - Length of the retriggering noise clap oscillators
+- **TAIL** - Length of the continuous noise generator sound
+- **ACCENT** - Amount of accent modulation
+
+### 08 TOM CONGA
+
+<img src="/bam/images/engine-devices/bam-beat-maker-engine-device-08-tom-conga.png" alt="08 Tom conga interface" />
+
+- **DECAY** - The time it takes for the amplitude envelope to fall from peak volume to zero
+- **PITCH** - Generator fine tune in cents
+- **NOISE** - Volume of the noise generator
+- **ACCENT** - Amount of accent modulation
+
+### 08 HI-HAT
+
+<img src="/bam/images/engine-devices/bam-beat-maker-engine-device-08-hi-hat.png" alt="08 HiHat interface" />
+
+- **PITCH** - Generator fine tune in cents
+- **TONE** - Brightness amount
+- **DECAY** - The time it takes for the amplitude envelope to fall from peak volume to zero
+- **ACCENT** - Amount of accent modulation
+- **MODE** - Select between the OPEN and CLOSED hi-hat modes
+
+### 08 COWBELL
+
+<img src="/bam/images/engine-devices/bam-beat-maker-engine-device-08-cowbell.png" alt="08 Cowbell interface" />
+
+- **PITCH** - Generator fine tune in cents
+- **DECAY** - The time it takes for the amplitude envelope to fall from peak volume to zero
+- **ACCENT** - Amount of accent modulation
 
 ## AUDIO INPUT
 
-<img src="/bam/images/engine-devices/audio-input-device.png" width="175" alt="Audio input engine interface" />
+<img src="/bam/images/engine-devices/bam-beat-maker-engine-device-audio-input.png" alt="Audio input engine interface" />
 
-An audio input for processing external sources inside BAM (eg: a
+An audio input for processing external sources inside BAM (such as a
 microphone or an external synthesizer).
 
-- **GAIN** - controls the level of amplitude of the input of the signal
-- **MUTE** - mutes the signal
+- **GAIN** - Input signal volume control
+- **MUTE** - Mute audio input
 
 ## MIDI OUT
 
-<img src="/bam/images/engine-devices/midi-out-engine-device.png" width="500" alt="MIDI out engine interface" />
+The MIDI Out engine enables routing MIDI output to external devices.
 
-- **DEVICE** - The MIDI device to send MIDI to (click to open scrollable drop down menu)
-- **CHANNEL** - Select MIDI channel to use
-- **BANK** - Select MIDI bank to use
-- **SUB-BANK** - Select MIDI SUB-BANK to use
-- **PROGRAM** - Select which MIDI program to use
-- **PITCHBEND** - Change PITCHBEND value
-- **AFTERTOUCH** - Change AFTERTOUCH value
+Bank, Sub-Bank, Program, Pitchbend and Aftertouch controls are provided by default. You may add additional CC parameters.
+
+By directly changing, mapping and/or automating the existing parameters, you can output MIDI messages to the selected DEVICE and CHANNEL.
+
+<img src="/bam/images/engine-devices/bam-beat-maker-engine-device-midi-out.png" alt="MIDI out engine interface" />
+
+- **DEVICE** - The MIDI device to send MIDI to (press to open scrollable drop down menu)
+- **CHANNEL** - Select MIDI channel to output to
+- **BANK** - Send MIDI Bank message
+- **SUB-BANK** - Send MIDI Sub-Bank message
+- **PROGRAM** - Send MIDI Program Change message
+- **PITCHBEND** - Send MIDI Pitchbend message
+- **AFTERTOUCH** - Send MIDI Aftertouch message
