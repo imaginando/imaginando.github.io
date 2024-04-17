@@ -1,39 +1,46 @@
 # Project manager
 
-<img src="/bam/images/project-manager/project-manager.png" width="1000"  alt="BAM Project manager" />
+<img src="images/project-manager/bam-beat-maker-project-manager.png" width="1000" alt="BAM Project manager" />
 
-BAM’s project manager has a simple 3-column layout; Banks on the left,
-projects in the center, and a genre tag/filter on the right.
+<br>
+
+BAM’s project manager has a simple layout with banks displayed on the left and the selected bank's projects in the center.
 
 To open and close the project manager, click the project name on the top
 toolbar.
 
 The default three banks are:
+- **Factory** - A selection of demo projects
+- **Local** - The default bank to save custom projects to device local storage
+- **Favorites** - Provides a shortcut to all starred/favorited projects
 
-- **Factory** - a selection of demo projects
-
-- **Local** - the default bank to save custom projects to device local
-    storage
-
-- **Favorites** - provides a shortcut to all starred/favorited
-    projects
-
-## How BAM state / autosaving works
+**Expansion banks** are displayed below Favorites and are greyed out when locked.
 
 ## Saving a project
 
-<img src="/bam/images/project-manager/save-project.png" width="350" alt="BAM save project menu" />
+<img src="images/project-manager/bam-beat-maker-project-manager-save.png" width="350" alt="BAM save project menu" />
+
+<br>
+
+The **Save** icon opens the save panel. **SAVE AS** creates a new project file (**.bpf**), while **SAVE** will overwrite the current project. A project can only be overwritten if marked as modified (indicated by **"*"** after the project name).
+
+If [autosaving](interface.md#preferences-menu) is enabled, BAM will periodically save and allow for recovering your project in the event of abnormal termination.
 
 ## Importing/exporting banks and projects
 
-Notes on import and export of banks and projects:
+<img src="images/project-manager/bam-beat-maker-project-manager-overview.png" width="1000" alt="BAM save project menu" />
 
-- Import projects only work on local banks or imported banks
+<br>
 
-- Patches from factory can't be exported
+BAM allows exporting the local bank and custom banks as well as their projects. Banks have a **.bbf** format while projects have a **.bpf** format.
 
-- Only local bank and imported ones can be exported
+- **(A)** - Import Custom Bank
+- **(B)** - Import Project into Bank
+- **(C)** - Export Bank
+- **(D)** - Export Project
 
-- Bank files have .bbf extension
+<br>
 
-- Project files have .bpf extension
+[Previous: Sample Manager and Soundbanks](sample-manager-soundbank)
+
+[Next: MIDI Mappings](midi-mappings)
