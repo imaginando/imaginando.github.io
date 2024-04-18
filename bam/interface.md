@@ -151,3 +151,7 @@ triggering.
 - **Select clip on trigger** - When active, triggering a clip will also select it.
 - **Select clips when scene is triggered by follow action** - When active, any scene triggered by a follow action will automatically select all of the scene’s clips when playback of the scene commences.
 - **Change clip properties on beat time** - When active, changes to properties of the clip that can be changed on the TIMELINE and AUTOMATIONS panel will be synchronized to the beat.
+
+<br>
+
+[Next: The BAM Workflow](workflow)

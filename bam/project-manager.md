@@ -41,6 +41,6 @@ BAM allows exporting the local bank and custom banks as well as their projects. 
 
 <br>
 
-[Previous: Sample Manager and Soundbanks](sample-manager-soundbank)
+[Previous: Sample Manager and Factory Soundbanks](sample-manager-soundbank)
 
 [Next: MIDI Mappings](midi-mappings)

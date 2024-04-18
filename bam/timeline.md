@@ -50,3 +50,9 @@ Pressing and holding or right clicking **(L)** will open the track's context men
 
 SHIFT functions:
 - View and select loop zone in clip page view
+
+<br>
+
+[Previous: MATRIX Panel](matrix)
+
+[Next: AUTOMATIONS Panel](automations)

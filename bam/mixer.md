@@ -37,3 +37,9 @@ the filled VU meter corresponds to the RMS value of the track.
 
 SHIFT functions:
 - Select SOLO button in non exclusive mode
+
+<br>
+
+[Previous: COMPOSER Panel](composer)
+
+[Next: Device Rack](device-rack)

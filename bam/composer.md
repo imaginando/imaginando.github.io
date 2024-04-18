@@ -42,3 +42,9 @@ SHIFT functions:
 - Duplicate selected notes by dragging
 - Select note on press
 - View and select loop zone in clip page view
+
+<br>
+
+[Previous: AUTOMATIONS Panel](automations)
+
+[Next: MIXER Panel](mixer)

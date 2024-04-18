@@ -35,3 +35,9 @@ Mapped parameters are displayed in a scrollable list along with their track, eng
 <br>
 
 When BAM is hosted as a plugin, the Mappings Manager will display a CONFIGURE button in the top right corner. Toggle this button and press parameters to expose them to the host and allow automation. The order of the parameters in the host application will be the same as the one the Mappings Manager.
+
+<br>
+
+[Previous: Project Manager](project-manager)
+
+[Next: Export Menu](export-menu)

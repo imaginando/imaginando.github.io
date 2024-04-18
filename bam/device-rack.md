@@ -147,3 +147,9 @@ You may drag FX panels to reorganize the process chain.
 - **Send B** - Control signal sent to mixer´s effect Send B
 - **Pan** - Control track panning
 - **Volume** - Mixer control of volume for current track
+
+<br>
+
+[Previous: MIXER Panel](mixer)
+
+[Next: Engine Devices](engine-devices)

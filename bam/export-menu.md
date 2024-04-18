@@ -1,48 +1,72 @@
-# Export menu (mixdown)
+# Export Menu (mixdown)
 
-The export menu provides two functions:
-- Mixdown the current song as an audio file
-- Export MIDI or audio from specific scenes
+The Export Menu allows exporting audio and MIDI from the current project. It is accessed via the icon in the bottom toolbar:
 
-The EXPORT menu is accessed via this icon on the bottom toolbar:
+<img src="/bam/images/export-menu/bam-beat-maker-export-menu-icon.png" width="250" alt="BAM Export menu icon" />
 
-<img src="/bam/images/export-menu/export-menu-icon.png" width="" alt="BAM Export menu icon" />
+<br>
 
-## Export SONG
+The menu has three panels for exporting the **Song**, a specific **Track** or tracks from the selected **Scene**.
 
-<img src="/bam/images/export-menu/export-song-menu.png" width="" alt="BAM Export menu" />
+<img src="/bam/images/export-menu/bam-beat-maker-export-menu-tabs.png" width="800" alt="BAM Export menu icon" />
 
-SONG export uses the project’s follow actions to render the master
-channel output to disk.
+<br>
 
-You can specify an additional ‘tail’ length (in seconds) to add to the
+## Song
+
+<img src="/bam/images/export-menu/bam-beat-maker-export-menu-song.png" width="600" alt="BAM Export menu" />
+
+<br>
+
+Song export uses the project’s follow actions to render the master output.
+
+You can specify an additional tail length in seconds to add to the
 end of the audio file; this allows you to give extra time for effects
-like reverb and delay to fade out rather than abruptly end when the BAM
-stop event occurs.
+like reverb and delay to fade out rather than abruptly end.
 
 The total duration of the audio file that will be created is shown
-including the tail length. Tip: if the duration time is shorter than
-expected, double check your scene follow actions.
+including the tail length. Make sure your project has its follow 
+actions set up to export correctly.
 
-When you are ready to continue, select EXPORT and you will see BAM
-generate the audio file by playing through the scene order. When the
-song has follow actions in a loop mode, a warning message will show
-telling the user that the length of the song could not be calculated,
-prompting the user to select the length of the export. After the
-progress bar has reached 100%, the file is saved to your personal folder
-in the following location: '**Documents\Imaginando\BAM\Exports’**. In
-iOS it is up to the user to select where to save the export.
+If the project has follow actions in an indeterministic sequence 
+(such as with random follow actions or in an infinite loop), you must 
+manually insert the length of the export.
 
-## Export SCENE
+<img src="/bam/images/export-menu/bam-beat-maker-export-menu-song-indeterministic.png" width="600" alt="BAM Export menu" />
 
-<img src="/bam/images/export-menu/export-scene-menu.png" width="" alt="BAM export scene menu" />
+<br>
 
-The SCENE tab enables export of the MIDI or audio of single scenes if
-the “ALL” option is selected, but for the individual tracks, the render
-will be done out of the selected Clip. The “ALL” option will render the
-audio coming from the master track.
+On desktop, exports are saved to **'Documents\Imaginando\BAM\Exports’**. On iOS, you will be prompted to choose a save directory.
 
-For each scene there are three options:
-- MIDI - export MIDI as a single MIDI file
-- RAW - renders as a WAV file with FX processing disabled
-- POST FX - renders as a WAV to an audio file
+## Track
+
+<img src="/bam/images/export-menu/bam-beat-maker-export-menu-track.png" width="600" alt="BAM export scene menu" />
+
+<br>
+
+Track export allows exporting individual tracks respecting the scene follow actions.
+
+- **Raw** - Export without FX
+- **Post FX** - Export with FX
+- **Send A** - Export with Send A return
+- **Send B** - Export with Send B return
+- **Send AB** - Export with Send A and B returns
+
+## Scene
+
+<img src="/bam/images/export-menu/bam-beat-maker-export-menu-scene.png" width="600" alt="BAM export scene menu" />
+
+<br>
+
+Scene export allows exporting the audio and MIDI of the selected scene.
+
+The **ALL** option will export the audio/MIDI for every clip of the selected scene, while the other options allow exporting individual clips from the respective track.
+
+- **MIDI** - Export MIDI data
+    - **ALL** will export a multichannel MIDI file
+- **Raw** - Export without FX
+- **Post FX** - Export with FX
+
+<br>
+
+[Previous: MIDI Mappings](midi-mappings)

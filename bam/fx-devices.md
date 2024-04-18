@@ -210,3 +210,9 @@ amplification gain saturation to clipping and fuzz effects.
 ### MASTER
 
 - **DRY/WET** - control the balance between the DRY or unprocessed signal with the WET distorted signal.
+
+<br>
+
+[Previous: Engine Devices](engine-devices)
+
+[Next: Sample Manager and Factory Soundbank](sample-manager-soundbank)

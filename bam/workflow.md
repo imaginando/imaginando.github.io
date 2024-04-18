@@ -6,3 +6,9 @@ The starting point for music creation in BAM will probably be one of these two o
 On the panels is where most of the work on BAM will be done and where you can access most of its functionalities. Here you can add or remove sound sources and effects units; add, edit and delete notes; create automations and complex sequences of music events; fine tune your individual tracks and mix all audio.
 
 From there you can start creating your MIDI clips through either the TIMELINE or the COMPOSER by creating and editing notes which can then be sequenced in clips through the MATRIX panel. Finally you add and create movement to your compositions and give them some sparkle by generating modulations through the MODULATORS panel and automating parameters through the AUTOMATIONS panel.
+
+<br>
+
+[Previous: Interface overview](interface)
+
+[Next: MATRIX Panel](matrix)

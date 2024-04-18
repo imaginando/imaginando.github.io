@@ -61,6 +61,7 @@ menu to perform relevant actions:
 - **Clear Audio**
 - **Import** (iOS only) - Import MIDI file into clip
 - **Export** (iOS only) - Export MIDI content as a .mid file
+    - For exporting MIDI on desktop, see [Export Menu](export-menu)
 
 Pressing and holding a scene button reveals a pop-up context menu to
 perform relevant actions:
@@ -140,3 +141,9 @@ the app.
 SHIFT functions:
 - Duplicate single clips by dragging
 - Select clips/scenes without triggering
+
+<br>
+
+[Previous: The BAM Workflow](workflow)
+
+[Next: TIMELINE Panel](timeline)

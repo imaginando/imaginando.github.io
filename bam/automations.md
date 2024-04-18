@@ -72,3 +72,7 @@ normal.
 <img src="/bam/images/automations/bam-beat-maker-automations-re-enable-automations.png" width="450" alt="BAM re-enable automation button" />
 
 <br>
+
+[Previous: TIMELINE Panel](timeline)
+
+[Next: COMPOSER Panel](composer)

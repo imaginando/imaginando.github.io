@@ -386,3 +386,9 @@ By directly changing, mapping and/or automating the existing parameters, you can
 - **PROGRAM** - Send MIDI Program Change message
 - **PITCHBEND** - Send MIDI Pitchbend message
 - **AFTERTOUCH** - Send MIDI Aftertouch message
+
+<br>
+
+[Previous: Device Rack](device-rack)
+
+[Next: FX Devices](fx-devices)

@@ -1,4 +1,4 @@
-# Sample manager and Factory Soundbank
+# Sample Manager and Factory Soundbank
 
 The Sample Manager allows browsing and preview audio files and presets, 
 as well as recording from a designated audio input source. It can be 
@@ -110,6 +110,8 @@ Sounds - melodic/tonal samples split into 8 categories:
 ### Expansions
 
 BAM is an ever-growing application with periodic paid expansion releases. These expansions include samples (both one shot and audio loops) and engine presets, located in the expansion's folder in the Browser under **LIBRARY**.
+
+<br>
 
 [Previous: FX Devices](fx-devices)
 
