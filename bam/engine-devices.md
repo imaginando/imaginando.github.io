@@ -1,5 +1,11 @@
 # Engine Devices
 
+## AUDIO UNIT
+
+BAM allows loading external Audio Unit v3 plugin instruments. For information on exposing AUv3 plugin parameters for mapping, automation and modulation see the [Device Rack](device-rack#modulating-parameters-from-auv3-plugins) section.
+
+AUv3 presets are browsable in a drop-down menu in the rack panel.
+
 ## SAMPLER
 
 <img src="/bam/images/engine-devices/bam-beat-maker-engine-device-sampler.png" width="1000" alt="BAM sampler engine interface" />
