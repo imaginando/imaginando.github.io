@@ -1,6 +1,6 @@
 name: "Clear website cache"
 on:
-  pushes:
+  push:
     branches: [master]
 
 jobs:
@@ -8,7 +8,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Call website clear cache endpoint
-      run: |
-        curl -X POST https://www.imaginando.pt/cache/clear
-            
+      - name: Call website clear cache endpoint
+        run: |
+          curl -X POST https://www.imaginando.pt/cache/clear
