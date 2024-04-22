@@ -9,144 +9,149 @@ BAM’s interface consists of a fixed horizontal toolbar across the top, a
 dynamic three-section main work area, and a fixed horizontal toolbar
 across the bottom.
 
-<img src="/bam/images/interface/interface-overview.png" width="1000" alt="BAM interface overview" />
+<img src="/bam/images/interface/bam-beat-maker-interface-overview.png" width="1000" alt="BAM interface overview" />
 
 ## Top toolbar
 
-<img src="/bam/images/interface/interface-top-toolbar.png" width="1000" alt="BAM interface top toolbar"/>
+<img src="/bam/images/interface/bam-beat-maker-interface-top-toolbar.png" width="1000" alt="BAM interface top toolbar"/>
 
-- **(A)** Menu icon - open BAM’s menu
-- **(B)** MIDI learn - activate MIDI mapping mode and select highlighted controls to map to connected MIDI devices
-- **(C)** Clock source (standalone app only) - choose between internal, external MIDI Clock, or Ableton Link
-- **(D)** Tempo - set project tempo and adjust the volume of built-in metronome
-- **(E)** Project - open project manager to load factory projects or locally saved projects
-- **(F)** Create new project
-- **(G)** Save Project icon - Save current project
-- **(H)** Revert project to last manually saved state
-- **(I)** Open previous project in current bank
-- **(J)** Open next project in current bank
+- **(A)** Menu icon - Open BAM’s menu
+- **(B)** MIDI learn - Activate MIDI mapping mode and select highlighted controls to map to connected MIDI devices
+- **(C)** Clock source (standalone app only) - Choose between internal, external MIDI Clock, or Ableton Link
+- **(D)** Toggle metronome
+- **(E)** Tempo - Set project tempo, adjust the metronome volume and configure MIDI clock
+- **(F)** Project - Open project manager to manage and load projects
+- **(G)** Create new project
+- **(H)** Save Project
+- **(I)** Revert project to last manually saved state
+- **(J)** Load previous/next project in current bank
 - **(K)** Open sample manager
 
 ### BAM Menu
 
 - **Profile** - Login to Imaginando account
-- **MIDI** (Standalone app only) - enable/disable available MIDI in/out ports
+- **Store** - Manage expansions
+- **MIDI** (Standalone app only) - Enable/disable available MIDI in/out ports
+- **Controllers** - Manage external MIDI controllers with built-in support
 - **Settings**
-    - **Audio Driver** (Windows standalone app only) - select ASIO or WASAPI drivers
-    - **Sample rate** (standalone app only) - select sample rate
-    - **Buffer size** - (standalone app only) - select audio buffer size
-    - **Window scale** - resize BAM UI size/scale
-- **About** - details about app version number, publisher, and production credits
-- **Help** - open BAM´s user manual in a web browser
+    - **Audio Driver** (Windows standalone app only) - Select ASIO or WASAPI drivers
+    - **Output Audio Device** - Select output audio device
+    - **Input Audio Device** - Select input audio device
+    - **Input Audio Channels** - Select input channel configuration
+    - **Sample rate** - Select sample rate
+    - **Buffer size** - Select audio buffer size
+    - **Window scale** (Desktop only) - Resize BAM UI size/scale
+    - **Background Audio** (iOS only) - Enable background audio
+    - **Notifications** (iOS only) - Enable push notifications
+- **About** - Details about app version number, publisher, and production credits
+- **Help** - Open BAM´s user manual in a web browser
 
 ## Top Section - Device rack
 
-<img src="/bam/images/interface/interface-top-section.png" width="1000" alt="overview-rack-section.png" />
+<img src="/bam/images/interface/bam-beat-maker-interface-device-rack.png" width="1000" alt="overview-rack-section.png" />
 
-- **TRIGGER** - controls the behavior of some note properties
-- **MODULATORS** - envelope based and low frequency oscillator modulation
-- **ENGINE** - the synthesis source/generator of the tracks
-- **FX** - Effects processing for the Engines. Two available per track
-- **TRACK MIXER** - single track mixer parameters
+- **(A) Trigger** - Note properties for created steps
+- **(B) MIDI Effects** - Effects processing for incoming MIDI (up to three per track)
+- **(C) Modulators** - Modulator engines (EG and LFO) (up to two per track)
+- **(D) Engine** - Synthesis source/generator of the tracks
+- **(E) Effects** - Effects processing for incoming audio (five available per track)
+- **(F) Mixer** - Mixer parameters
 
 ## Middle Section - Main panels
 
-<img src="/bam/images/interface/interface-main-panels.png" width="1000" alt="BAM interface main panels" />
+<img src="/bam/images/interface/bam-beat-maker-interface-main-panels.png" width="1000" alt="BAM interface main panels" />
 
 In this section we have the panels for:
-- **(A) MATRIX** - MIDI Clip and Scene launcher
-- **(B) TIMELINE** - Step Sequencer
-- **(C) AUTOMATIONS** - Clip-based parameter step-modulation editor
-- **(D) COMPOSER** - Piano roll MIDI clip editor
-- **(E) MIXER** - 16 track mixer plus master and return
-
-On the bottom part of this middle section you have a number representing
-each of the 16 tracks of BAM and one more for the Master channel. You
-can press any of them to select a track.
+- **(A) Matrix** - MIDI Clip and Scene launcher
+- **(B) Timeline** - Step Sequencer
+- **(C) Automations** - Clip-based parameter step-modulation editor
+- **(D) Composer** - Piano roll MIDI clip editor
+- **(E) Mixer** - 16 track mixer plus master and return
+- **(F) Track Selection**
 
 ## Lower Section - Performance area
 
 There are 16 pads which trigger the default note of each track´s engine,
 and provide a visual representation of each track’s audio in real time.
 
-<img src="/bam/images/interface/interface-track-pads.png" width="1000" alt="BAM interface performance area" />
+<img src="/bam/images/interface/bam-beat-maker-interface-track-pads.png" width="1000" alt="BAM interface performance area" />
 
-To the right there are four toggle buttons that when active perform the
+To the right there are four toggle buttons that, when active, perform the
 following actions:
-- **KBD** - switch to keyboard mode (see next section)
-- **SOLO** - select tracks to solo
-- **MUTE** - select tracks to mute
-- **ARM** - select tracks to arm for performance and recording
+- **KBD** - Switch to [keyboard mode](#keyboard-mode)
+- **SOLO** - Select tracks to solo
+- **MUTE** - Select tracks to mute
+- **ARM** - Select tracks to arm for performance and recording
 
 Tip: You can SOLO/ARM multiple tracks by using the SHIFT keys located at
 the bottom left and right of BAM’s interface:
 
-<img src="/bam/images/interface/interface-shift-keys.png" width="1000" alt="BAM interface SHIFT keys" />
+<img src="/bam/images/interface/bam-beat-maker-interface-shift-keys.png" width="1000" alt="BAM interface SHIFT keys" />
 
 On desktop you can use the shift keys of your computer keyboard to
 activate SHIFT function.
 
-## Keyboard mode (KBD)
+## Keyboard mode
 
-<img src="/bam/images/interface/interface-kbd-mode.png" width="1000" alt="BAM interface Keyboard mode (KBD)" />
+<img src="/bam/images/interface/bam-beat-maker-interface-kbd-mode.png" width="1000" alt="BAM interface Keyboard mode (KBD)" />
 
 Keyboard mode changes the pads into note triggers for the currently
-selected track engine, arranged like piano keys. With SHIFT active you
+selected track, arranged like piano keys. With SHIFT active you
 can drag the keyboard horizontally to scroll the available notes, and
 drag vertically to zoom/resize the keys. While Keyboard mode is active
 the toggle buttons change accordingly:
 
-- **TRK** - switch back to pad trigger mode
-- **OCT +** - raise the values of all note triggers by one octave
-- **OCT -** - lower the values of all note triggers by one octave
-- **PANIC** - panic button to stop all audio
+- **TRK** - Switch back to pad trigger mode
+- **OCT +** - Raise the values of all note triggers by one octave
+- **OCT -** - Lower the values of all note triggers by one octave
+- **PANIC** - Send note off messages to all notes
 
 ## Bottom toolbar
 
-<img src="/bam/images/interface/interface-bottom-toolbar.png" width="1000" alt="BAM interface bottom toolbar" />
+<img src="/bam/images/interface/bam-beat-maker-interface-bottom-toolbar.png" width="1000" alt="BAM interface bottom toolbar" />
 
 The bottom toolbar consists of several different functions:
 
-- **(A) SHIFT button** - provides additional functions for some tools when active
-- **(B) DSP usage meter** - displays the current level of DSP available being used by BAM
-- **(C) Show/hide top section** - expands and minimizes the upper section (device rack)
-- **(D) Show/hide bottom section** - expands and minimizes the lower section (performance area)
-- **(E) UNDO button** - UNDO the last performed action
-- **(F) REDO button** - revert the last UNDO function
-- **(G) PLAY button** - start project playback
-- **(H) STOP button** - stop project playback
-- **(I) RECORD button** - enables recording for armed track(s)
-- **(J) RE-ENABLE automation button** - This is used for reactivation of an existing step automation, when manual operation of parameters has temporarily overwritten the automation in currently playing clips.
-- **(K) EXPORT manager**
-- **(L) MIDI mapping manager**
-- **(M) Settings menu**
-- **(N) SHIFT button** - provides additional functions for some tools when active
+- **(A) Shift button** - Provides additional functions for some tools when active
+- **(B) DSP usage meter** - Displays the current level of DSP usage
+- **(C) Show/hide top section** - Expands and minimizes the upper and lower sections
+- **(D) Undo/Redo button** - Undo/redo the last performed action
+- **(E) Transport buttons**
+    - **Play button** - Start project playback
+    - **Stop button** - Stop project playback
+    - **Record button** - Enables recording for armed track(s)
+- **(F) Automation buttons**
+    - **Automation record mode** - Toggle between Latch and Touch modes
+    - **Re-enable automations** - This is used for reactivation of an existing step automation, when manual operation of parameters has temporarily overwritten the automation in currently playing clips
+- **(G) Export menu** - Open the [Export menu](export-menu)
+- **(H) MIDI mapping manager** - Open [MIDI mappings](midi-mappings)
+- **(I) Preferences menu** - Open the [Preferences menu](#preferences-menu)
+- **(J) Shift button** - Provides additional functions for some tools when active.
 
-Note: When using BAM AUv3 plugin in an iOS host DAW, the top and bottomsections cannot both be displayed at the same time. Expanding either section will automatically hide the other.
+Note: When using BAM AUv3 plugin in an iOS host DAW, the top and bottom sections cannot both be displayed at the same time. Expanding either section will automatically hide the other.
 
 ## Preferences menu
 
-<img src="/bam/images/interface/interface-preferences-menu-general.png" width="475" alt="BAM interface general preferences menu" />
-<img src="/bam/images/interface/interface-preferences-menu-performance.png" width="475" alt="BAM interface performance preferences menu" />
-
 ### General
 
-- **Engine windows always on top** - toggles whether pop-up Engine windows always render in front of the main BAM window. When this setting is disabled, clicking the main BAM window will bring it to the front and Engine windows will render behind it.
-- **Open Engine windows by default** - when adding a new engine or changing an existing engine to a different type, if this setting is active, the main interface of the new engine window will always automatically open
-- **Recording Countdown** - the number of ‘count in’ bars before recording starts each time the record button is pressed. This is represented by the metronome playing the respective number of bars, with the first beat of each bar indicated by a higher pitch note.
-- **Always select master track when selecting mixer** - when active, switching to the MIXER panel will automatically select the master track.
-- **Auto add engine parameters to automations list** - when active, adding a new engine or re-selecting the engine type will automatically add all of its parameters to the automations panel list
-- **Auto select tracks when pressing pads** - when active, clicking any of the track pads automatically selects that track.
-- **Arm track on selection** - when active, selecting any track number will automatically arm the selected track (and unarm any other currently armed tracks). When used in combination with the ‘Auto select tracks when pressing pads’ setting, clicking any track pad will select and arm the track simultaneously.
-- **Autosave Frequency** - enables auto saving of the project state, based on a regular time interval in minutes (a choice of 1, 2, 5 or 10 minute intervals), or disables auto save when set to ‘off’.
+- **Open Engine windows by default** - When adding a new engine or changing an existing engine to a different type, if this setting is active, the new engine window will always automatically open.
+- **Recording Countdown** - The number of ‘count in’ bars before recording starts each time the record button is pressed.
+- **Always select master track when selecting mixer** - When active, switching to the MIXER panel will automatically select the master track.
+- **Auto add engine parameters to automations list** - When active, adding a new engine will automatically add all of its parameters to the automations panel list.
+- **Auto select tracks when pressing pads** - When active, clicking any of the track pads automatically selects that track.
+- **Arm track on selection** - When active, selecting any track will automatically arm it (and unarm any other currently armed tracks).
+- **Autosave Frequency** - Enables auto saving of the project state, based on a regular time interval in minutes (a choice of 1, 2, 5 or 10 minute intervals), or disables auto save when set to ‘off’.
+- **Interaction Axis** - Choose axis for knob interaction.
 
 ### Performance
 
-- **Trigger Quantization** - the time period expressed in units of
-bars/note length that triggering a clip or scene synchronizes the start
-of playback to (sometimes referred to as onset timing correction of
-triggering).
-- **Recording Quantization** - when recording MIDI notes they will automatically quantize (snap) to the closest note position to the specified note length division. When set to off, no quantization is applied.
-- **Select clip on trigger -** when active, triggering a clip will also select it.
-- **Select clips when scene is triggered by follow action -** when active, any scene triggered by a follow action will automatically select all of the scene’s clips when playback of the scene commences.
-- **Change clip properties on beat time -** when active, properties of the clip that can be changed on the TIMELINE and AUTOMATIONS panel wait for the next beat to take effect.
+- **Trigger Quantization** - The time period that triggering a clip or scene synchronizes to. Sometimes referred to as onset timing correction of
+triggering.
+- **Recording Quantization** - When recording MIDI notes they will automatically quantize (snap) to the closest note position to the specified note length division. When set to off, no quantization is applied.
+- **Select clip on trigger** - When active, triggering a clip will also select it.
+- **Select clips when scene is triggered by follow action** - When active, any scene triggered by a follow action will automatically select all of the scene’s clips when playback of the scene commences.
+- **Change clip properties on beat time** - When active, changes to properties of the clip that can be changed on the TIMELINE and AUTOMATIONS panel will be synchronized to the beat.
+
+<br>
+
+[Next: The BAM Workflow](workflow)

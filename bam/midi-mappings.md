@@ -1,25 +1,43 @@
-# MIDI mappings
+# MIDI Mappings
 
-<img src="/bam/images/midi-mappings/midi-mapping-manager.png" width="1000" alt="MIDI mappings manager" />
+<img src="/bam/images/midi-mappings/bam-beat-maker-midi-mapping-manager.png" width="1000" alt="MIDI mappings manager" />
 
-This Panel is used to manage all the MIDI mappings configured on your
-BAM project. Here can see and edit the list of the parameters mapped to
+<br>
+
+This panel is used to manage all the MIDI mappings configured in your
+BAM project. Here can view and edit the list of the parameters mapped to
 MIDI.
 
-There are two way of adding parameters to this list:
-- Press MIDI learn on the TOP Section of BAM, choose the parameter to add and then interact with the MIDI device you want it mapped to
-- Press the configure button and choose the parameter you want to add (hosted version only)
+In order to map parameters, enable MIDI learn in the Top Bar. An overlay will appear over mappable parameters.
 
-When BAM is working on a hosted version and you need to expose the
-parameters of BAM on the host to be able to automate, just press the
-configure button and then press the parameter you want to automate. The
-order of the parameters on the Host application will be the same as the
-one the Mappings Manager.
+<img src="/bam/images/midi-mappings/bam-beat-maker-midi-mapping-manager-midi-learn.png" width="300" alt="MIDI learn overlay" />
 
-<img src="/bam/images/midi-mappings/midi-mapping-assign.png" width="1000" alt="MIDI mappings assign" />
+<br>
 
-To edit the MIDI mapped parameters, with the MIDI Learn On double click
-the mapped parameter you want to edit and a pop-up window will appear
-allowing you to choose if you want the mapping to be either a CC or a
-NOTE and then you can choose the MIDI channel and either the
-corresponding CC or NOTE you want it assigned to.
+Selecting a parameter and sending a MIDI message from an external MIDI controller will map the MIDI control to the parameter.
+
+Double pressing the parameter will open the MIDI Assign panel to manually configure its MIDI mapping.
+
+<img src="/bam/images/midi-mappings/bam-beat-maker-midi-mapping-manager-midi-assign.png" width="300" alt="MIDI assign panel" />
+
+<br>
+
+Mapped parameters are displayed in a scrollable list along with their track, engine and MIDI information.
+
+<img src="/bam/images/midi-mappings/bam-beat-maker-midi-mapping-manager-mapped-parameters.png" width="1000" alt="MIDI mapped parameters" />
+
+<br>
+
+## Configuring Parameters as a Hosted Plugin
+
+<img src="/bam/images/midi-mappings/bam-beat-maker-midi-mapping-manager-configure.png" width="1000" alt="MIDI mapped parameters" />
+
+<br>
+
+When BAM is hosted as a plugin, the Mappings Manager will display a CONFIGURE button in the top right corner. Toggle this button and press parameters to expose them to the host and allow automation. The order of the parameters in the host application will be the same as the one the Mappings Manager.
+
+<br>
+
+[Previous: Project Manager](project-manager)
+
+[Next: Export Menu](export-menu)

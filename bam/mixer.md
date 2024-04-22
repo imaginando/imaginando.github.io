@@ -1,34 +1,45 @@
 # MIXER Panel
 
-<img src="/bam/images/mixer/mixer-overview.png" width="800" alt="BAM Mixer overview" />
+<img src="/bam/images/mixer/bam-beat-maker-mixer-panel.png" width="1000" alt="BAM Mixer overview" />
 
 <br>
 
 This panel is BAM’s full project mixer, providing access to mixing
-controls for all tracks on one screen. Each track includes gain fader,
-rotary control of A and B sends, and stereo pan, mute and solo buttons,
-plus visual representation of track audio levels.
-
-You can access additional functions for some tools by using them with
-the SHIFT button pressed which is on the bottom right corner of the app.
-
-You can also access FX processing for master and A/B return channels
-above the MIXER when the MASTER track is selected:
-
-<img src="/bam/images/mixer/mixer-master-channel-sends.png" width="800" alt="BAM mixer master channel sends" />
+controls for all tracks on one screen. Each track includes a gain fader,
+rotary control of A and B sends, stereo pan, mute and solo buttons, a DJ style filter and a visual representation of track audio levels.
 
 <br>
 
-SHIFT functions:
-- Select SOLO button on an non exclusive mode
-- Change default Clip parameter value for current selected Clip
+<img src="/bam/images/mixer/bam-beat-maker-mixer-rack.png" width="800" alt="BAM mixer master channel sends" />
 
-<img src="/bam/images/mixer/mixer-levels-vu-meters.png" width="150" alt="BAM mixer VU meters" />
+
+You can access FX processing for master and A/B return channels
+above the MIXER when the MASTER track is selected.
 
 <br>
 
-Here we have a crop of 3 channels of BAM´s Mixer functionality with the
-VU meters working. As you can see the VU meter on the first channel is
-red since its gain peak value is over the 0dB mark. The channels peak
+<img src="/bam/images/mixer/bam-beat-maker-mixer-sends-fx-radio-button.png" width="150" alt="BAM mixer VU meters" />
+
+
+In the top right corner you can toggle between viewing the controls for the tracks' sends or the DJ filter control.
+
+Note: On iOS, sends controls are only visible if both the top and bottom panels are collapsed.
+
+<br>
+
+<img src="/bam/images/mixer/bam-beat-maker-mixer-levels-vu-meters.png" width="150" alt="BAM mixer VU meters" />
+
+
+Here we have a crop of 3 tracks with their respective
+VU meters. The VU meter turns red when the track's gain peak value is over the 0dB mark. The track's peak
 value is represented by the two lines above the filled VU meter while
 the filled VU meter corresponds to the RMS value of the track.
+
+SHIFT functions:
+- Select SOLO button in non exclusive mode
+
+<br>
+
+[Previous: COMPOSER Panel](composer)
+
+[Next: Device Rack](device-rack)
