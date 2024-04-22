@@ -14,7 +14,7 @@ The menu has three panels for exporting the **Song**, a specific **Track** or tr
 
 ## Song
 
-<img src="/bam/images/export-menu/bam-beat-maker-export-menu-song.png" width="600" alt="BAM Export menu" />
+<img src="/bam/images/export-menu/bam-beat-maker-export-menu-song.png" width="500" alt="BAM Export menu" />
 
 <br>
 
@@ -32,7 +32,7 @@ If the project has follow actions in an indeterministic sequence
 (such as with random follow actions or in an infinite loop), you must 
 manually insert the length of the export.
 
-<img src="/bam/images/export-menu/bam-beat-maker-export-menu-song-indeterministic.png" width="600" alt="BAM Export menu" />
+<img src="/bam/images/export-menu/bam-beat-maker-export-menu-song-indeterministic.png" width="500" alt="BAM Export menu" />
 
 <br>
 
@@ -40,7 +40,7 @@ On desktop, exports are saved to **'Documents\Imaginando\BAM\Exports’**. On iO
 
 ## Track
 
-<img src="/bam/images/export-menu/bam-beat-maker-export-menu-track.png" width="600" alt="BAM export scene menu" />
+<img src="/bam/images/export-menu/bam-beat-maker-export-menu-track.png" width="500" alt="BAM export scene menu" />
 
 <br>
 
@@ -54,7 +54,7 @@ Track export allows exporting individual tracks respecting the scene follow acti
 
 ## Scene
 
-<img src="/bam/images/export-menu/bam-beat-maker-export-menu-scene.png" width="600" alt="BAM export scene menu" />
+<img src="/bam/images/export-menu/bam-beat-maker-export-menu-scene.png" width="500" alt="BAM export scene menu" />
 
 <br>
 

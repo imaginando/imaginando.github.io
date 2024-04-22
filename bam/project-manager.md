@@ -1,6 +1,6 @@
 # Project manager
 
-<img src="images/project-manager/bam-beat-maker-project-manager.png" width="1000" alt="BAM Project manager" />
+<img src="/bam/images/project-manager/bam-beat-maker-project-manager.png" width="1000" alt="BAM Project manager" />
 
 <br>
 
@@ -18,7 +18,7 @@ The default three banks are:
 
 ## Saving a project
 
-<img src="images/project-manager/bam-beat-maker-project-manager-save.png" width="350" alt="BAM save project menu" />
+<img src="/bam/images/project-manager/bam-beat-maker-project-manager-save.png" width="300" alt="BAM save project menu" />
 
 <br>
 
@@ -28,7 +28,7 @@ If [autosaving](interface.md#preferences-menu) is enabled, BAM will periodically
 
 ## Importing/exporting banks and projects
 
-<img src="images/project-manager/bam-beat-maker-project-manager-overview.png" width="1000" alt="BAM save project menu" />
+<img src="/bam/images/project-manager/bam-beat-maker-project-manager-overview.png" width="1000" alt="BAM save project menu" />
 
 <br>
 

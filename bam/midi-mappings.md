@@ -10,7 +10,7 @@ MIDI.
 
 In order to map parameters, enable MIDI learn in the Top Bar. An overlay will appear over mappable parameters.
 
-<img src="/bam/images/midi-mappings/bam-beat-maker-midi-mapping-manager-midi-learn.png" width="300" alt="MIDI learn overlay" />
+<img src="/bam/images/midi-mappings/bam-beat-maker-midi-mapping-manager-midi-learn.png" width="250" alt="MIDI learn overlay" />
 
 <br>
 
@@ -18,7 +18,7 @@ Selecting a parameter and sending a MIDI message from an external MIDI controlle
 
 Double pressing the parameter will open the MIDI Assign panel to manually configure its MIDI mapping.
 
-<img src="/bam/images/midi-mappings/bam-beat-maker-midi-mapping-manager-midi-assign.png" width="300" alt="MIDI assign panel" />
+<img src="/bam/images/midi-mappings/bam-beat-maker-midi-mapping-manager-midi-assign.png" width="250" alt="MIDI assign panel" />
 
 <br>
 

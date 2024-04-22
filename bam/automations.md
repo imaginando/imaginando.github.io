@@ -69,7 +69,7 @@ button (re-enable automation) will light red showing that automations
 have been bypassed. By pressing this icon BAM will return automations to
 normal.
 
-<img src="/bam/images/automations/bam-beat-maker-automations-re-enable-automations.png" width="450" alt="BAM re-enable automation button" />
+<img src="/bam/images/automations/bam-beat-maker-automations-re-enable-automations.png" width="300" alt="BAM re-enable automation button" />
 
 <br>
 

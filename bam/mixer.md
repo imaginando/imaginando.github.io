@@ -27,7 +27,7 @@ Note: On iOS, sends controls are only visible if both the top and bottom panels 
 
 <br>
 
-<img src="/bam/images/mixer/bam-beat-maker-mixer-levels-vu-meters.png" width="150" alt="BAM mixer VU meters" />
+<img src="/bam/images/mixer/bam-beat-maker-mixer-levels-vu-meters.png" width="75" alt="BAM mixer VU meters" />
 
 
 Here we have a crop of 3 tracks with their respective

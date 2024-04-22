@@ -4,7 +4,7 @@ The Sample Manager allows browsing and preview audio files and presets,
 as well as recording from a designated audio input source. It can be 
 accessed by pressing the right corner icon in the Top Bar.
 
-<img src="/bam/images/sample-manager-soundbank/bam-beat-maker-sample-manager.png" width="300" alt="BAM sample manager" />
+<img src="/bam/images/sample-manager-soundbank/bam-beat-maker-sample-manager.png" width="150" alt="BAM sample manager" />
 
 <br>
 
@@ -23,13 +23,13 @@ and **Recorder**.
 
 ### Pool
 
-<img src="/bam/images/sample-manager-soundbank/bam-beat-maker-sample-manager-pool.png" width="300" alt="BAM sample manager pool" />
+<img src="/bam/images/sample-manager-soundbank/bam-beat-maker-sample-manager-pool.png" width="150" alt="BAM sample manager pool" />
 
 <br>
 
 Each BAM project has its own sample pool to store up to 128 imported
 samples. Samples can be added to the pool from the file browser by
-selecting the **add to pool** <img src="/bam/images/sample-manager-soundbank/bam-beat-maker-sample-manager-add-to-pool.png" width="25" alt="sample-manager-pool.png" /> 
+selecting the **add to pool** <img src="/bam/images/sample-manager-soundbank/bam-beat-maker-sample-manager-add-to-pool.png" width="20" alt="sample-manager-pool.png" /> 
 button to the right of the file name. Dragging and dropping a sample 
 from the Browser on the Engine Device, Timeline Track Name or the Track 
 Pad will add the sample to the pool if not present. Samples are imported 
@@ -39,7 +39,7 @@ in the Sampler engine. The pool content is saved with the project.
 
 ### Browser
 
-<img src="/bam/images/sample-manager-soundbank/bam-beat-maker-sample-manager-browser.png" width="300" alt="BAM sample manager browser" />
+<img src="/bam/images/sample-manager-soundbank/bam-beat-maker-sample-manager-browser.png" width="150" alt="BAM sample manager browser" />
 
 <br>
 
@@ -55,7 +55,7 @@ You can add shortcuts for specific folder locations using the **Add folder bookm
 
 ### Recorder
 
-<img src="/bam/images/sample-manager-soundbank/bam-beat-maker-sample-manager-recorder-overview.png" width="300" alt="BAM sample manager recorder overview" />
+<img src="/bam/images/sample-manager-soundbank/bam-beat-maker-sample-manager-recorder-overview.png" width="150" alt="BAM sample manager recorder overview" />
 
 <br>
 

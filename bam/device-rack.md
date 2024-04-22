@@ -16,7 +16,7 @@ open/close their floating window interfaces, while double pressing will collapse
 
 ## TRIGGER
 
-<img src="/bam/images/device-rack/bam-beat-maker-device-rack-trigger.png" width="200" alt="BAM Device Rack Trigger device" />
+<img src="/bam/images/device-rack/bam-beat-maker-device-rack-trigger.png" width="160" alt="BAM Device Rack Trigger device" />
 
 <br>
 
@@ -38,7 +38,7 @@ The top right corner icon opens the Trigger settings panel with the following op
 
 ## MIDI FX
 
-<img src="/bam/images/device-rack/bam-beat-maker-device-rack-midi-fx.png" width="440" alt="BAM Device Rack MIDI FX" />
+<img src="/bam/images/device-rack/bam-beat-maker-device-rack-midi-fx.png" width="400" alt="BAM Device Rack MIDI FX" />
 
 <br>
 
@@ -55,7 +55,7 @@ the + button in the top right corner and set multiple modulation targets from ea
 
 ### LFO (Low Frequency Oscillator)
 
-<img src="/bam/images/device-rack/bam-beat-maker-device-rack-modulators-lfo.png" width="440" alt="BAM Device Rack LFO Modulator device" />
+<img src="/bam/images/device-rack/bam-beat-maker-device-rack-modulators-lfo.png" width="400" alt="BAM Device Rack LFO Modulator device" />
 
 <br>
 
@@ -78,7 +78,7 @@ the + button in the top right corner and set multiple modulation targets from ea
 
 ### EG (Envelope Generator)
 
-<img src="i/bam/mages/device-rack/bam-beat-maker-device-rack-modulators-eg.png" width="440" alt="BAM Device Rack EG Modulator Device" />
+<img src="/bam/mages/device-rack/bam-beat-maker-device-rack-modulators-eg.png" width="400" alt="BAM Device Rack EG Modulator Device" />
 
 <br>
 
@@ -93,7 +93,7 @@ the + button in the top right corner and set multiple modulation targets from ea
 
 ### Modulating BAM parameters
 
-<img src="/bam/images/device-rack/bam-beat-maker-eg-modulator-with-parameters.png" width="440" alt="BAM EG modulator device with parameters added" />
+<img src="/bam/images/device-rack/bam-beat-maker-eg-modulator-with-parameters.png" width="400" alt="BAM EG modulator device with parameters added" />
 
 <br>
 
@@ -110,7 +110,7 @@ To modulate an AUv3 plugin's parameters, you need to make them available in BAM.
 Double pressing a learned parameter with EDIT toggled will remove it along with its modulations and automations.
 
 ## ENGINE
-<img src="/bam/images/device-rack/bam-beat-maker-device-rack-engine.png" width="350" alt="BAM device rack engine" />
+<img src="/bam/images/device-rack/bam-beat-maker-device-rack-engine.png" width="310" alt="BAM device rack engine" />
 
 <br>
 
@@ -120,12 +120,12 @@ The save icon saves the current engine state as a user preset available from the
 
 The macros icon <img src="/bam/images/device-rack/bam-beat-maker-device-rack-macros-icon.png" width="25" alt="BAM device rack macros icon" /> enables the macros editing mode. While enabled, you can add or replace macros by selecting one of the eight macro slots and pressing a parameter in the engine interface. Double pressing a macro slot will remove it.
 
-<img src="/bam/images/device-rack/bam-beat-maker-device-rack-macros.png" width="350" alt="BAM device rack macros editing" />
+<img src="/bam/images/device-rack/bam-beat-maker-device-rack-macros.png" width="310" alt="BAM device rack macros editing" />
 
 <br>
 
 ## FX
-<img src="/bam/images/device-rack/bam-beat-maker-device-rack-fx.png" width="350" alt="BAM device rack FX" />
+<img src="/bam/images/device-rack/bam-beat-maker-device-rack-fx.png" width="310" alt="BAM device rack FX" />
 
 <br>
 
@@ -135,7 +135,7 @@ You may drag FX panels to reorganize the process chain.
 
 ## TRACK Mixer controls
 
-<img src="/bam/images/device-rack/bam-beat-maker-device-rack-track-mixer.png" width="175" alt="" />
+<img src="/bam/images/device-rack/bam-beat-maker-device-rack-track-mixer.png" width="150" alt="" />
 
 <br>
 
