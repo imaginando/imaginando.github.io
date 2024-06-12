@@ -78,7 +78,7 @@ the + button in the top right corner and set multiple modulation targets from ea
 
 ### EG (Envelope Generator)
 
-<img src="/bam/mages/device-rack/bam-beat-maker-device-rack-modulators-eg.png" width="400" alt="BAM Device Rack EG Modulator Device" />
+<img src="/bam/images/device-rack/bam-beat-maker-device-rack-modulators-eg.png" width="400" alt="BAM Device Rack EG Modulator Device" />
 
 <br>
 
