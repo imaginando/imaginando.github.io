@@ -10,7 +10,7 @@ Start by downloading and installing [UBRIDGE](https://www.imaginando.pt/products
 
 The first time you open UBRIDGE, Windows Firewall will ask you to allow it to use the network connection. Ensure both private and public are ticked, then click '**Allow access**'.
 
-![UBRIDGE firewall settings prompt](/lk/images/setup/firewall.png)
+![UBRIDGE firewall settings prompt](/lk/images/setup/firewall.png?width=524&height=379)
 
 ![UBRIDGE Screenshot](/lk/images/setup/ubridge.png)
 
