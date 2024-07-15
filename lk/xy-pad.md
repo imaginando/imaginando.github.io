@@ -1,6 +1,6 @@
 # X/Y Pad Module - LK Help
 
-![LK X/Y Modulation Control Pad Module](/lk/images/xy/overview.jpg)
+![LK X/Y Modulation Control Pad Module](/lk/images/xy/overview.jpg?width=2732&height=2048)
 
 This module is composed of several screen controls for distinct modulation tools, including four banks, three mappable axis per bank, one ASR envelope generator for the Z axis with configurable release mode and an LFO for automated X/Y pad modulation.
 

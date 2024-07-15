@@ -2,7 +2,7 @@
 
 The Matrix module is a controller for Ableton Live and other MIDI software/hardware, carefully designed to give you access to the most common functions and operations for Ableton Live’s Session View (LIVE Mode), or for use with your mobile MIDI studio workflow (MIDI Mode). Tap LIVE or MIDI to toggle between modes. Ableton Live users please note: using Matrix requires the installation of LK control surface. For more information about how to install the LK control surface please visit the [Setup](setup) section.
 
-![LK Matrix Module sequencer overview of Ableton Live's Session view](/lk/images/matrix/overview.png)
+![LK Matrix Module sequencer overview of Ableton Live's Session view](/lk/images/matrix/overview.png?width=1024&height=768)
 
 The Matrix module is composed of several subsections and hidden menus, at the top of the screen, in the status bar, you will find the following fields:
 
@@ -173,7 +173,7 @@ The composer features a toolbar across the top with the following functions:
 
 ![LK Matrix Module clip composer properties panel](/lk/images/matrix/clip-composer-properties-panel.jpg)
 
-Located on the right, this menu consists of several panels which can be expanded and minimised by tapping each panel title. Here you can access the clip's properties plus a range of creative tools to help generate and edit MIDI notes in a variety of useful and interesting ways. 
+Located on the right, this menu consists of several panels which can be expanded and minimised by tapping each panel title. Here you can access the clip's properties plus a range of creative tools to help generate and edit MIDI notes in a variety of useful and interesting ways.
 
 #### CLIP PROPERTIES
 
@@ -211,7 +211,7 @@ These are a range of custom note actions from basic time-saving tools to musical
 - **Del. All** - Deletes all notes
 - **Del. Selected** - Deletes selected notes
 
-The following actions will be applied to all notes or the selected ones (if  any notes are currently selected)
+The following actions will be applied to all notes or the selected ones (if any notes are currently selected)
 
 - **MIRROR** - Mirrors the notes positions (vertical) or the notes pitches (horizontal)
 - **TIME SHIFT** - Shifts the notes to left or right according with the composer grid division

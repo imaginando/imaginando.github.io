@@ -1,6 +1,6 @@
 # Midi Controller Module - LK Help
 
-![LK Midi Controller Overview](/lk/images/controller/overview.jpg)
+![LK Midi Controller Overview](/lk/images/controller/overview.jpg?width=2048&height=1536)
 
 This module is composed of several screen controls distributed through 8 columns per bank; each column has a knob, a button, a fader and a pad.
 

@@ -1,6 +1,6 @@
 # Chorder Module - LK Help
 
-![LK Chorder Module overview](/lk/images/chorder/overview.jpg)
+![LK Chorder Module overview](/lk/images/chorder/overview.jpg?width=2732&height=2048)
 
 The Chorder module allows for the playing of complex chords with a single tap containing a huge library of chord types, as well as a strumming utility that allows even more creative playing possibilities.
 

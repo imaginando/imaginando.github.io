@@ -1,6 +1,6 @@
 # Keyboard Module - LK Help
 
-![LK Keyboard Module Overview](/lk/images/keyboard/overview.jpg)
+![LK Keyboard Module Overview](/lk/images/keyboard/overview.jpg?width=2048&height=1536)
 
 The Keyboard module serves as an enhanced Ableton Live or MIDI keyboard controller, with 3-axis expression capabilities. It is fully customisable to scale and keyboard range. It also allows the possibility of mapping Ableton Live or MIDI CC parameters to be controlled by where you touch each key, providing additional expression opportunities to the performance of each note.
 

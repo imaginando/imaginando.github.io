@@ -12,7 +12,7 @@ The first time you open UBRIDGE, Windows Firewall will ask you to allow it to us
 
 ![UBRIDGE firewall settings prompt](/lk/images/setup/firewall.png?width=524&height=379)
 
-![UBRIDGE Screenshot](/lk/images/setup/ubridge.png)
+![UBRIDGE Screenshot](/lk/images/setup/ubridge.png?width=480&height=640)
 
 The UBRIDGE application window consists of three sections:
 
