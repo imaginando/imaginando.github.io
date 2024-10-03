@@ -1,8 +1,8 @@
-# TV-303 Help - Sequence Generation
+# Sequence Generation
 
-Pressing **Generate** will prompt our algorithm to create and play a unique bassline.
+Pressing **Generate** prompts our algorithm to create and play a unique bassline.
 
-- **Complexity** - Set the complexity factor of generated sequences. A low value will generate simpler melodies with fewer notes, while high complexity will create more complex and note laden patterns.
+- **Complexity** - Set the complexity factor of generated sequences. Lower complexity values produce simpler melodies with fewer notes, while higher values create more complex, note-laden patterns.
 
 - **Length** - Set the length of the generated sequence. Ranges from 2 to 8 beats.
 
@@ -22,12 +22,12 @@ Pressing **Generate** will prompt our algorithm to create and play a unique bass
 
 - **Key** - Base key of the generated sequence.
 
-- **Play Mode** - Toggle between playing internal (generated) or external (incoming) MIDI. When set to **INT**, the generated sequence will play synched to the host DAW's transport. In **EXT** mode, the plug-in will listen exclusively to MIDI provided by the host.
+- **Play Mode** - Toggle between playing internal (generated) or external (incoming) MIDI. When set to **INT**, the generated sequence will play synchronized with the host DAW's transport. In **EXT** mode, the plug-in will listen exclusively to MIDI provided by the host.
 
-- **Start/Stop** - Starts and stops the internal sequence playback.
+- **Start/Stop** - Starts or stops the internal sequence playback.
 
-##### **Drag area**
+### **Drag area**
 
-The **drag area** becomes active once a sequence is generated for the first time. Generated sequences can be exported as MIDI clips by dragging from here. The internal playback stops and the **Play Mode** changes to **external** upon doing this.
+The **drag area** becomes active once a sequence is generated for the first time. From here, generated sequences can be exported as MIDI clips by dragging and dropping. The internal playback stops and the **Play Mode** changes to **external** upon doing this.
 
 [Previous: Parameters](parameters)

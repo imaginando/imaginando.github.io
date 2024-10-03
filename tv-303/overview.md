@@ -1,18 +1,18 @@
-# TV-303 Help - Overview
+# Overview
 
 <img src="/tv-303/images/overview.png" alt="TV-303 Overview" style="padding: 0px; bottom-padding: 0px" />
 
-**TV-303** is a plug-in synthesizer based on the TB-303, a machine that has become ubiquitous in the realms of electronic music. Its unmistakable, corrosive sound is closely associated with "acid" genres, among them acid house and acid techno.
+**TV-303** is a plug-in synthesizer inspired by the TB-303, a machine that has become ubiquitous in the realms of electronic music. Its unmistakable, corrosive sound is closely associated with "acid" genres, among them acid house and acid techno.
 
-This plug-in prioritizes a streamlined workflow, making it exceptionally easy to create synth lines. Exporting the generated MIDI to your DAW for further editing is as easy as dragging and dropping.
+This plug-in is designed for a streamlined workflow, making it exceptionally easy to create synth lines. Exporting the generated MIDI to your DAW for further editing is as easy as dragging and dropping.
 
-The **TV-303** interface is simplified for quick access to the most commonly used parameters. On the left side, you'll find the sequence generation panel and export area, while the right side has the basic synthesis engine controls. At the centre is the **TV** itself. If **Advanced** options are enabled, it reveals the complete set of synthesis parameters; otherwise, a suspicious little character will keep you company. Clicking him randomizes the parameters.
+The **TV-303** interface is optimized for quick access to key parameters. On the left, you'll find the sequence generation panel and export area, while the right side has the basic synthesis engine controls. At the centre sits the **TV** itself. When **Advanced** options are enabled, it reveals the complete set of synthesis parameters; otherwise, a suspicious little character will keep you company. Clicking him randomizes the parameters.
 
 In terms of synthesis, the **TV-303** offers a **main oscillator**, a **sub oscillator**, a **lowpass filter** and a multimode **distortion stage**. With the controls restricted to their most useful ranges, the instant randomize feature allows for quick exploration.
 
-The **sequence generation** features twenty one different scales per key to choose from, with tweakable length and complexity. Generated sequences can play along your DAW's transport.
+The **sequence generation** features twenty one different scales per key to choose from, with tweakable length and complexity. Generated sequences will play alongside your DAW's transport.
 **MIDI export** is drag-and-drop, letting you take MIDI clips into your DAW and work from there.
 
-The classic **Accent** effect from the original machine is applied to notes with a velocity value above 100, while overlapping notes will **slide**.
+The signature **Accent** effect from the original machine is applied to notes with velocity values above 100, while overlapping notes will **slide**.
 
 [Next: Parameters](parameters)
