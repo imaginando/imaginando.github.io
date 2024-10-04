@@ -24,6 +24,8 @@ Pressing **Generate** prompts our algorithm to create and play a unique bassline
 
 - **Play Mode** - Toggle between playing internal (generated) or external (incoming) MIDI. When set to **INT**, the generated sequence will play synchronized with the host DAW's transport. In **EXT** mode, the plug-in will listen exclusively to MIDI provided by the host.
 
+- **Generate** - Generate a new sequence with the selected properties. This automatically starts the internal playback and sets the **Play Mode** to **internal**.
+
 - **Start/Stop** - Starts or stops the internal sequence playback.
 
 ### **Drag area**
