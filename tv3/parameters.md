@@ -14,7 +14,7 @@ The rightmost side of the interface shows the basic controls laid out vertically
 
 - **Decay** - Decay time of the primary envelope. This envelope is fully responsible for the filter modulation, but factors only lightly into the amplitude envelope.
 
-- **Drive** - Pre-distortion signal gain. Adjust for harsher or lighter distortion.
+- **Drive** - Pre-distortion signal gain. Adjust for harsher or softer distortion.
 
 - **Dry/Wet** - The dry/wet balance between the original and the distorted signal.
 
@@ -26,7 +26,7 @@ If the **Advanced** option is toggled, additional controls become available with
 
 - **Waveform** - Select between a square or sawtooth waveform for the main oscillator.
 
-- **Tuning** - Fine-tune both the main and sub oscillators within a range of -1200 and +1200 cents.
+- **Tune** - Fine-tune both the main and sub oscillators within a range of -1200 and +1200 cents.
 
 ### **Sub**
 
@@ -41,12 +41,16 @@ The sub oscillator plays on octave below the main oscillator.
 The distortion stage is applied after the main filter.
 
 - **Type** - Choose from four different distortion types:
-    - **SAT** - Classic saturation waveshaping
-    - **CLIP** - Hard clipping
-    - **NOCK** - Asymmetrical waveshaping that introduces small discontinuities in the crest for a noisy sound
-    - **FOLD** - Sinusoidal wavefolding
+    - **SAT** - Classic saturation.
+    - **FOLD** - Saturated wavefolding; a mix of saturation and sinusoidal wavefolding.
+    - **FUZZ** - Extreme gain and hard clipping for a harsh distortion effect.
+    - **NOCK** - Asymmetrical waveshaping that introduces discontinuities in the crest for a very noisy sound.
 
-- **Highpass** - Pre-distortion highpass filter. Gradually attenuates the fundamental and reaches up to the first harmonic of the oscillator output.
+- **Highpass** - Pre-distortion highpass filter for cutting the fundamental and first few harmonics of the notes.
+
+### **Broadcast**
+
+The **Broadcast** parameter toggles the video broadcast of the **TV**. Deactivate to disable the video.
 
 [Previous: Overview](overview)
 [Next: Sequence Generation](sequence-generation)
