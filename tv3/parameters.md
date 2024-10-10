@@ -52,5 +52,6 @@ The distortion stage is applied after the main filter.
 
 The **Broadcast** parameter toggles the video broadcast of the **TV**. Deactivate to disable the video.
 
-[Previous: Overview](overview)
+[Previous: Patch Manager](patch-manager)
+
 [Next: Sequence Generation](sequence-generation)

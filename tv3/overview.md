@@ -8,6 +8,8 @@ This plug-in is designed for a streamlined workflow, making it exceptionally eas
 
 The **TV3** interface is optimized for quick access to key parameters. On the left, you'll find the sequence generation panel and export area, while the right side has the basic synthesis engine controls. At the centre sits the **TV** itself. When **Advanced** options are enabled, it reveals the complete set of synthesis parameters; otherwise, a suspicious little character will keep you company. Clicking him randomizes the parameters.
 
+At the top of the interface, you'll find the patch manager with **navigation arrows for browsing patches**, along with icons for the **undo**, **redo**, and **save** functions.
+
 In terms of synthesis, the **TV3** offers a **main oscillator**, a **sub oscillator**, a **lowpass filter** and a multimode **distortion stage**. With the controls restricted to their most useful ranges, the instant randomize feature allows for quick exploration.
 
 The **sequence generation** features twenty one different scales per key to choose from, with tweakable length and complexity. Generated sequences will play alongside your DAW's transport.
@@ -15,4 +17,4 @@ The **sequence generation** features twenty one different scales per key to choo
 
 The signature **Accent** effect from the original machine is applied to notes with velocity values above 100, while overlapping notes will **slide**.
 
-[Next: Parameters](parameters)
+[Next: Patch Manager](patch-manager)

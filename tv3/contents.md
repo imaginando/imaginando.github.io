@@ -7,5 +7,6 @@ Thank you for your interest in **TV3**.
 ## Contents
 
 - [Overview](overview)
+- [Patch Manager](patch-manager)
 - [Parameters](parameters)
 - [Sequence Generation](sequence-generation)
