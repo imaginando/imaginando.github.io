@@ -1,5 +1,7 @@
 [
   { "key": "contents", "label": "Contents" },
   { "key": "overview", "label": "Overview" },
+  { "key": "patch-manager", "label": "Patch Manager" },
   { "key": "parameters", "label": "Parameters" },
+  { "key": "sequence-generation", "label": "Sequence Generation" }
 ]
