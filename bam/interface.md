@@ -116,17 +116,18 @@ The bottom toolbar consists of several different functions:
 - **(B) DSP usage meter** - Displays the current level of DSP usage
 - **(C) Show/hide top section** - Expands and minimizes the upper and lower sections
 - **(D) Undo/Redo button** - Undo/redo the last performed action
-- **(E) Transport buttons**
+- **(E) Playback follow** - Follow the song's playing position, keeping it in view
+- **(F) Transport buttons**
     - **Play button** - Start project playback
     - **Stop button** - Stop project playback
     - **Record button** - Enables recording for armed track(s)
-- **(F) Automation buttons**
+- **(G) Automation buttons**
     - **Automation record mode** - Toggle between Latch and Touch modes
     - **Re-enable automations** - This is used for reactivation of an existing step automation, when manual operation of parameters has temporarily overwritten the automation in currently playing clips
-- **(G) Export menu** - Open the [Export menu](export-menu)
-- **(H) MIDI mapping manager** - Open [MIDI mappings](midi-mappings)
-- **(I) Preferences menu** - Open the [Preferences menu](#preferences-menu)
-- **(J) Shift button** - Provides additional functions for some tools when active.
+- **(H) Export menu** - Open the [Export menu](export-menu)
+- **(I) MIDI mapping manager** - Open [MIDI mappings](midi-mappings)
+- **(J) Preferences menu** - Open the [Preferences menu](#preferences-menu)
+- **(K) Shift button** - Provides additional functions for some tools when active.
 
 Note: When using BAM AUv3 plugin in an iOS host DAW, the top and bottom sections cannot both be displayed at the same time. Expanding either section will automatically hide the other.
 
