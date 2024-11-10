@@ -31,6 +31,7 @@ and time offset values, plus provides probability and retrigger controls.
 
 The top right corner icon opens the Trigger settings panel with the following options:
 
+- **MIDI from Track** - Select track to receive MIDI from
 - **MIDI Input Channel** - Select channel to receive MIDI from (ALL will listen to MIDI from all channels)
 - **MIDI Input Device** - Select external device to receive MIDI from
 - **MIDI Output Channel** - Select MIDI channel to send MIDI to (ALL will send to all channels)
@@ -118,7 +119,7 @@ The ENGINE rack device displays the main synthesizer/generator of the track. Pre
 
 The save icon saves the current engine state as a user preset available from the [Browser](sample-manager-soundbank.md#browser).
 
-The macros icon <img src="/bam/images/device-rack/bam-beat-maker-device-rack-macros-icon.png" width="25" alt="BAM device rack macros icon" /> enables the macros editing mode. While enabled, you can add or replace macros by selecting one of the eight macro slots and pressing a parameter in the engine interface. Double pressing a macro slot will remove it.
+The macros icon <img src="/bam/images/device-rack/bam-beat-maker-device-rack-macros-icon.png" width="25" alt="BAM device rack macros icon" /> enables the macros editing mode. While enabled, you can add or replace macros by selecting one of the eight macro slots and pressing a parameter in the engine interface. Double pressing a macro slot will remove it. Saving an engine preset will save the macros as well.
 
 <img src="/bam/images/device-rack/bam-beat-maker-device-rack-macros.png" width="310" alt="BAM device rack macros editing" />
 

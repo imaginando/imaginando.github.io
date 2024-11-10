@@ -91,7 +91,7 @@ The Audio Clip Properties panel - opened through the Matrix clip context menu - 
 - **(E)** Halve/double current clip length
 - **(F)** Change clip time signature
 
-Note: **(B)** designates the tempo of the loaded audio, meaning the project will treat the audio as if its tempo were the reported value when stretching it. For instance, an audio clip with a tempo of 60 BPM in the context of a project at 120 BPM will play at twice its original speed.
+Note: **(B)** designates the tempo of the loaded audio, meaning the project will treat the audio as if its tempo were the reported value when stretching it. For instance, an audio clip with a tempo of 60 BPM in a 120 BPM project will play at twice its original speed.
 
 ## Scene Follow Actions
 
