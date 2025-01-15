@@ -46,7 +46,7 @@ iOS: https://apps.apple.com/app/k7d-tape-delay/id1460245991
 
 Manual: [k7d/contents.md]()
 
-## Delay Modulator - DLYM (Free)
+## Delay Modulator - DLYM
 
 Website: https://www.imaginando.pt/products/dlym-delay-modulator
 
