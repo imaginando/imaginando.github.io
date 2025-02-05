@@ -12,14 +12,21 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Generate Dynamic File
-        run: |
-          echo '{"timestamp": "'$(date -u +%Y-%m-%dT%H:%M:%SZ)'"}' > image-dimensions.json
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install --production
+
+      - name: Run custom npm command
+        run: npm run build:image-dimensions image-dimensions.json
 
       - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add image-dimensions.json
-          git commit -m "Test build image dimensions" || exit 0
+          git commit -m "Build Image Dimensions" || exit 0
           git push

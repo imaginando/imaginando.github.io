@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx harp ."
+    "start": "npx harp .",
+    "build:image-dimensions": "node scripts/build-image-dimensions.js"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/imaginando/imaginando.github.io.git"
@@ -18,9 +20,15 @@
   },
   "homepage": "https://github.com/imaginando/imaginando.github.io#readme",
   "dependencies": {
-    "harp": "^0.41.2"
+    "glob": "^10",
+    "image-size": "^1.2.0"
   },
   "overrides": {
     "minimist": "^1.2.6"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/node": "^22.13.1",
+    "harp": "^0.41.2"
   }
 }
