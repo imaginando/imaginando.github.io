@@ -13,7 +13,7 @@ async function build() {
 
   for (const path of images) {
     const { width, height } = await util.promisify(image_size)(path);
-    images_dimensions.push({ path, width, height });
+    images_dimensions.push({ path: "/" + path, width, height });
   }
 
   await fsp.writeFile(
