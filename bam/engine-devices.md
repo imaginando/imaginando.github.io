@@ -291,7 +291,7 @@ filter, physically modeled after the most famous classic acid synth in history.
 
 ## NOISE
 
-<img src="images/engine-devices/bam-beat-maker-engine-device-noise.png" alt="Noise engine interface" />
+<img src="/bam/images/engine-devices/bam-beat-maker-engine-device-noise.png" alt="Noise engine interface" />
 
 A creative noise generator with different noise sources, three different
 filters and a simple envelope generator.
