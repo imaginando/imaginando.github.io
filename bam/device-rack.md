@@ -45,11 +45,11 @@ The top right corner icon opens the Trigger settings panel with the following op
 
 The MIDI FX rack device allows loading AUv3 MIDI effects.
 
+The **Record** icon enables recording MIDI output from the MIDI FX rather than track input.
+
 ## MODULATORS
 
-The MODULATORS rack device enables Envelope Generator (EG) and Low
-Frequency Oscillator (LFO) based modulation for rotary parameters of MIDI FX,
-ENGINE, FX and MIXER devices.
+The MODULATORS rack device enables loading generator engines for modulating rotary parameters of MIDI FX, ENGINE, FX and MIXER devices.
 
 You can add up to two modulation sources for each track by pressing
 the + button in the top right corner and set multiple modulation targets from each source.
@@ -72,10 +72,10 @@ the + button in the top right corner and set multiple modulation targets from ea
   - Filtered Sample and Hold
 - **SYNC** - Synchronize the LFO to the project tempo.
 - **PHASE MODE** - Select LFO trigger mode.
-  - **Free** - Run continuously
-  - **Key** - Reset phase on note on
-  - **Oneshot** - Reset phase on note on and stop after one cycle
-  - **Play** - Reset phase when playback is started
+    - **Free** - Run continuously.
+    - **Key** - Reset phase on note on.
+    - **Oneshot** - Reset phase on note on and stop after one cycle.
+    - **Play** - Reset phase when playback is started.
 
 ### EG (Envelope Generator)
 
@@ -91,6 +91,20 @@ the + button in the top right corner and set multiple modulation targets from ea
 - **MODE** - Toggle between the two trigger modes.
   - **Key** - Trigger envelope on note on
   - **Loop** - Trigger envelope on note on and continuously cycle from attack to decay
+
+### RWK (Random Walk)
+
+<img src="/bam/images/device-rack/bam-beat-maker-device-rack-modulators-rwk.png" width="400" alt="BAM Device Rack RWK Modulator Device" />
+
+<br>
+
+This modulator periodically generates random target values within a designated step size.
+
+- **RATE** - Trigger frequency. Each trigger starts a step in a random direction.
+- **SYNC** - Synchronize the **RATE** to the project tempo.
+- **STP-SZ** - Step size.
+- **S-RND** - Step size randomness. At 0%, every step will be the size of **STP-SZ**.
+- **T-RND** - Random offset added to the start position of each trigger.
 
 ### Modulating BAM parameters
 
@@ -142,14 +156,14 @@ You may drag FX panels to reorganize the process chain.
 
 <br>
 
-- **Save Icon** - Save track sound as a preset
-- **Mute** - Mute track
-- **Solo** - Solo track (enable SHIFT for non exclusive solo)
-- **Arm** - Arm track for playback and record
-- **Send A** - Control signal sent to mixer´s effect Send A
-- **Send B** - Control signal sent to mixer´s effect Send B
-- **Pan** - Control track panning
-- **Volume** - Mixer control of volume for current track
+- **Save Icon** - Save track sound as a preset.
+- **Mute** - Mute track.
+- **Solo** - Solo track (enable SHIFT for non exclusive solo).
+- **Arm** - Arm track for playback and record.
+- **Send A** - Control signal sent to mixer´s effect Send A.
+- **Send B** - Control signal sent to mixer´s effect Send B.
+- **Pan** - Control track panning.
+- **Volume** - Mixer control of volume for current track.
 
 <br>
 

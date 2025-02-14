@@ -24,24 +24,39 @@ Notes created in the composer also create Note, Velocity and Time Offset automat
 
 <br>
 
-- **(A)** Snap to grid
-- **(B)** Fit viewport to existing notes (if no notes exist on the clip it will fit viewport to the clip length)
-- **(C)** Create random rhythm in clip
+- **(A)** Snap to grid.
+- **(B)** Fit viewport to existing notes (if no notes exist on the clip it will fit viewport to the clip length).
+- **(C)** Generate Assistant. All actions will respect current clip scale
+    - Generare Melody.
+    - Generate Chords.
+    - Mutate Melody.
+    - Mutate Chords.
 - **(D)** Delete all notes in clip
-- **(E)** Quantize notes
-- **(F)** Move notes one step backward/forward
-- **(G)** Move notes one semitone up/down
-- **(H)** Move notes one octave up/down
-- **(I)** Change clip length and manage loop/pages (see [Timeline panel overview](timeline))
-- **(J)** Lock Piano Roll drag
-- **(K)** Vertical and horizontal viewport zoom/navigator
+- **(E)** Note actions.
+    - Select All.
+    - Quantize.
+    - Shift Left - Move notes one step backward.
+    - Shift Right - Move notes one step forward.
+    - Pitch Up - Move notes one semitone up.
+    - Pitch Down - Move notes one semitone down.
+    - Octave Up.
+    - Octave Down.
+- **(F)** Loop zone on/off.
+- **(G)** Resize clip.
+    - Halve/Duplicate length.
+    - Remove/Add bar.
+    - Remove/Add beat.
+    - Remove/Add step.
+- **(H)** Clip page and loop zone selection.
+- **(I)** Lock Piano Roll drag.
+- **(J)** Vertical and horizontal viewport zoom/navigator.
 
 <br>
 
 SHIFT functions:
-- Duplicate selected notes by dragging
-- Select note on press
-- View and select loop zone in clip page view
+- Duplicate selected notes by dragging.
+- Select note on press.
+- View and select loop zone in clip page view.
 
 <br>
 

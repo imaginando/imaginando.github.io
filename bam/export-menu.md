@@ -46,11 +46,11 @@ On desktop, exports are saved to **'Documents\Imaginando\BAM\Exports’**. On iO
 
 Track export allows exporting individual tracks respecting the scene follow actions.
 
-- **Raw** - Export without FX
-- **Post FX** - Export with FX
-- **Send A** - Export with Send A return
-- **Send B** - Export with Send B return
-- **Send AB** - Export with Send A and B returns
+- **Raw** - Export without FX.
+- **Post FX** - Export with FX.
+- **Send A** - Export with Send A return.
+- **Send B** - Export with Send B return.
+- **Send AB** - Export with Send A and B returns.
 
 ## Scene
 
@@ -62,10 +62,10 @@ Scene export allows exporting the audio and MIDI of the selected scene.
 
 The **ALL** option will export the audio/MIDI for every clip of the selected scene, while the other options allow exporting individual clips from the respective track.
 
-- **MIDI** - Export MIDI data
-    - **ALL** will export a multichannel MIDI file
-- **Raw** - Export without FX
-- **Post FX** - Export with FX
+- **MIDI** - Export MIDI data.
+    - **ALL** will export a multichannel MIDI file.
+- **Raw** - Export without FX.
+- **Post FX** - Export with FX.
 
 <br>
 

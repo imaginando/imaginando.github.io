@@ -25,38 +25,47 @@ steps shaded darker. Using the erase tool resets a step’s automation.
 
 <br>
 
-- **(A)** Select pencil type
-    - Fill Pencil - Fill each step with a note
-    - Long Note Pencil - Create long notes
-    - Smart Pencil - Create evenly spaced notes
-- **(B)** Select automation tool type
-    - Pencil - Draw automations values
-    - Dice - Creates a probability range from which a value will be randomly chosen every time the step is played
-    - Eraser - Delete the step automation and probability range
-- **(C)** Horizontally mirror automation for the selected clip pages
-- **(D)** Create preset automations for the selected clip pages
-    - Ramp up
-    - Ramp up and down
-    - Ramp down and up
-    - Random
-- **(E)** Change clip length and manage loop/pages (see [Timeline panel overview](timeline))
-- **(F)** Automation parameter list
-- **(G)** Add parameters to automation list
-- **(H)** Delete selected parameter from automation list
+- **(A)** Select pencil type.
+    - Fill Pencil - Fill each step with a note.
+    - Long Note Pencil - Create long notes.
+    - Smart Pencil - Create evenly spaced notes.
+- **(B)** Select automation tool type.
+    - Pencil - Draw automations values.
+    - Dice - Creates a probability range from which a value will be randomly chosen every time the step is played.
+    - Eraser - Delete the step automation and probability range.
+- **(C)** Horizontally mirror automation for the selected clip pages.
+- **(D)** Create preset automations for the selected clip pages.
+    - Ramp up.
+    - Ramp up and down.
+    - Ramp down and up.
+    - Random.
+- **(E)** Loop zone on/off.
+- **(F)** Resize clip.
+    - Halve/Duplicate length.
+    - Remove/Add bar.
+    - Remove/Add beat.
+    - Remove/Add step.
+- **(G)** Clip page and loop zone selection.
+- **(H)** Add parameters to automation list.
+- **(I)** Delete selected parameter from automation list.
+- **(J)** Automation parameter list.
+- **(K)** Bypass parameter automation.
+
+**NOTE:** Note automation actions will respect current clip scale.
 
 SHIFT functions:
-- When enabled, pressing a parameter adds it to clip automations
-- Toggle between pencil and eraser on the automation tool type
-- View and select loop zone in clip page view
+- When enabled, pressing a parameter adds it to clip automations.
+- Toggle between pencil and eraser on the automation tool type.
+- View and select loop zone in clip page view.
 
 ## How to automate a parameter
 
 These are the different ways to automate parameters in BAM:
 
-- Adding the parameter to the Automations page through LEARN 
-- Enabling SHIFT and manipulating a parameter
+- Adding the parameter to the Automations page through LEARN.
+- Enabling SHIFT and manipulating a parameter.
 - Automating a parameter for a single step by changing the parameter value while pressing and holding the step in the Automations or Timeline panels. (iOS only)
-- Manipulating a parameter directly while the record button is active
+- Manipulating a parameter directly while the record button is active.
 
 Parameter automations are always associated with a clip. Once learned, changes to the parameter and its displayed value are linked to the selected clip. All of the listed actions will add the parameter to the clip's automation list.
 

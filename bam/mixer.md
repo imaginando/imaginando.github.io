@@ -36,7 +36,7 @@ value is represented by the two lines above the filled VU meter while
 the filled VU meter corresponds to the RMS value of the track.
 
 SHIFT functions:
-- Select SOLO button in non exclusive mode
+- SOLO tracks in non exclusive mode.
 
 <br>
 

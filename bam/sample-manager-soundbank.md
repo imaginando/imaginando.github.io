@@ -4,7 +4,7 @@ The Sample Manager allows browsing and preview audio files and presets,
 as well as recording from a designated audio input source. It can be 
 accessed by pressing the right corner icon in the Top Bar.
 
-<img src="/bam/images/sample-manager-soundbank/bam-beat-maker-sample-manager.png" width="150" alt="BAM sample manager" />
+<img src="/bam/images/sample-manager-soundbank/bam-beat-maker-sample-manager.png" width="200" alt="BAM sample manager" />
 
 <br>
 
@@ -23,7 +23,7 @@ and **Recorder**.
 
 ### Pool
 
-<img src="/bam/images/sample-manager-soundbank/bam-beat-maker-sample-manager-pool.png" width="150" alt="BAM sample manager pool" />
+<img src="/bam/images/sample-manager-soundbank/bam-beat-maker-sample-manager-pool.png" width="200" alt="BAM sample manager pool" />
 
 <br>
 
@@ -39,7 +39,7 @@ in the Sampler engine. The pool content is saved with the project.
 
 ### Browser
 
-<img src="/bam/images/sample-manager-soundbank/bam-beat-maker-sample-manager-browser.png" width="150" alt="BAM sample manager browser" />
+<img src="/bam/images/sample-manager-soundbank/bam-beat-maker-sample-manager-browser.png" width="200" alt="BAM sample manager browser" />
 
 <br>
 
@@ -47,7 +47,7 @@ The file browser provides access to all of the Factory sound bank
 samples and engine presets, user created presets and recordings. In 
 desktop, you can also access the file system to browse local storage. 
 
-<img src="/bam/images/sample-manager-soundbank/bam-beat-maker-sample-manager-browser-system.png" width="150" alt="BAM sample manager browser system directories" />
+<img src="/bam/images/sample-manager-soundbank/bam-beat-maker-sample-manager-browser-system.png" width="200" alt="BAM sample manager browser system directories" />
 
 <br>
 
@@ -55,18 +55,18 @@ You can add shortcuts for specific folder locations using the **Add folder bookm
 
 ### Recorder
 
-<img src="/bam/images/sample-manager-soundbank/bam-beat-maker-sample-manager-recorder-overview.png" width="150" alt="BAM sample manager recorder overview" />
+<img src="/bam/images/sample-manager-soundbank/bam-beat-maker-sample-manager-recorder-overview.png" width="200" alt="BAM sample manager recorder overview" />
 
 <br>
 
 Here you can record samples from BAM’s master channel output or from any
-of your device’s available audio inputs. You can also crop the recorded
-sample by adjusting the start and end knobs **(A)** or interacting with the
-waveform area **(C)** and selecting the crop button **(B)**. When recording 
+of your device’s available audio input sources. You can crop the recorded
+sample by adjusting the start and end knobs **(D)** or interacting with the
+waveform area **(C)** and selecting the crop button **(E)**. When recording 
 from the Master Output, silence will be automatically trimmed from the 
-beginning of the file. You can use the recorded sample by dragging and 
-dropping it. You may also use the top right icons to add the selected 
-file to the pool **(D)** and, on iOS, export the file **(E)**.
+beginning of the file. 
+
+After recording your sounds, you can rename and delete them **(B)**. You can also change the sort order, add the selected recording to the **Pool**, and export the recording **(A)**.
 
 ## Factory Soundbank
 

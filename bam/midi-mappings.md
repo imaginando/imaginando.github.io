@@ -23,6 +23,7 @@ Double pressing the parameter will open the MIDI Assign panel to manually config
 <br>
 
 Mapped parameters are displayed in a scrollable list along with their track, engine and MIDI information.
+You can edit the mapping with the cog icon which opens the MIDI Assign panel, and delete the mapping with the delete icon.
 
 <img src="/bam/images/midi-mappings/bam-beat-maker-midi-mapping-manager-mapped-parameters.png" width="1000" alt="MIDI mapped parameters" />
 
