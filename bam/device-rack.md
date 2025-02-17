@@ -63,19 +63,19 @@ the + button in the top right corner and set multiple modulation targets from ea
 - **RATE** - Control the frequency of the wave cycle.
 - **OFFSET** - Change the bias of the values of the waveform. This allows the LFO to gradually change from bipolar to unipolar.
 - **DELAY** - Control the time it takes for the LFO to start gradually modulating after triggered, from no modulation to full modulation.
-- **WAVEFORM** - Waveform type used for the wave modulation cycle. 
-    - Sine
-    - Square
-    - Saw
-    - Triangle
-    - Sample and Hold
-    - Filtered Sample and Hold
+- **WAVEFORM** - Waveform type used for the wave modulation cycle.
+  - Sine
+  - Square
+  - Saw
+  - Triangle
+  - Sample and Hold
+  - Filtered Sample and Hold
 - **SYNC** - Synchronize the LFO to the project tempo.
 - **PHASE MODE** - Select LFO trigger mode.
-    - **Free** - Run continuously
-    - **Key** - Reset phase on note on
-    - **Oneshot** - Reset phase on note on and stop after one cycle
-    - **Play** - Reset phase when playback is started
+  - **Free** - Run continuously
+  - **Key** - Reset phase on note on
+  - **Oneshot** - Reset phase on note on and stop after one cycle
+  - **Play** - Reset phase when playback is started
 
 ### EG (Envelope Generator)
 
@@ -89,8 +89,8 @@ the + button in the top right corner and set multiple modulation targets from ea
 - **RELEASE** - The time it takes for the envelope to go from the Sustain level to zero after the note is released.
 - **TIME SCALE** - Apply a multiplier on the time duration of all of the EG's phases.
 - **MODE** - Toggle between the two trigger modes.
-    - **Key** - Trigger envelope on note on
-    - **Loop** - Trigger envelope on note on and continuously cycle from attack to decay
+  - **Key** - Trigger envelope on note on
+  - **Loop** - Trigger envelope on note on and continuously cycle from attack to decay
 
 ### Modulating BAM parameters
 
@@ -111,13 +111,14 @@ To modulate an AUv3 plugin's parameters, you need to make them available in BAM.
 Double pressing a learned parameter with EDIT toggled will remove it along with its modulations and automations.
 
 ## ENGINE
+
 <img src="/bam/images/device-rack/bam-beat-maker-device-rack-engine.png" width="310" alt="BAM device rack engine" />
 
 <br>
 
 The ENGINE rack device displays the main synthesizer/generator of the track. Pressing the top right corner icon shows the [list of available engines](engine-devices) to choose from.
 
-The save icon saves the current engine state as a user preset available from the [Browser](sample-manager-soundbank.md#browser).
+The save icon saves the current engine state as a user preset available from the [Browser](sample-manager-soundbank#browser).
 
 The macros icon <img src="/bam/images/device-rack/bam-beat-maker-device-rack-macros-icon.png" width="25" alt="BAM device rack macros icon" /> enables the macros editing mode. While enabled, you can add or replace macros by selecting one of the eight macro slots and pressing a parameter in the engine interface. Double pressing a macro slot will remove it. Saving an engine preset will save the macros as well.
 
@@ -126,6 +127,7 @@ The macros icon <img src="/bam/images/device-rack/bam-beat-maker-device-rack-mac
 <br>
 
 ## FX
+
 <img src="/bam/images/device-rack/bam-beat-maker-device-rack-fx.png" width="310" alt="BAM device rack FX" />
 
 <br>

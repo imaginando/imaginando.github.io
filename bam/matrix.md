@@ -22,7 +22,7 @@ continuously loop until the clip is stopped.
 Pressing a different clip on the same track will select and trigger the
 new clip (synchronizing the start of playback based on the ‘Trigger
 quantisation’ project settings - accessed via the [cog icon on the bottom
-toolbar](interface.md#preferences-menu).)
+toolbar](interface#preferences-menu).)
 
 Pressing a clip from a different track will select and trigger the new
 clip, synchronizing the playback with currently playing clips. You can
@@ -61,7 +61,7 @@ menu to perform relevant actions:
 - **Clear Audio**
 - **Import** (iOS only) - Import MIDI file into clip
 - **Export** (iOS only) - Export MIDI content as a .mid file
-    - For exporting MIDI on desktop, see [Export Menu](export-menu)
+  - For exporting MIDI on desktop, see [Export Menu](export-menu)
 
 Pressing and holding a scene button reveals a pop-up context menu to
 perform relevant actions:
@@ -118,15 +118,15 @@ MATRIX UI overview.
 - **(A)** Move selected scene one position up/down
 - **(B)** Add/delete/duplicate scene
 - **(C)** Select scene follow action:
-    - **None** - No follow action will be applied at the end of the scene
-    - **Next** - Play next scene
-    - **Previous** - Play previous scene
-    - **First** - Play first scene
-    - **Last** - Play last scene
-    - **RND (Any)** - Play a random scene
-    - **RND (Other)** - Play a random scene excluding the currently playing scene
-    - **Last Playing** - Play last playing scene
-    - **Stop** - Stop playback of project
+  - **None** - No follow action will be applied at the end of the scene
+  - **Next** - Play next scene
+  - **Previous** - Play previous scene
+  - **First** - Play first scene
+  - **Last** - Play last scene
+  - **RND (Any)** - Play a random scene
+  - **RND (Other)** - Play a random scene excluding the currently playing scene
+  - **Last Playing** - Play last playing scene
+  - **Stop** - Stop playback of project
 - **(D)** Number of bars and beats to play before follow action event occurs
 - **(E)** Enable follow actions
 - **(F)** Scene launch buttons
@@ -139,6 +139,7 @@ the SHIFT button engaged, which is located at the bottom right corner of
 the app.
 
 SHIFT functions:
+
 - Duplicate single clips by dragging
 - Select clips/scenes without triggering
 

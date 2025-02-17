@@ -10,6 +10,7 @@ To open and close the project manager, click the project name on the top
 toolbar.
 
 The default three banks are:
+
 - **Factory** - A selection of demo projects
 - **Local** - The default bank to save custom projects to device local storage
 - **Favorites** - Provides a shortcut to all starred/favorited projects
@@ -22,9 +23,9 @@ The default three banks are:
 
 <br>
 
-The **Save** icon opens the save panel. **SAVE AS** creates a new project file (**.bpf**), while **SAVE** will overwrite the current project. A project can only be overwritten if marked as modified (indicated by **"*"** after the project name).
+The **Save** icon opens the save panel. **SAVE AS** creates a new project file (**.bpf**), while **SAVE** will overwrite the current project. A project can only be overwritten if marked as modified (indicated by **"\*"** after the project name).
 
-If [autosaving](interface.md#preferences-menu) is enabled, BAM will periodically save and allow for recovering your project in the event of abnormal termination.
+If [autosaving](interface#preferences-menu) is enabled, BAM will periodically save and allow for recovering your project in the event of abnormal termination.
 
 ## Importing/exporting banks and projects
 
