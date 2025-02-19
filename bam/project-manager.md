@@ -10,10 +10,9 @@ To open and close the project manager, click the project name on the top
 toolbar.
 
 The default three banks are:
-
-- **Factory** - A selection of demo projects
-- **Local** - The default bank to save custom projects to device local storage
-- **Favorites** - Provides a shortcut to all starred/favorited projects
+- **Factory** - A selection of demo projects.
+- **Local** - The default bank to save custom projects to device local storage.
+- **Favorites** - Provides a shortcut to all starred/favorited projects.
 
 **Expansion banks** are displayed below Favorites and are greyed out when locked.
 
@@ -25,7 +24,9 @@ The default three banks are:
 
 The **Save** icon opens the save panel. **SAVE AS** creates a new project file (**.bpf**), while **SAVE** will overwrite the current project. A project can only be overwritten if marked as modified (indicated by **"\*"** after the project name).
 
-If [autosaving](interface#preferences-menu) is enabled, BAM will periodically save and allow for recovering your project in the event of abnormal termination.
+You can also save the current project as an Ableton Live project using the **SAVE AS LIVE SET** button.
+
+If [autosaving](interface.md#preferences-menu) is enabled, BAM will periodically save and allow for recovering your project in the event of abnormal termination.
 
 ## Importing/exporting banks and projects
 
@@ -35,10 +36,10 @@ If [autosaving](interface#preferences-menu) is enabled, BAM will periodically sa
 
 BAM allows exporting the local bank and custom banks as well as their projects. Banks have a **.bbf** format while projects have a **.bpf** format.
 
-- **(A)** - Import Custom Bank
-- **(B)** - Import Project into Bank
-- **(C)** - Export Bank
-- **(D)** - Export Project
+- **(A)** - Import Custom Bank.
+- **(B)** - Import Project into Bank.
+- **(C)** - Export Bank.
+- **(D)** - Export Project.
 
 <br>
 

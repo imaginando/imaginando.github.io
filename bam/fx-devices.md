@@ -16,8 +16,40 @@ AUv3 presets are browsable in a drop-down menu in the rack panel.
 
 Degrade the audio bit depth, introducing audible quantization error artifacts.
 
-- **DEPTH** - Audio bit depth
-- **DRY/WET** - Mix between the unprocessed and processed signals
+- **DEPTH** - Audio bit depth.
+- **DRY/WET** - Mix between the unprocessed and processed signals.
+
+## BURNER
+
+<img src="/bam/images/fx-devices/bam-beat-maker-fx-burner.png" width="" alt="BAM Distortion FX device" />
+
+<br>
+
+This is a distortion device that can alter the sound from subtle
+amplification gain saturation to clipping and fuzz effects. The link 
+switch toggles the channel link, allowing separate processing of the 
+left and right (or mid and side, if MS mode is enabled) channels.
+
+- **INPUT** - Input gain.
+- **OUTPUT** - Post distortion output volume control.
+- **MODE** - Distortion mode.
+    - **SAT** - Saturation.
+    - **CLAP** - Hard clipping.
+    - **FUZZ** - Fuzz distortion.
+    - **SINE** - Sinusoidal wave folding.
+- **LR/MS** - Stereo/Mid-side mode switch.
+    - **LR** - Process the left and right channels individually.
+    - **MS** - Allows processing only the mono or stereo parts 
+    of the sound.
+- **HP** - Cutoff frequency of the high-pass filter affecting 
+    the input signal.
+- **TONE** - Cutoff frequency of the low-pass filter affection 
+    the output signal.
+- **BIAS** - Input signal DC bias; affects the generated harmonic 
+    content and general timbre.
+- **MIX** - Mix between the unprocessed and processed signals.
+- **LINK** - Toggle channel link.
+
 
 ## CHORUS
 
@@ -30,15 +62,15 @@ algorithms. The CHORUS simulates the subtle pitch and timing differences
 that occur when multiple musicians or vocalists play the same note, but 
 vary slightly in pitch and timing.
 
-- **RATE** - Frequency of the modulations
-- **TIME** - Delay of the modulated signal
-- **DEPTH** - Modulation amount
-- **SPREAD** - Stereo image widening effect
-- **FEEDBACK** - Amount of signal to be fed back into the circuit
-- **MODE** - Switch between two different CHORUS algorithms
-    - **ANA** - Analog
-    - **DIM** - Dimension
-- **DRY/WET** - Mix between the unprocessed and processed signals
+- **RATE** - Frequency of the modulations.
+- **TIME** - Delay of the modulated signal.
+- **DEPTH** - Modulation amount.
+- **SPREAD** - Stereo image widening effect.
+- **FEEDBACK** - Amount of signal to be fed back into the circuit.
+- **MODE** - Switch between two different CHORUS algorithms.
+    - **ANA** - Analog.
+    - **DIM** - Dimension.
+- **DRY/WET** - Mix between the unprocessed and processed signals.
 
 ## COMPRESSOR
 
@@ -49,35 +81,35 @@ vary slightly in pitch and timing.
 A flexible and versatile compressor with side-chain capabilities, suitable 
 for controlling audio transients and managing perceived loudness.
 
-- **THRESHOLD** - Level at which the compressor starts acting
+- **THRESHOLD** - Level at which the compressor starts acting.
 - **RATIO** - Gain reduction ratio applied to the input signal above the 
-    threshold
+    threshold.
 - **ATTACK** - Time it takes for the gain reduction to be fully applied 
-    after the signal surpasses the threshold
+    after the signal surpasses the threshold.
 - **RELEASE** - Time it takes for the gain reduction to fully dissipate 
-    after the signal goes below the threshold
-- **MODE** - Select between feedforward and feedback compression algorithms
+    after the signal goes below the threshold.
+- **MODE** - Select between feedforward and feedback compression algorithms.
     - **FF** - The gain reduction is based on the clean input signal.
     - **FB** - The compressed output is fed back into the sidechain, 
         meaning the compressor reacts to the signal after it has already 
         been compressed. This makes the gain reduction soften over time.
-- **STYLE** - Control the character of the gain reduction envelopes
+- **STYLE** - Control the character of the gain reduction envelopes.
     - A lower value results in very fast envelopes and can result in 
         ripples and distortion similar to a FET compressor. A higher value 
         behaves like a cleaner VCA compressor.
 
 ### Side Chain
 
-- **SC SOURCE** - Source for the compressor's analysis signal
-- **SC GAIN** - Input volume of the compressor's analysis signal
-- **SC HP** - Enable the analysis signal high-pass filter
-- **SC HP CUTOFF** - Cutoff frequency of the high-pass filter
+- **SC SOURCE** - Source for the compressor's analysis signal.
+- **SC GAIN** - Input volume of the compressor's analysis signal.
+- **SC HP** - Enable the analysis signal high-pass filter.
+- **SC HP CUTOFF** - Cutoff frequency of the high-pass filter.
 
 ### Master
 
 - **MAKEUP** - Volume control of the output signal, used to rebalance 
-    the perceived loudness after the compression
-- **DRY/WET** - Mix between the unprocessed and processed signals
+    the perceived loudness after the compression.
+- **DRY/WET** - Mix between the unprocessed and processed signals.
 
 ## DELAY
 
@@ -88,23 +120,23 @@ for controlling audio transients and managing perceived loudness.
 A virtual stereo tape delay. This delay has tape emulation
 controls, a custom filter and stereo parameters.
 
-- **TIME** - Delay time between the repetitions of the signal
-- **SYNC** - Synchronize the delay time to project tempo
+- **TIME** - Delay time between the repetitions of the signal.
+- **SYNC** - Synchronize the delay time to project tempo.
 - **FEEDBACK** - Amount of the output signal fed back into the 
-    circuit
+    circuit.
 - **PING PONG** - Enables ping-pong mode, where the delay bounces 
-    back and forth between the left and right channels
+    back and forth between the left and right channels.
 - **FREQUENCY** - Starting point of the frequency band filtering 
-    the signal
-- **BAND** - Bandwidth of the frequency band
-- **SPREAD** - Add a delay to the right channel
+    the signal.
+- **BAND** - Bandwidth of the frequency band.
+- **SPREAD** - Add a delay to the right channel.
 - **STEREO WIDTH** - Amount of pan separation between the left 
-    and right signals of the output
+    and right signals of the output.
 - **FLUTTER** - Amount of fast frequency modulation generated by 
-    the flutter of a tape machine
+    the flutter of a tape machine.
 - **WOW** - Amount of slow frequency modulation generated by the 
-    playback speed variations of a tap machine
-- **DRY/WET** - Mix between the unprocessed and processed signals
+    playback speed variations of a tap machine.
+- **DRY/WET** - Mix between the unprocessed and processed signals.
 
 ## EQUALIZER
 
@@ -115,13 +147,13 @@ controls, a custom filter and stereo parameters.
 A three-band equalizer with controllable bandwidth parameters, 
 ideal as a frequency band cut or frequency band isolator.
 
-- **LOW** - Low frequency band gain
-- **MEDIUM** - Medium frequency band gain
-- **HIGH** - High frequency band gain
+- **LOW** - Low frequency band gain.
+- **MEDIUM** - Medium frequency band gain.
+- **HIGH** - High frequency band gain.
 - **LM CROSS** - Frequency of the crossover between the low and 
-    medium frequency filters
+    medium frequency filters.
 - **MH CROSS** - Frequency of the crossover between the medium and 
-    high frequency filters
+    high frequency filters.
 
 ## FILTER
 
@@ -131,10 +163,10 @@ ideal as a frequency band cut or frequency band isolator.
 
 A multi-mode filter with 6 different modes.
 
-- **CUTOFF** - Filter cutoff frequency
+- **CUTOFF** - Filter cutoff frequency.
 - **RESONANCE** - Resonance or Q factor of the filter; creates a resonant 
-    peak at the cutoff frequency
-- **MODE** - Filter mode
+    peak at the cutoff frequency.
+- **MODE** - Filter mode.
     - **L4P** - 4 pole Low-pass Filter (24dB/oct attenuation) - A low-pass 
         filter allows low frequency content to pass through, cutting high 
         frequency content at a rate defined by the number of poles. This 
@@ -178,8 +210,8 @@ factor.
 A low shelf filter amplifies/attenuates all of the frequency 
 content below the cutoff frequency.
 
-- **CUT LS** - Cutoff frequency
-- **GAIN LS** - Gain control
+- **CUT LS** - Cutoff frequency.
+- **GAIN LS** - Gain control.
 
 ### Peak
 
@@ -187,17 +219,17 @@ Three peak filters are available. These filters amplify/attenuate
 a frequency band according to the gain and Q factor controls.
 
 - **CUT** - Cutoff frequency of the filter; determines the centre 
-    of the frequency band
-- **GAIN** - Amplification/attenuation control of the frequency band
-- **Q** - Q factor; controls the width of the frequency band
+    of the frequency band.
+- **GAIN** - Amplification/attenuation control of the frequency band.
+- **Q** - Q factor; controls the width of the frequency band.
 
 ### H Shelf
 
 A high shelf filter amplifies/attenuates all of the frequency 
 content above the cutoff frequency.
 
-- **CUT HS** - Cutoff frequency
-- **GAIN HS** - Gain control
+- **CUT HS** - Cutoff frequency.
+- **GAIN HS** - Gain control.
 
 ## PHASER
 
@@ -207,21 +239,21 @@ A phaser introduces a comb filter like effect by creating a series
 of notches in the frequency spectrum around a center frequency. 
 This center frequency is modulated by controllable LFOs.
 
-- **DEPTH** - Modulation depth of the notch frequencies
+- **DEPTH** - Modulation depth of the notch frequencies.
 - **TILT** - Change modulation rates of left and right channel LFOs; 
-negative values speed up the left LFO and slow down the right one, and vice versa
-- **RATE** - LFO rates
-- **WAVE** - LFO waveforms
-- **SYNC** - Synchronize LFO rates to project tempo
+negative values speed up the left LFO and slow down the right one, and vice versa.
+- **RATE** - LFO rates.
+- **WAVE** - LFO waveforms.
+- **SYNC** - Synchronize LFO rates to project tempo.
 - **CENTER** - Center frequency of the phaser; notches are grouped 
-around this point
-- **FEEDBACK** - Amount of signal to be fed back into the circuit
-- **NOTCHES** - Number of notches
-- **SPREAD** - Control the distance between the notches
+around this point.
+- **FEEDBACK** - Amount of signal to be fed back into the circuit.
+- **NOTCHES** - Number of notches.
+- **SPREAD** - Control the distance between the notches.
 - **WIDTH** - Create a difference in the center frequencies of the 
-left and right channels
-- **DISTORTION** - Distort the output signal
-- **DRY/WET** - Mix between the unprocessed and processed signals
+left and right channels.
+- **DISTORTION** - Distort the output signal.
+- **DRY/WET** - Mix between the unprocessed and processed signals.
 
 <br>
 
@@ -236,15 +268,15 @@ from small rooms to long halls.
 
 ### Input
 
-- **INPUT HP** - Cutoff frequency of the high-pass filter affecting 
-the input signal
+- **INPUT FILTER** - Cutoff frequency of the high-pass filter affecting 
+the input signal.
 
 ### Reflections
 
-- **EARLY** - Amount of first reflections
-- **SHAPE** - Control the size and type of simulated space
+- **EARLY** - Amount of first reflections.
+- **SHAPE** - Control the size and type of simulated space.
 - **PRE-DELAY** - Control the distance between the sound source and 
-the first reflections
+the first reflections.
 
 ### Diffusion
 
@@ -254,46 +286,15 @@ the first reflections
 
 ### Damping
 
-- **L.DAMP** - Damping of the low frequency band of the reflections
-- **H.DAMP** - Damping of the high frequency band of the reflections
-- **L.FREQ** - Cutoff frequency of the low frequency damper
-- **H.FREQ** - Cutoff frequency of the high frequency damper
+- **H.DAMP** - Damping of the high frequency band of the reflections.
+- **H.FREQ** - Cutoff frequency of the high frequency damper.
+- **L.DAMP** - Damping of the low frequency band of the reflections.
+- **L.FREQ** - Cutoff frequency of the low frequency damper.
 
-### Master
+### Output
 
-- **DRY/WET** - Mix between the unprocessed and processed signals
-
-## BURNER
-
-<img src="/bam/images/fx-devices/bam-beat-maker-fx-burner.png" width="" alt="BAM Distortion FX device" />
-
-<br>
-
-This is a distortion device that can alter the sound from subtle
-amplification gain saturation to clipping and fuzz effects. The link 
-switch toggles the channel link, allowing separate processing of the 
-left and right (or mid and side, if MS mode is enabled) channels.
-
-- **INPUT** - Input gain
-- **OUTPUT** - Post distortion output volume control
-- **MODE** - Distortion mode
-    - **SAT** - Saturation
-    - **CLAP** - Hard clipping
-    - **FUZZ** - Fuzz distortion
-    - **SINE** - Sinusoidal wave folding
-- **LR/MS** - Stereo/Mid-side mode switch
-    - **LR** - Process the left and right channels individually.
-    - **MS** - Allows processing only the mono or stereo parts 
-    of the sound.
-- **HP** - Cutoff frequency of the high-pass filter affecting 
-    the input signal 
-- **TONE** - Cutoff frequency of the low-pass filter affection 
-    the output signal
-- **BIAS** - Input signal DC bias; affects the generated harmonic 
-    content and general timbre
-- **MIX** - Mix between the unprocessed and processed signals
-- **LINK** - Toggle channel link
-
+- **GAIN** - Wet signal output gain.
+- **DRY/WET** - Mix between the unprocessed and processed signals.
 
 ## STEREO ENHANCER
 
@@ -308,12 +309,12 @@ can be created from mono signals.
 The crossover filter allows you to separate the signal into two 
 frequency bands and control their stereo images independently.
 
-- **L WIDTH** - Stereo width of the low frequency band
-- **H WIDTH** - Stereo width of the high frequency band
-- **CROSSOVER** - Frequency of the crossover
-- **PANNING** - Enable panning controls
-- **PAN** - Position of the signal in the stereo image
-- **PAN WIDTH** - Control the stereo width of the signal 
+- **L WIDTH** - Stereo width of the low frequency band.
+- **H WIDTH** - Stereo width of the high frequency band.
+- **CROSSOVER** - Frequency of the crossover.
+- **PANNING** - Enable panning controls.
+- **PAN** - Position of the signal in the stereo image.
+- **PAN WIDTH** - Control the stereo width of the signal.
 
 <br>
 

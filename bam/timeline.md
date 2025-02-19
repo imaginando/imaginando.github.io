@@ -17,34 +17,35 @@ When you toggle a step, the created note takes after the Note parameter in the T
 
 <br>
 
-- **(A)** Select pencil type
-    - Fill Pencil - Fill each step with a note
-    - Long Note Pencil - Create long notes
-    - Smart Pencil - Create evenly spaced notes
-- **(B)** Create random step sequence
-- **(C)** Delete all steps
-- **(D)** Select clip time signature
-- **(E)** Select clip swing
-- **(F)** Clip direction playback
-- **(G)** Clip playback speed multiplier
-- **(H)** Loop zone on/off
-- **(I)** Reduce clip length
-    - Remove one step
-    - Halve length
-- **(J)** Clip page and loop zone selection
-- **(K)** Increase clip length
-    - Duplicate length
-    - Add one step
-- **(L)** Track selection
+- **(A)** Select pencil type.
+    - Fill Pencil - Fill each step with a note.
+    - Long Note Pencil - Create long notes.
+    - Smart Pencil - Create evenly spaced notes.
+- **(B)** Create random step sequence.
+- **(C)** Delete all steps.
+- **(D)** Select clip time signature.
+- **(E)** Select clip swing.
+- **(F)** Clip direction playback.
+- **(G)** Clip playback speed multiplier.
+- **(H)** Loop zone on/off.
+- **(I)** Resize clip.
+    - Halve/Duplicate length.
+    - Remove/Add bar.
+    - Remove/Add beat.
+    - Remove/Add step.
+- **(J)** Clip page and loop zone selection.
+- **(K)** Track selection.
 
 <br>
 
 Pressing and holding or right clicking **(L)** will open the track's context menu:
 
-- **Copy** - Copy the track's engines and selected clip
-- **Paste** - Paste copied contents
-- **Rename** - Rename track
-- **Clear** - Clear all track contents
+- **Copy** - Copy the track's engines and selected clip.
+- **Paste** - Paste copied contents.
+- **Rename** - Rename track.
+- **Move Up**
+- **Move Down**
+- **Clear** - Clear all track contents.
 
 <br>
 
