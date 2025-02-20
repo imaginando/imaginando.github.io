@@ -33,8 +33,8 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config user.email "action@github.com"
-          git config user.name "GitHub Action"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
           git add image-dimensions.json
           git commit -m "Build image-dimensions.json"
           git push
