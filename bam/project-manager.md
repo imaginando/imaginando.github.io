@@ -26,7 +26,7 @@ The **Save** icon opens the save panel. **SAVE AS** creates a new project file (
 
 You can also save the current project as an Ableton Live project using the **SAVE AS LIVE SET** button.
 
-If [autosaving](interface.md#preferences-menu) is enabled, BAM will periodically save and allow for recovering your project in the event of abnormal termination.
+If [autosaving](interface#preferences-menu) is enabled, BAM will periodically save and allow for recovering your project in the event of abnormal termination.
 
 ## Importing/exporting banks and projects
 
