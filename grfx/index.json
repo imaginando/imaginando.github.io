@@ -1,0 +1,9 @@
+[
+  { "key": "contents", "label": "Contents" },
+  { "key": "overview", "label": "Overview" },
+  { "key": "granulator", "label": "Granulator" },
+  { "key": "harmonic-triangle", "label": "Harmonic Triangle" },
+  { "key": "modulators", "label": "Modulators" },
+  { "key": "effect-rack", "label": "Effect Rack" },
+  { "key": "patch-management", "label": "Patch Management" }
+]
