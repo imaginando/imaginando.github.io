@@ -29,6 +29,6 @@ The pitch knobs and the X/Y position of the node can be modulated by the LFOs fo
 
 <br>
 
-[Previous: Granulator](granulator)
+Previous: [Granulator](granulator)
 
-[Next: Modulator Rack](modulator-rack)
+Next: [Modulator Rack](modulator-rack)

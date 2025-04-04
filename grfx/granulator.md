@@ -61,7 +61,7 @@ The **Route** parameter is a unique **probability-based routing control that det
 - **Window** - Controls the edges of the amplitude window applied to each grain, making it start and end abruptly or smoothly with fades.
 - **Shape** - Skews the amplitude window left and right, turning it into a pluck-like shape or a growing ramp.
 - **Stereo** - Randomness of the grains' stereo positions.
-- **Size** - Play lenght of the grain.
+- **Size** - Play length of the grain.
     - **Sync** - Synchronizes the size to a tempo-aware beat time.
 - **Route** - Probability of sending grains to **route A** or **route B**. Route A is processed by the Multi-effect chain, while B bypasses it.
 - **Rev. Prob.** - Probability of the grain reading from the buffer in reverse.
