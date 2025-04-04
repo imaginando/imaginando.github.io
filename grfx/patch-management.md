@@ -37,8 +37,6 @@ To save a patch, click on the save icon <img src="/grfx/images/save.png" alt="Sa
 <br>
 
 <img src="/grfx/images/save-dialog.png" alt="Save Dialog" style="padding: 0px; bottom-padding: 0px" />
-<br>
-<br>
 
 Here you can change the patch name, select the bank where you’ll save it and choose its tags. You can then save it as a new patch (save as), which will create a .gfp file, or you can overwrite an existing patch (save) if you’re using a name that is in use by another patch.
 
