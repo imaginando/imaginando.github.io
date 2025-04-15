@@ -10,7 +10,7 @@ Dead centre of the granulator is the **Harmonic Triangle, an interactive pad for
 
 Under the granulator is the **Effect Rack**. The two leftmost effect slots are **Multi-effects**; each can be swapped for any effect from a list of **eight different effect engines**. To their right are the **sends: a Delay and a Reverb**. Unlike the Multi-effects, these are fixed and can work in series or parallel. The final slot is the **Mixer, with volume controls for the individual signal paths**, along with an **output volume** control and **Dry / Wet**. See [Effect Rack](effect-rack).
 
-The top of the interface contains the **Modulator Rack**, displaying two of the **four available LFOs** at a time. These are used to modulate the plug-in’s various parameters and create autonomous movements and behaviors. See [Modulator Rack](modulator-racks).
+The top of the interface contains the **Modulator Rack**, displaying two of the **four available LFOs** at a time. These are used to modulate the plug-in’s various parameters and create autonomous movements and behaviors. See [Modulator Rack](modulator-rack).
 
 <br>
 
