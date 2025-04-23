@@ -67,6 +67,6 @@ You can see which parameters are being modulated by each LFO and change the corr
 
 <br>
 
-[Previous: Harmonic Triangle](harmonic-triangle)
+Previous: [Harmonic Triangle](harmonic-triangle)
 
-[Next: Effect Rack](effect-rack)
+Next: [Effect Rack](effect-rack)
