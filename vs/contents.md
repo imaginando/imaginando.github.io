@@ -10,8 +10,29 @@ Don't hesitate to contact us if you any questions, comments or other inquiries.
 
 ## Contents
 
-- [Overview](overview)
-- [Layer Manager](layer-manager)
-- [Layer Controls](layer-controls)
-- [Layer Modulations](layer-modulations)
-- [Settings](settings)
+- [Overview](/vs2/overview)
+- [Mixer Panel](/vs2/mixer-panel)
+- [Material Browser](/vs2/material-browser)
+- [Layer Properties](/vs2/layer-properties)
+- [Modulation Sources](/vs2/modulation-sources)
+- [Playlist](/vs2/playlist)
+- [Media Manager](/vs2/media-manager)
+- [MIDI Mapping](/vs2/midi-mapping)
+- [Audio Player](/vs2/audio-player)
+- [Patch Manager](/vs2/patch-manager)
+- [Store Panel](/vs2/store-panel)
+- [Settings](/vs2/settings)
+- [Shortcuts](/vs2/shortcuts)
+- [Getting Started: Basic Examples](/vs2/getting-started)
+- [Loading your track and making visuals react to it](/vs2/audio-reactive-visuals)
+- [Using the Visualizers](/vs2/visualizers)
+- [Setting up MIDI reactive visuals](/vs2/midi-reactive-visuals)
+- [VS as a plug-in in your DAW](/vs2/vs-plugin)
+- [Material Editor: Making your own shaders](/vs2/material-editor)
+- [Migrating shaders from VS 1](/vs2/migrating-shaders)
+
+<br>
+
+***
+
+[Click here for the VS version 1 manual.](/vs2//vs1/contents.md)

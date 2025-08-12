@@ -6,7 +6,7 @@ A layer is a polyphonic synthesis engine which means that the same material can 
 
 ## User Interface
 
-<img src="/vs/images/overview@2x.png" alt="VS overview" width="1024" height="768" />
+<img src="/vs1/images/overview@2x.png" alt="VS overview" width="1024" height="768" />
 
 VS’ interface consists of the following elements:
 

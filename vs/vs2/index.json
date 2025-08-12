@@ -1,0 +1,23 @@
+[
+  { "key": "contents", "label": "Contents" },
+  { "key": "overview", "label": "Overview" },
+  { "key": "mixer-panel", "label": "Mixer Panel" },
+  { "key": "material-browser", "label": "Material Browser" },
+  { "key": "layer-properties", "label": "Layer Properties" },
+  { "key": "modulation-sources", "label": "Modulation Sources" },
+  { "key": "playlist", "label": "Playlist" },
+  { "key": "media-manager", "label": "Media Manager" },
+  { "key": "midi-mapping", "label": "MIDI Mapping" },
+  { "key": "audio-player", "label": "Audio Player" },
+  { "key": "patch-manager", "label": "Patch Manager" },
+  { "key": "store-panel", "label": "Store Panel" },
+  { "key": "settings", "label": "Settings" },
+  { "key": "shortcuts", "label": "Shortcuts" },
+  { "key": "getting-started", "label": "Getting Started: Basic Examples" },
+  { "key": "audio-reactive-visuals", "label": "Loading your track and making visuals react to it" },
+  { "key": "visualizers", "label": "Using the Visualizers" },
+  { "key": "midi-reactive-visuals", "label": "Setting up MIDI reactive visuals" },
+  { "key": "vs-plugin", "label": "VS as a plug-in in your DAW" },
+  { "key": "material-editor", "label": "Material Editor: Making your own shaders" },
+  { "key": "migrating-shaders", "label": "Migrating shaders from VS 1" }
+]

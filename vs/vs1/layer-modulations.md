@@ -7,7 +7,7 @@ However, if you’re new to these terms we will happily explain them right now.
 
 ## Modulation Sources
 
-<img alt="VS Layer Controls" src="/vs/images/modulation-sources@2x.png" width="977" height="167"/>
+<img alt="VS Layer Controls" src="/vs1/images/modulation-sources@2x.png" width="977" height="167"/>
 
 ### LFO
 
@@ -88,7 +88,7 @@ Mode - Select the mode of the current audio modulator (Gate or Spectrum)
 
 ## Modulation Matrix
 
-<img alt="VS Layer Controls" src="/vs/images/modulation-matrix@2x.png" width="977" height="167" />
+<img alt="VS Layer Controls" src="/vs1/images/modulation-matrix@2x.png" width="977" height="167" />
 
 The modulation matrix panel lets you assign modulation sources to specific layer parameters, arranged in a two dimensional grid of cells, with modulation sources on the x axis (top) and parameters on the y axis (left). Clicking a cell value and then dragging either up/down or left/right will decrease or increase the amount of modulation effect that the source will have on the parameter. This value can range from -1 to +1, with the default setting zero representing no modulation effect. To aid visual clarity, each cell shows a white horizontal line under the value, if the value is greater than or less than zero. The origin point of the line is centered, so positive values draw to the right and negative to the left.
 

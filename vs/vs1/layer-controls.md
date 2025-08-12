@@ -1,6 +1,6 @@
 # Layer Controls
 
-<img src="/vs/images/layer-controls@2x.png" alt="VS Layer Controls" width="964" height="76" />
+<img src="/vs1/images/layer-controls@2x.png" alt="VS Layer Controls" width="964" height="76" />
 
 The layer control panel provides access to the parameters of the currently selected layer.
 
@@ -36,7 +36,7 @@ Each material can have up to 8 parameters that are specific to it. The layer con
 
 ## Background Layer
 
-<img alt="VS Layer Controls" src="/vs/images/background-layer-controls@2x.png" width="964" height="76" />
+<img alt="VS Layer Controls" src="/vs1/images/background-layer-controls@2x.png" width="964" height="76" />
 
 The background layer has its own set of parameters, since it deals with image and video. The background layer honours the color panel selection if no image or video is set.
 

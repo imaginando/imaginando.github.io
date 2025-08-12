@@ -1,6 +1,6 @@
 # Layer Manager
 
-<img alt="VS Layer Manager" src="/vs/images/layer-manager@2x.png" width="774" height="73" />
+<img alt="VS Layer Manager" src="/vs1/images/layer-manager@2x.png" width="774" height="73" />
 
 The Layer Manager allows you to select layers, load materials via the material browser and set the Z index (stacking order) of the layers.
 
@@ -43,7 +43,7 @@ The layer manager has four other buttons; to the left of the layers is the circl
 
 ## Audio/MIDI file loader
 
-<img alt="Audio/MIDI loader" src="/vs/images/audio-midi-loader.png" width="969" height="157" />
+<img alt="Audio/MIDI loader" src="/vs1/images/audio-midi-loader.png" width="969" height="157" />
 
 The Audio/MIDI file loader lets you load and playback both audio and MIDI files, for VS to use as modulation sources to create visuals from. To load a file, click the directory icon on the right of the panel, then select a compatible filetype. (.MID .Wav .Aiff). Once the file has loaded, you can control playback with the three transport buttons located on the left of the panel, 'play', 'stop' and 'toggle looped playback' respectively. You can also click any part of the audio waveform to play from that position.
 
@@ -51,7 +51,7 @@ VS comes loaded with a number of demo tracks, which contain both audio and MIDI 
 
 ## Color Panel
 
-<img alt="VS Color Panel" src="/vs/images/color-panel@2x.png" width="773" height="253" />
+<img alt="VS Color Panel" src="/vs1/images/color-panel@2x.png" width="773" height="253" />
 
 On top you can choose the blend mode that will be applied. Normal is the default option. There are also the following modes: Screen, Hard Light, Soft Light, Overlay, Difference, Exclusion and Subtract (these are explained below).
 
@@ -80,7 +80,7 @@ Blend modes alter how a stack of layers is rendered by changing the way that lay
 
 ## Material Browser
 
-<img alt="VS Material Browser" src="/vs/images/material-browser@2x.png" width="1136" height="908" />
+<img alt="VS Material Browser" src="/vs1/images/material-browser@2x.png" width="1136" height="908" />
 
 To open the material browser, double click any numbered layer.
 
@@ -184,7 +184,7 @@ VS built-in material editor consists of a text editor, with a live preview windo
 
 When you clone a material, it will automatically open the editor window. If you want to edit a material, choose the 'USER MATERIALS' bank, click on the options button of the desired material and then choose 'Edit'.
 
-<img alt="VS Material Editor" src="/vs/images/material-editor@2x.png" width="1136" height="908" />
+<img alt="VS Material Editor" src="/vs1/images/material-editor@2x.png" width="1136" height="908" />
 
 Everytime you make a change in the code, the material will be updated. If there are no errors and if the code is right, you will see something happening in the preview window.
 
@@ -345,7 +345,7 @@ To exit the material browser without loading a new material, click the ‘CLOSE�
 
 ## Media browser
 
-<img alt="VS Background File Manager" src="/vs/images/file-manager@2x.png" width="1136" height="908" />
+<img alt="VS Background File Manager" src="/vs1/images/file-manager@2x.png" width="1136" height="908" />
 
 To open the background image/video media browser, double click or long press the background layer ‘B’. You can then navigate your local filesystem for supported file types.
 
