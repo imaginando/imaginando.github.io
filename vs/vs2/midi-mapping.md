@@ -7,7 +7,7 @@
 </figure>
 </div>
 
-All your MIDI mappings are displayed in the MIDI Mapping panel. To create a mapping, enable the [MIDI Learn mode located in the Status Bar](overview#status-bar). Clicking a parameter and sending a MIDI message from your controller will establish the mapping. You can also double-click a highlighted control to manually enter mapping information. Toggle MIDI Learn off to finish mapping.
+All your MIDI mappings are displayed in the MIDI Mapping panel. To create a mapping, enable the [MIDI Learn mode located in the Status Bar](overview#status-bar). Clicking a parameter and sending a MIDI message from your controller will establish the mapping. You can also double click a highlighted control to manually enter mapping information. Toggle MIDI Learn off to finish mapping.
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
@@ -28,7 +28,7 @@ The **MIDI Mapping** panel displays the mapped **Parameter** name alongside the 
 - **MIDI Message** - Select between a Note and a CC (control change) message.
 - **Channel** (1 - 16)
 - **CC/Note** (0 - 127)
-- **14-bit MIDI** (CC only) - Enable this if you’re mapping to high resolution MIDI CC messages. Some higher end MIDI controllers may need this.
+- **14-bit MIDI** (CC only) - Enable this if you’re mapping to high resolution MIDI CC messages. Some high-end MIDI controllers may need this.
 - **Reset** - Delete the mapping.
 - **Cancel**
 - **Save**

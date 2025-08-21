@@ -3,7 +3,7 @@
 Visualizers are special shaders designed to directly respond to audio input, unlike regular shaders which can only be controlled by modulators (like AMs or LFOs).
 
 ### Load your music
-- Open the **Audio Player** by clicking its icon in the sidebar.
+- Open the **Audio Player** by clicking its icon in the left sidebar.
 - Load your music file (wav, mp3, etc.) by dragging it onto the panel or through the browser.
 - Start playback by clicking the **Play** icon or clicking the waveform. 
 - Your song should now be playing.

@@ -24,16 +24,16 @@ Layers can receive both MIDI and audio to trigger the materials and/or feed the 
 </div>
 <br>
 
-MIDI can be used to trigger the materials of the Layer, displaying it with MIDI note on events and making it disappear with MIDI note off events. 
+MIDI can be used to trigger the Layer materials, making them appear with note on events and disappear with note off events. The result is that the material will be on screen for the duration of the note.
 
-- **Channels** - MIDI channels which the Layer will be listening to. The MIDI events from the other channels won’t be processed.
+- **Channels** - MIDI channels which the Layer will be listening to. MIDI events from the other channels won’t be received.
     - **All** - Select all channels.
     - **Reset** - Only select channel 1.
-- **Note Range** - The range of notes that will be accepted by the Layer. Notes outside of the range won’t be processed.
+- **Note Range** - The range of notes that will be accepted by the Layer. Notes outside of the range won’t be received.
 - **Voice Mode**
     - **Poly** - Layer will be in polyphonic mode, letting you trigger up to 4 voices of the current material. You can change the maximum number of voices in the [Settings](settings).
     - **Mono** - You’ll only be able to play one voice at a time.
-- **Glide** - This is related to the KBD source in the Matrix. It's the time it will take for the note to reach its value from the last received note, making a ramp instead of a jump.
+- **Glide** - This is related to the KBD source in the Matrix. It's the time it will take for the note to reach its value from the last received note, making a ramp rather than a jump.
 
 ### Audio
 
@@ -47,10 +47,10 @@ MIDI can be used to trigger the materials of the Layer, displaying it with MIDI 
 
 These settings are only relevant when using shader materials which process audio data directly, such as the ones from the Visualizers category. Audio input is required for them to work properly. See [Using the Visualizers](visualizers) for more information.
 
-- **Source** - The source of the audio being sent to the material. It can be audio from VS’s Player or one of the input audio device’s channels.
-- **Gain** - Gain applied to the signal being fed to the materials. It won’t affect the original source.
-- **Buffer Size** - The size of the audio buffer sent to the materials. Only relevant for materials using the waveform information. Larger values will retain more information, often resulting in a larger chunk of audio being displayed.
-- **Spectrum Speed** - Spectrum frequency bin decay rate. Only relevant for materials using the spectrum information. Slower values will make smoother spectrums.
+- **Source** - The source of the audio sent to the material. It can be audio from VS’s Player or one of the input audio device’s channels. When using VS as a plug-in in a DAW, the stereo bus '1/2' contains the audio entering the plug-in.
+- **Gain** - Gain applied to the signal fed to the materials. It won’t affect the original source.
+- **Buffer Size** - The size of the audio buffer sent to the materials. Only relevant for Visualizers using the waveform information. Larger values will retain more information, often resulting in a larger chunk of audio being displayed.
+- **Spectrum Speed** - Spectrum frequency bin decay rate. Only relevant for Visualizers using the spectrum information. Slower values will make smoother spectrums.
 
 ## Color
 
@@ -66,7 +66,7 @@ When using shader or text materials in a Layer, you can adjust their color. In a
 Blend modes determine how Layers interact visually by applying different operations to their color information. By default, Layers use the Normal blend mode, meaning upper Layers visually appear above lower ones in the stack.
 
 - **Saturation/Brightness picker** - You can control the saturation (X axis) and brightness (Y axis) of the current color. 
-- **Hex Color** - Select the color by entering the color in a hex format. (eg: #ffffff)
+- **Hex Color** - Enter the color in a hex format. (eg: #ffffff)
 - **Invert Color** - Inverts the hue of the current color.
 - **Hue** - Changes the hue factor of the color.
 - **Blend mode** - Sets the blend mode for the current Layer. The available blend modes are: Normal, Soft Add, Overlay, Screen, Lighten, Subtract Soft, Reverse Subtract, Subtract, Add, Multiply, Darken, Exclusion.
@@ -81,7 +81,7 @@ Blend modes determine how Layers interact visually by applying different operati
 </div>
 <br>
 
-These settings will only be available when using the Text material. Text allows adding text items to a pool, which can be scanned through in real time with the **Pool Index** parameter.
+These settings will only be available when using the Text material. You can add text items to a pool, which can be scanned through in real time with the **Pool Index** parameter.
 
 - **Font** - Selects the text font.
 - **Size** - Selects the font size.

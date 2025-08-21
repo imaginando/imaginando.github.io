@@ -1,8 +1,8 @@
 # Modulation Sources
 
-The bottom right corner of VS’s interface is dedicated to the **Modulation Sources** for your Layer parameters.
+The bottom right corner of VS’s interface is dedicated to the **Modulation Sources**.
 
-Modulation Sources are used to create modulation signals that modulate the various Layer parameters, making them change over time. These modulations are managed in the aforementioned [Modulation Matrix](layer-properties#matrix) and are **responsible for introducing audio and MIDI reactivity to your visuals.**
+Modulation Sources are used to create modulation signals that change the various Layer parameters, making them vary over time. These modulations are managed in the aforementioned [Modulation Matrix](layer-properties#matrix) and are **responsible for introducing audio and MIDI reactivity to your visuals.**
 
 There are three different modulation sources available: **EGs** (Envelope Generators), **LFOs** (Low Frequency Oscillators) and **AMs** (Audio Modulators).
 
@@ -16,7 +16,7 @@ There are three different modulation sources available: **EGs** (Envelope Genera
 </div>
 <br>
 
-Envelope Generators create shapes that react when a MIDI note is triggered. You can use it to control a visual parameter (like alpha, size, or glow), making it change when the note starts and ends. There are 2 EGs available, each with their own controls.
+Envelope Generators create shapes that react when a MIDI note is triggered. You can use them to control a visual parameter (such as opacity, size, or glow), making it change when the note starts and ends. There are 2 EGs available, each with their own controls.
 
 - **Attack** - Duration of the attack phase. Short values make an abrupt start, while long values make a long upward ramp while the note is held down.
 - **Decay** - Duration of the decay phase. Once the attack phase finishes, the signal decays to the Sustain value.
@@ -55,7 +55,7 @@ Low Frequency Oscillators are perpetually moving signal generators. They’re us
 
 ## Audio Modulators
 
-Audio Modulators receive audio from the [Player](audio-player) or from input channels of the current Input Audio Device, selected in the [Settings](settings). It then generates a modulation signal following the intensity of the incoming audio. This can be used to have Layers reacting to the intensity of your music. There are 4 AMs available.
+Audio Modulators receive audio from the [Player](audio-player) or from the selected input channels of your Input Audio Device, selected in the [Settings](settings). It then generates a modulation signal following the intensity of the incoming audio. This can make your Layers react to the intensity of your music. There are 4 AMs available.
 
 The AMs have two modes: **Gate** and **Spectrum**.
 
@@ -69,7 +69,7 @@ The AMs have two modes: **Gate** and **Spectrum**.
 </div>
 <br>
 
-In Gate mode, the AM follows the peaks (highest amplitude values) of the sound. This can accurately detect loud elements in dynamic music, such as drums, percussions, and instruments with loud transients in general.
+In Gate mode, the AM follows the peaks (highest amplitude values) of the sound. This can accurately detect elements with loud transients in dynamic music, such as drums and percussions in general.
 
 ### Spectrum
 

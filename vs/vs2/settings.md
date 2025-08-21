@@ -18,11 +18,11 @@
 - **Portrait Orientation** - Swaps the Output Resolution width and height for a vertical output.
 - **Render Quality** - Select Performance for more consistent framerate or High Resolution for the best image quality.
 - **Recording**
-    - **Quality** - Level of quality/detail of VS's video recordings. The higher the setting, the larger the file size.
+    - **Quality** - Level of quality/detail of VS's video recordings. The higher the setting, the larger the produced file.
     - **Recordings Folder** - Recordings are saved to this folder. Click the folder icon to set a new folder.
 - **Voices** - Number of simultaneous polyphonic visual voices per Layer. With 4 polyphonic voices, each Layer can display 4 simultaneous instances of its material.
 - **Animated layer thumbnails** - If enabled, Layer thumbnails display a real-time representation of the Layer output.
-- **Shaders cache reset** - Resetting the shader cache will force them to recompile on the next reboot. Try if shaders are failing to display.
+- **Shaders cache reset** - Resetting the shader cache will force them to recompile on the next reboot. Try this if shaders are failing to display.
 
 <br/>
 

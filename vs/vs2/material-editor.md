@@ -20,7 +20,7 @@ VS’s built-in Material Editor allows editing and creating your own GLSL fragme
 
 You can also import shader materials using the **Import** button <img src="/vs2/images/import-material.png" alt="User Materials" style="padding: 0px; bottom-padding: 0px" /> located in the bottom left corner.
 
-VS's built-in material editor consists of a text editor, a live preview window and a set of knobs representing the standard and custom material parameters.
+VS's Material Editor consists of a text editor, a live preview window and a set of knobs representing the standard and custom material parameters.
 
 <div style="text-align: center;">
 <figure style="text-align: center;">

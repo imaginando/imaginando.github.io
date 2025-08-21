@@ -3,7 +3,7 @@
 Let’s start with something simple — loading your own audio file and making the visuals respond to it.
 
 ### Load your music
-- Open the **Audio Player** by clicking its icon in the sidebar.
+- Open the **Audio Player** by clicking its icon in the left sidebar.
 - Load your music file (wav, mp3, etc.) by dragging it onto the panel or loading through the browser.
 - Start playback by clicking the Play icon or tapping the waveform. 
 - Your song should now be playing.

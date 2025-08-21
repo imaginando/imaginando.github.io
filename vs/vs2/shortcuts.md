@@ -24,8 +24,8 @@
 - **Solo Layer** - Solo selected Layer.
     - macOS/Windows: **S**
 - **Fullscreen** - Enter fullscreen mode, showing only the render output.
-    - macOS/Windows:: **F**
-- **Find** - In the Material Browser, filter shader materials by name. In the Material Editor, search and highlight text.
+    - macOS/Windows: **F**
+- **Find** - In the [Material Browser](material-browser), filter shader materials by name. In the [Material Editor](material-editor), search and highlight text.
     - macOS: **Cmd+F**
     - Windows: **Ctrl+F**
 

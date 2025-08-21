@@ -7,7 +7,7 @@
 </figure>
 </div>
 
-VS offers a way to create a custom preset playlist, useful in live situations or for automatically changing presets. 
+VS offers a way to create custom preset playlists, useful in live situations or for automatically changing presets. 
 
 By default, the playlist is empty. You can freely add presets to it, and each slot is MIDI mappable, making it easy to trigger specific presets via MIDI messages. This makes the playlist panel not only a performance tool but also a convenient MIDI mapping interface for swapping presets.
 
@@ -26,7 +26,7 @@ Once you have a list of presets, you can define the duration of each one along w
 - **+** - Adds the current preset to the list. The entry will be added next to the selected entry.
 - **Play** - Starts the playlist.
 - **Stop** - Stop the playlist.
-- **Loop** - Turns loop on/off. When not active, once the playlist reaches the final entry it will stop.
+- **Loop** - Turns loop on/off. When off, once the playlist reaches the final entry, it will stop.
 - **Top Arrow** - Triggers the preset of the previous entry.
 - **Bottom Arrow** - Triggered the preset of the next entry.
 - **Pencil** - When active, lets you edit general duration and fade times.

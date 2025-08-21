@@ -24,7 +24,7 @@ You can select layers using the 1 – 9 number keys as shortcuts. See all shortc
 
 - **Speed** - Common to all Layers, it will affect the speed of the shader materials and videos.
 - **Custom Parameters** - The following 7 parameters are related to the material in use, so they change with each Layer material.
-- **Trigger** - When using the MIDI Trigger Mode, the Layer will only display its content when MIDI note events are received. When using the MIDI mode please make sure EG 1 or EG 2 are modulating the ALPHA parameter in the Matrix, otherwise you won’t be able to trigger the material.
+- **Trigger** - When using the MIDI Trigger Mode, the Layer will only display its content when MIDI note events are received. In this mode, make sure EG 1 or EG 2 are modulating the ALPHA parameter in the Matrix, otherwise you won’t be able to trigger the material.
 
 Let’s dive deeper into the parameters for each material type:
 - **Shader** - Each shader will have its own set of parameters which will control the given shader behavior.
@@ -67,7 +67,7 @@ Here you have 8 Layers plus a Background Layer. Each of the first 8 Layers consi
 - **S** - Solo/unsolo Layer
 - **Fader** - Controls the opacity (alpha) of the Layer.
 
-The **background Layer** behaves like the others, but its position is fixed. Its Material Browser will only let you load media files, such as images and videos. It has the following parameters:
+The **background Layer** is fixed underneath all the other layers. Its Material Browser will only let you load media files, such as images and videos. It has the following parameters:
 
 - **Alpha** - Controls the opacity of the material.
 - **Scale** - Scales the material.
@@ -98,14 +98,14 @@ The **Layer context menu** can be opened by right clicking the Layer thumbnail. 
 
 - **Materials** (Excluding Background Layer) - Opens the [Material Browser](material-browser).
 - **Copy** (Excluding Background Layer) - Copies the Layer state.
-- **Paste** (Excluding Background Layer) - Pastes the copied Layer.
+- **Paste** (Excluding Background Layer) - Pastes the copied Layer state.
 - **Files** (Background Layer only) - Opens the Media Browser.
 - **Reset** - Lets you reset the Layer in various ways.
     - **Material** - Clear the material from the Layer.
     - **Material Parameters** - Resets the material to its original state.
     - **Modulation Matrix** - Resets all the Matrix values.
 
-The material previews in the Layer thumbnails are animated, which can consume resources. [You can disable the animation by going to the Settings and disabling Animated Layer thumbnails.](settings) The preview will be a static snapshot of the material.
+The material previews in the Layer thumbnails are animated, which can consume resources. [You can disable the animation by disabling Animated Layer thumbnails in the Settings.](settings) The preview will be a static snapshot of the material.
 
 ***
 [Previous: Overview](overview)<br>

@@ -23,7 +23,7 @@ You can import/export customs banks with the import/export buttons on the bank s
 
 When exporting your custom patches or banks, you have the option to export the assets — media files used by the patches. Use the [Media Manager](media-manager) to relink your assets when importing them in another computer.
 
-You can filter your patches either by name, using the search bar, or by tags by using the filter section.
+You can filter your patches either by name, using the search bar, or by the tags in the filter section.
 
 To save a patch, click on the save icon in the Status Bar. This will open the **patch save dialog**.
 
