@@ -2,7 +2,7 @@
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/overview.png" alt="VS Overview" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/overview.png" alt="VS Overview" style="padding: 0px" />
   <figcaption style="font-size: 0.9em;">VS 2 user interface.</figcaption>
 </figure>
 </div>
@@ -12,7 +12,7 @@
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-<img src="/vs/vs2/images/status-bar.png" alt="Status bar" style="padding: 0px; bottom-padding: 0px" />
+<img src="/vs/vs2/images/status-bar.png" alt="Status bar" style="padding: 0px" />
 </figure>
 </div>
 <br>
@@ -30,7 +30,7 @@
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-<img src="/vs/vs2/images/render-output-bar.png" alt="Render output bar" style="padding: 0px; bottom-padding: 0px" />
+<img src="/vs/vs2/images/render-output-bar.png" alt="Render output bar" style="padding: 0px" />
 </figure>
 </div>
 <br>
@@ -70,7 +70,7 @@ Choose which panel to display in the Main panel area. In order:
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/main-panel-mixer.png" alt="Main panel selection area with the Mixer selected" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/main-panel-mixer.png" alt="Main panel selection area with the Mixer selected" style="padding: 0px" />
   <figcaption></figcaption>
 </figure>
 </div>
@@ -85,7 +85,7 @@ For further information about a specific panel please visit the [Mixer](mixer-pa
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/info-bar.png" alt="Info bar" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/info-bar.png" alt="Info bar" style="padding: 0px" />
   <figcaption></figcaption>
 </figure>
 </div>
@@ -105,7 +105,7 @@ Displays some information about the selected Layer as well as audio and MIDI sta
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/layer-properties.png" alt="Layer Properties" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/layer-properties.png" alt="Layer Properties" style="padding: 0px" />
   <figcaption style="font-size: 0.9em;">The Layer Properties panel is located on the right side of the interface, and contains controls for the selected Layer.</figcaption>
 </figure>
 </div>
@@ -125,7 +125,7 @@ For further information see the [Layer Properties](layer-properties) section.
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/modulation-sources-am-gate.png" alt="Modulation Sources" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/modulation-sources-am-gate.png" alt="Modulation Sources" style="padding: 0px" />
   <figcaption style="font-size: 0.9em;">The Modulation Sources panel, located in the bottom right corner of the interface.</figcaption>
 </figure>
 </div>

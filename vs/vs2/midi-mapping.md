@@ -2,7 +2,7 @@
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/main-panel-midi-mapping.png" alt="MIDI Mapping" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/main-panel-midi-mapping.png" alt="MIDI Mapping" style="padding: 0px" />
   <figcaption></figcaption>
 </figure>
 </div>
@@ -11,7 +11,7 @@ All your MIDI mappings are displayed in the MIDI Mapping panel. To create a mapp
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/midi-learn-mode.png" alt="MIDI Learn enabled" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/midi-learn-mode.png" alt="MIDI Learn enabled" style="padding: 0px" />
   <figcaption style="font-size: 0.9em;">View of the Mixer panel with MIDI Learn enabled. Controls available for mapping are displayed with a purple overlay. The mapping information is shown in the top left corner.</figcaption>
 </figure>
 </div>
@@ -20,7 +20,7 @@ The **MIDI Mapping** panel displays the mapped **Parameter** name alongside the 
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/midi-assign.png" alt="MIDI Assign dialog" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/midi-assign.png" alt="MIDI Assign dialog" style="padding: 0px" />
   <figcaption></figcaption>
 </figure>
 </div>

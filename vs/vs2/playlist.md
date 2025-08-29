@@ -2,7 +2,7 @@
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/main-panel-playlist.png" alt="Playlist" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/main-panel-playlist.png" alt="Playlist" style="padding: 0px" />
   <figcaption></figcaption>
 </figure>
 </div>
@@ -18,7 +18,7 @@ Once you have a list of presets, you can define the duration of each one along w
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/main-panel-playlist-top.png" alt="Playlist Top Bar" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/main-panel-playlist-top.png" alt="Playlist Top Bar" style="padding: 0px" />
   <figcaption></figcaption>
 </figure>
 </div>
@@ -38,7 +38,7 @@ Once you have a list of presets, you can define the duration of each one along w
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/main-panel-playlist-item.png" alt="Playlist Entry" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/main-panel-playlist-item.png" alt="Playlist Entry" style="padding: 0px" />
   <figcaption></figcaption>
 </figure>
 </div>

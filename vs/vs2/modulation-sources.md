@@ -10,7 +10,7 @@ There are three different modulation sources available: **EGs** (Envelope Genera
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/modulation-sources-eg.png" alt="Envelope Generators" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/modulation-sources-eg.png" alt="Envelope Generators" style="padding: 0px" />
   <figcaption></figcaption>
 </figure>
 </div>
@@ -27,7 +27,7 @@ Envelope Generators create shapes that react when a MIDI note is triggered. You 
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/modulation-sources-lfo.png" alt="LFOs" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/modulation-sources-lfo.png" alt="LFOs" style="padding: 0px" />
   <figcaption></figcaption>
 </figure>
 </div>
@@ -63,7 +63,7 @@ The AMs have two modes: **Gate** and **Spectrum**.
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/modulation-sources-am-gate.png" alt="Audio Modulator (Gate Mode)" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/modulation-sources-am-gate.png" alt="Audio Modulator (Gate Mode)" style="padding: 0px" />
   <figcaption></figcaption>
 </figure>
 </div>
@@ -75,7 +75,7 @@ In Gate mode, the AM follows the peaks (highest amplitude values) of the sound. 
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/modulation-sources-am-spectrum.png" alt="Audio Modulator (Spectrum Mode)" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/modulation-sources-am-spectrum.png" alt="Audio Modulator (Spectrum Mode)" style="padding: 0px" />
   <figcaption></figcaption>
 </figure>
 </div>

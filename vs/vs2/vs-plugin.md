@@ -14,7 +14,7 @@ This lets you trigger visuals with MIDI from other tracks.
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/plugin-midi-route.png" alt="Routing MIDI to VS in Ableton Live 12" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/plugin-midi-route.png" alt="Routing MIDI to VS in Ableton Live 12" style="padding: 0px" />
   <figcaption style="font-size: 0.9em;">Example of MIDI routing set up in Ableton Live 12. The 'From Synth' and 'From Drums' tracks are created to aid sending the MIDI from the synth and drums tracks to VS.</figcaption>
 </figure>
 </div>
@@ -29,7 +29,7 @@ Lets you send audio from other tracks to VS for audio-reactive visuals.
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/plugin-audio-route.png" alt="Routing audio to VS in Ableton Live 12" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/plugin-audio-route.png" alt="Routing audio to VS in Ableton Live 12" style="padding: 0px" />
   <figcaption style="font-size: 0.9em;">Example of audio routing in Ableton Live 12. The 'Audio to VS' track is created to aid sending the audio from the banjo track to VS. You could route the audio from the Main track instead, feeding VS your whole song. Note that the VS2 output is set to 'Sends Only' to avoid duplicating the audio signal.</figcaption>
 </figure>
 </div>
@@ -37,7 +37,7 @@ Lets you send audio from other tracks to VS for audio-reactive visuals.
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/plugin-audio-route-input.png" alt="Routing audio to VS in Ableton Live 12" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/plugin-audio-route-input.png" alt="Routing audio to VS in Ableton Live 12" style="padding: 0px" />
   <figcaption style="font-size: 0.9em;">Your signal will be available in the Audio Modulators and in Layer Properties → Input as the '1/2' stereo bus.</figcaption>
 </figure>
 </div>
@@ -52,7 +52,7 @@ VSfx is the Effect version of VS. It can be placed directly on an audio track as
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/plugin-vsfx.png" alt="Using VSfx in Ableton Live" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/plugin-vsfx.png" alt="Using VSfx in Ableton Live" style="padding: 0px" />
   <figcaption style="font-size: 0.9em;">VSfx in an instrument track in Ableton Live 12.</figcaption>
 </figure>
 </div>

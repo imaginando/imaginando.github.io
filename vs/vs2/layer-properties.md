@@ -2,7 +2,7 @@
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/layer-properties.png" alt="Layer Properties" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/layer-properties.png" alt="Layer Properties" style="padding: 0px" />
   <figcaption style="font-size: 0.9em;">The Layer Properties panel, located on the right side of the interface.</figcaption>
 </figure>
 </div>
@@ -18,7 +18,7 @@ Layers can receive both MIDI and audio to trigger the materials and/or feed the 
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/properties-input-midi.png" alt="Layer MIDI Input" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/properties-input-midi.png" alt="Layer MIDI Input" style="padding: 0px" />
   <figcaption></figcaption>
 </figure>
 </div>
@@ -39,7 +39,7 @@ MIDI can be used to trigger the Layer materials, making them appear with note on
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/properties-input-audio.png" alt="Layer Audio Input" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/properties-input-audio.png" alt="Layer Audio Input" style="padding: 0px" />
   <figcaption></figcaption>
 </figure>
 </div>
@@ -56,7 +56,7 @@ These settings are only relevant when using shader materials which process audio
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/properties-color.png" alt="Layer Color" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/properties-color.png" alt="Layer Color" style="padding: 0px" />
   <figcaption></figcaption>
 </figure>
 </div>
@@ -75,7 +75,7 @@ Blend modes determine how Layers interact visually by applying different operati
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/properties-text.png" alt="Layer Text" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/properties-text.png" alt="Layer Text" style="padding: 0px" />
   <figcaption></figcaption>
 </figure>
 </div>
@@ -101,7 +101,7 @@ These settings will only be available when using the Text material. You can add 
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/properties-video.png" alt="Layer Video Properties" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/properties-video.png" alt="Layer Video Properties" style="padding: 0px" />
   <figcaption></figcaption>
 </figure>
 </div>
@@ -116,7 +116,7 @@ These settings will be available when using a video in a Layer.
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/properties-matrix.png" alt="Layer Modulation Matrix" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/properties-matrix.png" alt="Layer Modulation Matrix" style="padding: 0px" />
   <figcaption></figcaption>
 </figure>
 </div>

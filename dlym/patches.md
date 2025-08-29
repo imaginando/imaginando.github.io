@@ -13,4 +13,4 @@ Clicking on the menu bar patch name opens the built-in patch browser/manager, it
 
 To exit the patch manager, simply click the name of the currently selected patch on the menu bar again.
 
-<img src="/dlym/images/patch-manager.png" alt="DLYM Patch Manager" style="padding: 40px; bottom-padding: 0px" />
+<img src="/dlym/images/patch-manager.png" alt="DLYM Patch Manager" style="padding: 40px" />

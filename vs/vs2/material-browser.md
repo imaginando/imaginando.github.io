@@ -2,7 +2,7 @@
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/material-browser.png" alt="Material Browser" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/material-browser.png" alt="Material Browser" style="padding: 0px" />
   <figcaption></figcaption>
 </figure>
 </div>
@@ -32,7 +32,7 @@ All shaders have an **Options** button which will open the context menu.
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/material-browser-context-menu.png" alt="Material Browser" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/material-browser-context-menu.png" alt="Material Browser" style="padding: 0px" />
   <figcaption style="font-size: 0.9em;">Context menu of a shader material from User Materials.</figcaption>
 </figure>
 </div>

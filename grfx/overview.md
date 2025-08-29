@@ -1,6 +1,6 @@
 # Overview
 
-<img src="/grfx/images/overview.png" alt="GRFX Overview" style="padding: 0px; bottom-padding: 0px" />
+<img src="/grfx/images/overview.png" alt="GRFX Overview" style="padding: 0px" />
 <br>
 <br>
 

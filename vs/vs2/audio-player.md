@@ -2,7 +2,7 @@
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/main-panel-audio-player.png" alt="Audio Player" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/main-panel-audio-player.png" alt="Audio Player" style="padding: 0px" />
   <figcaption></figcaption>
 </figure>
 </div>
@@ -23,7 +23,7 @@ To load an audio or MIDI file, drag it onto the Audio Player, or click the brows
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/main-panel-audio-player-midi.png" alt="Audio Player with MIDI loaded" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/main-panel-audio-player-midi.png" alt="Audio Player with MIDI loaded" style="padding: 0px" />
   <figcaption style="font-size: 0.9em;">Audio Player with a MIDI file loaded. Channels are displays in rows, and the notes as dots.</figcaption>
 </figure>
 </div>

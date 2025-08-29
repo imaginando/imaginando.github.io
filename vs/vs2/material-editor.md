@@ -4,7 +4,7 @@ VS’s built-in Material Editor allows editing and creating your own GLSL fragme
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/material-editor-clone.png" alt="Cloning a shader material from the Factory" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/material-editor-clone.png" alt="Cloning a shader material from the Factory" style="padding: 0px" />
   <figcaption style="font-size: 0.9em;">Cloning a Factory shader material.</figcaption>
 </figure>
 </div>
@@ -12,19 +12,19 @@ VS’s built-in Material Editor allows editing and creating your own GLSL fragme
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/user-materials.png" alt="User Materials" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/user-materials.png" alt="User Materials" style="padding: 0px" />
   <figcaption style="font-size: 0.9em;">User Materials.</figcaption>
 </figure>
 </div>
 <br>
 
-You can also import shader materials using the **Import** button <img src="/vs/vs2/images/import-material.png" alt="User Materials" style="padding: 0px; bottom-padding: 0px" /> located in the bottom left corner.
+You can also import shader materials using the **Import** button <img src="/vs/vs2/images/import-material.png" alt="User Materials" style="padding: 0px" /> located in the bottom left corner.
 
 VS's Material Editor consists of a text editor, a live preview window and a set of knobs representing the standard and custom material parameters.
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/material-editor.png" alt="VS's Material Editor" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/material-editor.png" alt="VS's Material Editor" style="padding: 0px" />
   <figcaption style="font-size: 0.9em;"></figcaption>
 </figure>
 </div>

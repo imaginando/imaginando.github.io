@@ -2,7 +2,7 @@
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/menu.png" alt="Settings" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/menu.png" alt="Settings" style="padding: 0px" />
   <figcaption style="font-size: 0.9em;">Click the top left icon to display the Menu, where you can find the Settings. Here you can configure the general aspects of your project, such as render output details and active audio devices.</figcaption>
 </figure>
 </div>

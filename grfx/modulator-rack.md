@@ -1,7 +1,7 @@
 # Modulator Rack
 
 <figure style="margin:0; text-align: left;">
-<img src="/grfx/images/modulator-rack.png" alt="Modulator Rack" style="padding: 0px; bottom-padding: 0px" />
+<img src="/grfx/images/modulator-rack.png" alt="Modulator Rack" style="padding: 0px" />
 <figcaption>Modulator panel with draggable Waveform Display. LFO selectors on the left side.</figcaption>
 </figure>
 <br>
@@ -26,7 +26,7 @@
 **Once you drop the modulator on a parameter** you’ll be able to control the amount of modulation to give it. **You’ll enter the Quick Modulation mode**, shown by a blinking state of the LFO waveform display. When in this mode, **rather than setting the base parameter, you’ll be setting the amount of modulation from the selected LFO**.
 
 <figure style="margin:0; text-align: left;">
-<img src="/grfx/images/quick-modulation-overlay.png" alt="Quick Modulation Overlay" style="padding: 0px; bottom-padding: 0px" />
+<img src="/grfx/images/quick-modulation-overlay.png" alt="Quick Modulation Overlay" style="padding: 0px" />
 <figcaption>Modulated parameter in Quick Modulation mode. In this mode, touching the knob will edit the amount of modulation applied to the parameter.</figcaption>
 </figure>
 <br>
@@ -40,12 +40,12 @@ To exit this mode, click the LFO waveform display area. You can click it again t
 ### Modulations Panel
 
 <figure style="margin:0; text-align: left;">
-<img src="/grfx/images/modulations-panel.png" width=800 alt="Modulations Panel" style="padding: 0px; bottom-padding: 0px" />
+<img src="/grfx/images/modulations-panel.png" width=800 alt="Modulations Panel" style="padding: 0px" />
 </figure>
 <figcaption>The Modulations Panel lets you manage all active modulations.</figcaption>
 <br>
 
-You can also access the **Modulations Panel** for a general view of the current modulations by clicking the bottom right icon of the waveform display <img src="/grfx/images/show-modulations-panel.png" alt="Show Modulations" style="padding: 0px; bottom-padding: 0px" />.
+You can also access the **Modulations Panel** for a general view of the current modulations by clicking the bottom right icon of the waveform display <img src="/grfx/images/show-modulations-panel.png" alt="Show Modulations" style="padding: 0px" />.
 
 You can see which parameters are being modulated by each LFO and change the corresponding amounts. If you wish to **delete modulations, press the bin icon and then the modulations you want to remove**.
 

@@ -2,7 +2,7 @@
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/main-panel-media-manager.png" alt="Media Manager" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/main-panel-media-manager.png" alt="Media Manager" style="padding: 0px" />
   <figcaption></figcaption>
 </figure>
 </div>

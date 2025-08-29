@@ -1,6 +1,6 @@
 # VS Help
 
-Thank you for your interest in **VS** - Visual Synthesizer.
+Thank you for your interest in **VS - Visual Synthesizer**.
 
 VS provides an easy and intuitive way to create reactive visuals from your musical projects and compositions. It consists of a collection of customisable materials which can be blended together to create personalised visual compositions.
 

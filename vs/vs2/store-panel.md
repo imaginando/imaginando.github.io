@@ -1,10 +1,10 @@
 # Store Panel
 
-Click the **Store Panel** icon <img src="/vs/vs2/images/panel-store-icon.png" alt="Store Panel Icon" style="padding: 0px; bottom-padding: 0px" /> in the bottom left corner of the interface to open the Store Panel.
+Click the **Store Panel** icon <img src="/vs/vs2/images/panel-store-icon.png" alt="Store Panel Icon" style="padding: 0px" /> in the bottom left corner of the interface to open the Store Panel.
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/panel-store.png" alt="Store Panel" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/panel-store.png" alt="Store Panel" style="padding: 0px" />
   <figcaption style="font-size: 0.9em;"></figcaption>
 </figure>
 </div>

@@ -1,7 +1,7 @@
 # Harmonic Triangle
 
 <figure style="margin:0; text-align: left;">
-<img src="/grfx/images/harmonic-triangle.png" alt="Harmonic Triangle" style="padding: 0px; bottom-padding: 0px" />
+<img src="/grfx/images/harmonic-triangle.png" alt="Harmonic Triangle" style="padding: 0px" />
 </figure>
 <br>
 
@@ -16,12 +16,14 @@ For a quick triad selection we have added a **chord list**, with 32 available op
 **If you’re into microtonal sounds or detuning, you can use the free pitch mode which will let you choose continuous values for the transposition.**
 
 On the bottom left you can select the pitch quantization mode:
+
 - **Quantized** - The pitch knobs will be quantized to semitones.
 - **Free** - The pitch knobs will be continuous, letting you fine tune and set microtones.
 
 On the bottom right you can select the interval selection mode:
+
 - **Random** - Every time a grain is fired, a new interval will be chosen according to the probability of each vertex.
-- **Fixed** - When moving the node, each grain will be assigned an interval according to its proximity to the vertices. These intervals are calculated deterministically and persist until the node is moved to a different position. 
+- **Fixed** - When moving the node, each grain will be assigned an interval according to its proximity to the vertices. These intervals are calculated deterministically and persist until the node is moved to a different position.
 
 The pitch knobs and the X/Y position of the node can be modulated by the LFOs for melodic variation and even more organic and unique results.
 

@@ -2,7 +2,7 @@
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/patch-manager.png" alt="Patch Manager" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/patch-manager.png" alt="Patch Manager" style="padding: 0px" />
   <figcaption style="font-size: 0.9em;"></figcaption>
 </figure>
 </div>
@@ -29,7 +29,7 @@ To save a patch, click on the save icon in the Status Bar. This will open the **
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/save-dialog.png" alt="Save Dialog" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/save-dialog.png" alt="Save Dialog" style="padding: 0px" />
   <figcaption style="font-size: 0.9em;"></figcaption>
 </figure>
 </div>

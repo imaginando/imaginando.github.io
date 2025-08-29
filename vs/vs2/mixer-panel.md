@@ -2,7 +2,7 @@
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/main-panel-mixer.png" alt="Mixer Panel" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/main-panel-mixer.png" alt="Mixer Panel" style="padding: 0px" />
   <figcaption></figcaption>
 </figure>
 </div>
@@ -16,7 +16,7 @@ You can select layers using the 1 – 9 number keys as shortcuts. See all shortc
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/panel-mixer-parameters.png" alt="Mixer Panel" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/panel-mixer-parameters.png" alt="Mixer Panel" style="padding: 0px" />
   <figcaption></figcaption>
 </figure>
 </div>
@@ -51,7 +51,7 @@ Let’s dive deeper into the parameters for each material type:
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/panel-mixer-layer-strip.png" alt="Mixer Panel" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/panel-mixer-layer-strip.png" alt="Mixer Panel" style="padding: 0px" />
   <figcaption style="font-size: 0.9em;">Control strip for a single Layer.</figcaption>
 </figure>
 </div>
@@ -92,7 +92,7 @@ The **Layer context menu** can be opened by right clicking the Layer thumbnail. 
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/panel-mixer-context-menu.png" alt="Layer Context Menu" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/panel-mixer-context-menu.png" alt="Layer Context Menu" style="padding: 0px" />
   <figcaption style="font-size: 0.9em;">Context menu.</figcaption>
 </figure>
 </div>
