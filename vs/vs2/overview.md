@@ -12,7 +12,7 @@
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-<img src="/vs/vs2/images/status-bar.png" alt="Status bar" style="padding: 0px" />
+<img src="/vs/vs2/images/status-bar.png" alt="Status bar" style="padding: 0px; max-width: 90%" />
 </figure>
 </div>
 <br>
