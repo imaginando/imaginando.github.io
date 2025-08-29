@@ -2,7 +2,7 @@
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs2/images/main-panel-media-manager.png" alt="Media Manager" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/main-panel-media-manager.png" alt="Media Manager" style="padding: 0px; bottom-padding: 0px" />
   <figcaption></figcaption>
 </figure>
 </div>
@@ -13,6 +13,7 @@ The panel displays the **Media Name** and **Path** for each Layer. Any media tha
 
 [When exporting custom banks or patches](patch-manager), you have the option to export assets as well. This will export the media files in a folder alongside the bank/patch file. Use the Media Manager to import the media when importing on another computer.
 
-***
+---
+
 [Previous: Playlist](playlist)<br>
 [Next: MIDI Mapping](midi-mapping)

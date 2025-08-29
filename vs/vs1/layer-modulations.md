@@ -1,13 +1,13 @@
 # Layer Modulations
 
 This panel is divided into three sections: LFOs, envelopes and audio modulation.
-These are audio related terms that we chose to adopt so people using this software with their audio compositions can feel at home in the visual world also. 
+These are audio related terms that we chose to adopt so people using this software with their audio compositions can feel at home in the visual world also.
 
 However, if you’re new to these terms we will happily explain them right now.
 
 ## Modulation Sources
 
-<img alt="VS Layer Controls" src="/vs1/images/modulation-sources@2x.png" width="977" height="167"/>
+<img alt="VS Layer Controls" src="/vs/vs1/images/modulation-sources@2x.png" width="977" height="167"/>
 
 ### LFO
 
@@ -16,12 +16,13 @@ This is an acronym for Low Frequency Oscillator. LFOs are signals with very low 
 On the left of the panel is the LFOs section. There are 4 independent LFOs, accessed using the numbered buttons, and each LFO consists of the following parameters:
 
 - **Waveform** - Click to cycle through these available types:
-    - **SINE** - Sinusoidal
-    - **SQR** - Square
-    - **SAW** - Sawtooth
-    - **TRI** - Triangle
-    - **S&H** - Sample and hold (this will give you jumps between random values for modulation)
-    - **FS&H** - Filtered sample and hold (the same as sample and hold but there will be a ramp between values, causing smooth glides between random values rather than jumps)
+
+  - **SINE** - Sinusoidal
+  - **SQR** - Square
+  - **SAW** - Sawtooth
+  - **TRI** - Triangle
+  - **S&H** - Sample and hold (this will give you jumps between random values for modulation)
+  - **FS&H** - Filtered sample and hold (the same as sample and hold but there will be a ramp between values, causing smooth glides between random values rather than jumps)
 
 - **Rate** - Define the speed of the LFO. This will set the frequency of the oscillation that will determine how fast the values are changed
 
@@ -35,9 +36,11 @@ A visual representation of the waveform is shown to the left of the controls.
 
 <br/>
 
-***
+---
+
 **Note: playing with the LFOs will only produce visible changes when they have been assigned to targets in the Modulation Matrix (see below for details).**
-***
+
+---
 
 <br/>
 
@@ -57,17 +60,21 @@ We provide you two independent EGs to choose from.
 
 <br/>
 
-***
+---
+
 **Note: by default EG1 is set to modulate layer BRIGHTNESS parameter in the modulation matrix. This allows a layer to be “played” with notes on/off when TRIGGER mode is set to MIDI. When a note on event is received, BRIGHTNESS will ramp from 0 to its level, in ATTACK time. You can change this at any time in the matrix modulation panel.**
-***
+
+---
+
 **Note: bear in mind that the EG is just like an LFO, a way for you to have a signal that can act as a modulator. But while the LFO is always running, the EG needs a trigger to activate its attack stage, and another trigger to activate its release stage. Then you can use it to modulate the available parameters in the matrix panel.**
-***
+
+---
 
 <br/>
 
 ### Audio Modulators
 
-Finally, on the right of the modulators panel there is the audio modulator panel. Here it’s possible to use the input audio as a modulation source, just like the LFOs and EGs. 
+Finally, on the right of the modulators panel there is the audio modulator panel. Here it’s possible to use the input audio as a modulation source, just like the LFOs and EGs.
 
 There are four independent audio modulators, with two modes of operation:
 
@@ -80,7 +87,7 @@ Remember that each audio modulator is independent, so you can have different aud
 Audio modulator parameters:
 
 - **Numbered boxes** - select the desired audio modulator
-Mode - Select the mode of the current audio modulator (Gate or Spectrum)
+  Mode - Select the mode of the current audio modulator (Gate or Spectrum)
 - **Threshold** - Define the limit where the input will start to be used as modulation
 - **Gain** - This serves as a multiplier of the resulting modulation values. It can be useful to amplify quieter signals or to reduce strong ones
 - **Attack** - As explained above, the attack is related to the amount of time a given signal takes to reach the maximum value as soon as there is an on trigger. In this case, we consider the signal passing the threshold as the trigger, and its current value as the target. So what attack will do is to make a kind of ramp between values. The greater the amount of attack, the slower it will change the output of the modulator. In other words, longer attacks will cause slower onset of modulations
@@ -88,7 +95,7 @@ Mode - Select the mode of the current audio modulator (Gate or Spectrum)
 
 ## Modulation Matrix
 
-<img alt="VS Layer Controls" src="/vs1/images/modulation-matrix@2x.png" width="977" height="167" />
+<img alt="VS Layer Controls" src="/vs/vs1/images/modulation-matrix@2x.png" width="977" height="167" />
 
 The modulation matrix panel lets you assign modulation sources to specific layer parameters, arranged in a two dimensional grid of cells, with modulation sources on the x axis (top) and parameters on the y axis (left). Clicking a cell value and then dragging either up/down or left/right will decrease or increase the amount of modulation effect that the source will have on the parameter. This value can range from -1 to +1, with the default setting zero representing no modulation effect. To aid visual clarity, each cell shows a white horizontal line under the value, if the value is greater than or less than zero. The origin point of the line is centered, so positive values draw to the right and negative to the left.
 
@@ -101,9 +108,11 @@ In addition to the LFO, EG and AM (audio modulator) modulation sources, a furthe
 
 <br/>
 
-***
+---
+
 **Tip: to reset all of a layer’s matrix values to zero, click and hold the layer button, located on the render area, select ‘reset’ from the pop-up menu, then select the ‘modulation matrix’ radio button and click reset.**
-***
+
+---
 
 <br/>
 

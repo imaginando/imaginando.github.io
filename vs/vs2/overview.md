@@ -1,9 +1,8 @@
 # Overview
 
-
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs2/images/overview.png" alt="VS Overview" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/overview.png" alt="VS Overview" style="padding: 0px; bottom-padding: 0px" />
   <figcaption style="font-size: 0.9em;">VS 2 user interface.</figcaption>
 </figure>
 </div>
@@ -13,7 +12,7 @@
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-<img src="/vs2/images/status-bar.png" alt="Status bar" style="padding: 0px; bottom-padding: 0px" />
+<img src="/vs/vs2/images/status-bar.png" alt="Status bar" style="padding: 0px; bottom-padding: 0px" />
 </figure>
 </div>
 <br>
@@ -31,7 +30,7 @@
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-<img src="/vs2/images/render-output-bar.png" alt="Render output bar" style="padding: 0px; bottom-padding: 0px" />
+<img src="/vs/vs2/images/render-output-bar.png" alt="Render output bar" style="padding: 0px; bottom-padding: 0px" />
 </figure>
 </div>
 <br>
@@ -53,7 +52,7 @@ Displays the render output of your session. This is what will be shown during re
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs2/images/main-panel-selection.png" alt="Main panel selection" style="height: 180px;" />
+  <img src="/vs/vs2/images/main-panel-selection.png" alt="Main panel selection" style="height: 180px;" />
   <figcaption style="font-size: 0.9em;">Main panel selection icons, located in the left side bar.</figcaption>
 </figure>
 </div>
@@ -62,16 +61,16 @@ Displays the render output of your session. This is what will be shown during re
 Choose which panel to display in the Main panel area. In order:
 
 - **Mixer** - Resembling an audio mixer, you’ll be able to control the opacity of all Layers using the sliders, as well as the parameters of the selected Layer. This is the selected panel by default.
-- **Playlist** -  Create and manage a custom preset playlist.
+- **Playlist** - Create and manage a custom preset playlist.
 - **Media Manager** - View the media being used in Layers along with their path. You can also relink missing media.
-- **MIDI Mapping** -  Access and edit all MIDI mappings.
+- **MIDI Mapping** - Access and edit all MIDI mappings.
 - **Audio Player** - Load audio and MIDI files to drive your visuals.
 
 ## Selected main panel
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs2/images/main-panel-mixer.png" alt="Main panel selection area with the Mixer selected" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/main-panel-mixer.png" alt="Main panel selection area with the Mixer selected" style="padding: 0px; bottom-padding: 0px" />
   <figcaption></figcaption>
 </figure>
 </div>
@@ -86,7 +85,7 @@ For further information about a specific panel please visit the [Mixer](mixer-pa
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs2/images/info-bar.png" alt="Info bar" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/info-bar.png" alt="Info bar" style="padding: 0px; bottom-padding: 0px" />
   <figcaption></figcaption>
 </figure>
 </div>
@@ -106,7 +105,7 @@ Displays some information about the selected Layer as well as audio and MIDI sta
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs2/images/layer-properties.png" alt="Layer Properties" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/layer-properties.png" alt="Layer Properties" style="padding: 0px; bottom-padding: 0px" />
   <figcaption style="font-size: 0.9em;">The Layer Properties panel is located on the right side of the interface, and contains controls for the selected Layer.</figcaption>
 </figure>
 </div>
@@ -115,6 +114,7 @@ Displays some information about the selected Layer as well as audio and MIDI sta
 Control various Layer settings and access the Matrix to modulate both Layer and material parameters. This panel contains independent sections — Input, Color, Text, Video, and Matrix — which can be collapsed. Some are available only when relevant to the currently loaded material (eg. Text is available only when the Layer contains the Text material).
 
 Each section includes:
+
 - A Pin button that keeps the pinned tab on top.
 - A Help button that displays a brief description of the section.
 - A Revert button that resets all settings in the section to their default values.
@@ -125,7 +125,7 @@ For further information see the [Layer Properties](layer-properties) section.
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs2/images/modulation-sources-am-gate.png" alt="Modulation Sources" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/modulation-sources-am-gate.png" alt="Modulation Sources" style="padding: 0px; bottom-padding: 0px" />
   <figcaption style="font-size: 0.9em;">The Modulation Sources panel, located in the bottom right corner of the interface.</figcaption>
 </figure>
 </div>
@@ -135,6 +135,7 @@ Access and configure modulation sources to use with VS’s Modulation Matrix, le
 
 For further information see the [Modulation Sources](modulation-sources) section.
 
-***
+---
+
 [Previous: Contents](../contents)<br>
 [Next: Mixer Panel](mixer-panel)

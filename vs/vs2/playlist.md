@@ -2,12 +2,12 @@
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs2/images/main-panel-playlist.png" alt="Playlist" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/main-panel-playlist.png" alt="Playlist" style="padding: 0px; bottom-padding: 0px" />
   <figcaption></figcaption>
 </figure>
 </div>
 
-VS offers a way to create custom preset playlists, useful in live situations or for automatically changing presets. 
+VS offers a way to create custom preset playlists, useful in live situations or for automatically changing presets.
 
 By default, the playlist is empty. You can freely add presets to it, and each slot is MIDI mappable, making it easy to trigger specific presets via MIDI messages. This makes the playlist panel not only a performance tool but also a convenient MIDI mapping interface for swapping presets.
 
@@ -18,7 +18,7 @@ Once you have a list of presets, you can define the duration of each one along w
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs2/images/main-panel-playlist-top.png" alt="Playlist Top Bar" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/main-panel-playlist-top.png" alt="Playlist Top Bar" style="padding: 0px; bottom-padding: 0px" />
   <figcaption></figcaption>
 </figure>
 </div>
@@ -38,7 +38,7 @@ Once you have a list of presets, you can define the duration of each one along w
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs2/images/main-panel-playlist-item.png" alt="Playlist Entry" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/main-panel-playlist-item.png" alt="Playlist Entry" style="padding: 0px; bottom-padding: 0px" />
   <figcaption></figcaption>
 </figure>
 </div>
@@ -52,6 +52,7 @@ Once you have a list of presets, you can define the duration of each one along w
 - **Time** - Entry duration in minutes and seconds.
 - **Bin** - Remove the current entry.
 
-***
+---
+
 [Previous: Modulation Sources](modulation-sources)<br>
 [Next: Media Manager](media-manager)
