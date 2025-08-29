@@ -2,7 +2,7 @@
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="images/menu.png" alt="Settings" style="padding: 0px; bottom-padding: 0px" />
+  <img src="/vs/vs2/images/menu.png" alt="Settings" style="padding: 0px; bottom-padding: 0px" />
   <figcaption style="font-size: 0.9em;">Click the top left icon to display the Menu, where you can find the Settings. Here you can configure the general aspects of your project, such as render output details and active audio devices.</figcaption>
 </figure>
 </div>
@@ -18,17 +18,19 @@
 - **Portrait Orientation** - Swaps the Output Resolution width and height for a vertical output.
 - **Render Quality** - Select Performance for more consistent framerate or High Resolution for the best image quality.
 - **Recording**
-    - **Quality** - Level of quality/detail of VS's video recordings. The higher the setting, the larger the produced file.
-    - **Recordings Folder** - Recordings are saved to this folder. Click the folder icon to set a new folder.
+  - **Quality** - Level of quality/detail of VS's video recordings. The higher the setting, the larger the produced file.
+  - **Recordings Folder** - Recordings are saved to this folder. Click the folder icon to set a new folder.
 - **Voices** - Number of simultaneous polyphonic visual voices per Layer. With 4 polyphonic voices, each Layer can display 4 simultaneous instances of its material.
 - **Animated layer thumbnails** - If enabled, Layer thumbnails display a real-time representation of the Layer output.
 - **Shaders cache reset** - Resetting the shader cache will force them to recompile on the next reboot. Try this if shaders are failing to display.
 
 <br/>
 
-***
+---
+
 **Note** - If the frames per second counter is below the target frame rate, it means that your GPU is not capable of delivering the frame rate you request. If that is the case, you should lower the quality setting until fps reaches your target frame rate.
-***
+
+---
 
 [Previous: Store Panel](store-panel)<br>
 [Next: Shortcuts](shortcuts)
