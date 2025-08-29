@@ -35,4 +35,4 @@ If needed, don't hesitate to contact us with any questions or comments.
 
 ---
 
-[Click here for the VS version 1 manual.](vs1/contents.md)
+[Click here for the VS version 1 manual.](vs1/contents)
