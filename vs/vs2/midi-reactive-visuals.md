@@ -11,12 +11,12 @@ In this example, we’ll make a shader respond to MIDI input from a MIDI control
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <video src="https://github.com/imaginando/imaginando.github.io/blob/master/vs/vs2/videos/example-3-shader.mp4?raw=true" controls></video>
+  <video src="/vs/vs2/videos/example-3-shader.mp4?raw=true" controls></video>
   <figcaption style="font-size: 0.9em;"></figcaption>
 </figure>
 </div>
 
-### Enable MIDI Trigger mode 
+### Enable MIDI Trigger mode
 
 - In the **Layer Parameters**, change the **Trigger** mode to MIDI. This allows the shader to respond to MIDI note input and display multiple visual “voices.”
 
@@ -24,19 +24,19 @@ In this example, we’ll make a shader respond to MIDI input from a MIDI control
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <video src="https://github.com/imaginando/imaginando.github.io/blob/master/vs/vs2/videos/example-3-trigger-mode.mp4?raw=true" controls></video>
+  <video src="/vs/vs2/videos/example-3-trigger-mode.mp4?raw=true" controls></video>
   <figcaption style="font-size: 0.9em;"></figcaption>
 </figure>
 </div>
 
-### Provide MIDI input 
+### Provide MIDI input
 
-- If you have a MIDI controller: Connect it and play a few notes. You should see the shader react. 
+- If you have a MIDI controller: Connect it and play a few notes. You should see the shader react.
 - No MIDI controller? Open the **Audio Player**. Open the browser and load one of the factory demo files. These demos include preloaded MIDI tracks that will trigger visuals when played.
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <video src="https://github.com/imaginando/imaginando.github.io/blob/master/vs/vs2/videos/example-3-midi.mp4?raw=true" controls></video>
+  <video src="/vs/vs2/videos/example-3-midi.mp4?raw=true" controls></video>
   <figcaption style="font-size: 0.9em;"></figcaption>
 </figure>
 </div>
@@ -50,18 +50,20 @@ In this example, we’ll make a shader respond to MIDI input from a MIDI control
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <video src="https://github.com/imaginando/imaginando.github.io/blob/master/vs/vs2/videos/example-3-eg.mp4?raw=true" controls></video>
+  <video src="/vs/vs2/videos/example-3-eg.mp4?raw=true" controls></video>
   <figcaption style="font-size: 0.9em;"></figcaption>
 </figure>
 </div>
 
-### Optional: Adjust Layer Input settings 
-- With your Layer selected, open the Input tab in the Layer Properties panel (right side of the interface).
-- In the MIDI section, you can: 
-    - Filter by Channel — useful if you want different layers to respond to different MIDI tracks. 
-    - Set Note Range — limit which notes will trigger the shader. 
-    - Set Voice Mode to Poly (up to 4 voices shown at once) or Mono (only the most recent note is shown).
+### Optional: Adjust Layer Input settings
 
-***
+- With your Layer selected, open the Input tab in the Layer Properties panel (right side of the interface).
+- In the MIDI section, you can:
+  - Filter by Channel — useful if you want different layers to respond to different MIDI tracks.
+  - Set Note Range — limit which notes will trigger the shader.
+  - Set Voice Mode to Poly (up to 4 voices shown at once) or Mono (only the most recent note is shown).
+
+---
+
 [Previous: Using the Visualizers](visualizers)<br>
 [Next: VS as a plug-in in your DAW](vs-plugin)
