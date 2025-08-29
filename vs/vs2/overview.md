@@ -85,7 +85,7 @@ For further information about a specific panel please visit the [Mixer](mixer-pa
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
-  <img src="/vs/vs2/images/info-bar.png" alt="Info bar" style="padding: 0px" />
+  <img src="/vs/vs2/images/info-bar.png" alt="Info bar" style="padding: 0px; max-width: 90%" />
   <figcaption></figcaption>
 </figure>
 </div>
