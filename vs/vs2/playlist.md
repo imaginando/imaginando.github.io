@@ -11,8 +11,8 @@ VS offers a way to create custom preset playlists, useful in live situations or 
 
 By default, the playlist is empty. You can freely add presets to it, and each slot is MIDI mappable, making it easy to trigger specific presets via MIDI messages. This makes the playlist panel not only a performance tool but also a convenient MIDI mapping interface for swapping presets.
 
-It is also a way of having a specific list of presets which can be selected using the arrow buttons.
-Once you have a list of presets, you can define the duration of each one along with fade in and fade out times for smooth transitions. The fade times are applied when a preset is selected manually (via mouse click), triggered through MIDI, or when the current preset’s time is up and it moves on to the next one.
+It is also a way of having a list of presets which can be selected using the arrow buttons.
+Once you have a prepared playlist, you can define the duration of each one along with fade in and fade out times for smooth transitions. The fade times are applied when a preset is selected manually (via mouse click), triggered through MIDI, or when the current preset’s time is up and it moves on to the next one.
 
 ### Top Bar
 
@@ -51,6 +51,7 @@ Once you have a list of presets, you can define the duration of each one along w
 - **Pencil** - When active lets you change the entry duration.
 - **Time** - Entry duration in minutes and seconds.
 - **Bin** - Remove the current entry.
+- **Drag indicator** - Press and drag to change the entry's position in the Playlist.
 
 ---
 
