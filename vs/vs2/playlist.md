@@ -28,7 +28,7 @@ Once you have a prepared playlist, you can define the duration of each one along
 - **Stop** - Stop the playlist.
 - **Loop** - Turns loop on/off. When off, once the playlist reaches the final entry, it will stop.
 - **Top Arrow** - Triggers the preset of the previous entry.
-- **Bottom Arrow** - Triggered the preset of the next entry.
+- **Bottom Arrow** - Triggers the preset of the next entry.
 - **Pencil** - When active, lets you edit general duration and fade times.
 - **Time** - Default preset duration in minutes and seconds. Changing this will overwrite the settings on every entry.
 - **Fade in** - Default preset fade in in seconds. Changing this will overwrite the setting on every entry.
