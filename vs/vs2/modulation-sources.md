@@ -97,6 +97,7 @@ It works similarly to Gate mode, but you can click and drag the spectrum to isol
 - **Release** - Once the incoming audio drops under the Threshold, the generated modulation signal starts fading to 0. A large release value makes it decrease slowly, making it fade out over time. Low values make it disappear abruptly.
 - **Input** - Select audio input. These are the input channels of your **Input Audio Device**. Audio from the **Audio Player** is always available as ‘Player’.
 - **Lock** - Keep this AM’s state when changing through patches.
+- **Value Display** - This vertical bar provides a helpgul visualization of the generated modulation signal.
 
 ---
 
