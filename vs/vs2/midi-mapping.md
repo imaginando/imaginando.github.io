@@ -16,7 +16,7 @@ All your MIDI mappings are displayed in the MIDI Mapping panel. To create a mapp
 </figure>
 </div>
 
-The **MIDI Mapping** panel displays the mapped **Parameter** name alongside the **Channel**, **Message** (type and number) and **Resolution**. Under **Actions** you can delete the mapping or open the **MIDI Assign** dialog, where you can configure the mapping.
+The **MIDI Mapping** panel displays the mapped **Parameter** name alongside the **Channel**, **Message** (type and number), **Range** and **Resolution**. Under **Actions** you can delete the mapping or open the **MIDI Assign** dialog, where you can configure the mapping.
 
 <div style="text-align: center;">
 <figure style="text-align: center;">
@@ -28,6 +28,7 @@ The **MIDI Mapping** panel displays the mapped **Parameter** name alongside the 
 - **MIDI Message** - Select between a Note and a CC (control change) message.
 - **Channel** (1 - 16)
 - **CC/Note** (0 - 127)
+- **Min/Max** - Set the mapping range minimum and maximum values.
 - **14-bit MIDI** (CC only) - Enable this if you’re mapping to high resolution MIDI CC messages. Some high-end MIDI controllers may need this.
 - **Reset** - Delete the mapping.
 - **Cancel**
