@@ -1,6 +1,6 @@
 # Effect Rack
 
-<img src="/grfx/images/effect-rack.png" alt="Effect Rack" style="padding: 0px; bottom-padding: 0px" />
+<img src="/grfx/images/effect-rack.png" alt="Effect Rack" style="padding: 0px" />
 <br>
 <br>
 
@@ -23,23 +23,23 @@ A Multi-mode filter with 6 different modes.
 - **Cutoff** - Filter cutoff frequency.
 - **Resonance** - Resonance or Q factor of the filter; creates a resonant peak at the cutoff frequency.
 - **Mode** - Filter Mode.
-    - **Lowpass** - A low-pass filter allows low frequency content to pass through, cutting high frequency content.
-    - **Bandpass** - A band-pass filter allows only a restricted frequency band to pass through, attenuating frequencies above and below. 
-    - **Highpass** - A high-pass filter allows high frequency content to pass through, attenuating low frequency content.
-    - **Notch** - A notch filter is a filter that cuts a very restricted band of frequencies. The Q factor designates how narrow the band is. Can be used to achieve a phaser-like effect, especially.
-    - **Peak** - A peak filter amplifies a frequency band with the resonance determining the amplification amount, creating a resonant peak at high values.
+  - **Lowpass** - A low-pass filter allows low frequency content to pass through, cutting high frequency content.
+  - **Bandpass** - A band-pass filter allows only a restricted frequency band to pass through, attenuating frequencies above and below.
+  - **Highpass** - A high-pass filter allows high frequency content to pass through, attenuating low frequency content.
+  - **Notch** - A notch filter is a filter that cuts a very restricted band of frequencies. The Q factor designates how narrow the band is. Can be used to achieve a phaser-like effect, especially.
+  - **Peak** - A peak filter amplifies a frequency band with the resonance determining the amplification amount, creating a resonant peak at high values.
 
 #### Distortion
 
-This is a distortion device that can alter the sound from subtle amplification gain saturation to clipping and fuzz effects. 
+This is a distortion device that can alter the sound from subtle amplification gain saturation to clipping and fuzz effects.
 
 - **Drive** - Pre distortion input gain.
 - **Output** - Post distortion output volume control.
 - **Type** - Distortion type.
-    - **Sat** - Classic saturation.
-    - **Fold** - Saturated wavefolding; a mix of saturation and sinusoidal wavefolding.
-    - **Fuzz** - Extreme gain and hard clipping for a harsh distortion effect.
-    - **Nock** - Asymmetrical waveshaping that introduces discontinuities in the crest for a very noisy sound.
+  - **Sat** - Classic saturation.
+  - **Fold** - Saturated wavefolding; a mix of saturation and sinusoidal wavefolding.
+  - **Fuzz** - Extreme gain and hard clipping for a harsh distortion effect.
+  - **Nock** - Asymmetrical waveshaping that introduces discontinuities in the crest for a very noisy sound.
 - **Pre HP** - Pre distortion highpass filter frequency. Reduces low frequency content prior to distorting.
 - **Post LP** - Post distortion lowpass filter frequency. Reduces high frequency harmonics introduced by the distortion.
 - **Dry/Wet** - Mix between the unprocessed and processed signals.
@@ -75,8 +75,8 @@ The chorus effect simulates the subtle pitch and timing differences that occur w
 - **Depth** - Modulation amount.
 - **Feedback** - Amount of signal to be fed back into the circuit.
 - **Mode** - Switch between the different algorithms.
-    - **ANA** - Analog.
-    - **DIM** - Dimension.
+  - **ANA** - Analog.
+  - **DIM** - Dimension.
 - **Dry/Wet** - Mix between the unprocessed and processed signals.
 
 #### Phaser
@@ -109,7 +109,7 @@ This is a reverb effect that can recreate different acoustic spaces from small r
 
 ### Sends 1 & 2
 
-<img src="/grfx/images/sends.png" width=350 alt="Sends" style="padding: 0px; bottom-padding: 0px" />
+<img src="/grfx/images/sends.png" width=350 alt="Sends" style="padding: 0px" />
 <br>
 <br>
 
@@ -135,7 +135,7 @@ In the mixer panel you can adjust the volumes of the various audio signals for f
 
 The mixer also features a meter in the bottom to monitor the output level of the plugin.
 
-<img src="/grfx/images/output-meter.png" alt="Output Meter" style="padding: 0px; bottom-padding: 0px" />
+<img src="/grfx/images/output-meter.png" alt="Output Meter" style="padding: 0px" />
 
 <br>
 <br>

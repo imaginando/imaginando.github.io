@@ -2,7 +2,7 @@
 
 **DLYM** takes an input signal and allows the user to add a customised, simulated delay to the playback of the audio which results in phase irregularities, commonly referred to as chorus, flanger and phaser effects.
 
-<img src="/dlym/images/overview.png" alt="DLYM Overview" style="padding: 40px; bottom-padding: 0px" />
+<img src="/dlym/images/overview.png" alt="DLYM Overview" style="padding: 40px" />
 
 **DLYM** consists of a menu/status bar along the top, and controls to access the parameters below.
 

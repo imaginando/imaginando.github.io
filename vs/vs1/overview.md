@@ -6,7 +6,7 @@ A layer is a polyphonic synthesis engine which means that the same material can 
 
 ## User Interface
 
-<img src="/vs/images/overview@2x.png" alt="VS overview" width="1024" height="768" />
+<img src="/vs/vs1/images/overview@2x.png" alt="VS overview" width="1024" height="768" />
 
 VS’ interface consists of the following elements:
 
@@ -48,9 +48,11 @@ The status bar also contains four icon buttons (from left to right):
 
 <br/>
 
-***
+---
+
 **Note: you can also navigate through presets in the current bank by swiping up/down in the render area.**
-***
+
+---
 
 <br/>
 

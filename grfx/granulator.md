@@ -1,9 +1,9 @@
 # Granulator
 
-The union of various simultaneous fragments made from incoming sound is the basis of this effect. The left half of the Granulator panel contains controls for the speed and number of grains being fired, providing control over the general "density" of the sound. **Each grain reads from a buffer continuously recording the input audio**, displayed in the top left corner of the granulator along with each grain’s position. 
+The union of various simultaneous fragments made from incoming sound is the basis of this effect. The left half of the Granulator panel contains controls for the speed and number of grains being fired, providing control over the general "density" of the sound. **Each grain reads from a buffer continuously recording the input audio**, displayed in the top left corner of the granulator along with each grain’s position.
 
 <figure style="margin:0; text-align: left;">
-<img src="/grfx/images/granulator-left.png" width=250 alt="Granulator (left half)" style="padding: 0px; bottom-padding: 0px" />
+<img src="/grfx/images/granulator-left.png" width=250 alt="Granulator (left half)" style="padding: 0px" />
 <figcaption>Left side of the granulator.</figcaption>
 </figure>
 <br>
@@ -17,7 +17,7 @@ Both Frequency and Offset have dedicated **Random** controls. The **Frequency’
 The **Grains** parameter determines the number of grains that will play per cycle. By controlling the Grains, Frequency and Offset parameters, and making use of their Random functionalities, you can easily meander between **sparse, periodic sequences and dense sonic clouds**.
 
 <figure style="margin:0; text-align: left;">
-<img src="/grfx/images/granulator-buffer.png" alt="Granulator Buffer" style="padding: 0px; bottom-padding: 0px" />
+<img src="/grfx/images/granulator-buffer.png" alt="Granulator Buffer" style="padding: 0px" />
 <figcaption>Buffer display and controls.</figcaption>
 </figure>
 <br>
@@ -31,7 +31,7 @@ This section is accompanied by four controls: **Sync**, **Size**, **Division** a
 **Freeze** - represented by the snowflake icon - will stop the buffer writing, holding its current material until unfrozen.
 
 <figure style="margin:0; text-align: left;">
-<img src="/grfx/images/granulator-right.png" alt="Granulator (right half)" width=250 style="padding: 0px; bottom-padding: 0px" />
+<img src="/grfx/images/granulator-right.png" alt="Granulator (right half)" width=250 style="padding: 0px" />
 <figcaption>Right side of the granulator.</figcaption>
 </figure>
 <br>
@@ -45,16 +45,17 @@ The **Route** parameter is a unique **probability-based routing control that det
 **Rev. Prob** (Reverse Probability) introduces a chance for the grains to read from the buffer in reverse.
 
 ### Parameters
+
 - **Frequency** - Grain cycle rate. Every grain will fire once per cycle.
-    - **Random** - Randomization of the grains' firing times.
-    - **Sync** - Synchronizes the parameter to tempo-aware beat times.
+  - **Random** - Randomization of the grains' firing times.
+  - **Sync** - Synchronizes the parameter to tempo-aware beat times.
 - **Offset** - Grain reading position offset from the write position. Similar to a pre-delay.
-    - **Random** - Randomization of the grains' read positions in the buffer.
-    - **Sync** - Synchronizes the parameter to tempo-aware beat times.
+  - **Random** - Randomization of the grains' read positions in the buffer.
+  - **Sync** - Synchronizes the parameter to tempo-aware beat times.
 - **Grains** - Number of playing grains.
 
 - **Buffer Size** - Size of the input buffer that grains read from. A short size will result in grains always reading recent material, while a large buffer allows grains to read very far back.
-    - **Buffer Sync** - Synchronizes the buffer size to a tempo-aware beat time.
+  - **Buffer Sync** - Synchronizes the buffer size to a tempo-aware beat time.
 - **Buffer Division** - Slices the buffer into a number of regions. When enabled, the grains can only start reading from these pre-defined positions. The Offset's Randomp control will make grains snap to positions farther back in the buffer.
 - **Buffer Freeze** - Stops buffer input, holding the currently recorded audio indefinitely.
 
@@ -62,7 +63,7 @@ The **Route** parameter is a unique **probability-based routing control that det
 - **Shape** - Skews the amplitude window left and right, turning it into a pluck-like shape or a growing ramp.
 - **Stereo** - Randomness of the grains' stereo positions.
 - **Size** - Play length of the grain.
-    - **Sync** - Synchronizes the size to a tempo-aware beat time.
+  - **Sync** - Synchronizes the size to a tempo-aware beat time.
 - **Route** - Probability of sending grains to **route A** or **route B**. Route A is processed by the Multi-effect chain, while B bypasses it.
 - **Rev. Prob.** - Probability of the grain reading from the buffer in reverse.
 
