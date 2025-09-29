@@ -2,50 +2,61 @@
 
 ![LK Keyboard Module Overview](/lk/images/keyboard/overview.jpg?width=2048&height=1536)
 
-The Keyboard module serves as an enhanced Ableton Live or MIDI keyboard controller, with 3-axis expression capabilities. It is fully customisable to scale and keyboard range. It also allows the possibility of mapping Ableton Live or MIDI CC parameters to be controlled by where you touch each key, providing additional expression opportunities to the performance of each note.
+The Keyboard module features two individual keyboards with 3-axis expression capabilities and, in MIDI MODE, MPE expression. It is fully customisable to scale and keyboard range. You can also map Ableton Live or MIDI CC parameters to the X/Y position touched within the key, providing additional expression opportunities.
 
-The interface features an adjustable view-port, pitch bend and modulation wheel controls and a HOLD function which allows the sustain of notes, just like a sustain pedal.
+Depending on the selected mode, you will find different fields in the status bar, located at the top of the screen:
 
-The view-port adjustment control is located across the top of the screen, consisting of a solid green line with two draggable circle handles at each end, which represent the visible range of keyboard notes displayed in the view-port.
+- **MODE** - Toggle between MIDI and LIVE modes.
+- **TEMPO** - Adjust tempo. This affects the arpeggiator. In LIVE MODE, this also sets the Ableton Live session tempo.
+- **DEVICE (MIDI MODE)** - Select output MIDI device.
+- **CHANNEL (MIDI MODE)** - Select output MIDI output channel.
+- **SELECTED TRACK** - In MIDI MODE, select the Matrix track. In LIVE MODE, change the selected Ableton Live track.
+- **TRACK ARMED** - Arm the select track.
+- **REC. QUANT.** - Set recording quantization. Quantizes the recorded notes to the designated beat division.
+- **MPE (MIDI MODE)** - Turns the keyboard into an MPE controller.
+
+The interface features an adjustable view-port, pitch bend and modulation wheel controls and a HOLD function for holding pressed notes.
+
+The view-port adjustment controls are located across the top of the keyboards, consisting of a solid green line with two draggable circle handles at each end, which represent the visible range of keyboard notes.
 
 ![LK Keyboard Module view-port adjustment control](/lk/images/keyboard/viewport-control.png)
 
-Drag either circle to adjust the visible range of notes displayed in the viewport; the larger the range, the greater the number of notes that are displayed, with all notes resized accordingly.
+Drag either circle to adjust the visible range; the larger the range, the greater the number of notes that are displayed, with all notes resized accordingly.
 
 Drag the centre of the green line to scroll/move up and down the visible octaves.
 
-The Keyboard has a settings area that you can open by dragging the == icon, or tapping anywhere else inside the bar to instantly maximize/minimize.
+The Keyboard has an Inspector panel that you can open by dragging the == icon, or tapping anywhere else inside the bar to maximize/minimize.
 
-## Settings
+## Scale
 
-The Keyboard has three settings columns to fully customize its use: Scale, Arpeggiator and Modulation.
+A root key can be chosen to serve as the tonic note of a selected scale. There are many musical scales available to choose from, which will automatically adapt the keyboard to its corresponding intervals. You can also build your own custom scale.
 
-### Scale
+When a scale other than the Chromatic scale is selected, the keyboard folds to display the scale notes.
 
-Here, a root key can be chosen to serve as the tonic note of a selected scale. There are many musical scales available to choose from, which will automatically adapt the keyboard to its corresponding intervals. You can also set a custom scale, and choose which notes are included/shown.
+## Arpeggiator
 
-### Arpeggiator
+The arpeggiator has the following parameters:
 
-The Keyboard module is equipped with an arpeggiator to further improve its performance.
-The arpeggiator unit is composed of the following parameters:
+- **ON** - Toggles the arpeggiator on/off.
+- **SYNC** - Synchronises the arpeggiator to the tempo.
+- **MODE** - Order in which the arpeggio notes will be played.
+  - **UP** - Notes are played from low to high.
+  - **DOWN** - Notes are played from high to low.
+  - **UP/DOWN I** - Notes are played from low to high and then from high to low.
+  - **UP/DOWN II** - Notes are played from low to high and then from high to low but repeating the highest and lowest notes.
+  - **RANDOM** - Notes are played at random.
+- **STEPS** - Number of octaves the arpeggio will go up to.
+- **RATE** - Arpeggiator rate.
+- **GATE** - Length of each note event (time on vs time off).
 
-- **ON** - toggle the arpeggiator on and off
-- **SYNC** - synchronize the arpeggiator to the session tempo
-- **MODE** - the order in which the arpeggio notes will be played. There are four modes available:
-  - **Up** - notes are played from lowest to highest
-  - **Down** - notes are played from highest to lowest
-  - **Up/Down I** - notes are played from lowest to highest and then from highest to lowest.
-  - **Up/Down II** - notes are played from lowest to highest and then from highest to lowest but repeating the highest and lowest notes
-  - **Random** - notes are played at random
-- **STEPS** - set the number of octaves included in the arpeggio
-- **RATE** - define the arpeggiator rate
-- **GATE** - define the length of each note's event (time on vs time off).
-  When sync is off, arpeggiator rate is measured in milliseconds. By turning sync on, the arpeggiator will sync to the session BPM and the rate will be available in 21 quantized steps, ranging from 2/1 to 1/128 including dotted and triplet values.
+When sync is off, arpeggiator rate units are in milliseconds. Turning sync on synchronises the arpeggiator to beat divisions, ranging from 2/1 to 1/128 including dotted and triplet values.
 
-### Modulation
+## Modulation
 
-This section allows the mapping of any Ableton Live or MIDI CC parameter, to the relative position inside the key that it is pressed, on a specific axis. This means, for example, if we map the velocity of a MIDI channel to the Y axis, the key will play with more velocity when touched near the top of the note.
+This section allows the mapping of Ableton Live parameters or MIDI CCs to the relative position pressed within the key. X, Y and Z axes may be mapped, with Z acting as a MIDI trigger (on on press, off on release).
 
-To map a parameter to the Keyboard, just press the corresponding axis. If in Live mode, changing the parameter to map will automatically assign that parameter to the chosen axis. In MIDI mode a screen will popup allowing the selection of a MIDI control change value.
+This means, for instance, if we map the velocity of a MIDI channel to the Y axis, the key will play with more velocity when touched near the top of the note.
+
+To map a parameter to the Keyboard, press the corresponding axis. In LIVE MODE, change the parameter in Ableton Live to map it. In MIDI mode, a screen will display, allowing changing the name, MIDI channel and CC output, as well as minimum and maximum output values.
 
 [Go to the LK Troubleshooting page.](troubleshooting)
