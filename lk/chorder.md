@@ -2,83 +2,78 @@
 
 ![LK Chorder Module overview](/lk/images/chorder/overview.jpg?width=2732&height=2048)
 
-The Chorder module allows for the playing of complex chords with a single tap containing a huge library of chord types, as well as a strumming utility that allows even more creative playing possibilities.
+The Chorder module lets you play from a huge variety of chords with a single tap, as well as strumming notes of a selected chord.
 
-Like all other LK modules, the Chorder module has a settings area that you can open by dragging the == icon, or tapping anywhere else inside the bar to instantly maximize/minimize.
+Depending on the selected mode, you will find different fields in the status bar, located at the top of the screen:
 
-Chorder has two modes: LIVE mode and MIDI mode - tap to toggle.
-Depending on the mode selected, you will find different fields in the status bar, located at the top of the screen:
-
-- **MODE** - allows toggling between Live and MIDI modes
-- **TEMPO** - allows BPM adjustment (affects arpeggiator). In LIVE MODE this only displays Ableton Live session tempo.
-- **DEVICE (MIDI MODE)** - selects the output MIDI device
-- **CHANNEL (MIDI MODE)** - chooses the MIDI output channel.
-- **SELECTED TRACK (LIVE MODE)** - selects the MIDI track controlled by the MIDI pads.
-- **TRACK ARMED (LIVE MODE)** - toggles record arm on track ON or OFF.
-- **REC. QUANT. (LIVE MODE)** - enable and choose record quantization.
+- **MODE** - Toggle between MIDI and LIVE modes.
+- **TEMPO** - Adjust tempo. This affects the arpeggiator. In LIVE MODE, this also sets the Ableton Live session tempo.
+- **DEVICE (MIDI MODE)** - Select output MIDI device.
+- **CHANNEL (MIDI MODE)** - Select output MIDI output channel.
+- **SELECTED TRACK** - In MIDI MODE, select the Matrix track. In LIVE MODE, change the selected Ableton Live track.
+- **TRACK ARMED** - Arm the select track.
+- **REC. QUANT.** - Set recording quantization. Quantizes the recorded notes to the designated beat division.
 
 The playing section of the Chorder is divided in two parts, the keys and the strummer. In the middle section of the Chorder is where the hexagon cells are layed out, each cell representing either a note, or a chord.
 
-Each row represents a preset and it can be fully customized, as well as the chords played throughout each of these scales.
+Each row represents a preset, which in turn consists of a group of chords. Rows may be added and removed by toggling the presets under **[PRESETS](#presets)**. A **[Layout](#layouts)** consists of a group of presets; selecting from the available layouts will toggle different selections of presets.
 
-On each side of the screen there are small horizontal lines stacked vertically which allow strumming, or playing like one would do on a string instrument.
+On each side of the screen are small horizontal lines stacked vertically for strumming, or playing like one would do on a string instrument. Each line represents a note from the selected chord across different octaves.
 
-## Settings
+Like all other LK modules, the Chorder module has an Inspector panel that you can open by dragging the == icon in the bottom, or tapping anywhere else inside the bar to maximize/minimize.
 
-The Chorder has four settings columns: Layouts, Presets, Arpeggiator and View.
+## Layouts
 
-### Layout
+A layout is a set of presets. Layouts can be recalled by pressing the corresponding name. To create a new layout, ensure that the desired presets are active and press the **+** button. This will pop up a dialog box to fill in the name for the intended layout. Any user defined layout can be deleted. Ensure that the layout is selected and then press the **-** button.
 
-A layout is a set of presets. Layouts can be recalled just by pressing the correspondent name. To create a new layout, ensure that the desired presets are active and press the + button. This will pop up a dialog box to fill in the name for the intended layout. Any user defined layout can be deleted. Ensure that the layout is selected and then press the - button.
+## Presets
 
-### Presets
+Presets are groups of chords. This section allows the stacking of factory bundled or custom user presets.
 
-This section allows the stacking of factory bundled presets or custom scales.
-To insert a scale into the playing section just press the corresponding preset and the scale will appear on the playing section as well as its corresponding name will be highlighted.
+To insert a preset in the playing section just press the corresponding preset. The chords will appear in the playing section. Selecting and de-selecting presets will add and remove them from the playing section, letting you have as many rows of chords as you need.
 
-If more scales are needed, another preset can be stacked into the playing section just by pressing another preset, in the same way that a scale can be removed from the playing section by pressing the correspondent highlighted preset.
+### Preset Creation
 
-#### Preset Creation
-
-To create a new set of Scale/Chord, on the upper right corner of this section, press the + button. A new screen will appear with the controls for scale and chord customization.
+To create a new set of chords, press the **+** button in the upper right corner of this section. A new screen will appear with the controls for scale and chord customization.
 
 This screen is divided into three rows:
 
 ![LK Chorder Module chord and scale preset creation](/lk/images/chorder/preset-creation.jpg)
 
-The first row represents the scale: here the 12 notes of a chromatic scale are represented and known scales can be selected on the right side of the row.
-Customization is also possible by pressing to select or remove keys from the scale, as well as changing the octave of the respective key by pressing the + / - buttons above and below the key.
+The first row represents the scale: here the 12 notes of a chromatic scale are displayed, and known scales can be selected on the right side of the row. The scale determines the root notes of the displayed chords. For each key selected, a pad will be available.
 
-The second row represents the chord intervals: use this row to select the intervals of notes that will define the chord. 11 higher or lower note intervals in relation to the Tone key are available for the construction of the chord. Pressing the interval adds or removes the interval from the chord and pressing the - button below the interval button toggles the interval relations from higher to lower. On the right side of this row, predefined chords are available for easy select.
+Customization is also possible by pressing to select or remove keys from the scale, as well as changing the octave of the respective key by pressing the + and - buttons above and below the key.
 
-The third row represents a preview of the preset: use this row to test your preset.
+The second row represents the chord intervals: use this row to build your chord. Pressing the interval name adds or removes the interval from the chord, and pressing the **-** button under it places it one octave lower. Each pad will play this chord (with its key serving as root note).
 
-To save a preset, tap the save button below and name it.
+The third row is a preview of the preset: use this row to test your preset.
 
-### Arpeggiator
+## Arpeggiator
 
 The arpeggiator has the following parameters:
 
-- **ON** - toggles the arpeggiator between on and off
-- **SYNC** - synchronizes the arpeggiator to the session's tempo
-- **MODE** - defines the order on which the arpeggio notes will be played. There are four modes available:
-  - **UP** - notes are played from lowest to highest.
-  - **DOWN** - notes are played from highest to lowest.
-  - **UP/DOWN I** - notes are played from lowest to highest and then from highest to lowest.
-  - **UP/DOWN II** - notes are played from lowest to highest and then from highest to lowest but repeating the highest and lowest notes.
-  - **Random** - notes are played at random.
-- **STEPS** - allows choosing the number of octaves the arpeggio will go up to.
-- **RATE** - defines the arpeggiator rate.
-- **GATE** - defines the length of each note's event (time on vs time off).
+- **ON** - Toggles the arpeggiator on/off.
+- **SYNC** - Synchronises the arpeggiator to the tempo.
+- **MODE** - Order in which the arpeggio notes will be played.
+  - **UP** - Notes are played from low to high.
+  - **DOWN** - Notes are played from high to low.
+  - **UP/DOWN I** - Notes are played from low to high and then from high to low.
+  - **UP/DOWN II** - Notes are played from low to high and then from high to low but repeating the highest and lowest notes.
+  - **RANDOM** - Notes are played at random.
+- **STEPS** - Number of octaves the arpeggio will go up to.
+- **RATE** - Arpeggiator rate.
+- **GATE** - Length of each note event (time on vs time off).
 
-When sync is off, the arpeggiator rate is shown in milliseconds. By turning sync on, the arpeggiator will sync to the section BPM and the rate will be available in 21 quantized steps, ranging from 2/1 to 1/128 including dotted and triplet values.
+When sync is off, arpeggiator rate units are in milliseconds. Turning sync on synchronises the arpeggiator to beat divisions, ranging from 2/1 to 1/128 including dotted and triplet values.
 
-### Tools
+## Tools
 
-These settings allow you to change the chorder viewport to your needs. Use the -/+ buttons to zoom out/in the viewport. To pan, hold the pan button down (the bottom right button with 4 way arrows on) and then drag left or right within the viewport.
+These settings allow you to change the Chorder viewport to your needs. Use the -/+ buttons to zoom out/in the viewport. 
 
-Use the buttons labelled with -12 and +12 for a full octave transpose of all the keys simultaneously.
+Use the buttons labeled with -12 and +12 for a full octave transpose of all the keys simultaneously.
 
-The mode key (top right button) toggles between a play icon and a stop icon. When the play icon is displayed, tapping a chord will play it. When the stop button is displayed, tappinng a chord will only select it, without playing it. (useful for selecting which notes appear in the strumming zones.)
+To pan, hold the pan button down (the bottom right button with 4 way arrows on) and then drag within the viewport.
+
+The mode key (top right button) toggles between a play icon and a stop icon. When the play icon is displayed, tapping a chord will play it. When the stop button is displayed, tapping a chord will select it without playing it. Useful for selecting which notes appear in the strumming zones.
 
 [Now for the Keyboard Module page.](keyboard)

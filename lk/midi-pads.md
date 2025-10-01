@@ -1,63 +1,67 @@
-# MIDI PADS Module - LK Help
+# MIDI Pads Module - LK Help
 
-The MIDI PADS module is composed of a 4x4 grid of MIDI PADS, velocity controls, arpeggiator, chorder and a note range selector.
+The MIDI Pads module consists of a 4x4 grid of MIDI Pads, velocity controls, arpeggiator, chorder and a note range selector.
 
-The MIDI PADS section has two modes: the MIDI mode, that can be used to control MIDI (external hardware, iOS apps, etc), and the LIVE mode, which can be used to play instruments on Ableton Live.
+The MIDI Pads section has two modes: the MIDI mode, that can be used to control MIDI (external hardware, iOS apps, etc), and the LIVE mode, which can be used to play instruments on Ableton Live.
 
-In MIDI mode, the MIDI PADS can also be routed to the MATRIX MODULE as an input source.
+In MIDI mode, the MIDI Pads can also be routed to the Matrix module as an input source.
 
-![LK MIDI PADS Module screenshot](/lk/images/pads/overview.jpg?width=2048&height=1536)
+![LK MIDI Pads Module screenshot](/lk/images/pads/overview.jpg?width=2048&height=1536)
 
-Depending on the selected mode, you will find different fields in the status bar at the top of the MIDI PADS module screen:
+Depending on the selected mode, you will find different fields in the status bar at the top of the MIDI Pads module screen:
 
-- **MODE** - allows toggling between Live and MIDI modes.
-- **TEMPO** - allows BPM adjustment, which affects the arpeggiator. In LIVE MODE, this section only displays the tempo of the Ableton Live’s session.
-- **SELECTED TRACK (LIVE MODE)** - selects the MIDI track controlled by the MIDI PADS
-- **TRACK ARMED (LIVE MODE)** - toggles record arm on track ON or OFF.
-- **REC. QUANT. (LIVE MODE)** - enable and choose record quantization.
-- **DEVICE (MIDI MODE)** - selects the MIDI device to be used.
-- **CHANNEL (MIDI MODE)** - selects the MIDI output channel to be used.
+- **MODE** - Toggle between LIVE and MIDI modes.
+- **TEMPO** - Adjust tempo. This affects the arpeggiator. In LIVE MODE, this also changes your Ableton Live session tempo.
+- **DEVICE (MIDI MODE)** - Select MIDI output device.
+- **CHANNEL (MIDI MODE)** - Select MIDI output channel.
+- **CLIP TRANSPORT** - Displays the beat time of the select clip.
+- **SELECTED TRACK** - Set selected track.
+- **TRACK ARMED** - Arm the selected track.
+- **REC. QUANT.** - Set recording quantization. Quantizes the recorded notes to the designated beat division.
+- **EDIT** - Set pad editing mode. In this mode, you can press a pad to edit its name and color.
 
-On the lower part of the screen, there is a split view bar which allows the Inspector panel to be opened. This can be done by dragging the == icon, or tapping anywhere else inside the bar to instantly maximize/minimize. This allows access to MIDI PADS settings.
+![LK MIDI Pads Property Editing](/lk/images/pads/pad-properties.png?width=2048&height=1536)
 
-## THE MIDI PADS SECTION
+In the lower part of the interface, there is a split view bar for opening the Inspector panel. Drag the == icon or tap anywhere else in the bar to maximize/minimize. This allows access to MIDI Pads settings.
 
-The MIDI PADS are layed out from C-2 to G8 notes.
+## Pads
 
-You can select the visible MIDI PADS range by dragging the finger up and down the right side area of the screen.
+The Pads are laid out from C-2 to G8.
 
-## EXPRESSIVENESS
+You can select the visible Pads range by dragging up and down the region slider to the right of the Pads.
 
-In the EXPRESSIVENESS section, you can adjust velocity response for the MIDI PADS with two parameters, changing the velocity of each note played depending on whereabouts inside the pad you press.
+The **HOLD** switch under the region slider turns the pads into switches, making them hold their notes until they're pressed again.
 
-When expressiveness mode is set to 'RADIAL' the two controls are 'CENTRE' and 'BOUNDS', and when expressiveness mode is 'LINEAR' the controls are 'TOP' and 'BOTTOM'
+## Expressiveness
 
-## PLAYING MIDI PADS WITH ARPEGGIATOR
+In the Expressiveness section, you can adjust the velocity response for the MIDI Pads. The note velocity can be programmed to change according to the pressed position within the pad.
 
-The MIDI PADS module is equipped with an arpeggiator, enhancing creativity when using the MIDI PADS. The arpeggiator unit is composed of the following parameters:
+When the expressiveness mode is set to **RADIAL**, the two controls are **CENTRE** and **BOUNDS**. When set to **LINEAR**, the controls are **TOP** and **BOTTOM**.
 
-- **ON** - toggles the arpeggiator between on and off
-- **SYNC** - synchronises the arpeggiator to the session's tempo
-- **MODE** - defines the order on which the arpeggio notes will be played. There are four modes available:
-  - **UP** - notes are played from low to high.
-  - **DOWN** - notes are played from high to low.
-  - **UP/DOWN I** - notes are played from low to high and then from high to low.
-  - **UP/DOWN II** - notes are played from low to high and then from high to low but repeating the highest and lowest notes.
-  - **RANDOM** - notes are played at random.
-- **STEPS** - allows choosing the number of octaves the arpeggio will go up to.
-- **RATE** - defines the arpeggiator rate.
-- **GATE** - defines the length of each note's event (time on vs time off).
+## Arpeggiator
 
-When sync is off, arpeggiator rate units are in milliseconds. By turning sync on, the arpeggiator will sync to the section BPM and the rate will be available in 21 quantized steps, ranging from 2/1 to 1/128 including dotted and triplet values.
+The MIDI Pads module is equipped with an arpeggiator, enhancing creativity. The arpeggiator unit has the following parameters:
 
-## PLAYING CHORDS WITH THE MIDI PADS
+- **ON** - Toggles the arpeggiator on/off.
+- **MODE** - Order in which the arpeggio notes will be played.
+  - **UP** - Notes are played from low to high.
+  - **DOWN** - Notes are played from high to low.
+  - **UP/DOWN I** - Notes are played from low to high and then from high to low.
+  - **UP/DOWN II** - Notes are played from low to high and then from high to low but repeating the highest and lowest notes.
+  - **RANDOM** - Notes are played at random.
+- **SYNC** - Synchronises the arpeggiator to the tempo.
+- **STEPS** - Number of octaves the arpeggio will go up to.
+- **RATE** - Arpeggiator rate.
+- **GATE** - Length of each note event (time on vs time off).
 
-The chorder function allows you to play chords by pressing a single MIDI pad. Start by choosing one of the many available chord types, then turn the function on with the power button icon at the top right of the chorder section. To turn this function off, tap the power icon to toggle it off.
+When sync is off, arpeggiator rate units are in milliseconds. Turning sync on synchronises the arpeggiator to beat divisions, ranging from 2/1 to 1/128 including dotted and triplet values.
 
-When the chorder mode is on, if you change the chord type while pressing a pad, you’ll play the selected chord. This will allow you to play different chords of the same root, without the need to press the pad again.
+## Chorder
 
-Below the note range slide selector (on the right), there is a HOLD button, that will hold any pressed pad.
+The chorder function allows you to play chords by pressing a single MIDI pad. Start by choosing one of the many available chord types.
 
-**Tip: use the chorder along with the arpeggiator to get some really interesting musical results.**
+Changing the chord type while pressing a pad will retrigger the pad, playing the new chord. This will allow you to play different chords of the same root, without the need to press the pad again.
+
+**Tip: Use the chorder along with the arpeggiator to get some really interesting musical results.**
 
 [Learn all about the MIDI Controller module.](midi-controller)

@@ -2,74 +2,76 @@
 
 ![LK X/Y Modulation Control Pad Module](/lk/images/xy/overview.jpg?width=2732&height=2048)
 
-This module is composed of several screen controls for distinct modulation tools, including four banks, three mappable axis per bank, one ASR envelope generator for the Z axis with configurable release mode and an LFO for automated X/Y pad modulation.
+This module features an X/Y Pad with additional modulation tools, including four banks, three mappable axis per bank, one ASR envelope generator for the Z axis with configurable release mode and an LFO for automated X/Y position modulation.
 
-The X/Y Pad section has two modes: the MIDI mode, that can be used to control MIDI (external hardware, apps, etc), and the Live mode, which can be used to control different parameters in Ableton Live. The mode can be toggled by tapping the mode name.
+The X/Y Pad section has two modes: MIDI mode, used to send MIDI to external hardware or other apps/software, and Live mode, used to control different parameters in Ableton Live. The mode can be toggled by tapping MODE in the Status Bar.
 
-**Note: These two modes can be used alternatively, each with different control assignments.**
+Depending on the selected mode, you will find different fields in the Status Var, located at the top of the screen:
 
-Depending on the mode selected, you will find different fields in the status bar, located at the top of the screen:
-
-- **MODE** - toggles between LIVE and MIDI modes
-- **TEMPO** - allows BPM adjustment for this section (LFO and Z axis ASR). In LIVE MODE this will only display the tempo of the Ableton Live’s session.
-- **DEVICE (MIDI MODE)** - selects the output MIDI device
-- **CHANNEL (MIDI MODE)** - chooses the MIDI output channel
+- **MODE** - Toggle between LIVE and MIDI modes.
+- **TEMPO** - Tempo adjustment. This affects the LFO and the ASR envelope's synched timings. In LIVE MODE this also sets the Ableton Live session tempo.
+- **DEVICE (MIDI MODE)** - Select MIDI output device.
+- **CHANNEL (MIDI MODE)** - Select MIDI output channel.
+- **BANK** - Switch between the four different banks of controls.
+- **IMPORT** - Import banks from a JSON file.
+- **EXPORT** - Export all banks as a JSON file.
 
 ## The ASR envelope generator
 
-The Z axis (touch on/touch off) features an ASR (Attack, Sustain, Release) envelope generator located on the right.
+The Z axis (touch on/touch off) triggers an ASR (Attack, Sustain, Release) envelope generator, with controls located on the right.
 
-Attack defines the amount of time it will take to get to the Sustain level while Release will define how much time it will take to get back to the value defined on the RELEASE MODE existing on the menu opened by the drag-able bar (see below). The ASR unit is triggered as soon as you press the pad.
-Note: If nothing is assigned to the Z axis, then no meaningful behaviour will occur.
+Attack defines how long it takes Z to grow from 0 to the Sustain level, while Release defines how long it takes Z to decrease from the Sustain level back to 0.
 
-Two additional control functions are available: sync and hold. Sync allows the release time to be synced with the tempo while the hold function allows you to release the pad without triggering the release of the ASR.
+Two additional control functions are available: **SYNC** and **HOLD**. Sync allows the release time to be synced with the tempo while Hold lets you to release the pad without triggering the release of the ASR.
 
-## Module settings
+## Settings
 
-As in other LK modules, on the bottom of the screen there is a split view bar which allows the Inspector panel to be opened. This can be done by open by dragging the == icon, or tapping anywhere else inside the bar to instantly maximize/minimize. Inside are four columns of settings for the X/Y Pad:
+Dragging the == icon or tapping anywhere else inside the bottom bar will open the Inspector panel. Inside are three columns of settings for the X/Y Pad:
 
-- **BANKS**
-- **AXIS (with two modes: CC and Note)**
+- **AXIS**
 - **LFO**
 - **RELEASE MODE**
 
-### Banks
+### Axis
 
-There are 4 selectable and configurable banks for the X/Y PAD. Just choose the one you want to work on, edit what you want and it is already saved on that bank.
+The X/Y PAD has two modes: **CC** and **NOTE**.
 
-### AXIS
+In CC mode, you can choose different CC values for each of the axis. Each axis's value will be sent as a MIDI CC message for the selected MIDI output device and channel.
 
-The X/Y PAD has two mode functions: CC and NOTE. The mode can be selected by pressing the button on the right of the “AXIS” label. That button will display the name of the current selected mode.
+In NOTE mode, you’ll be able to send note on/off information. The X axis determines the note’s pitch, while the Y axis determines the note’s velocity, with the Z axis (press/release) triggering the note on/off events.
 
-In CC mode, you can choose different cc values for each of the axis. The values related to each axis will be sent to the module’s MIDI channel and to the selected cc value.
+#### Assigning a custom MIDI CC (MIDI MODE)
 
-In NOTE mode, you’ll be able to send note on/off information as output. In this mode, the X axis will represent the note’s pitch, the Y axis will represent the note’s velocity, and the Z axis represents the note on/off triggering.
+Select the axis you want to map by tapping the corresponding button; this will open the **MIDI Assign** panel. You can select the MIDI channel and CC, as well as the range. Changes to the axis's values will output MIDI CC messages ranging between minimum and maximum.
+
+![Axis assign on MIDI mode](/lk/images/xy/axis-assign-midi-mode.jpg)
+
+#### Assigning an Ableton Live Parameter (LIVE MODE)
+
+Select the axis you want to map by tapping its button and change the parameter you want to assign in Ableton Live.
+
+![Axis assign live mode](/lk/images/xy/axis-assign-live-mode.jpg)
 
 ### LFO (Low Frequency Oscillator)
 
 The integrated LFO unit provides you with additional modulation control on the X and Y axis. This unit has the following parameters:
 
-- **WAVEFORM** - toggle between three different kinds of waveforms: Sine, Square and Saw.
-- **SYNC** - synchronizes the oscillator frequency with tempo
-- **BEHAVIOUR** - choose between horizontal, vertical or linear behaviour
-- **AMOUNT** - defines the amount of modulation applied to the axis
-- **RATE** - defines the frequency of the oscillator
-- **DELAY** - defines the time LFO will take to start Note: the Z axis is not affected by the LFO.
+- **WAVEFORM** - Toggle between three different kinds of waveforms: Sine, Square and Saw.
+- **SYNC** - Synchronizes the oscillator frequency with tempo.
+- **BEHAVIOUR** - Determines how the LFO modulates the X/Y position in Pad.
+    - **HORIZONTAL** - Modulate the X axis value.
+    - **VERTICAL** - Modulate the Y axis value.
+    - **LINEAR** - Modulate both the X and Y axes simultaneously. 
+- **AMOUNT** - Qmount of modulation.
+- **RATE** - Frequency of the oscillator.
+- **DELAY** - Define the time the LFO will take to start.
 
-### RELEASE MODE
+### Release Mode
 
-Release Mode allows the user to define the default position to which the X/Y cursor returns to. This means that whenever you release your finger from the pad, X and Y positions will tend to the point defined by the Release Mode with the release time defined by the ASR envelope generator settings. The X/Y could return to the centre, to the zero position (0,0) or stay where it was released.
+Release Mode determines the default position to which the X/Y cursor returns once the pad is released. The ASR envelope's release time also determines how long it takes for the X/Y position to travel to this point.
 
-## Assigning a custom MIDI CC
-
-To customize the MIDI mapping (MIDI mode), from the settings view, select the axis you want to map by tapping the correspondent button; this will automatically show you a list of CC values. Tap on the number of the value you want to map and finally tap OK to confirm.
-
-![Axis assign on MIDI mode](/lk/images/xy/axis-assign-midi-mode.jpg)
-
-## Assigning an Ableton Live Parameter
-
-To customize the parameters (in Live mode), again, from the settings view, the AXIS you want to map by tapping its mapping button and changing the parameter you want to assign in Ableton Live or using the Matrix devices section. Press OK to confirm.
-
-![Axis assign live mode](/lk/images/xy/axis-assign-live-mode.jpg)
+- **OFF** - The cursor remains where it was released.
+- **ZERO** - The cursor travels to the bottom left corner (0, 0).
+- **CENTER** - The cursor travels to the center of the pad.
 
 [Learn all about the Chorder module.](chorder)
